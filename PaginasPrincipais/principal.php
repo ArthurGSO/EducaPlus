@@ -38,7 +38,9 @@
                     <span class="menu">ETEC 2020</span>
                     <span class="menu">ETEC 2021</span>
                     <span class="menu">ETEC 2022</span>
-                    <span class="menu"><a href="../PaginasPrincipais/Provas/2024/prova1.php">ETEC 2023</span>
+                    <span class="menu"><a href="../PaginasPrincipais/Provas/2023/prova1.php">ETEC 2023 1° Semestre</span>
+                    
+                    <span class="menu"><a href="../PaginasPrincipais/Provas/2024/prova1.php">ETEC 2024 1° Semestre</span>
 
 
                 </div>

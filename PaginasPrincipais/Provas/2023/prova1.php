@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="wcod_questionth=device-wcod_questionth, initial-scale=1.0">
-    <title>Simulado do Vestibulinho ETEC 2024 - 1° Semestre</title>
+    <title>Simulado do Vestibulinho ETEC 2023 - 1° Semestre</title>
 </head>
 <body>
+    <h2>Simulado do Vestibulinho ETEC 2023 - 1° Semestre</h2>
     <?php
     require('../../../source/includes/connect.php'); 
     if(!$conexao) {
@@ -13,17 +14,20 @@
     }
 
     // Seleciona as questões do banco de dados
-    $start_question = 1; // Começa da primeira questão
-    $end_question = 16; // Exibe até a quinta questão
+    $start_question = 51; // Começa da primeira questão
+    $end_question = 90; // Exibe até a quinta questão
     $sql = "SELECT * FROM tbQuestions WHERE cod_question BETWEEN $start_question AND $end_question";
     $result = $conexao->query($sql);
 
+    // Inicializa o contador de questões
+    $contador_questao = 1;
+
     // Verifica se há questões
     if ($result->num_rows > 0) {
-        echo "<form method='post' action='../../SubPags/calcular_pontuacao.php'>"; // Corrigcod_questiono o caminho do action
+        echo "<form method='post' action='../../SubPags/calcular_pontuacao.php'>"; // Corrigindo o caminho do action
         // Exibe as questões com o formulário para seleção de respostas
         while ($row = $result->fetch_assoc()) {
-            echo "<h2>Pergunta:</h2>";
+            echo "<h2>Questão $contador_questao:</h2>"; // Exibe o número da questão
             // Recupera e exibe as imagens associadas à pergunta
             $cod_question = $row['cod_question'];
             $sql_imagens = "SELECT image_data FROM tbImagens WHERE cod_question = $cod_question";
@@ -39,6 +43,9 @@
             echo "<li><input type='radio' name='q{$row['cod_question']}' value='D'>" . $row['option_d'] . "</li>";
             echo "<li><input type='radio' name='q{$row['cod_question']}' value='E'>" . $row['option_e'] . "</li>";
             echo "</ul>";
+            
+            // Incrementa o contador de questões
+            $contador_questao++;
         }
         echo "<input type='submit' value='Enviar Respostas'>";
         echo "</form>";
@@ -48,7 +55,7 @@
 
     mysqli_close($conexao);
     ?>
-    <h2>Simulado do Vestibulinho ETEC 2024 - 1° Semestre</h2>
+    
     
 </body>
 </html>
