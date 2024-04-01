@@ -41,8 +41,7 @@
                 echo "<li><input type='radio' name='q{$row['cod_question']}' value='E'>" . $row['option_e'] . "</li>";
                 echo "</ul>";
             }
-            echo "<input type='hidden' name='ano_prova' value='2024'>";
-            echo "<input type='hidden' name='semestre_prova' value='1'>";
+            
             echo "<input type='submit' value='Enviar Respostas'>";
             echo "</form>";
         } else {

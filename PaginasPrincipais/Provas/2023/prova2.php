@@ -14,8 +14,8 @@
     }
 
     // Seleciona as questões do banco de dados
-    $start_question = 92; // Começa da primeira questão
-    $end_question = 132; // Exibe até a quinta questão
+    $start_question = 91; // Começa da primeira questão
+    $end_question = 140; // Exibe até a quinta questão
     $sql = "SELECT * FROM tbQuestions WHERE cod_question BETWEEN $start_question AND $end_question";
     $result = $conexao->query($sql);
 
