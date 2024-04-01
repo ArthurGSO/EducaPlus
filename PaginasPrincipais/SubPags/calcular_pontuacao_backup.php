@@ -11,7 +11,7 @@
 	if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Enquanto houver questões no formulário (até a q50), verifique e armazene as respostas
 
-	    while ($i <= 50) {
+	    while ($i <= 100) {
 	        $questao = 'q' . $i; // Determina o nome da questão
 	        // Verifica se a questão foi respondida e adiciona a resposta ao array $respostas_usuario
 	        if (isset($_POST[$questao])) {
@@ -20,9 +20,10 @@
 	        $i++; // Incrementa o contador para passar para a próxima questão
 	    }
 	}
-	// foreach ($r_usuario as $questao => $resposta) {
-    // echo "Questão: $questao - Resposta: $resposta<br>";
-	// }
+	// Verifica se a respota do formulário foi recebida corretamente
+	foreach ($r_usuario as $questao => $resposta) {
+    echo "Questão: $questao - Resposta: $resposta<br>";
+	}
 
 	$total_questoes = count($r_corretas);
 	$pontuacao = 0;

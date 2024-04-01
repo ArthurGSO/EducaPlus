@@ -28,8 +28,8 @@
         </nav>
 
         <div class="button">
-            <a href="/PaginasPrincipais/SubPags/cadastro.php"><button class="button-29" role="button">Cadastre-se</button></a>
-            <a href="/PaginasPrincipais/SubPags/login.php"><button class="button-28" role="button">Login</button></a>
+            <a href="PaginasPrincipais/SubPags/cadastro.php"><button class="button-29" role="button">Cadastre-se</button></a>
+            <a href="PaginasPrincipais/SubPags/login.php"><button class="button-28" role="button">Login</button></a>
 
         </div>
     </header>
@@ -45,12 +45,12 @@
           
             <div class="img">
                 <!-- lembrar de por imagem aqui -->
-                <img src="/source/img/undraw_learning_re_32qv.svg" alt="homeimg">
+                <img src="source/img/undraw_learning_re_32qv.svg" alt="homeimg">
             </div>
         </section>
 
         <section id="testimonials" class="show animate">
-            <img src="/source/img/undraw_publish_article_re_3x8h.svg" id="testimonial_chef" alt="">
+            <img src="source/img/undraw_publish_article_re_3x8h.svg" id="testimonial_chef" alt="">
 
             <div id="testimonials_content">
                 <h2 class="section-title">
@@ -62,7 +62,7 @@
 
                 <div id="feedbacks">
                     <div class="feedback">
-                        <img src="/source/img/avatar.png" class="feedback-avatar" alt="">
+                        <img src="source/img/avatar.png" class="feedback-avatar" alt="">
 
                         <div class="feedback-content">
                             <p>
@@ -83,7 +83,7 @@
                     </div>
 
                     <div class="feedback">
-                        <img src="/source/img/avatar.png" class="feedback-avatar" alt="">
+                        <img src="source/img/avatar.png" class="feedback-avatar" alt="">
 
                         <div class="feedback-content">
                             <p>
@@ -104,7 +104,7 @@
                     </div>
 
                     <div class="feedback">
-                        <img src="/source/img/avatar.png" class="feedback-avatar" alt="">
+                        <img src="source/img/avatar.png" class="feedback-avatar" alt="">
 
                         <div class="feedback-content">
                             <p>
