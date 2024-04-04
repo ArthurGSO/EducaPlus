@@ -2009,8 +2009,660 @@ CREATE TABLE tbImagens (
         (139, 'imgs2/txtQ49.PNG'),
         (140, 'imgs2/txtQ50.PNG');
 
+-- INSERT TABLE tbQUESTIONS PROVA 2022 1 SEMESTRE
 
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        141,
+        'Suponha que, no momento da entrevista, a unidade escolar mencionada no texto registrava um índice de evasão escolar de cerca de 30 % em relação aos alunos matriculados no início do ano letivo. Logo, o número de alunos matriculados no início do mesmo ano, nessa unidade escolar, era aproximadamente',
+        'A) 1 200.',
+        'B) 1 040.',
+        'C) 980.',
+        'D) 860.',
+        'E) 630.',
+        'D',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        142,
+        'Sobre os tipos de desemprego citados, podemos afirmar corretamente que',
+        'A) o desemprego estrutural é passageiro, pois quando a economia de um determinado país começa a melhorar os empregos retornam e as pessoas se reempregam.',
+        'B) o desemprego estrutural está ligado à adoção de novas máquinas e robôs nas empresas que os adotam para substituir o trabalho humano.',
+        'C) o desemprego conjuntural diminui em tempos de crise econômica e aumenta quando a economia mostra sinais de vitalidade.',
+        'D) o desemprego conjuntural será zerado quando todas as máquinas e robôs forem destruídos pelos trabalhadores.',
+        'E) o desemprego conjuntural e o desemprego estrutural são sinônimos, pois definem o mesmo tipo de desemprego.',
+        'B',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        143,
+        'A técnica de controle biológico descrita no texto consiste na',
+        'A) introdução de insetos prejudiciais à agricultura, uma vez que se alimentam de tecido vegetal.',
+        'B) aplicação de inseticidas, a fim de diminuir o número de organismos causadores das pragas presentes em culturas de hortaliças e de árvores frutíferas.',
+        'C) utilização de sementes previamente selecionadas e no emprego de fertilizantes, a fim de expandir as plantações de soja e de outras lavouras.',
+        'D) utilização de inimigos naturais específicos, como predadores, a fim de combater os organismos causadores de danos às plantações.',
+        'E) introdução de insetos parasitas na plantação, a fim de impedir que os seres causadores da praga cheguem à fase reprodutiva.',
+        'D',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        144,
+        'Considere uma recomendação para adubação de 500 kg/ha, sendo o espaçamento entre os sulcos de 60 cm. A massa de adubo que deverá ser utilizada, em kg, em um sulco com 150 m de comprimento, é de',
+        'A) 3,0.',
+        'B) 4,5.',
+        'C) 30,0.',
+        'D) 450,0.',
+        'E) 4 500,0.',
+        'D',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        145,
+        'No período abordado pelo texto, os humanos',
+        'A) mostraram-se incapazes de suprir suas necessidades básicas de sobrevivência, o que os fez viver exclusivamente da caça, da pesca e da coleta.',
+        'B) viviam de forma muito semelhante à dos demais animais, sem desenvolver técnicas capazes de melhorar a vida em sociedade.',
+        'C) aprenderam a reconhecer e a cultivar vegetais comestíveis e ervas curativas e, consequentemente, desenvolveram a agricultura.',
+        'D) desconheciam formas de exploração e utilização de recursos naturais, como vegetais comestíveis e ervas curativas.',
+        'E) reuniram um conjunto de saberes e técnicas de trabalho e desenvolveram um modo de vida em sociedade.',
+        'C',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        146,
+        'O rap é um estilo musical urbano caracterizado pela declamação ritmada de suas letras. Outra característica marcante desse gênero encontra-se na utilização de diferentes níveis de linguagem. Assinale a alternativa em que todas as palavras pertencem à linguagem coloquial.',
+        'A) ser, ontem, menina, cê.',
+        'B) cê, tô, pra, busão.',
+        'C) pra, dim, horizonte, esperança.',
+        'D) dim, chance, paz, latinha.',
+        'E) sol, cruza, mamãe, amordaçado.',
+        'B',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        147,
+        'Sobre a passagem “Tô com a paciência de quem junta latinha / Focado no que tenho, não no que vou ter ou tinha”, é correto afirmar que o eu lírico',
+        'A) sente-se dividido entre o passado, marcado pela culpa, e o futuro, marcado pelo medo e pelas incertezas.',
+        'B) está, apesar das condições sociais, paciente e procura se manter centrado no presente vivenciando cada dia isoladamente.',
+        'C) encontra-se inquieto diante de suas condições sociais, revendo o passado para não errar no futuro, mas ignorando o presente.',
+        'D) permanece, durante o seu trabalho, concentrado na realização de suas tarefas para evitar relembrar suas experiências passadas.',
+        'E) recorre à coleta de materiais recicláveis como metáfora para a imprudência de vivenciar apenas o presente, sem se preocupar com o futuro.',
+        'E',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        148,
+        'Sobre a passagem “Tô com a paciência de quem junta latinha / Focado no que tenho, não no que vou ter ou tinha”, é correto afirmar que o eu lírico',
+        'A) sente-se dividido entre o passado, marcado pela culpa, e o futuro, marcado pelo medo e pelas incertezas.',
+        'B) está, apesar das condições sociais, paciente e procura se manter centrado no presente vivenciando cada dia isoladamente.',
+        'C) encontra-se inquieto diante de suas condições sociais, revendo o passado para não errar no futuro, mas ignorando o presente.',
+        'D) permanece, durante o seu trabalho, concentrado na realização de suas tarefas para evitar relembrar suas experiências passadas.',
+        'E) recorre à coleta de materiais recicláveis como metáfora para a imprudência de vivenciar apenas o presente, sem se preocupar com o futuro.',
+        'B',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        149,
+        'Nos versos 1 e 2, Emicida nos remete ao',
+        'A) amanhecer e a um novo dia com gosto de frustação.',
+        'B) amanhecer e à existência de uma nova interrogação.',
+        'C) amanhecer e a uma nova oportunidade para sermos melhores.',
+        'D) anoitecer e ao arrependimento do dia que se foi.',
+        'E) anoitecer e à paralização dos sonhos.',
+        'C',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        150,
+        'Considere que um mês tem, em média, uma duração de 4,5 semanas, assim, é correto afirmar que',
+        'A) x > y > z.',
+        'B) y > x > z.',
+        'C) z > x > y.',
+        'D) x > z > y.',
+        'E) y > z > x.',
+        'C',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        151,
+        'Júnior optou por se mudar para a cidade de Boituva nas proximidades de um centro de treinamento T. Nessa cidade, ele encontrou algumas opções de imóveis, que denominou A, B, C e D. Além disso, ele descobriu que o ruído gerado pelas aeronaves do centro de treinamento podia ser ouvido em uma região com centro em T e raio de 6 km. Ao representar esses imóveis e o centro de treinamento em um plano cartesiano, cujos eixos têm escalas em kilômetros, ele obteve as coordenadas: T (0,0), A (0,7), B (1,6), C (2,5), D (3,4). Com base nessas informações, são imóveis que estão fora da zona de ruído',
+        'A) A e B.',
+        'B) A e C.',
+        'C) A e D.',
+        'D) B e C.',
+        'E) B e D.',
+        'C',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        152,
+        'A origem do fordismo remonta à Segunda Revolução Industrial, implementada a partir do final do século XIX nos países mais desenvolvidos do globo. O avanço da industrialização resultou na necessidade da criação de técnicas de produção que abrangessem uma qualidade produtiva atrelada à rapidez do processo de produção fabril. Portanto, foram desenhados modelos de produção industrial para a época. Entre as principais características do sistema de produção mencionado no texto, podemos apontar corretamente',
+        'A) a informatização, a substituição dos trabalhadores por robôs e o consequente aumento dos índices de desemprego.',
+        'B) a redução da jornada de trabalho, a ampliação dos direitos trabalhistas e o incentivo ao ócio e à criatividade dos trabalhadores.',
+        'C) a produção artesanal de mercadorias, realizada em espaços domésticos; e a utilização de mão de obra escravizada, proveniente da África.',
+        'D) a linha de montagem automatizada, com a utilização de esteiras rolantes; e a especialização produtiva do trabalhador, que realizava parte das etapas da produção.',
+        'E) a localização das fábricas, que privilegiava a criação de empregos nos países pobres; e o investimento na formação do trabalhador, que deveria conhecer todas as etapas do processo produtivo.',
+        'D',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        153,
+        'Thomas Robert Malthus foi um economista que em 1798 escreveu um livro denominado Ensaio Sobre a População no qual defendia ser o ritmo do crescimento populacional maior que o ritmo do crescimento da produção de alimentos e, portanto, faltariam alimentos. As previsões de Malthus não se concretizaram, pois',
+        'A) a população mundial diminuiu lenta e continuamente, até os dias de hoje e, portanto, a necessidade por alimentos também diminuiu no mesmo ritmo.',
+        'B) os trabalhadores urbanos, na Revolução Industrial, dividiam seu tempo entre o trabalho em fábricas e em atividades ligadas à horticultura, cultivando seu próprio alimento e, dessa forma, acabando com a fome no mundo.',
+        'C) novas tecnologias surgiram e foram incorporadas ao processo produtivo nos campos, fazendo aumentar a produção de alimentos, em função do desenvolvimento tecnológico proporcionado pela Revolução Industrial.',
+        'D) as pessoas se dirigiram em grande quantidade, com o avanço da Revolução Industrial, para as zonas rurais atrás de emprego, causando um esvaziamento das cidades e aumentando a produção de gêneros alimentícios nos campos.',
+        'E) os proprietários das fábricas, durante a Revolução Industrial, preocupados com a qualidade de vida de seus trabalhadores e de suas famílias, criaram um projeto de distribuição de cestas básicas para as famílias de trabalhadores sindicalizados, com o intuito de fidelizar a mão de obra.',
+        'C',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        154,
+        'Elementos de coesão são palavras e locuções utilizadas dentro de um texto para conectar expressões, orações, períodos e parágrafos. Sobre os elementos coesivos destacados no texto, é correto afirmar que',
+        'A) “para”, no segundo parágrafo, expressa ideia de finalidade, evidenciando o objetivo de um empreendedor tradicional, e tem sentido equivalente a “a fim de”.',
+        'B) “para”, no terceiro parágrafo, é utilizado para indicar a direção de um projeto social e pode ser substituído pela expressão “defronte a”.',
+        'C) “porém”, no terceiro parágrafo, expressa ideia de consequência, pois a geração de renda leva à redução de desigualdade social, e equivale a “entretanto”',
+        'D) “e”, no terceiro parágrafo, apesar de ser normalmente utilizado para expressar sentido de adição, no texto é empregado como oposição, equivalendo a “mas”.',
+        'E) “uma vez que”, no quarto parágrafo, corresponde a “porque”, pois explica a eficácia da atuação do empreendedor social diante de problemas muito complexos.',
+        'A',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        155,
+        'Com base nas informações apresentadas no texto, é correto afirmar que',
+        'A) os conceitos de empreendedorismo estão conectados essencialmente à aquisição de lucro monetário.',
+        'B) a fragilidade do serviço social é resultado do financiamento contínuo e da complexidade do problema abordado.',
+        'C) o empreendedorismo social pode ser voltado tanto à melhoria de uma comunidade quanto à obtenção de retorno financeiro.',
+        'D) os empreendedores sociais privilegiam investimentos em ações nas bolsas de valores, que possibilitam compartilhar eventuais prejuízos.',
+        'E) o conceito de serviço social é similar ao do empreendedorismo social, pois ambos são ações individuais voltadas à formação de agremiações políticas.',
+        'C',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        156,
+        'Considere os exemplos: I Capacitação de produtores familiares do semiárido para o cultivo e a comercialização de produtos orgânicos. II Construção de sistemas de iluminação utilizando garrafas PET e energia solar disponibilizados a preços acessíveis. III Organização de campanhas de doação de alimentos e de roupas para vítimas de desastres naturais. Segundo as definições apresentadas no texto, são exemplos de empreendedorismo social as ações presentes em',
+        'A) I apenas.',
+        'B) II apenas.',
+        'C) III apenas.',
+        'D) I e II apenas.',
+        'E) II e III apenas.',
+        'E',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        157,
+        'De acordo com o texto, os plásticos são',
+        'A) produzidos diretamente do petróleo, formando pequenas moléculas que serão moldadas.',
+        'B) compostos obtidos por reações que usam matéria-prima proveniente do petróleo.',
+        'C) macromoléculas com propriedades variadas e não podem ser moldados.',
+        'D) estruturas que estão sendo substituídas por outros materiais como o vidro.',
+        'E) grandes moléculas que darão origem ao petróleo.',
+        'B',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        158,
+        'Os plásticos podem ser moldados, pois “amolecem” com o calor, chegando a sofrer fusão em determinadas temperaturas. O quadro apresenta o ponto de fusão de alguns tipos de plásticos. Um técnico de laboratório aquece separada e simultaneamente amostras, com massas iguais, de cada um dos cinco plásticos do quadro, que estão à mesma temperatura inicial. O primeiro plástico que sofrerá fusão será o',
+        'A) PS.',
+        'B) PP.',
+        'C) PE.',
+        'D) PET.',
+        'E) PVC.',
+        'D',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        159,
+        'Em uma usina de reciclagem, os plásticos são separados por diferença de densidade para, posteriormente, serem fundidos e remoldados em novos objetos. O quadro apresenta a densidade de alguns plásticos. Em um tanque com água, colocamos objetos maciços confeccionados com os plásticos mencionados. Os objetos que ficam flutuando na superfície da água são confeccionados com',
+        'A) PET e PVC.',
+        'B) PP e PE.',
+        'C) PS e PVC.',
+        'D) PET, PS e PVC.',
+        'E) PE, PS e PET.',
+        'B',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        160,
+        'De acordo com o texto, é correto afirmar que',
+        'A) as embalagens de latas de flandres, de vidros e de multilaminados vêm substituindo as embalagens PET.',
+        'B) os plásticos são amplamente utilizados desde sua descoberta no Brasil, em 1941.',
+        'C) o petróleo tem origem nos plásticos que passaram pelo processo de reciclagem.',
+        'D) os plásticos não se deformam, mesmo quando expostos às altas temperaturas.',
+        'E) o petróleo é a fonte de diversos tipos de matérias-primas e de combustíveis.',
+        'E',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        161,
+        'As latas de flandres, mencionadas no texto, são feitas de uma',
+        'A) mistura revestida de estanho.',
+        'B) substância pura revestida de aço.',
+        'C) mistura revestida de ferro e carbono.',
+        'D) substância composta revestida de ferro.',
+        'E) substância simples revestida de estanho.',
+        'A',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        162,
+        'Durante a I Guerra Mundial, a economia estadunidense estava em pleno desenvolvimento; suas indústrias produziam e exportavam em grandes quantidades, principalmente para os países europeus. No final da década de 1920, as nações europeias, recuperando-se dos efeitos negativos da guerra, diminuíram drasticamente a importação de produtos industrializados e agrícolas dos Estados Unidos. Com a diminuição das exportações para a Europa, os estoques das indústrias dos Estados Unidos passaram a aumentar, já que essas empresas não conseguiam vender como antes. Grande parte delas tinha ações na Bolsa de Valores de Nova Iorque e os milhões de estadunidenses que haviam investido nessas ações correram para tentar vendê-las, enquanto seus valores foram caindo gradativamente até o zero. Essa crise econômica',
+        'A) ficou restrita aos Estados Unidos, pois, no início do século XX, as economias nacionais eram fechadas e, portanto, as crises eram localizadas.',
+        'B) causou impactos duradouros na economia mundial, abalou os mercados financeiros ao redor do mundo e provocou a falência de inúmeras empresas e o desemprego.',
+        'C) provocou o aumento da atividade industrial e do emprego nos países africanos, que não foram abalados pela crise provocada pelo mercado de ações nos Estados Unidos.',
+        'D) demonstrou a força da economia brasileira, que investiu na modernização das lavouras, aumentando a produção e, consequentemente, a exportação do café.',
+        'E) confirmou a independência dos mercados financeiros, uma vez que foi contornada sem a necessidade de intervenção dos governos na economia.',
+        'B',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        163,
+        'A pandemia de COVID–19, causada pelo novo coronavírus (SARSCoV–2), evidenciou que desenvolver uma vacina é um processo que demanda muita pesquisa e exige um trabalho conjunto de diferentes profissionais da área da saúde, tais como médicos, farmacêuticos, biomédicos, engenheiros químicos, entre muitos outros. Após ser desenvolvida, uma vacina é encaminhada para registro sanitário e, se aprovada pelas agências reguladoras, é distribuída para a população. A produção de uma vacina se baseia no agente causador da doença, o qual estará inativado, atenuado ou presente apenas em fragmentos. Dessa maneira, uma vacina possui os antígenos capazes de estimular no organismo humano a produção de anticorpos ao simular uma doença infecciosa, garantindo assim a imunização contra a doença. Com base nas informações do texto, pode-se concluir corretamente que',
+        'A) os profissionais da área médica, que atuam no desenvolvimento de vacinas, desenvolvem imunidade a determinadas doenças e, por isso, não se contaminam, nem transmitem os agentes causadores da doença para seus pacientes.',
+        'B) as vacinas, que são aprovadas pelas agências reguladoras, podem ser produzidas e aplicadas na população a fim de atuarem na prevenção das doenças através de anticorpos específicos produzidos pelo organismo humano.',
+        'C) a pandemia pode ser definida como a concentração de casos de uma mesma doença em um determinado local sem provocar o alastramento em outras regiões.',
+        'D) as vacinas possuem os anticorpos obtidos a partir dos agentes causadores da doença e são eficazes no tratamento dos pacientes contaminados.',
+        'E) a vacina específica para Covid–19 demorou muito tempo para ser produzida, pois a bactéria causadora da doença era totalmente desconhecida.',
+        'B',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        164,
+        'TEXTO 1 Na Idade Média (476 a 1 453), tanto a infância quanto a adolescência não eram reconhecidas como fases do desenvolvimento humano. No período de transição para a vida adulta, as maiores preocupações da comunidade eram a castidade e o casamento. Esse período não aparentava ser fonte de maiores preocupações: “os filhos de artesãos seguiriam artesãos, os pertencentes à aristocracia feudal se encaminhavam para a vida militar ou religiosa e o camponês seguiria camponês”. TEXTO 2 Segundo a Base Nacional Comum Curricular (BNCC), documento que regulamenta a educação básica no Brasil do século XXI, os estudantes devem aprender a valorizar a diversidade de saberes e vivências culturais e apropriar-se de conhecimentos e experiências, entender as relações próprias do mundo do trabalho e fazer escolhas alinhadas ao exercício da cidadania e ao seu projeto de vida, com liberdade, autonomia, consciência crítica e responsabilidade. Os estudantes devem conseguir refletir sobre seus desejos e objetivos, aprendendo a se organizar, estabelecer metas, planejar e perseguir com determinação, esforço, autoconfiança e persistência seus projetos presentes e futuros. A análise dos textos nos permite concluir corretamente que',
+        'A) na Idade Média crianças e adolescentes, ao chegarem à vida adulta, desempenhariam as atividades reservadas ao seu grupo social; no Brasil do século XXI, os estudantes têm liberdade para fazer escolhas de acordo com seus desejos e objetivos.',
+        'B) a lei garante que, no Brasil do século XXI, ao alcançar a vida adulta, crianças e adolescentes serão sustentados pelos programas sociais do Estado, independente de seu esforço, organização e planejamento pessoal.',
+        'C) na Idade Média crianças e adolescentes podiam escolher entre ser militares, camponeses ou artesãos; no Brasil do século XXI, os estudantes têm opções de carreira limitadas pela BNCC.',
+        'D) crianças e adolescentes, no Brasil do século XXI, assim como na Idade Média, não são reconhecidos e, por isso, devem se comportar de acordo com os desejos e objetivos dos adultos.',
+        'E) na Idade Média os pais se preocupavam com o futuro de seus filhos, uma vez que era preciso ser artesão ou camponês para pertencer à aristocracia feudal.',
+        'A',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        165,
+        'Comer bem não é comer muito, mas ter uma dieta equilibrada, que atenda às necessidades do corpo e ajude a manter a saúde, reduzindo o risco de várias doenças, como recomendam os nutricionistas e os técnicos em nutrição. Com relação aos tipos de alimentos, às orientações e aos problemas nutricionais, assinale o que for correto.',
+        'A) Na promoção da alimentação saudável para diminuição de casos de obesidade e hipertensão, deve-se incentivar o consumo de alimentos industrializados e gordurosos na dieta da população.',
+        'B) A celulose presente nas fibras de alimentos como grãos, verduras, legumes e frutas não é digerida pelo organismo humano, não fornece calorias, mas estimula o trânsito intestinal.',
+        'C) Uma alimentação adequada apresenta grande consumo de frutas e outros vegetais, bem como a alta ingestão de gorduras saturadas, sal e carboidratos.',
+        'D) O rótulo do alimento que contém a classificação Zero Lactose informa que esse alimento não tem valor calórico e é indicado para pacientes diabéticos.',
+        'E) Os alimentos como arroz, macarrão e batatas devem ser retirados da dieta, pois não fornecem nenhuma vantagem ao organismo.',
+        'B',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        166,
+        'Quando se fala em comida, já pensamos em calorias! Quando ingerimos um alimento, este será “queimado” pelo nosso metabolismo e a energia produzida será usada nas nossas atividades do dia a dia. Para calcularmos essa energia produzida por certa quantidade de um alimento, devemos queimá-lo em um calorímetro. A reação é realizada dentro de um recipiente que está imerso em água e essa energia é expressa na unidade de medida “calorias”. Assinale a alternativa que completa, correta e respectivamente, a frase',
+        'A) diminui, exotérmica, libera',
+        'B) diminui, endotérmica, absorve',
+        'C) aumenta, endotérmica, libera',
+        'D) aumenta, endotérmica, absorve',
+        'E) aumenta, exotérmica, libera',
+        'E',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        167,
+        'No saneamento básico, a demanda por profissionais especializados é crescente, porque, entre outras funções, eles são responsáveis por viabilizarem tanto o tratamento da água quanto a coleta, o tratamento e a destinação final dos esgotos. O saneamento precário cria o ambiente propício a muitas doenças, como diarreia, hepatite e verminoses, causadas pela ingestão de água e/ou alimentos contaminados. A incidência de casos de dengue, por sua vez, segundo informações do Ministério da Saúde, tem aumentado muito devido à presença de água parada em muitos locais. Nesse caso, o saneamento básico é essencial a fim de evitar as chances da ocorrência de surto de dengue. Sobre esta doença, pode-se afirmar corretamente que é',
+        'A) contagiosa, ou seja, pode ser transmitida de pessoa para pessoa e também pelo consumo de água contaminada.',
+        'B) limitada a regiões tropicais devido à falta de saneamento básico e à presença do protozoário causador desse tipo de enfermidade.',
+        'C) prevenida com o tratamento da água e do esgoto; a higienização dos alimentos e das mãos; e a evitação de locais com água parada.',
+        'D) evitada pela substituição de casas de pau a pique por casas de alvenaria, pois os insetos transmissores se reproduzem nas paredes das casas de barro.',
+        'E) causada por um tipo de vírus transmitido pela picada de mosquitos contaminados e, entre seus principais sintomas, destacam-se a febre, as dores no corpo e as manchas vermelhas.',
+        'E',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        168,
+        'No tratamento de água, usamos processos físicos e químicos para obtenção de água potável que será distribuída à população. Entre os processos físicos, temos: separação de partículas com maior densidade, que irão para o fundo do tanque e, posteriormente, serão extraídas; retenção de pequenas partículas, quando a água passa por tanques que possuem diferentes camadas de cascalho, areia e carvão. Os processos físicos descritos são denominados, respectivamente, de',
+        'A) floculação e decantação.',
+        'B) decantação e filtração.',
+        'C) filtração e cloração.',
+        'D) floculação e filtração.',
+        'E) decantação e cloração.',
+        'B',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        169,
+        'O hemograma, exame que demonstra as variações quantitativas e morfológicas das células do sangue, pode ser realizado por biomédicos especialistas em análises clínicas. Considerando esse hemograma, pode-se concluir que Pedro tem Pedro, após uma consulta de rotina, realizou um hemograma solicitado por um médico, que evidenciou alteração na taxa de hemácias (glóbulos vermelhos), a qual estava muito abaixo do normal.',
+        '(A) um processo infeccioso.',
+        '(B) problemas na coagulação do sangue.',
+        '(C) dificuldade no transporte de oxigênio no sangue.',
+        '(D) hipersensibilidade do sistema imunológico a determinadas substâncias.',
+        '(E) uma doença causada pela produção insuficiente ou má absorção de insulina.',
+        'C',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        170,
+        'Assinale a alternativa que apresenta as expressões algébricas da área e do perímetro do painel decorativo de espelhos.',
+        'Área: 3xy Perímetro: 3x + y',
+        'Área: 3 + xy Perímetro: 3x y',
+        'Área: 6x + 2y Perímetro: 6x + 2y',
+        'Área: 3x y Perímetro: 6x + y 2',
+        'Área: 3x y Perímetro: 3x + y',
+        'E',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        171,
+        'No painel decorativo, a primeira fileira de baixo para cima é toda formada por espelhos retangulares de mesmo comprimento. Se o painel tiver um total de 3 metros de comprimento, então a medida do comprimento de cada espelho, em centímetros, é',
+        '(A) 300.',
+        '(B) 100.',
+        '(C) 75.',
+        '(D) 50.',
+        '(E) 25.',
+        'D',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        172,
+        'As enchentes são fenômenos naturais, as quais estão tomando grandes proporções em áreas urbanizadas devido aos processos de transformações do espaço natural pela ação humana. Algumas práticas ambientais podem ajudar a diminuir as enchentes em áreas urbanas. Assinale a alternativa que apresenta corretamente uma dessas práticas ambientais.',
+        '(A) Jogar o lixo em valas e nas encostas para ser levado pela água da chuva até os pontos mais baixos, onde estão os canais de drenagem, os rios e os bueiros.',
+        '(B) Impermeabilizar as vias públicas, os quintais e as calçadas, a fim de impedir que grande parte do volume de água precipitado pelas chuvas penetre no solo.',
+        '(C) Permitir os processos de assoreamento, a erosão e a sedimentação nos rios, a fim de dificultar o transbordamento dos cursos de água.',
+        '(D) Diminuir a eficiência dos sistemas de drenagem, que visam conter ou escoar o curso das enxurradas por meio de bocas-de-lobo, piscinões ou dutos.',
+        '(E) Construir e preservar áreas verdes uma vez que a vegetação facilita o processo de infiltração da água da chuva no solo.',
+        'E',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        173,
+        'A “pejotização” é conhecida como uma prática do empregador em contratar um funcionário como pessoa jurídica (PJ) ou de dispensar um empregado com registro em carteira e recontratá-lo na forma de PJ. Em qualquer dos casos, é necessário que o funcionário constitua formalmente uma PJ. Com isso, a empresa deixa de arcar com alguns encargos previdenciários e trabalhistas. De acordo com o texto, é correto afirmar que “pejotização”',
+        '(A) obriga os patrões a constituírem uma empresa para registrar seus funcionários em carteira de trabalho.',
+        '(B) é uma norma constitucional que obriga os advogados a pagarem os custos dos processos trabalhistas.',
+        '(C) é uma prática adotada por empresas que pretendem reduzir os custos sobre sua folha de pagamento e deriva da expressão “pessoa jurídica”.',
+        '(D) transfere o pagamento de encargos previdenciários e trabalhistas para os governos municipais, de acordo com a Consolidação das Leis do Trabalho.',
+        '(E) exige que os trabalhadores de entrega por aplicativos criem empresas cooperativadas para facilitar o registro em carteira dessa categoria pelas empresas contratantes.',
+        'C',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        174,
+        'O princípio dos vasos comunicantes, pelo fato de os líquidos se nivelarem em recipientes que se interligam, é usado em diferentes situações. Por exemplo, para acertar o nível entre dois pontos em uma obra, os pedreiros utilizam uma mangueira transparente com água, conforme a imagem. Dentre as alternativas, assinale aquela que melhor representa esse princípio.',
+        '(A)',
+        '(B)',
+        '(C)',
+        '(D)',
+        '(E)',
+        'B',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        175,
+        'O mapa representa os caminhos percorridos nos séculos XVII e XVIII pelas bandeiras, expedições armadas por particulares, chamados de bandeirantes. Estes percorriam o território da América para, entre outros objetivos, aprisionar e escravizar indígenas e procurar por fontes de metais preciosos. A partir da leitura do mapa, pode-se afirmar corretamente que',
+        '(A) os bandeirantes, em suas expedições, respeitaram os limites territoriais definidos pelo Tratado de Tordesilhas, em 1494.',
+        '(B) as bandeiras se originaram nos territórios espanhóis do atual Uruguai e, de lá, percorreram a América do Sul em todas as direções.',
+        '(C) a ação das bandeiras contribuiu para a ampliação dos limites territoriais do Brasil para além daqueles definidos, em 1494, pelo Tratado de Tordesilhas.',
+        '(D) o processo de colonização do Brasil se iniciou na região de Olinda e Recife, de onde partiram as principais rotas dos bandeirantes.',
+        '(E) as fronteiras atuais do Brasil foram definidas no final do século XVIII, quando as expedições bandeirantes terminaram.',
+        'C',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        176,
+        'Aplicando o conceito de densidade, a massa de alumínio, em gramas, que será reciclada de uma escultura que ocupa o volume de 50 cm^3, é',
+        '(A) 2,7.',
+        '(B) 13,5.',
+        '(C) 27,0.',
+        '(D) 135,0.',
+        '(E) 270,0.',
+        'C',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        177,
+        'Há momentos que exigem sermos fortes para enfrentarmos dificuldades. Leia os quadrinhos. Com base na interpretação dos quadrinhos, pode-se concluir corretamente que',
+        '(A) a emoção se liberta facilmente dos erros do passado e do medo de errar.',
+        '(B) a razão supera o medo de errar depois de a emoção se libertar dos erros do passado.',
+        '(C) a razão é a única responsável por guiar as ações de se libertar do passado e por errar no percurso da vida.',
+        '(D) a emoção norteia as decisões futuras e a razão apenas analisa os erros do passado.',
+        '(E) a razão e a emoção devem avançar juntas, libertando-se dos erros do passado e do medo de errar.',
+        'E',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        178,
+        'De acordo com os textos, o trabalho infantil',
+        '(A) foi liberado pela ONU para as crianças com menos de 14 anos durante a pandemia de COVID–19.',
+        '(B) é coordenado pela UNICEF, que regulariza essa prática em todos os países do mundo.',
+        '(C) é incentivado pelo Estado para que as crianças ajudem nas despesas de casa.',
+        '(D) foi eliminado do Brasil, mas está em crescimento nos outros países do mundo.',
+        '(E) é ilegal e dificulta a vida escolar e o desenvolvimento saudável da criança.',
+        'E',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        179,
+        'Leia o texto. Assinale a frase que é um contraponto ao posicionamento da personagem sobre o medo.',
+        '(A) “Aprendi que a coragem não é a ausência do medo, mas o triunfo sobre ele”. (Nelson Mandela)',
+        '(B) “Um dos efeitos do medo é perturbar os sentidos e fazer que as coisas não pareçam o que são”. (Miguel de Cervantes).',
+        '(C) “O medo é, dos sentimentos humanos, o mais dissolvente, porque nos leva a fazer muita coisa que não queremos fazer, e deixar de fazer muita coisa que queríamos e necessitávamos fazer”. (Josué de Castro)',
+        '(D) “O medo é a extrema ignorância em momento muito agudo”. (João Guimarães Rosa)',
+        '(E) “Os homens se dividem em duas espécies: os que têm medo de viajar de avião e os que fingem que não têm”. (Fernando Sabino)',
+        'A',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        180,
+        'Sobre a ação do sabão, é correto afirmar que',
+        '(A) sua capacidade de interagir com as moléculas de água permite transformar a gordura em outras substâncias mais solúveis na água.',
+        '(B) sua interação com as moléculas de gordura se deve à extremidade da sua estrutura denominada cabeça.',
+        '(C) interage com as moléculas de água por meio da extremidade conhecida como cauda.',
+        '(D) remove as moléculas de água presentes na nossa pele, mantendo sobre ela as de gordura.',
+        '(E) está relacionada à capacidade de interação da sua estrutura tanto com água quanto com gordura.',
+        'A',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        181,
+        'Analisando o infográfico, podemos concluir corretamente que',
+        '(A) o vírus está envolto por uma camada de gordura que ajuda a infectar as células humanas.',
+        '(B) o material genético do vírus está localizado nas proteínas que ajudam a infectar as nossas células.',
+        '(C) o sabão rompe a camada de gordura protetora do vírus, liberando seu material genético, que será levado pela água.',
+        '(D) a parte da estrutura do sabão que interage com a água é denominada hidrofóbica.',
+        '(E) a extremidade do sabão que quebra a membrana lipídica do vírus é denominada hidrofílica.',
+        'C',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        182,
+        'Releia atentamente a passagem apresentada, observando o contexto de ocorrência dos termos em destaque. Assinale a alternativa que apresenta, respectivamente, sinônimos adequados às palavras destacadas.',
+        '(A) rigorosamente, em cima das, certamente, especificidade e condicionamento',
+        '(B) afetuosamente, por respeito às, ocasionalmente, temperamento e simpatia',
+        '(C) avidamente, a respeito das, porventura, honestidade e qualidade',
+        '(D) rispidamente, durante, às vezes, incapacidade e aparência',
+        '(E) seriamente, acerca das, possivelmente, índole e habilidade',
+        'E',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        183,
+        'O trecho apresentado mostra o personagem Harry Potter, protagonista de uma série de livros infantojuvenis, no momento de escolha de sua carreira. Com base nas informações do trecho, depreende-se corretamente que a escolha de uma profissão',
+        '(A) não deve ser abordada pela escola a fim de não influenciar a decisão a ser feita pelos estudantes.',
+        '(B) independe do desempenho e do desenvolvimento acadêmico do estudante durante sua vida escolar.',
+        '(C) exige a intervenção de profissionais da educação para, por meio de coerção, impor opções adequadas socialmente aos jovens.',
+        '(D) dispensa o acompanhamento das tendências de mercado de trabalho para, assim, elaborarem-se as disciplinas ofertadas aos estudantes.',
+        '(E) pressupõe o auxílio da escola aos estudantes no processo de construção do autoconhecimento e de planejamento para alcançar seus objetivos.',
+        'E',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        184,
+        'Considerando que exista um total de 12 N.I.E.M.s, a alternativa cujo esquema representa o percentual mais próximo do número mínimo de N.I.E.M.s que um estudante de Hogwarts deve ter cursado para estar apto a seguir a carreira de auror é',
+        '(A)',
+        '(B)',
+        '(C)',
+        '(D)',
+        '(E)',
+        'C',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        185,
+        'O cotidiano da escravidão foi marcado por diversas formas de violências perpetradas por senhores e feitores, cujo intuito era submeter as pessoas escravizadas e evitar a rebelião contra este regime de trabalho. Muitas estratégias de resistência, porém, foram articuladas por escravizados. Entre elas, é correto mencionar',
+        '(A) a Greve Geral de 1917, encabeçada pelos escravos de ganho de São Paulo e Rio de Janeiro.',
+        '(B) a greve de fome realizada por Nelson Mandela na prisão, em Joanesburgo, na África do Sul, em 1948.',
+        '(C) a onda de rebeliões de escravizados que se iniciou nas fazendas de café na Amazônia e no Rio Grande do Sul.',
+        '(D) a revolução do Haiti, que derrubou o governo colonial português e estabeleceu a primeira monarquia das Américas.',
+        '(E) a formação de quilombos, comunidades estabelecidas por escravos fugidos em diferentes partes do Brasil.',
+        'E',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        186,
+        'Em 07 de setembro de 2022, o Brasil celebra os 200 anos de sua Independência, ocorrida em 1822. Entretanto, grande parte dos historiadores afirma que o processo de Independência começou anos antes, em 1808, quando a família real portuguesa chegou ao Brasil. Sua chegada provocou transformações radicais na colônia e, principalmente, na cidade do Rio de Janeiro. Foram construídos chafarizes, pontes e calçadas; ruas e estradas foram abertas e pavimentadas. Entre 1808 e 1822, o número de habitantes da capital da colônia dobrou, chegando a cerca de 100 mil pessoas, muitos deles europeus que vinham tentar ganhar a vida no Brasil. Eram médicos, professores, alfaiates, farmacêuticos, modistas, cozinheiros, padeiros e formavam um grande contingente de mão de obra qualificada. Por outro lado, os trabalhos mais duros continuavam sendo exercidos pelos escravizados, que eram utilizados nos serviços domésticos, no comércio e no transporte de todo o tipo de produtos pelas ruas da cidade. Os eventos descritos no texto',
+        '(A) precipitaram a abolição da escravidão e a qualificação profissional dos libertos, que passaram a exercer profissões especializadas.',
+        '(B) desorganizaram o núcleo urbano do Rio de Janeiro, impedindo a realização de obras públicas e, consequentemente, causando desemprego e precarização do trabalho.',
+        '(C) provocaram a diminuição da população da colônia, que caiu pela metade no início do século XIX, em razão da instabilidade provocada pela chegada de grande número de imigrantes.',
+        '(D) incentivaram a industrialização acelerada do Sudeste, especialmente de São Paulo, e a formação de uma classe operária influenciada por ideias trazidas por italianos e alemães.',
+        '(E) promoveram uma modernização urbana que atraiu profissionais qualificados da Europa, mas não alteraram as estruturas escravistas da sociedade brasileira do século XIX.',
+        'E',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        187,
+        'Leia a reportagem. Na sexta-feira, 18 de março de 2022, a Operação Andrápodon resgatou oito vítimas de trabalho análogo ao escravo, na cidade de São Paulo. Durante a ação, oito imigrantes bolivianos foram libertados em uma confecção no Bom Retiro, na região central da capital. Duas pessoas foram presas por tráfico de pessoas e organização criminosa. As vítimas trabalhavam até 14 horas por dia e ficavam 24 horas no mesmo local, dormindo ao lado da máquina de costura. ... “Essa operação é composta por três etapas: a primeira é de acolhimento; a segunda é um trabalho relacionado à capacitação, no qual as pessoas farão cursos de português e profissionalizantes, para inclusão social e profissional; a terceira etapa é de regularização, por meio do Centro de Integração da Cidadania do Imigrante (CIC) e do Núcleo de Enfrentamento ao Tráfico de Pessoas”, afirmou o Secretário de Justiça e Cidadania. De acordo com a reportagem, é correto afirmar que',
+        '(A) as pessoas resgatadas do trabalho análogo ao escravo serão deportadas para seu país de origem.',
+        '(B) o trabalho escravo foi legalmente extinto no Brasil no século XX, mas ainda resiste em alguns bairros periféricos da capital paulista.',
+        '(C) a entrada de imigrantes é proibida no bairro do Bom Retiro, o que caracteriza a situação de trabalho análogo ao escravo desses imigrantes.',
+        '(D) os trabalhadores resgatados apresentavam carteira assinada e cumpriam uma jornada de trabalho legal, de acordo com a legislação trabalhista brasileira.',
+        '(E) um dos elementos que caracterizam o trabalho análogo ao escravo são as condições degradantes de trabalho, constatadas pela Operação Andrápodon.',
+        'E',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        188,
+        'Desde 1964, o Brasil comemora no dia 25 de maio o Dia do Trabalhador Rural. O país tem atualmente mais de 18 milhões de trabalhadores rurais. Esses trabalhadores somente conseguiram ter seus direitos equiparados aos demais em 1988, com a promulgação da Constituição da República atualmente em vigor. As conquistas, no entanto, convivem com diversos desafios, como a mecanização, a informalidade e o trabalho análogo à escravidão. Em 1988, a Constituição da República equiparou os direitos trabalhistas e previdenciários de trabalhadores rurais aos dos urbanos, entre eles a extensão do Fundo de Garantia do Tempo de Serviço (FGTS). De acordo com o texto, é correto afirmar que os trabalhadores rurais',
+        '(A) conseguiram o acesso aos direitos trabalhistas no ano de 1964.',
+        '(B) são em maior número que os trabalhadores urbanos no Brasil de hoje.',
+        '(C) tiveram os direitos trabalhistas equiparados aos dos trabalhadores urbanos em 1988.',
+        '(D) foram reconhecidos como trabalhadores, a partir da Constituição de 1988.',
+        '(E) têm a obrigação de participar do FGTS e da Previdência Privada.',
+        'C',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        189,
+        'De acordo com a fábula,',
+        '(A) o imperador esperava que os garotos percebessem a troca das sementes e as substituíssem para demonstrarem que eram astutos.',
+        '(B) qualquer outro garoto merecia ser o imperador, pois suas plantas floresceram enquanto o vaso de Ping estava vazio.',
+        '(C) o conselho do pai encorajou Ping a ser honesto e a apresentar seu resultado, mesmo que negativo.',
+        '(D) devemos nos omitir, quando nossa ação não represente uma vitória, para sermos bem-sucedidos.',
+        '(E) as sementes dos demais garotos brotaram mesmo queimadas e seus vasos tinham lindas flores.',
+        'C',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        190,
+        'Com base no texto, uma atitude semelhante à do personagem Ping é',
+        '(A) ser desleal ao alcançar lucros financeiros.',
+        '(B) ser empático às pessoas em situação de risco.',
+        '(C) dizer a verdade independentemente das consequências.',
+        '(D) esconder os fatos verdadeiros ao visar aos próprios interesses.',
+        '(E) agir com rapidez e inteligência para ficar com o troco recebido a mais após uma compra.',
+        'C',
+        2022,
+        1
+    );
 
+-- INSERT TABLE tbIMAGENS PROVA 2023 2 SEMESTRE
 
 
 

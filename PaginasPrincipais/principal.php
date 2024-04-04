@@ -34,7 +34,7 @@
             <div class="menu-dropdown">
                 <div class="sub-menu">
                     <span class="menu">ETEC 2021</span>
-                    <span class="menu">ETEC 2022</span>
+                    <span class="menu"><a href="../PaginasPrincipais/Provas/2022/prova1.php">ETEC 2022 1° Semestre</span>
                     <span class="menu"><a href="../PaginasPrincipais/Provas/2023/prova1.php">ETEC 2023 1° Semestre</span>
                     <span class="menu"><a href="../PaginasPrincipais/Provas/2023/prova2.php">ETEC 2023 2° Semestre</span>
                     <span class="menu"><a href="../PaginasPrincipais/Provas/2024/prova1.php">ETEC 2024 1° Semestre</span>
