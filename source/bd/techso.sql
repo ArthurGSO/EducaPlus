@@ -2059,7 +2059,7 @@ CREATE TABLE tbImagens (
         'C) 30,0.',
         'D) 450,0.',
         'E) 4 500,0.',
-        'D',
+        'B',
         2022,
         1
     );
@@ -2072,13 +2072,26 @@ CREATE TABLE tbImagens (
         'C) aprenderam a reconhecer e a cultivar vegetais comestíveis e ervas curativas e, consequentemente, desenvolveram a agricultura.',
         'D) desconheciam formas de exploração e utilização de recursos naturais, como vegetais comestíveis e ervas curativas.',
         'E) reuniram um conjunto de saberes e técnicas de trabalho e desenvolveram um modo de vida em sociedade.',
-        'C',
+        'E',
         2022,
         1
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         146,
+        'No texto apresentado, o eu lírico tece reflexões sobre sua vida e sua realidade. Algumas delas evidenciam aspectos sociais relevantes, tais como',
+        'A) a garantia da felicidade pelo acúmulo financeiro, como representado no verso 8.',
+        'B) a visibilidade social da classe trabalhadora, como representado no verso 9. ',
+        'C) as vantagens da utilização do transporte público, como representado no verso 12.',
+        'D) a busca ininterrupta pela felicidade por meio do consumo constante, como representado no verso 22. ',
+        'E) o potencial de transformação social das classes desfavorecidas, como representado no verso 24',
+        'E',
+        2022,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
+        147,
         'O rap é um estilo musical urbano caracterizado pela declamação ritmada de suas letras. Outra característica marcante desse gênero encontra-se na utilização de diferentes níveis de linguagem. Assinale a alternativa em que todas as palavras pertencem à linguagem coloquial.',
         'A) ser, ontem, menina, cê.',
         'B) cê, tô, pra, busão.',
@@ -2086,19 +2099,6 @@ CREATE TABLE tbImagens (
         'D) dim, chance, paz, latinha.',
         'E) sol, cruza, mamãe, amordaçado.',
         'B',
-        2022,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES (
-        147,
-        'Sobre a passagem “Tô com a paciência de quem junta latinha / Focado no que tenho, não no que vou ter ou tinha”, é correto afirmar que o eu lírico',
-        'A) sente-se dividido entre o passado, marcado pela culpa, e o futuro, marcado pelo medo e pelas incertezas.',
-        'B) está, apesar das condições sociais, paciente e procura se manter centrado no presente vivenciando cada dia isoladamente.',
-        'C) encontra-se inquieto diante de suas condições sociais, revendo o passado para não errar no futuro, mas ignorando o presente.',
-        'D) permanece, durante o seu trabalho, concentrado na realização de suas tarefas para evitar relembrar suas experiências passadas.',
-        'E) recorre à coleta de materiais recicláveis como metáfora para a imprudência de vivenciar apenas o presente, sem se preocupar com o futuro.',
-        'E',
         2022,
         1
     );
@@ -2137,27 +2137,27 @@ CREATE TABLE tbImagens (
         'C) z > x > y.',
         'D) x > z > y.',
         'E) y > z > x.',
-        'C',
+        'E',
         2022,
         1
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         151,
-        'Júnior optou por se mudar para a cidade de Boituva nas proximidades de um centro de treinamento T. Nessa cidade, ele encontrou algumas opções de imóveis, que denominou A, B, C e D. Além disso, ele descobriu que o ruído gerado pelas aeronaves do centro de treinamento podia ser ouvido em uma região com centro em T e raio de 6 km. Ao representar esses imóveis e o centro de treinamento em um plano cartesiano, cujos eixos têm escalas em kilômetros, ele obteve as coordenadas: T (0,0), A (0,7), B (1,6), C (2,5), D (3,4). Com base nessas informações, são imóveis que estão fora da zona de ruído',
+        'Com base nessas informações, são imóveis que estão fora da zona de ruído',
         'A) A e B.',
         'B) A e C.',
         'C) A e D.',
         'D) B e C.',
         'E) B e D.',
-        'C',
+        'A',
         2022,
         1
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         152,
-        'A origem do fordismo remonta à Segunda Revolução Industrial, implementada a partir do final do século XIX nos países mais desenvolvidos do globo. O avanço da industrialização resultou na necessidade da criação de técnicas de produção que abrangessem uma qualidade produtiva atrelada à rapidez do processo de produção fabril. Portanto, foram desenhados modelos de produção industrial para a época. Entre as principais características do sistema de produção mencionado no texto, podemos apontar corretamente',
+        'Entre as principais características do sistema de produção mencionado no texto, podemos apontar corretamente',
         'A) a informatização, a substituição dos trabalhadores por robôs e o consequente aumento dos índices de desemprego.',
         'B) a redução da jornada de trabalho, a ampliação dos direitos trabalhistas e o incentivo ao ócio e à criatividade dos trabalhadores.',
         'C) a produção artesanal de mercadorias, realizada em espaços domésticos; e a utilização de mão de obra escravizada, proveniente da África.',
@@ -2170,7 +2170,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         153,
-        'Thomas Robert Malthus foi um economista que em 1798 escreveu um livro denominado Ensaio Sobre a População no qual defendia ser o ritmo do crescimento populacional maior que o ritmo do crescimento da produção de alimentos e, portanto, faltariam alimentos. As previsões de Malthus não se concretizaram, pois',
+        'As previsões de Malthus não se concretizaram, pois',
         'A) a população mundial diminuiu lenta e continuamente, até os dias de hoje e, portanto, a necessidade por alimentos também diminuiu no mesmo ritmo.',
         'B) os trabalhadores urbanos, na Revolução Industrial, dividiam seu tempo entre o trabalho em fábricas e em atividades ligadas à horticultura, cultivando seu próprio alimento e, dessa forma, acabando com a fome no mundo.',
         'C) novas tecnologias surgiram e foram incorporadas ao processo produtivo nos campos, fazendo aumentar a produção de alimentos, em função do desenvolvimento tecnológico proporcionado pela Revolução Industrial.',
@@ -2183,7 +2183,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         154,
-        'Elementos de coesão são palavras e locuções utilizadas dentro de um texto para conectar expressões, orações, períodos e parágrafos. Sobre os elementos coesivos destacados no texto, é correto afirmar que',
+        'Sobre os elementos coesivos destacados no texto, é correto afirmar que',
         'A) “para”, no segundo parágrafo, expressa ideia de finalidade, evidenciando o objetivo de um empreendedor tradicional, e tem sentido equivalente a “a fim de”.',
         'B) “para”, no terceiro parágrafo, é utilizado para indicar a direção de um projeto social e pode ser substituído pela expressão “defronte a”.',
         'C) “porém”, no terceiro parágrafo, expressa ideia de consequência, pois a geração de renda leva à redução de desigualdade social, e equivale a “entretanto”',
@@ -2209,13 +2209,13 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         156,
-        'Considere os exemplos: I Capacitação de produtores familiares do semiárido para o cultivo e a comercialização de produtos orgânicos. II Construção de sistemas de iluminação utilizando garrafas PET e energia solar disponibilizados a preços acessíveis. III Organização de campanhas de doação de alimentos e de roupas para vítimas de desastres naturais. Segundo as definições apresentadas no texto, são exemplos de empreendedorismo social as ações presentes em',
+        'Segundo as definições apresentadas no texto, são exemplos de empreendedorismo social as ações presentes em',
         'A) I apenas.',
         'B) II apenas.',
         'C) III apenas.',
         'D) I e II apenas.',
         'E) II e III apenas.',
-        'E',
+        'D',
         2022,
         1
     );
@@ -2241,7 +2241,7 @@ CREATE TABLE tbImagens (
         'C) PE.',
         'D) PET.',
         'E) PVC.',
-        'D',
+        'E',
         2022,
         1
     );
@@ -2287,7 +2287,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         162,
-        'Durante a I Guerra Mundial, a economia estadunidense estava em pleno desenvolvimento; suas indústrias produziam e exportavam em grandes quantidades, principalmente para os países europeus. No final da década de 1920, as nações europeias, recuperando-se dos efeitos negativos da guerra, diminuíram drasticamente a importação de produtos industrializados e agrícolas dos Estados Unidos. Com a diminuição das exportações para a Europa, os estoques das indústrias dos Estados Unidos passaram a aumentar, já que essas empresas não conseguiam vender como antes. Grande parte delas tinha ações na Bolsa de Valores de Nova Iorque e os milhões de estadunidenses que haviam investido nessas ações correram para tentar vendê-las, enquanto seus valores foram caindo gradativamente até o zero. Essa crise econômica',
+        'Essa crise econômica',
         'A) ficou restrita aos Estados Unidos, pois, no início do século XX, as economias nacionais eram fechadas e, portanto, as crises eram localizadas.',
         'B) causou impactos duradouros na economia mundial, abalou os mercados financeiros ao redor do mundo e provocou a falência de inúmeras empresas e o desemprego.',
         'C) provocou o aumento da atividade industrial e do emprego nos países africanos, que não foram abalados pela crise provocada pelo mercado de ações nos Estados Unidos.',
@@ -2300,7 +2300,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         163,
-        'A pandemia de COVID–19, causada pelo novo coronavírus (SARSCoV–2), evidenciou que desenvolver uma vacina é um processo que demanda muita pesquisa e exige um trabalho conjunto de diferentes profissionais da área da saúde, tais como médicos, farmacêuticos, biomédicos, engenheiros químicos, entre muitos outros. Após ser desenvolvida, uma vacina é encaminhada para registro sanitário e, se aprovada pelas agências reguladoras, é distribuída para a população. A produção de uma vacina se baseia no agente causador da doença, o qual estará inativado, atenuado ou presente apenas em fragmentos. Dessa maneira, uma vacina possui os antígenos capazes de estimular no organismo humano a produção de anticorpos ao simular uma doença infecciosa, garantindo assim a imunização contra a doença. Com base nas informações do texto, pode-se concluir corretamente que',
+        'Com base nas informações do texto, pode-se concluir corretamente que',
         'A) os profissionais da área médica, que atuam no desenvolvimento de vacinas, desenvolvem imunidade a determinadas doenças e, por isso, não se contaminam, nem transmitem os agentes causadores da doença para seus pacientes.',
         'B) as vacinas, que são aprovadas pelas agências reguladoras, podem ser produzidas e aplicadas na população a fim de atuarem na prevenção das doenças através de anticorpos específicos produzidos pelo organismo humano.',
         'C) a pandemia pode ser definida como a concentração de casos de uma mesma doença em um determinado local sem provocar o alastramento em outras regiões.',
@@ -2313,7 +2313,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         164,
-        'TEXTO 1 Na Idade Média (476 a 1 453), tanto a infância quanto a adolescência não eram reconhecidas como fases do desenvolvimento humano. No período de transição para a vida adulta, as maiores preocupações da comunidade eram a castidade e o casamento. Esse período não aparentava ser fonte de maiores preocupações: “os filhos de artesãos seguiriam artesãos, os pertencentes à aristocracia feudal se encaminhavam para a vida militar ou religiosa e o camponês seguiria camponês”. TEXTO 2 Segundo a Base Nacional Comum Curricular (BNCC), documento que regulamenta a educação básica no Brasil do século XXI, os estudantes devem aprender a valorizar a diversidade de saberes e vivências culturais e apropriar-se de conhecimentos e experiências, entender as relações próprias do mundo do trabalho e fazer escolhas alinhadas ao exercício da cidadania e ao seu projeto de vida, com liberdade, autonomia, consciência crítica e responsabilidade. Os estudantes devem conseguir refletir sobre seus desejos e objetivos, aprendendo a se organizar, estabelecer metas, planejar e perseguir com determinação, esforço, autoconfiança e persistência seus projetos presentes e futuros. A análise dos textos nos permite concluir corretamente que',
+        'A análise dos textos nos permite concluir corretamente que',
         'A) na Idade Média crianças e adolescentes, ao chegarem à vida adulta, desempenhariam as atividades reservadas ao seu grupo social; no Brasil do século XXI, os estudantes têm liberdade para fazer escolhas de acordo com seus desejos e objetivos.',
         'B) a lei garante que, no Brasil do século XXI, ao alcançar a vida adulta, crianças e adolescentes serão sustentados pelos programas sociais do Estado, independente de seu esforço, organização e planejamento pessoal.',
         'C) na Idade Média crianças e adolescentes podiam escolher entre ser militares, camponeses ou artesãos; no Brasil do século XXI, os estudantes têm opções de carreira limitadas pela BNCC.',
@@ -2326,7 +2326,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         165,
-        'Comer bem não é comer muito, mas ter uma dieta equilibrada, que atenda às necessidades do corpo e ajude a manter a saúde, reduzindo o risco de várias doenças, como recomendam os nutricionistas e os técnicos em nutrição. Com relação aos tipos de alimentos, às orientações e aos problemas nutricionais, assinale o que for correto.',
+        'Com relação aos tipos de alimentos, às orientações e aos problemas nutricionais, assinale o que for correto.',
         'A) Na promoção da alimentação saudável para diminuição de casos de obesidade e hipertensão, deve-se incentivar o consumo de alimentos industrializados e gordurosos na dieta da população.',
         'B) A celulose presente nas fibras de alimentos como grãos, verduras, legumes e frutas não é digerida pelo organismo humano, não fornece calorias, mas estimula o trânsito intestinal.',
         'C) Uma alimentação adequada apresenta grande consumo de frutas e outros vegetais, bem como a alta ingestão de gorduras saturadas, sal e carboidratos.',
@@ -2339,7 +2339,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         166,
-        'Quando se fala em comida, já pensamos em calorias! Quando ingerimos um alimento, este será “queimado” pelo nosso metabolismo e a energia produzida será usada nas nossas atividades do dia a dia. Para calcularmos essa energia produzida por certa quantidade de um alimento, devemos queimá-lo em um calorímetro. A reação é realizada dentro de um recipiente que está imerso em água e essa energia é expressa na unidade de medida “calorias”. Assinale a alternativa que completa, correta e respectivamente, a frase',
+        'Assinale a alternativa que completa, correta e respectivamente, a frase',
         'A) diminui, exotérmica, libera',
         'B) diminui, endotérmica, absorve',
         'C) aumenta, endotérmica, libera',
@@ -2352,7 +2352,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         167,
-        'No saneamento básico, a demanda por profissionais especializados é crescente, porque, entre outras funções, eles são responsáveis por viabilizarem tanto o tratamento da água quanto a coleta, o tratamento e a destinação final dos esgotos. O saneamento precário cria o ambiente propício a muitas doenças, como diarreia, hepatite e verminoses, causadas pela ingestão de água e/ou alimentos contaminados. A incidência de casos de dengue, por sua vez, segundo informações do Ministério da Saúde, tem aumentado muito devido à presença de água parada em muitos locais. Nesse caso, o saneamento básico é essencial a fim de evitar as chances da ocorrência de surto de dengue. Sobre esta doença, pode-se afirmar corretamente que é',
+        'Sobre esta doença, pode-se afirmar corretamente que é',
         'A) contagiosa, ou seja, pode ser transmitida de pessoa para pessoa e também pelo consumo de água contaminada.',
         'B) limitada a regiões tropicais devido à falta de saneamento básico e à presença do protozoário causador desse tipo de enfermidade.',
         'C) prevenida com o tratamento da água e do esgoto; a higienização dos alimentos e das mãos; e a evitação de locais com água parada.',
@@ -2365,7 +2365,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         168,
-        'No tratamento de água, usamos processos físicos e químicos para obtenção de água potável que será distribuída à população. Entre os processos físicos, temos: separação de partículas com maior densidade, que irão para o fundo do tanque e, posteriormente, serão extraídas; retenção de pequenas partículas, quando a água passa por tanques que possuem diferentes camadas de cascalho, areia e carvão. Os processos físicos descritos são denominados, respectivamente, de',
+        'Os processos físicos descritos são denominados, respectivamente, de',
         'A) floculação e decantação.',
         'B) decantação e filtração.',
         'C) filtração e cloração.',
@@ -2378,7 +2378,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         169,
-        'O hemograma, exame que demonstra as variações quantitativas e morfológicas das células do sangue, pode ser realizado por biomédicos especialistas em análises clínicas. Considerando esse hemograma, pode-se concluir que Pedro tem Pedro, após uma consulta de rotina, realizou um hemograma solicitado por um médico, que evidenciou alteração na taxa de hemácias (glóbulos vermelhos), a qual estava muito abaixo do normal.',
+        'Considerando esse hemograma, pode-se concluir que Pedro tem',
         '(A) um processo infeccioso.',
         '(B) problemas na coagulação do sangue.',
         '(C) dificuldade no transporte de oxigênio no sangue.',
@@ -2397,7 +2397,7 @@ CREATE TABLE tbImagens (
         'Área: 6x + 2y Perímetro: 6x + 2y',
         'Área: 3x y Perímetro: 6x + y 2',
         'Área: 3x y Perímetro: 3x + y',
-        'E',
+        'D',
         2022,
         1
     );
@@ -2410,14 +2410,14 @@ CREATE TABLE tbImagens (
         '(C) 75.',
         '(D) 50.',
         '(E) 25.',
-        'D',
+        'C',
         2022,
         1
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         172,
-        'As enchentes são fenômenos naturais, as quais estão tomando grandes proporções em áreas urbanizadas devido aos processos de transformações do espaço natural pela ação humana. Algumas práticas ambientais podem ajudar a diminuir as enchentes em áreas urbanas. Assinale a alternativa que apresenta corretamente uma dessas práticas ambientais.',
+        'Assinale a alternativa que apresenta corretamente uma dessas práticas ambientais.',
         '(A) Jogar o lixo em valas e nas encostas para ser levado pela água da chuva até os pontos mais baixos, onde estão os canais de drenagem, os rios e os bueiros.',
         '(B) Impermeabilizar as vias públicas, os quintais e as calçadas, a fim de impedir que grande parte do volume de água precipitado pelas chuvas penetre no solo.',
         '(C) Permitir os processos de assoreamento, a erosão e a sedimentação nos rios, a fim de dificultar o transbordamento dos cursos de água.',
@@ -2430,7 +2430,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         173,
-        'A “pejotização” é conhecida como uma prática do empregador em contratar um funcionário como pessoa jurídica (PJ) ou de dispensar um empregado com registro em carteira e recontratá-lo na forma de PJ. Em qualquer dos casos, é necessário que o funcionário constitua formalmente uma PJ. Com isso, a empresa deixa de arcar com alguns encargos previdenciários e trabalhistas. De acordo com o texto, é correto afirmar que “pejotização”',
+        'De acordo com o texto, é correto afirmar que “pejotização”',
         '(A) obriga os patrões a constituírem uma empresa para registrar seus funcionários em carteira de trabalho.',
         '(B) é uma norma constitucional que obriga os advogados a pagarem os custos dos processos trabalhistas.',
         '(C) é uma prática adotada por empresas que pretendem reduzir os custos sobre sua folha de pagamento e deriva da expressão “pessoa jurídica”.',
@@ -2443,20 +2443,20 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         174,
-        'O princípio dos vasos comunicantes, pelo fato de os líquidos se nivelarem em recipientes que se interligam, é usado em diferentes situações. Por exemplo, para acertar o nível entre dois pontos em uma obra, os pedreiros utilizam uma mangueira transparente com água, conforme a imagem. Dentre as alternativas, assinale aquela que melhor representa esse princípio.',
+        'Dentre as alternativas, assinale aquela que melhor representa esse princípio.',
         '(A)',
         '(B)',
         '(C)',
         '(D)',
         '(E)',
-        'B',
+        'E',
         2022,
         1
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         175,
-        'O mapa representa os caminhos percorridos nos séculos XVII e XVIII pelas bandeiras, expedições armadas por particulares, chamados de bandeirantes. Estes percorriam o território da América para, entre outros objetivos, aprisionar e escravizar indígenas e procurar por fontes de metais preciosos. A partir da leitura do mapa, pode-se afirmar corretamente que',
+        'A partir da leitura do mapa, pode-se afirmar corretamente que',
         '(A) os bandeirantes, em suas expedições, respeitaram os limites territoriais definidos pelo Tratado de Tordesilhas, em 1494.',
         '(B) as bandeiras se originaram nos territórios espanhóis do atual Uruguai e, de lá, percorreram a América do Sul em todas as direções.',
         '(C) a ação das bandeiras contribuiu para a ampliação dos limites territoriais do Brasil para além daqueles definidos, em 1494, pelo Tratado de Tordesilhas.',
@@ -2475,7 +2475,7 @@ CREATE TABLE tbImagens (
         '(C) 27,0.',
         '(D) 135,0.',
         '(E) 270,0.',
-        'C',
+        'D',
         2022,
         1
     );
@@ -2508,7 +2508,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         179,
-        'Leia o texto. Assinale a frase que é um contraponto ao posicionamento da personagem sobre o medo.',
+        'Assinale a frase que é um contraponto ao posicionamento da personagem sobre o medo.',
         '(A) “Aprendi que a coragem não é a ausência do medo, mas o triunfo sobre ele”. (Nelson Mandela)',
         '(B) “Um dos efeitos do medo é perturbar os sentidos e fazer que as coisas não pareçam o que são”. (Miguel de Cervantes).',
         '(C) “O medo é, dos sentimentos humanos, o mais dissolvente, porque nos leva a fazer muita coisa que não queremos fazer, e deixar de fazer muita coisa que queríamos e necessitávamos fazer”. (Josué de Castro)',
@@ -2527,7 +2527,7 @@ CREATE TABLE tbImagens (
         '(C) interage com as moléculas de água por meio da extremidade conhecida como cauda.',
         '(D) remove as moléculas de água presentes na nossa pele, mantendo sobre ela as de gordura.',
         '(E) está relacionada à capacidade de interação da sua estrutura tanto com água quanto com gordura.',
-        'A',
+        'E',
         2022,
         1
     );
@@ -2579,14 +2579,14 @@ CREATE TABLE tbImagens (
         '(C)',
         '(D)',
         '(E)',
-        'C',
+        'A',
         2022,
         1
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         185,
-        'O cotidiano da escravidão foi marcado por diversas formas de violências perpetradas por senhores e feitores, cujo intuito era submeter as pessoas escravizadas e evitar a rebelião contra este regime de trabalho. Muitas estratégias de resistência, porém, foram articuladas por escravizados. Entre elas, é correto mencionar',
+        'Entre elas, é correto mencionar',
         '(A) a Greve Geral de 1917, encabeçada pelos escravos de ganho de São Paulo e Rio de Janeiro.',
         '(B) a greve de fome realizada por Nelson Mandela na prisão, em Joanesburgo, na África do Sul, em 1948.',
         '(C) a onda de rebeliões de escravizados que se iniciou nas fazendas de café na Amazônia e no Rio Grande do Sul.',
@@ -2599,7 +2599,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         186,
-        'Em 07 de setembro de 2022, o Brasil celebra os 200 anos de sua Independência, ocorrida em 1822. Entretanto, grande parte dos historiadores afirma que o processo de Independência começou anos antes, em 1808, quando a família real portuguesa chegou ao Brasil. Sua chegada provocou transformações radicais na colônia e, principalmente, na cidade do Rio de Janeiro. Foram construídos chafarizes, pontes e calçadas; ruas e estradas foram abertas e pavimentadas. Entre 1808 e 1822, o número de habitantes da capital da colônia dobrou, chegando a cerca de 100 mil pessoas, muitos deles europeus que vinham tentar ganhar a vida no Brasil. Eram médicos, professores, alfaiates, farmacêuticos, modistas, cozinheiros, padeiros e formavam um grande contingente de mão de obra qualificada. Por outro lado, os trabalhos mais duros continuavam sendo exercidos pelos escravizados, que eram utilizados nos serviços domésticos, no comércio e no transporte de todo o tipo de produtos pelas ruas da cidade. Os eventos descritos no texto',
+        'Os eventos descritos no texto',
         '(A) precipitaram a abolição da escravidão e a qualificação profissional dos libertos, que passaram a exercer profissões especializadas.',
         '(B) desorganizaram o núcleo urbano do Rio de Janeiro, impedindo a realização de obras públicas e, consequentemente, causando desemprego e precarização do trabalho.',
         '(C) provocaram a diminuição da população da colônia, que caiu pela metade no início do século XIX, em razão da instabilidade provocada pela chegada de grande número de imigrantes.',
@@ -2612,7 +2612,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         187,
-        'Leia a reportagem. Na sexta-feira, 18 de março de 2022, a Operação Andrápodon resgatou oito vítimas de trabalho análogo ao escravo, na cidade de São Paulo. Durante a ação, oito imigrantes bolivianos foram libertados em uma confecção no Bom Retiro, na região central da capital. Duas pessoas foram presas por tráfico de pessoas e organização criminosa. As vítimas trabalhavam até 14 horas por dia e ficavam 24 horas no mesmo local, dormindo ao lado da máquina de costura. ... “Essa operação é composta por três etapas: a primeira é de acolhimento; a segunda é um trabalho relacionado à capacitação, no qual as pessoas farão cursos de português e profissionalizantes, para inclusão social e profissional; a terceira etapa é de regularização, por meio do Centro de Integração da Cidadania do Imigrante (CIC) e do Núcleo de Enfrentamento ao Tráfico de Pessoas”, afirmou o Secretário de Justiça e Cidadania. De acordo com a reportagem, é correto afirmar que',
+        'De acordo com a reportagem, é correto afirmar que',
         '(A) as pessoas resgatadas do trabalho análogo ao escravo serão deportadas para seu país de origem.',
         '(B) o trabalho escravo foi legalmente extinto no Brasil no século XX, mas ainda resiste em alguns bairros periféricos da capital paulista.',
         '(C) a entrada de imigrantes é proibida no bairro do Bom Retiro, o que caracteriza a situação de trabalho análogo ao escravo desses imigrantes.',
@@ -2625,7 +2625,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         188,
-        'Desde 1964, o Brasil comemora no dia 25 de maio o Dia do Trabalhador Rural. O país tem atualmente mais de 18 milhões de trabalhadores rurais. Esses trabalhadores somente conseguiram ter seus direitos equiparados aos demais em 1988, com a promulgação da Constituição da República atualmente em vigor. As conquistas, no entanto, convivem com diversos desafios, como a mecanização, a informalidade e o trabalho análogo à escravidão. Em 1988, a Constituição da República equiparou os direitos trabalhistas e previdenciários de trabalhadores rurais aos dos urbanos, entre eles a extensão do Fundo de Garantia do Tempo de Serviço (FGTS). De acordo com o texto, é correto afirmar que os trabalhadores rurais',
+        'De acordo com o texto, é correto afirmar que os trabalhadores rurais',
         '(A) conseguiram o acesso aos direitos trabalhistas no ano de 1964.',
         '(B) são em maior número que os trabalhadores urbanos no Brasil de hoje.',
         '(C) tiveram os direitos trabalhistas equiparados aos dos trabalhadores urbanos em 1988.',
