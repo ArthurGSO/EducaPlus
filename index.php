@@ -17,14 +17,14 @@
         <div id="menu-btn" class="fas fa-bars"></div>
         
         <a href="#" class="logo">Educa<span>Plus</span><i class='bx bx-pen bx-flip-vertical bx-tada' style='color:#352eab' ></i></a>
-
+        <?php
+            if(isset($_GET['deluser'])) { echo "<h2><span>Conta apagada com sucesso!!</span></h2>"; }  
+        ?>
         <nav class="navegation">
             <a href="#home" class="active">Home</a>
             <a href="">Sobre nós</a>
             <a href="principal.html">Sobre</a>
             <a href="#services">Contato</a>
-
-
         </nav>
 
         <div class="button">
@@ -131,11 +131,6 @@
             </div>
         </section>
         
-       
-
-
-
-       
     </main>
     <footer>
         <div class="footer">
@@ -147,14 +142,11 @@
       
         </div>
         
-        
         <div class="row">
        <p> TechSolutions Copyright © 2024 - Todos direitos reservados </p> 
         </div>
         </div>
         </footer>
-
-
 
     <!-- javascript -->
     <script src="source/javascript/main.js"></script>

@@ -16,11 +16,10 @@
 <body>
     <header class="header">
 
-        <a href="#" class="logo">Educa<span>Plus</span><i class='bx bx-pen bx-flip-vertical bx-tada' style='color:#352eab' ></i></a>
-
-        
-        <?php if(isset($_GET['erro'])) $erro = "O login é necessário para acessar esta página!"; { ?>
-                <a href="#" class="logo"><?php if(isset($erro)) {echo $erro;}?></a>     
+        <a href="../../index.php" class="logo">Educa<span>Plus</span><i class='bx bx-pen bx-flip-vertical bx-tada' style='color:#352eab' ></i></a>
+        <?php 
+            if(isset($_GET['erro'])) $erro = "O login é necessário para acessar esta página!"; { ?> 
+            <a href="#" class="logo"><?php if(isset($erro)) {echo $erro;}?></a>    
         <?php } ?>
     </header>
     

@@ -1,6 +1,5 @@
 <?php
     date_default_timezone_set('America/Sao_Paulo'); 
-
     session_start();
 ?>
 <!DOCTYPE html>
@@ -14,7 +13,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <?php if(isset($_SESSION['logstatus'])) { ?>
+<?php if(isset($_SESSION['logstatus'])) { ?> <!--Verificador de acesso.-->
     <aside class="close">
         
         <div class="head">
@@ -94,6 +93,10 @@
             <div class="menu menu-logout">
                 <i class="bx bx-log-out"></i>
                 <span><button name="btnSair"><a href="../source/includes/logout.php">Sair</a></button></span>
+            </div>
+            <div class="menu menu-logout">
+                <i class="bx bx-log-out"></i>
+                <span><button name="btnDelUser"><a href="../source/includes/logout.php?deluser">Apagar conta</a></button></span>
             </div>
         </div>
 

@@ -1,6 +1,8 @@
 <?php
+    if(!isset($_SESSION)) { //se a sessão não foi iniciada, vai ser
+        session_start();
+    }
     date_default_timezone_set('America/Sao_Paulo'); 
-
 
     $conexao = mysqli_connect("Localhost", "root", "", "TechSolutions"); //conectando ao BD
 
@@ -8,7 +10,10 @@
 
             die("Erro ao conectar com o Banco de Dados: ").mysqli_connect_errno($conexao); //erro de conexâo
         }
-
+    function redirect($page) {
+        header("Location: $page", true, 301);
+        exit();
+    } 
     function login($conexao) {
         if (isset($_POST['logar']) || isset($_POST['email']) || isset($_POST['senha'])) { //verificando existência dos dados de login
 
@@ -22,10 +27,6 @@
 
             if(password_verify($senha, $usuario['senha'])) {
 
-                if(!isset($_SESSION)) { //se a sessão não foi iniciada, vai ser
-                    session_start();
-                }
-
                 $_SESSION['user'] = $usuario['nome_usuario'];
                 $_SESSION['id'] = $usuario['cod_usuario'];
                 $_SESSION['dt_login'] = date('Y-m-d H:i:s');
@@ -36,10 +37,8 @@
                 $conexao->query($sql_updt_login) or die("Falha ao atualizar data de login: ".$conexao->error);
 
                 // Formatar a data de cadastro e login para BR
-
+                $_SESSION['dt_login'] = date('d-m-Y H:i:s');
                 $_SESSION['dt_cadastro'] = date('d/m/Y', strtotime($usuario['data_cadastro']));
-                // $_SESSION['dt_login'] = date('d/m/Y H:i:s', strtotime($usuario['login'])); o erro estava aqui
-
                 $_SESSION['logstatus'] = TRUE; // Definindo status de login no site
                 
                 usleep(8000);
@@ -53,29 +52,31 @@
     }
 
     function logout() {
-        session_start();
         session_unset();
         session_destroy();
-        IndexRedirect($conexao);
+    }
+
+    function DeletUser($conexao) {
+        $query = "DELETE FROM tbUsuarios WHERE cod_usuario = ?";
+        $stmt = $conexao->prepare($query);
+        $stmt->bind_param("s", $_SESSION['id']);
+        $stmt->execute();
+        $stmt->close();
     }
 
     function IndexRedirect() {
-        header('Location: ../../index.php', true, 301);
-        exit();
+        redirect('../../index.php');
     }
 
     function LoginRedirect() {
-        header('Location: ../../PaginasPrincipais/SubPags/login.php', true, 301);
-        exit();
+        redirect('../../PaginasPrincipais/SubPags/login.php');
     }
 
     function loginRedirectError() {
-        header('Location: SubPags/login.php?erro=true', true, 301);
-        exit();
+        redirect('SubPags/login.php?erro=true',);
     }
 
     function PrincipalRedirect() {
-        header('Location: ../../PaginasPrincipais/principal.php', true, 301);
-        exit();
+        redirect('../../PaginasPrincipais/principal.php');
     }
 ?>
