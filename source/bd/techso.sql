@@ -2700,10 +2700,6 @@ CREATE TABLE tbImagens (
         (189, 'imgs/txtQ49-50.PNG');
 
 
-
-
-
-
 --foreign key (cod_servico) references tbServicos(cod_servico));
 
 --create table tbServicos(
