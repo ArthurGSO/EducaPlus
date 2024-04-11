@@ -27,21 +27,37 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $ano_prova !== null && $semestre_pro
     if ($result && mysqli_num_rows($result) > 0) {
         $pontuacao = 0;
         $total_questoes = mysqli_num_rows($result);
+        $acertos = 0;
+        $erros = 0;
+        $nao_respondidas = 0;
 
-        // Calcula a pontuação do usuário
+        // Calcula a pontuação do usuário e contabiliza as respostas corretas, incorretas e não respondidas
         while ($row = mysqli_fetch_assoc($result)) {
             $questao_id = 'q' . $row['cod_question'];
             
-            if (isset($r_usuario[$questao_id]) && strtolower($r_usuario[$questao_id]) === strtolower($row['correct_option'])) {
-                $pontuacao++;
+            if (isset($r_usuario[$questao_id])) {
+                if (strtolower($r_usuario[$questao_id]) === strtolower($row['correct_option'])) {
+                    $pontuacao++;
+                    $acertos++;
+                } else {
+                    $erros++;
+                }
+            } else {
+                $nao_respondidas++;
             }
         }
 
         // Calcula a pontuação em porcentagem e arredonda para uma casa decimal
         $pontuacao_percent = round(($pontuacao / $total_questoes) * 100, 1);
-
+        
+        // Exibe resultados
         echo "Pontuação do usuário: $pontuacao de $total_questoes questões corretas. ";
         echo "Isso equivale a $pontuacao_percent% de acertos.";
+
+        echo "<br><br>";
+        echo "Número de questões corretas: $acertos<br>";
+        echo "Número de questões erradas: $erros<br>";
+        echo "Número de questões não respondidas: $nao_respondidas";
     } else {
         echo "Nenhuma pergunta encontrada para o ano $ano_prova e semestre $semestre_prova.";
     }

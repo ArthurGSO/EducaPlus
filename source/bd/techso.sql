@@ -16,36 +16,6 @@ create table tbUsuarios(
 	dt_alteracao datetime
 );
 
-create table tbAdms(
-	cod_adm int not null auto_increment primary key,
-	nome_adm varchar (60),
-	cargo varchar (60),
-	cod_usuario int not null,
-	foreign key (cod_usuario) references tbUsuarios(cod_usuario)
-);
-
-create table tbTestes(
-	cod_tst int not null auto_increment primary key,
-	questoes varchar(500) not null,
-	tipo_vestibular varchar(50),
-	ano date,
-	materia_vestibular varchar(50),
-	pontos int default 0
-);
-
-create table tbPerfis(
-	cod_perf int not null auto_increment primary key,
-	pontuacao int not null default 0,
-	cod_tst int not null,
-	cod_usuario int not null,
-	cod_adm int not null,
-	cod_servico int not null,
-	cod_prova int not null,
-	foreign key (cod_tst) references tbTestes(cod_tst),
-	foreign key (cod_usuario) references tbUsuarios(cod_usuario),
-	foreign key (cod_adm) references tbAdms(cod_adm)
-);
-
 CREATE TABLE tbQuestions (
 	cod_question int not null auto_increment primary key,
 	text_question text,
@@ -58,6 +28,23 @@ CREATE TABLE tbQuestions (
 	exam_year int,
 	semestre char(1) check(semestre in("1","2"))
 );
+
+CREATE TABLE tbResults (
+    cod_resultado int not null auto_increment primary key,
+    cod_usuario int not null,
+    exam_year int not null,
+    semestre char(1) check(semestre in("1","2")),
+    total_questoes int,
+    pontuacao_percent decimal(5,2),
+    maior_taxa_acerto varchar(255),
+    menor_taxa_acerto varchar(255),
+    questoes_corretas int,
+    questoes_erradas int,
+    timestamp datetime default current_timestamp,
+    foreign key (cod_usuario) references tbUsuarios(cod_usuario)
+);
+
+
 
 CREATE TABLE tbImagens (
     cod_image int not null auto_increment primary key,
