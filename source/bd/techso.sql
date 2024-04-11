@@ -44,8 +44,6 @@ CREATE TABLE tbResults (
     foreign key (cod_usuario) references tbUsuarios(cod_usuario)
 );
 
-
-
 CREATE TABLE tbImagens (
     cod_image int not null auto_increment primary key,
     cod_question int not null,
@@ -2469,7 +2467,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         177,
-        'Há momentos que exigem sermos fortes para enfrentarmos dificuldades. Leia os quadrinhos. Com base na interpretação dos quadrinhos, pode-se concluir corretamente que',
+        'Com base na interpretação dos quadrinhos, pode-se concluir corretamente que',
         '(A) a emoção se liberta facilmente dos erros do passado e do medo de errar.',
         '(B) a razão supera o medo de errar depois de a emoção se libertar dos erros do passado.',
         '(C) a razão é a única responsável por guiar as ações de se libertar do passado e por errar no percurso da vida.',
@@ -2650,7 +2648,56 @@ CREATE TABLE tbImagens (
     );
 
 -- INSERT TABLE tbIMAGENS PROVA 2022 1 SEMESTRE
-
+    INSERT INTO tbImagens (cod_question, image_data)
+    VALUES
+        (141, 'imgs/txtQ1.PNG'),
+        (142, 'imgs/txtQ2.PNG'),
+        (143, 'imgs/txtQ3.PNG'),
+        (144, 'imgs/txtQ4.PNG'),
+        (145, 'imgs/txtQ5.PNG'),
+        (146, 'imgs/txtQ6-9.PNG'),
+        (150, 'imgs/txtQ10-11.PNG'),
+        (151, 'imgs/txtQ11.PNG'),
+        (152, 'imgs/txtQ12.PNG'),
+        (153, 'imgs/txtQ13.PNG'),
+        (154, 'imgs/txtQ14-16.PNG'),
+        (154, 'imgs/txtQ14.PNG'),
+        (156, 'imgs/txtQ16.PNG'),
+        (157, 'imgs/txtQ17-21.PNG'),
+        (158, 'imgs/txtQ18.PNG'),
+        (159, 'imgs/txtQ19.PNG'),
+        (162, 'imgs/txtQ22.PNG'),
+        (163, 'imgs/txtQ23.PNG'),
+        (164, 'imgs/txtQ24.PNG'),
+        (165, 'imgs/txtQ25.PNG'),
+        (166, 'imgs/txtQ26.PNG'),
+        (167, 'imgs/txtQ27.PNG'),
+        (168, 'imgs/txtQ28.PNG'),
+        (169, 'imgs/txtQ29.PNG'),
+        (170, 'imgs/txtQ30-31.PNG'),
+        (172, 'imgs/txtQ32.PNG'),
+        (173, 'imgs/txtQ33.PNG'),
+        (174, 'imgs/txtQ34.PNG'),
+        (174, 'imgs/txtQ34-1.PNG'),
+        (174, 'imgs/txtQ34A.PNG'),
+        (174, 'imgs/txtQ34B.PNG'),
+        (174, 'imgs/txtQ34C.PNG'),
+        (174, 'imgs/txtQ34D.PNG'),
+        (174, 'imgs/txtQ34E.PNG'),
+        (175, 'imgs/txtQ35.PNG'),
+        (175, 'imgs/txtQ35-1.PNG'),
+        (176, 'imgs/txtQ36.PNG'),
+        (177, 'imgs/txtQ37.PNG'),
+        (178, 'imgs/txtQ38.PNG'),
+        (179, 'imgs/txtQ39.PNG'),
+        (180, 'imgs/txtQ40-41.jpg'),
+        (182, 'imgs/txtQ42-44.PNG'),
+        (184, 'imgs/txtQ44.PNG'),
+        (185, 'imgs/txtQ45.PNG'),
+        (186, 'imgs/txtQ46.PNG'),
+        (187, 'imgs/txtQ47.PNG'),
+        (188, 'imgs/txtQ48.PNG'),
+        (189, 'imgs/txtQ49-50.PNG');
 
 
 
