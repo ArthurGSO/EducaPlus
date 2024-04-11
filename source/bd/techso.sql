@@ -453,11 +453,11 @@ CREATE TABLE tbImagens (
     VALUES (
         31,
         'Por estarem localizadas próximas à linha do Equador, as regiões de clima equatorial recebem luz solar direta durante todo o ano, o que contribui para elevada umidade do ar e temperaturas altas e relativamente estáveis. Nas florestas ocorre a evapotranspiração, processo que combina a liberação de água na atmosfera, por meio da transpiração das folhas, com a evaporação da água existente no ambiente. A evapotranspiração desempenha um papel fundamental como regulador no clima porque, conforme a água evapora, ela',
-        'contribui na formação de arco-íris por meio da refração dos raios solares, e consequentemente aquece o ambiente.',
-        'produz gás hidrogênio, um gás combustível que pode liberar calor para o ambiente, e consequentemente o aquecer.',
-        'libera átomos de hidrogênio e oxigênio no ambiente, consequentemente o resfriando.',
-        'consome oxigênio do ambiente, consequentemente o resfriando.',
-        'absorve calor do ambiente, e consequentemente o resfria.',
+        'A) contribui na formação de arco-íris por meio da refração dos raios solares, e consequentemente aquece o ambiente.',
+        'B) produz gás hidrogênio, um gás combustível que pode liberar calor para o ambiente, e consequentemente o aquecer.',
+        'C) libera átomos de hidrogênio e oxigênio no ambiente, consequentemente o resfriando.',
+        'D) consome oxigênio do ambiente, consequentemente o resfriando.',
+        'E) absorve calor do ambiente, e consequentemente o resfria.',
         'e',
         2024,
         1
@@ -466,11 +466,11 @@ CREATE TABLE tbImagens (
     VALUES (
         32,
         'Com base no texto, é correto afirmar que os rios voadores',
-        'despejam milhões de metros cúbicos de água por segundo no oceano Índico.',
-        'tornam-se afluentes do rio Amazonas e deságuam nas bacias hidrográficas do sul do Brasil.',
-        'são um dos responsáveis pelas chuvas em alguns estados brasileiros e em alguns países fronteiriços ao Brasil.',
-        'derivam de árvores da Mata Tropical Atlântica, encravadas no alto da Cordilheira dos Andes e no Chaco paraguaio.',
-        'nascem no oceano Atlântico e percorrem todo o litoral ocidental brasileiro até atingir as áreas situadas no centro-sul do Brasil.',
+        'A) despejam milhões de metros cúbicos de água por segundo no oceano Índico.',
+        'B) tornam-se afluentes do rio Amazonas e deságuam nas bacias hidrográficas do sul do Brasil.',
+        'C) são um dos responsáveis pelas chuvas em alguns estados brasileiros e em alguns países fronteiriços ao Brasil.',
+        'D) derivam de árvores da Mata Tropical Atlântica, encravadas no alto da Cordilheira dos Andes e no Chaco paraguaio.',
+        'E) nascem no oceano Atlântico e percorrem todo o litoral ocidental brasileiro até atingir as áreas situadas no centro-sul do Brasil.',
         'c',
         2024,
         1
