@@ -73,7 +73,7 @@
     }
 
     function loginRedirectError() {
-        redirect('SubPags/login.php?erro=true',);
+        redirect('SubPags/login.php?erro=true');
     }
 
     function PrincipalRedirect() {
