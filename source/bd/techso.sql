@@ -52,7 +52,6 @@ CREATE TABLE tbImagens (
 );
 
 -- INSERT TABLE tbQUESTIONS PROVA 2024 1 SEMESTRE
-
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         1,
@@ -273,7 +272,7 @@ CREATE TABLE tbImagens (
         'd',
         2024,
         1
-        );
+    );
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         18,
@@ -286,7 +285,7 @@ CREATE TABLE tbImagens (
         'b',
         2024,
         1
-        );
+    );
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         19,
@@ -299,7 +298,7 @@ CREATE TABLE tbImagens (
         'e',
         2024,
         1
-        );
+    );
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         20,
@@ -312,7 +311,7 @@ CREATE TABLE tbImagens (
         'c',
         2024,
         1
-        );
+    );
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         21,
@@ -709,35 +708,34 @@ CREATE TABLE tbImagens (
     );
 
 -- INSERT TABLE tbIMAGENS PROVA 2024 1 SEMESTRE
-
     INSERT INTO tbImagens (cod_image, cod_question, image_data)
-    VALUES 
-        (1, 1, 'imgs/mapaQ1.PNG'),
-        (2, 1, 'imgs/txtQ1.png'),
-        (3, 5, 'imgs/txtQ5-7.PNG'),
-        (4, 9, 'imgs/txtQ9-11.PNG'),
-        (5, 12, 'imgs/mapaQ12.PNG'),
-        (6, 13, 'imgs/txtQ13-15.PNG'),
-        (7, 16, 'imgs/txtQ16-17.PNG'),
-        (8, 19, 'imgs/txtQ19-21.PNG'),
-        (9, 22, 'imgs/txtQ22.PNG'),
-        (10, 23, 'imgs/txtQ23.PNG'),
-        (11, 24, 'imgs/tabelaQ24.PNG'),
-        (12, 25, 'imgs/txtQ25-27.PNG'),
-        (13, 28, 'imgs/grafQ28-29.PNG'),
-        (14, 30, 'imgs/txtQ30.PNG'),
-        (15, 32, 'imgs/txtQ32.PNG'),
-        (16, 34, 'imgs/txtQ34.PNG'),
-        (17, 35, 'imgs/txtQ35.PNG'),
-        (18, 37, 'imgs/txtQ37.PNG'),
-        (19, 38, 'imgs/txtQ38.PNG'),
-        (20, 39, 'imgs/txtQ39-42.PNG'),
-        (21, 43, 'imgs/txtQ43.PNG'),
-        (22, 45, 'imgs/txtQ45.PNG'),
-        (23, 46, 'imgs/txtQ46.PNG'),
-        (24, 48, 'imgs/txtQ48.PNG'),
-        (25, 49, 'imgs/txtQ49.PNG'),
-        (26, 50, 'imgs/txtQ50.PNG');
+        VALUES 
+            (1, 1, 'imgs/mapaQ1.PNG'),
+            (2, 1, 'imgs/txtQ1.png'),
+            (3, 5, 'imgs/txtQ5-7.PNG'),
+            (4, 9, 'imgs/txtQ9-11.PNG'),
+            (5, 12, 'imgs/mapaQ12.PNG'),
+            (6, 13, 'imgs/txtQ13-15.PNG'),
+            (7, 16, 'imgs/txtQ16-17.PNG'),
+            (8, 19, 'imgs/txtQ19-21.PNG'),
+            (9, 22, 'imgs/txtQ22.PNG'),
+            (10, 23, 'imgs/txtQ23.PNG'),
+            (11, 24, 'imgs/tabelaQ24.PNG'),
+            (12, 25, 'imgs/txtQ25-27.PNG'),
+            (13, 28, 'imgs/grafQ28-29.PNG'),
+            (14, 30, 'imgs/txtQ30.PNG'),
+            (15, 32, 'imgs/txtQ32.PNG'),
+            (16, 34, 'imgs/txtQ34.PNG'),
+            (17, 35, 'imgs/txtQ35.PNG'),
+            (18, 37, 'imgs/txtQ37.PNG'),
+            (19, 38, 'imgs/txtQ38.PNG'),
+            (20, 39, 'imgs/txtQ39-42.PNG'),
+            (21, 43, 'imgs/txtQ43.PNG'),
+            (22, 45, 'imgs/txtQ45.PNG'),
+            (23, 46, 'imgs/txtQ46.PNG'),
+            (24, 48, 'imgs/txtQ48.PNG'),
+            (25, 49, 'imgs/txtQ49.PNG'),
+            (26, 50, 'imgs/txtQ50.PNG');
 
 -- INSERT TABLE tbQUESTIONS PROVA 2023 1 SEMESTRE
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre)
@@ -1263,40 +1261,39 @@ CREATE TABLE tbImagens (
 
 -- INSERT TABLE tbIMAGENS PROVA 2023 1 SEMESTRE
     INSERT INTO tbImagens (cod_question, image_data)
-    VALUES 
-        (51, 'imgs/txtQ1-3.PNG'),
-    	(54, 'imgs/txtQ4.PNG'),
-    	(55, 'imgs/txtQ5-6.PNG'),
-    	(58, 'imgs/txtQ8-9.PNG'),
-    	(60, 'imgs/txtQ10.PNG'),
-    	(61, 'imgs/txtQ11.PNG'),
-    	(62, 'imgs/txtQ12.PNG'),
-    	(63, 'imgs/txtQ13-14.PNG'),
-    	(65, 'imgs/txtQ15.PNG'),
-    	(66, 'imgs/txtQ16.PNG'),
-    	(69, 'imgs/txtQ19.PNG'),
-    	(70, 'imgs/txtQ20.PNG'),
-    	(71, 'imgs/txtQ21-22.PNG'),
-    	(73, 'imgs/txtQ23.PNG'),
-    	(74, 'imgs/txtQ24.PNG'),
-    	(75, 'imgs/txtQ25.PNG'),
-    	(76, 'imgs/txtQ26.PNG'),
-    	(77, 'imgs/txtQ27.PNG'),
-    	(78, 'imgs/txtQ28.PNG'),
-    	(79, 'imgs/txtQ29.PNG'),
-    	(80, 'imgs/txtQ30.PNG'),
-    	(81, 'imgs/txtQ31-32.PNG'),
-    	(82, 'imgs/txtQ32.PNG'),
-    	(83, 'imgs/txtQ33.PNG'),
-    	(84, 'imgs/txtQ34-35.PNG'),
-    	(86, 'imgs/txtQ36-37.PNG'),
-    	(88, 'imgs/txtQ38.PNG'),
-    	(88, 'imgs/txtQ38-2.PNG'),
-    	(89, 'imgs/txtQ39.PNG'),
-        (90, 'imgs/txtQ40.PNG');
+        VALUES 
+            (51, 'imgs/txtQ1-3.PNG'),
+            (54, 'imgs/txtQ4.PNG'),
+            (55, 'imgs/txtQ5-6.PNG'),
+            (58, 'imgs/txtQ8-9.PNG'),
+            (60, 'imgs/txtQ10.PNG'),
+            (61, 'imgs/txtQ11.PNG'),
+            (62, 'imgs/txtQ12.PNG'),
+            (63, 'imgs/txtQ13-14.PNG'),
+            (65, 'imgs/txtQ15.PNG'),
+            (66, 'imgs/txtQ16.PNG'),
+            (69, 'imgs/txtQ19.PNG'),
+            (70, 'imgs/txtQ20.PNG'),
+            (71, 'imgs/txtQ21-22.PNG'),
+            (73, 'imgs/txtQ23.PNG'),
+            (74, 'imgs/txtQ24.PNG'),
+            (75, 'imgs/txtQ25.PNG'),
+            (76, 'imgs/txtQ26.PNG'),
+            (77, 'imgs/txtQ27.PNG'),
+            (78, 'imgs/txtQ28.PNG'),
+            (79, 'imgs/txtQ29.PNG'),
+            (80, 'imgs/txtQ30.PNG'),
+            (81, 'imgs/txtQ31-32.PNG'),
+            (82, 'imgs/txtQ32.PNG'),
+            (83, 'imgs/txtQ33.PNG'),
+            (84, 'imgs/txtQ34-35.PNG'),
+            (86, 'imgs/txtQ36-37.PNG'),
+            (88, 'imgs/txtQ38.PNG'),
+            (88, 'imgs/txtQ38-2.PNG'),
+            (89, 'imgs/txtQ39.PNG'),
+            (90, 'imgs/txtQ40.PNG');
 
 -- INSERT TABLE tbQUESTIONS PROVA 2023 2 SEMESTRE
-
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre)
     VALUES (
         91,
@@ -1950,52 +1947,51 @@ CREATE TABLE tbImagens (
 
 -- INSERT TABLE tbIMAGENS PROVA 2023 2 SEMESTRE
     INSERT INTO tbImagens (cod_question, image_data)
-    VALUES 
-        (91, 'imgs2/txtQ1-3.PNG'),
-        (95, 'imgs2/txtQ5.PNG'),
-        (96, 'imgs2/txtQ6-9.PNG'),
-        (100, 'imgs2/txtQ10.PNG'),
-        (101, 'imgs2/txtQ11.PNG'),
-        (102, 'imgs2/txtQ12.PNG'),
-        (103, 'imgs2/txtQ13.PNG'),
-        (104, 'imgs2/txtQ14-1.PNG'),
-        (104, 'imgs2/txtQ14-2.PNG'),
-        (105, 'imgs2/txtQ15.PNG'),
-        (106, 'imgs2/txtQ16.PNG'),
-        (106, 'imgs2/txtQ16-2.PNG'),
-        (107, 'imgs2/txtQ17.PNG'),
-        (108, 'imgs2/txtQ18.PNG'),
-        (109, 'imgs2/txtQ19-20.PNG'),
-        (110, 'imgs2/txtQ20.PNG'),
-        (110, 'imgs2/txtQ20-1.PNG'),
-        (111, 'imgs2/txtQ21-23.PNG'),
-        (113, 'imgs2/txtQ23.PNG'),
-        (114, 'imgs2/txtQ24.PNG'),
-        (115, 'imgs2/txtQ25.PNG'),
-        (116, 'imgs2/txtQ26.PNG'),
-        (116, 'imgs2/txtQ26-1.PNG'),
-        (117, 'imgs2/txtQ27.PNG'),
-        (118, 'imgs2/txtQ28.PNG'),
-        (119, 'imgs2/txtQ29-30.PNG'),
-        (121, 'imgs2/txtQ31-32.PNG'),
-        (124, 'imgs2/txtQ34.PNG'),
-        (125, 'imgs2/txtQ35.PNG'),
-        (127, 'imgs2/txtQ37-39.PNG'),
-        (128, 'imgs2/txtQ38.PNG'),
-        (130, 'imgs2/txtQ40.PNG'),
-        (131, 'imgs2/txtQ41.PNG'),
-        (132, 'imgs2/txtQ42.PNG'),
-        (133, 'imgs2/txtQ43.PNG'),
-        (134, 'imgs2/txtQ44.PNG'),
-        (135, 'imgs2/txtQ45.PNG'),
-        (136, 'imgs2/txtQ46.PNG'),
-        (137, 'imgs2/txtQ47.PNG'),
-        (138, 'imgs2/txtQ48.PNG'),
-        (139, 'imgs2/txtQ49.PNG'),
-        (140, 'imgs2/txtQ50.PNG');
+        VALUES 
+            (91, 'imgs2/txtQ1-3.PNG'),
+            (95, 'imgs2/txtQ5.PNG'),
+            (96, 'imgs2/txtQ6-9.PNG'),
+            (100, 'imgs2/txtQ10.PNG'),
+            (101, 'imgs2/txtQ11.PNG'),
+            (102, 'imgs2/txtQ12.PNG'),
+            (103, 'imgs2/txtQ13.PNG'),
+            (104, 'imgs2/txtQ14-1.PNG'),
+            (104, 'imgs2/txtQ14-2.PNG'),
+            (105, 'imgs2/txtQ15.PNG'),
+            (106, 'imgs2/txtQ16.PNG'),
+            (106, 'imgs2/txtQ16-2.PNG'),
+            (107, 'imgs2/txtQ17.PNG'),
+            (108, 'imgs2/txtQ18.PNG'),
+            (109, 'imgs2/txtQ19-20.PNG'),
+            (110, 'imgs2/txtQ20.PNG'),
+            (110, 'imgs2/txtQ20-1.PNG'),
+            (111, 'imgs2/txtQ21-23.PNG'),
+            (113, 'imgs2/txtQ23.PNG'),
+            (114, 'imgs2/txtQ24.PNG'),
+            (115, 'imgs2/txtQ25.PNG'),
+            (116, 'imgs2/txtQ26.PNG'),
+            (116, 'imgs2/txtQ26-1.PNG'),
+            (117, 'imgs2/txtQ27.PNG'),
+            (118, 'imgs2/txtQ28.PNG'),
+            (119, 'imgs2/txtQ29-30.PNG'),
+            (121, 'imgs2/txtQ31-32.PNG'),
+            (124, 'imgs2/txtQ34.PNG'),
+            (125, 'imgs2/txtQ35.PNG'),
+            (127, 'imgs2/txtQ37-39.PNG'),
+            (128, 'imgs2/txtQ38.PNG'),
+            (130, 'imgs2/txtQ40.PNG'),
+            (131, 'imgs2/txtQ41.PNG'),
+            (132, 'imgs2/txtQ42.PNG'),
+            (133, 'imgs2/txtQ43.PNG'),
+            (134, 'imgs2/txtQ44.PNG'),
+            (135, 'imgs2/txtQ45.PNG'),
+            (136, 'imgs2/txtQ46.PNG'),
+            (137, 'imgs2/txtQ47.PNG'),
+            (138, 'imgs2/txtQ48.PNG'),
+            (139, 'imgs2/txtQ49.PNG'),
+            (140, 'imgs2/txtQ50.PNG');
 
 -- INSERT TABLE tbQUESTIONS PROVA 2022 1 SEMESTRE
-
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         141,
@@ -2649,59 +2645,59 @@ CREATE TABLE tbImagens (
 
 -- INSERT TABLE tbIMAGENS PROVA 2022 1 SEMESTRE
     INSERT INTO tbImagens (cod_question, image_data)
-    VALUES
-        (141, 'imgs/txtQ1.PNG'),
-        (142, 'imgs/txtQ2.PNG'),
-        (143, 'imgs/txtQ3.PNG'),
-        (144, 'imgs/txtQ4.PNG'),
-        (145, 'imgs/txtQ5.PNG'),
-        (146, 'imgs/txtQ6-9.PNG'),
-        (150, 'imgs/txtQ10-11.PNG'),
-        (151, 'imgs/txtQ11.PNG'),
-        (152, 'imgs/txtQ12.PNG'),
-        (153, 'imgs/txtQ13.PNG'),
-        (154, 'imgs/txtQ14-16.PNG'),
-        (154, 'imgs/txtQ14.PNG'),
-        (156, 'imgs/txtQ16.PNG'),
-        (157, 'imgs/txtQ17-21.PNG'),
-        (158, 'imgs/txtQ18.PNG'),
-        (159, 'imgs/txtQ19.PNG'),
-        (162, 'imgs/txtQ22.PNG'),
-        (163, 'imgs/txtQ23.PNG'),
-        (164, 'imgs/txtQ24.PNG'),
-        (165, 'imgs/txtQ25.PNG'),
-        (166, 'imgs/txtQ26.PNG'),
-        (167, 'imgs/txtQ27.PNG'),
-        (168, 'imgs/txtQ28.PNG'),
-        (169, 'imgs/txtQ29.PNG'),
-        (170, 'imgs/txtQ30-31.PNG'),
-        (172, 'imgs/txtQ32.PNG'),
-        (173, 'imgs/txtQ33.PNG'),
-        (174, 'imgs/txtQ34.PNG'),
-        (174, 'imgs/txtQ34-1.PNG'),
-        (174, 'imgs/txtQ34A.PNG'),
-        (174, 'imgs/txtQ34B.PNG'),
-        (174, 'imgs/txtQ34C.PNG'),
-        (174, 'imgs/txtQ34D.PNG'),
-        (174, 'imgs/txtQ34E.PNG'),
-        (175, 'imgs/txtQ35.PNG'),
-        (175, 'imgs/txtQ35-1.PNG'),
-        (176, 'imgs/txtQ36.PNG'),
-        (177, 'imgs/txtQ37.PNG'),
-        (178, 'imgs/txtQ38.PNG'),
-        (179, 'imgs/txtQ39.PNG'),
-        (180, 'imgs/txtQ40-41.jpg'),
-        (182, 'imgs/txtQ42-44.PNG'),
-        (184, 'imgs/txtQ44.PNG'),
-        (185, 'imgs/txtQ45.PNG'),
-        (186, 'imgs/txtQ46.PNG'),
-        (187, 'imgs/txtQ47.PNG'),
-        (188, 'imgs/txtQ48.PNG'),
-        (189, 'imgs/txtQ49-50.PNG');
+        VALUES
+            (141, 'imgs/txtQ1.PNG'),
+            (142, 'imgs/txtQ2.PNG'),
+            (143, 'imgs/txtQ3.PNG'),
+            (144, 'imgs/txtQ4.PNG'),
+            (145, 'imgs/txtQ5.PNG'),
+            (146, 'imgs/txtQ6-9.PNG'),
+            (150, 'imgs/txtQ10-11.PNG'),
+            (151, 'imgs/txtQ11.PNG'),
+            (152, 'imgs/txtQ12.PNG'),
+            (153, 'imgs/txtQ13.PNG'),
+            (154, 'imgs/txtQ14-16.PNG'),
+            (154, 'imgs/txtQ14.PNG'),
+            (156, 'imgs/txtQ16.PNG'),
+            (157, 'imgs/txtQ17-21.PNG'),
+            (158, 'imgs/txtQ18.PNG'),
+            (159, 'imgs/txtQ19.PNG'),
+            (162, 'imgs/txtQ22.PNG'),
+            (163, 'imgs/txtQ23.PNG'),
+            (164, 'imgs/txtQ24.PNG'),
+            (165, 'imgs/txtQ25.PNG'),
+            (166, 'imgs/txtQ26.PNG'),
+            (167, 'imgs/txtQ27.PNG'),
+            (168, 'imgs/txtQ28.PNG'),
+            (169, 'imgs/txtQ29.PNG'),
+            (170, 'imgs/txtQ30-31.PNG'),
+            (172, 'imgs/txtQ32.PNG'),
+            (173, 'imgs/txtQ33.PNG'),
+            (174, 'imgs/txtQ34.PNG'),
+            (174, 'imgs/txtQ34-1.PNG'),
+            (174, 'imgs/txtQ34A.PNG'),
+            (174, 'imgs/txtQ34B.PNG'),
+            (174, 'imgs/txtQ34C.PNG'),
+            (174, 'imgs/txtQ34D.PNG'),
+            (174, 'imgs/txtQ34E.PNG'),
+            (175, 'imgs/txtQ35.PNG'),
+            (175, 'imgs/txtQ35-1.PNG'),
+            (176, 'imgs/txtQ36.PNG'),
+            (177, 'imgs/txtQ37.PNG'),
+            (178, 'imgs/txtQ38.PNG'),
+            (179, 'imgs/txtQ39.PNG'),
+            (180, 'imgs/txtQ40-41.jpg'),
+            (182, 'imgs/txtQ42-44.PNG'),
+            (184, 'imgs/txtQ44.PNG'),
+            (185, 'imgs/txtQ45.PNG'),
+            (186, 'imgs/txtQ46.PNG'),
+            (187, 'imgs/txtQ47.PNG'),
+            (188, 'imgs/txtQ48.PNG'),
+            (189, 'imgs/txtQ49-50.PNG');
 
 -- INSERT TABLE tbQUESTIONS PROVA 2019 1 SEMESTRE
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (241,
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (241, --quetsão 1--
                 'Considerando os animais citados no texto, podemos afirmar que', 
                 'A) todos possuem asas, corpo mole e segmentado.', 
                 'B) as lacraias apresentam endoesqueleto calcário e patas articuladas.', 
@@ -2711,11 +2707,9 @@ CREATE TABLE tbImagens (
                 'd',
                 2019,
                 1
-                );
-
-        --questão 2--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (242,
+                );     
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (242, --questão 2--
                 'Assinale a alternativa que, corretamente, descreve o contexto em que surgiu a escrita na Mesopotâmia.', 
                 'A) Os mesopotâmicos criaram a escrita como forma de se comunicar com os deuses, entalhando placas de argila que eram cuidadosamente depositadas no interior dos templos religiosos.', 
                 'B) O surgimento da escrita foi vinculado à criação de um sistema de educação segundo o qual todas as crianças deveriam dominar o conhecimento das letras e dos cálculos.', 
@@ -2725,14 +2719,9 @@ CREATE TABLE tbImagens (
                 'e',
                 2019,
                 1
-                );
-
-
-
-
-        --questão 3--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (243,
+                );  
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (243, --questão 3--
                 'Na cena transcrita, a personagem Escrava vê, na linguagem escrita, qual é a alternativa correta sobre o contexto em que surgiu a escrita na Mesopotâmia?', 
                 'A) Os mesopotâmicos criaram a escrita como forma de se comunicar com os deuses, entalhando placas de argila que eram cuidadosamente depositadas no interior dos templos religiosos.', 
                 'B) O surgimento da escrita foi vinculado à criação de um sistema de educação segundo o qual todas as crianças deveriam dominar o conhecimento das letras e dos cálculos.', 
@@ -2742,11 +2731,9 @@ CREATE TABLE tbImagens (
                 'c',
                 2019,
                 1
-                );
-
-        --questão 4--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (244,
+                ); 
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (244, --questão 4--
                 'Sobre o foco narrativo do trecho transcrito, é certo afirmar que se trata de um narrador', 
                 'A) personagem, pois apresenta fatos que ocorreram com ele durante sua jornada pelo deserto.', 
                 'B) personagem observador, pois ele narra eventos dos quais não participa, mas aos quais assiste.', 
@@ -2755,11 +2742,9 @@ CREATE TABLE tbImagens (
                 'E) personagem protagonista, pois relata fatos vivenciados por ele enquanto observava os trabalhos das personagens.', 
                 'd',
                 2019,
-                1);
-
-        --questão 5--
-        INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (245,
+                1);  
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (245, --questão 5--
                 'Em Matemática, no estudo de funções, a parábola é uma curva que representa uma função polinomial',
                 'A) constante e sua expressão geral é dada por f(x) = a, com a ≠ 0.',
                 'B) de 1º grau e sua expressão geral é dada por f(x) = ax + b, com a ≠ 0.',
@@ -2769,11 +2754,9 @@ CREATE TABLE tbImagens (
                 'e',
                 2019,
                 1
-                );
-
-        --questão 6--
-        INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (246,
+                );    
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (246, --questão 6--
                 'De acordo com o texto, assinale a alternativa correta.',
                 'A) Mendeleev construía seus baralhos para jogar paciência.',
                 'B) O baralho de Mendeleev continha os elementos químicos conhecidos na época.',
@@ -2784,10 +2767,8 @@ CREATE TABLE tbImagens (
                 2019,
                 1
                 );
-
-        --questão 7--
-        INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (247,
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (247, --questão 7--
                 'Mendeleev deixou, em sua Tabela, espaços vazios.',
                 'A) pois havia sonhado com novos elementos químicos e passou a pesquisá-los.',
                 'B) porque previa a descoberta de novos elementos químicos, o que realmente ocorreu posteriormente.',
@@ -2797,11 +2778,9 @@ CREATE TABLE tbImagens (
                 'b',
                 2019,
                 1
-                );
-
-        --questão 8--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (248,
+                );       
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (248, --questão 8--
                 'O elemento químico, cujo nome é em homenagem a esse grande cientista, apresenta', 
                 'A) número atômico igual a 258.', 
                 'B) número de massa igual a 101.', 
@@ -2811,11 +2790,9 @@ CREATE TABLE tbImagens (
                 'd',
                 2019,
                 1
-                );
-
-        --questão 9--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (249,
+                );      
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (249, --questão 9--
                 'Assinale a alternativa que apresenta essa característica.', 
                 'A) A grande extensão territorial do Império impediu a construção de qualquer sistema de ligação entre a capital e a periferia, fazendo com que somente a cidade de Roma dispusesse de estradas pavimentadas para a circulação de pessoas e bigas.', 
                 'B) Em seu processo de expansão, o Império Romano fundou colônias nos cinco continentes e estabeleceu órgãos administrativos que, em escala reduzida, reproduziam a administração central e davam aos habitantes de todas as partes a sensação de viver na própria capital, a cidade de Roma.', 
@@ -2826,10 +2803,8 @@ CREATE TABLE tbImagens (
                 2019,
                 1
                 );
-
-        --questão 10--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (250,
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (250, --questão 10--
                 'Um país que se candidate a membro desse bloco econômico deve necessariamente', 
                 'A) ser republicano e possuir economia de mercado, porém submetida a controles constantes por parte do Fundo Monetário Internacional (FMI).', 
                 'B) permanecer fiel à legislação do bloco e delegar suas questões de segurança nacional à Organização do Tratado do Atlântico Norte (OTAN).', 
@@ -2839,12 +2814,9 @@ CREATE TABLE tbImagens (
                 'e',
                 2019,
                 1
-                );
-
-
-        --questão 11--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (251,
+                );      
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (251, --questão 11--
                 'Dentre os fatores que dificultam a aceitação da Turquia como membro do bloco, podemos corretamente destacar o fato de esse país', 
                 'A) dominar militarmente parte do território do Chipre, país membro da União Europeia.', 
                 'B) adotar o Euro, mas não se submeter às ordens do Banco Central Europeu.', 
@@ -2855,10 +2827,8 @@ CREATE TABLE tbImagens (
                 2019,
                 1
                 );
-
-        --questão 12--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (252,
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (252, --questão 12--
                 'Assinale a alternativa que contém o tempo que a Estrela da Morte demorou para se locomover do ponto A para o B.', 
                 'A) 5,0 ×10^4s', 
                 'B) 15,0 ×10^4s', 
@@ -2868,11 +2838,9 @@ CREATE TABLE tbImagens (
                 'a',
                 2019,
                 1
-                );
-
-        --questão 13--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (253,
+                );    
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (253, --questão 13--
                 'Podemos dizer que a parte esquerda e a parte direita da imagem correspondem, nesta ordem, ao momento em que a Lua se encontra em seu', 
                 'A) apogeu e perigeu.', 
                 'B) afélio e periélio.', 
@@ -2882,11 +2850,9 @@ CREATE TABLE tbImagens (
                 'e',
                 2019,
                 1
-                );
-
-        --questão 14--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (254,
+                );   
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (254, --questão 14--
                 'A bactéria chegou à Europa medieval', 
                 'A) alojada no sangue de cachorros de caça importados pela casa real britânica, interessada em fomentar novos hábitos culturais no nascente Estado-nação.', 
                 'B) devido aos fenômenos climáticos que, no século XVI, provocaram o brusco aquecimento do continente e diversas alterações no regime de chuvas.', 
@@ -2897,10 +2863,8 @@ CREATE TABLE tbImagens (
                 2019,
                 1
                 );
-
-        --questão 15--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (255,
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (255, --questão 15--
                 'O título da charge retoma o título da obra de Baudelaire, As Flores do Mal. O autor, para construir o humor em seu texto, utiliza-se de', 
                 'A) metalinguagem, na representação das flores, que recitam versos compostos pelo poeta ao próprio Baudelaire.', 
                 'B) saudosismo, nas falas das flores, pois elas representam costumes morais inerentes à sociedade francesa do século XIX.', 
@@ -2910,11 +2874,9 @@ CREATE TABLE tbImagens (
                 'e',
                 2019,
                 1
-                );
-
-        --questão 16--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (256,
+                );  
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (256, --questão 16--
                 'Sobre os períodos apresentados, é correto afirmar que', 
                 'A) o primeiro apresenta um desvio da norma culta, pois utiliza a terceira pessoa nos verbos “visualize” e “responda”, mas utiliza o pronome da segunda pessoa, “te”, sendo, contudo, adequado ao ambiente informal.', 
                 'B) o segundo seria adequado ao diálogo formal das flores com o poeta se fosse “Que as maratonas sejam assistidas nos dias úteis!”, devido ao teor religioso das falas.', 
@@ -2924,11 +2886,9 @@ CREATE TABLE tbImagens (
                 'a',
                 2019,
                 1
-                );
-
-        --questão 17--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (257,
+                );       
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (257, --questão 17--
                 'Assinale a alternativa que completa corretamente a frase com as falas transpostas.', 
                 'A) caso lhe escreverem uma mensagem, visualizasse, mas não responderia; pois assistiria às maratonas de séries naqueles dias úteis enquanto comia bacon.', 
                 'B) quando lhe escrevessem uma mensagem, visualizasse, mas não respondesse; que assistisse às maratonas de séries nos dias úteis; e que comesse bacon.', 
@@ -2938,11 +2898,9 @@ CREATE TABLE tbImagens (
                 'b',
                 2019,
                 1
-                );
-
-        --questão 18--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (258,
+                );      
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (258, --questão 18--
                 'Assinale a alternativa que associa corretamente a medida mais eficiente para prevenir, respectivamente, ascaridíase e ancilostomíase.', 
                 'A) IV e II.', 
                 'B) II e I.', 
@@ -2952,11 +2910,9 @@ CREATE TABLE tbImagens (
                 'b',
                 2019,
                 1
-                );
-
-        --questão 19--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (259,
+                );    
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (259, --questão 19--
                 'Suponha que a fragmentadora desse escritório só aceite uma folha por vez, sendo capaz de fazer sua função a uma velocidade de 3 metros por minuto. Sendo assim, para que um documento com 25 folhas seja fragmentado, levando em consideração que cada folha desse documento tem comprimento de 30 cm, o tempo mínimo para realizar a completa fragmentação desse documento é de', 
                 'A) 1 min 40 s.', 
                 'B) 2 min 20 s.', 
@@ -2966,11 +2922,9 @@ CREATE TABLE tbImagens (
                 'c',
                 2019,
                 1
-                );
-
-        --questão 20--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (260,
+                );     
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (260, --questão 20--
                 'De acordo com o texto, é correto afirmar sobre a planta citada que', 
                 'A) possui ramos verdes, com folhas grandes e flores vistosas, sendo muito utilizada na alimentação de vários animais herbívoros.', 
                 'B) a simples mastigação ou ingestão de um pedaço de suas flores e raízes é capaz de causar intoxicações graves.', 
@@ -2980,11 +2934,9 @@ CREATE TABLE tbImagens (
                 'c',
                 2019,
                 1
-                );
-
-        --questão 21--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (261,
+                );     
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (261, --questão 21--
                 'Considerando as principais funções desse órgão, é correto afirmar que', 
                 'A) a presença de uma epiderme queratinizada, do ponto de vista adaptativo, está diretamente relacionada à reserva nutritiva.', 
                 'B) as glândulas sudoríparas são responsáveis pela produção do suor, ajudando a elevar a temperatura do corpo, ao ser eliminado.', 
@@ -2994,11 +2946,9 @@ CREATE TABLE tbImagens (
                 'e',
                 2019,
                 1
-                );
-
-        --questão 22--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (262,
+                );  
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (262, --questão 22--
                 'Assinale a alternativa que apresenta as palavras que completam corretamente o texto.', 
                 'A) absorver, condução, superior', 
                 'B) absorver, convecção, inferior', 
@@ -3008,11 +2958,9 @@ CREATE TABLE tbImagens (
                 'a',
                 2019,
                 1
-                );
-
-        --questão 23--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (263,
+                );   
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (263, --questão 23--
                 'Assinale a alternativa que apresenta, corretamente, o nome e as principais características desse processo.',
                 '(A) Fotossíntese: Produção de compostos orgânicos, como, por exemplo, os açúcares, a partir de moléculas de gás carbônico (CO2) e de água (H2O), na presença de energia luminosa.',
                 '(B) Respiração: Transformação de energia luminosa em energia potencial química, armazenada nas moléculas de glicídios (açúcares) produzidas no processo.',
@@ -3022,12 +2970,9 @@ CREATE TABLE tbImagens (
                 'd',
                 2019,
                 1
-                );
-
-
-        --questão 24--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (264,
+                );      
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (264, --questão 24--
                 'Na segunda estrofe, a faísca desencadeia uma transformação',
                 '(A) química e exotérmica, pois há liberação de energia.',
                 '(B) química e endotérmica, pois há absorção de energia.',
@@ -3037,11 +2982,9 @@ CREATE TABLE tbImagens (
                 'a',
                 2019,
                 1
-                );
-
-        --questão 25--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (265,
+                );    
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (265, --questão 25--
                 'O singular da palavra escrita em negrito, na segunda estrofe, significa',
                 '(A) nesga de areia depositada paralelamente ao litoral.',
                 '(B) porção do continente que se projeta para o oceano.',
@@ -3051,12 +2994,9 @@ CREATE TABLE tbImagens (
                 'e',
                 2019,
                 1
-                );
-
-
-        --questão 26--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (266,
+                );  
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (266, --questão 26--
                 'As palavras escritas em negrito, na quarta estrofe, podem ser substituídas correta e respectivamente pelos termos',
                 '(A) leste e sul.',
                 '(B) leste e norte.',
@@ -3066,12 +3006,9 @@ CREATE TABLE tbImagens (
                 'd',
                 2019,
                 1
-                );
-
-
-        --questão 27--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (267,
+                );   
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (267, --questão 27--
                 'Considerando o gráfico dado, o trabalho total realizado no deslocamento de 8 m, em joules, corresponde a',
                 '(A) 160.',
                 '(B) 240.',
@@ -3081,11 +3018,9 @@ CREATE TABLE tbImagens (
                 'd',
                 2019,
                 1
-                );
-
-        --questão 28--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (268,
+                );       
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (268, --questão 28--
                 'O poema faz referência a Palmares e à ideia de liberdade, os quais caracterizam',
                 '(A) a execução de Tiradentes, líder da Inconfidência Mineira, movimento emancipacionista frustrado, ocorrido em Minas Gerais no século XVIII.',
                 '(B) a demarcação de terras indígenas no Pará, garantidas pela Constituição Federal de 1988, promulgada após aproximadamente duas décadas de regime autoritário.',
@@ -3095,11 +3030,9 @@ CREATE TABLE tbImagens (
                 'd',
                 2019,
                 1
-                );
-
-        --questão 29--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (269,
+                );     
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (269, --questão 29--
                 'Quando ele unir as peças que apresentam os íons K+ e NO3-, estará representando um composto',
                 '(A) iônico, denominado nitrato de potássio.',
                 '(B) iônico, denominado potássico de nitrogênio.',
@@ -3109,12 +3042,9 @@ CREATE TABLE tbImagens (
                 'a',
                 2019,
                 1
-                );
-
-
-        --questão 30--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (270,
+                ); 
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (270, --questão 30--
                 'Unindo as peças do quebra-cabeça de cátions e ânions, o aluno pode concluir, corretamente, que o cloreto de bário apresenta a fórmula',
                 '(A) BaCl.',
                 '(B) BaCl₂.',
@@ -3124,11 +3054,9 @@ CREATE TABLE tbImagens (
                 'b',
                 2019, 
                 1
-                );
-
-        --questão 31--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (271,
+                );      
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (271, --questão 31--
                 'Assinale a alternativa que apresenta, corretamente, os números das peças do quebra-cabeça que representam a fórmula do principal componente desse tempero, na seguinte ordem: Cátion e Ânion.',
                 '(A) 4, 3.',
                 '(B) 5, 4.',
@@ -3138,11 +3066,9 @@ CREATE TABLE tbImagens (
                 'e',
                 2019,
                 1
-                );
-
-        --questão 32--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (272,
+                );   
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (272, --questão 32--
                 'Se, em dado momento, somente a lâmpada L4 tiver seu filamento rompido, apagando-se, é correto concluir que',
                 '(A) só L₃ permanecerá acesa.',
                 '(B) só L₁ e L₂ permanecerão acesas.',
@@ -3152,11 +3078,9 @@ CREATE TABLE tbImagens (
                 'b',
                 2019,
                 1
-                );
-
-        --questão 33--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (273,
+                );       
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (273, --questão 33--
                 'Considerando a teia alimentar representada na figura, pode-se afirmar corretamente que os organismos',
                 '(A) II, III e IV são exclusivamente consumidores de primeira ordem.',
                 '(B) V e VII são consumidores de primeira e segunda ordem.',
@@ -3167,11 +3091,8 @@ CREATE TABLE tbImagens (
                 2019,
                 1
                 );
-
-
-        --questão 34--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (274,
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (274, --questão 34--
                 'Sabendo que o chuveiro de sua casa tem potência de 2 800 W, o estudante calculou que, no período avaliado, o consumo de energia em sua casa, devido ao uso do chuveiro, foi, aproximadamente, de',
                 '(A) 90 kWh.',
                 '(B) 105 kWh.',
@@ -3181,11 +3102,9 @@ CREATE TABLE tbImagens (
                 'c',
                 2019,
                 1
-                );
-
-        --questão 35--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (275,
+                );        
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (275, --questão 35--
                 'Ao formular sua teoria, Montesquieu criticou o regime absolutista e defendeu a divisão do governo em três poderes – Executivo, Legislativo e Judiciário – como forma de',
                 '(A) garantir a centralização do poder monárquico e a vontade absoluta dos reis, bem como defender os interesses das classes dominantes.',
                 '(B) desestabilizar o governo e enfraquecer o Judiciário, bem como garantir a impunidade dos crimes cometidos pelos mais pobres.',
@@ -3195,12 +3114,9 @@ CREATE TABLE tbImagens (
                 'c',
                 2019,
                 1
-                );
-
-
-        --questão 36--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (276,
+                );        
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (276, --questão 36--
                 'Nessas condições, pode-se afirmar que, no munícipio de São Paulo, para cada 3 eleitores registrados, existem',
                 '(A) 75 habitantes.',
                 '(B) 40 habitantes.',
@@ -3210,11 +3126,9 @@ CREATE TABLE tbImagens (
                 'd',
                 2019,
                 1
-                );
-
-        --questão 37--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (277,
+                );   
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (277, --questão 37--
                 'Identifique a alternativa em que o modo e o tempo desse verbo estão analisados correta e respectivamente.',
                 '(A) Ajuda, presente do indicativo, ajudo, pretérito perfeito do indicativo.',
                 '(B) Ajuda, presente do subjuntivo, ajudo, presente do subjuntivo.',
@@ -3224,11 +3138,9 @@ CREATE TABLE tbImagens (
                 'd',
                 2019,
                 1
-                );
-
-        --questão 38--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (278,
+                );        
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (278, --questão 38--
                 'O título da charge “democracinhas” é um neologismo composto pelo mesmo processo de formação presente no termo',
                 '(A) desanuviar, derivação sufixal.',
                 '(B) inativo, derivação parassintética.',
@@ -3238,12 +3150,9 @@ CREATE TABLE tbImagens (
                 'd',
                 2019,
                 1
-                );
-
-
-        --questão 39--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (279,
+                );        
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (279, --questão 39--
                 'Assinale a alternativa que apresenta a análise correta da função morfológica dos termos destacados nas passagens.',
                 '(A)',
                 '(B)',
@@ -3254,10 +3163,8 @@ CREATE TABLE tbImagens (
                 2019,
                 1
                 );
-
-        --questão 40--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (280,
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (280, --questão 40--
                 'Assinale a alternativa que apresenta o tempo mínimo e necessário para que todo o processo de votação seja finalizado nessa Zona Eleitoral.',
                 '(A) 3 h 55 min',
                 '(B) 3 h 45 min',
@@ -3267,12 +3174,9 @@ CREATE TABLE tbImagens (
                 'b',
                 2019,
                 1
-                );
-
-
-        --questão 41--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (281,
+                );        
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (281, --questão 41--
                 'O Tratado foi assinado após a derrota alemã na',
                 '(A) Segunda Guerra Mundial e estabeleceu a divisão da Alemanha em dois países distintos; a construção do Muro de Berlim e a formação de uma Força Suprapartidária Permanente para fiscalizar as fronteiras e garantir a paz.',
                 '(B) Guerra Franco-Prussiana e estabeleceu a perda dos territórios da Prússia e da Bavária; a fortificação dos postos da fronteira com a França e a criação de uma comissão para apurar os crimes de guerra.',
@@ -3282,12 +3186,9 @@ CREATE TABLE tbImagens (
                 'e',
                 2019,
                 1
-                );
-
-
-        --questão 42--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (282,
+                );       
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (282, --questão 42--
                 'Dentre essas transformações e suas distribuições no território brasileiro, podemos citar corretamente',
                 '(A) o surgimento do estado de Tocantins, desmembrado do estado de Goiás e incorporado à região Centro-Oeste.',
                 '(B) a transformação dos antigos territórios federais de Rondônia, Roraima e Amapá em estados pertencentes à região Norte.',
@@ -3297,11 +3198,9 @@ CREATE TABLE tbImagens (
                 'b',
                 2019,
                 1
-                );
-
-        --questão 43--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (283,
+                );       
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (283, --questão 43--
                 'Entre as características da presença holandesa em Pernambuco, pode-se citar, corretamente',
                 '(A) a valorização da cultura muçulmana, a implementação da monocultura do café e a abolição da escravidão, considerada pelos holandeses um símbolo do atraso civilizatório brasileiro.',
                 '(B) a intolerância religiosa e a perseguição a cristãos e muçulmanos, o estímulo à mineração de ouro e prata e o descaso pelo patrimônio público, que não resistiu às intempéries e ao vandalismo.',
@@ -3311,12 +3210,9 @@ CREATE TABLE tbImagens (
                 'e',
                 2019,
                 1
-                );
-
-
-        --questão 44--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (284,
+                );     
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (284, --questão 44--
                 'Com suas observações, foi capaz de deduzir corretamente que o desnível do terreno era de',
                 '(A) 6,0 m.',
                 '(B) 8,0 m.',
@@ -3327,10 +3223,8 @@ CREATE TABLE tbImagens (
                 2019,
                 1
                 );
-
-        --questão 45--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (285,
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (285, --questão 45--
                 'Sobre esse país é correto afirmar que',
                 '(A) foi a única colônia europeia na América a não adotar mão de obra escrava.',
                 '(B) era colônia holandesa e tornou-se um país independente em meados da década de 1970.',
@@ -3341,10 +3235,8 @@ CREATE TABLE tbImagens (
                 2019,
                 1
                 );
-
-        --questão 46--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (286,
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (286, --questão 46--
                 'Sobre as várias etapas do processo de imunização descritas no texto é correto afirmar que',
                 '(A) a pessoa picada por cobra venenosa deverá tomar soro, pois este contém os antígenos específicos que irão neutralizar o veneno.',
                 '(B) a aplicação de soro ou vacina em uma vítima de picada de cobra são processos indiferentes porque ambos possuem anticorpos.',
@@ -3354,12 +3246,9 @@ CREATE TABLE tbImagens (
                 'd',
                 2019,
                 1
-                );
-
-
-        --questão 47--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (287,
+                );      
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (287, --questão 47--
                 'Considerando y o valor do prêmio em 2017 e x o valor do prêmio em 2016, assinale a alternativa que apresenta a relação correta entre os dois valores.',
                 '(A) y = x + 0,12',
                 '(B) y = 1,12 x',
@@ -3369,11 +3258,9 @@ CREATE TABLE tbImagens (
                 'b',
                 2019,
                 1
-                );
-
-        --questão 48--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (288,
+                );      
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (288, --questão 48--
                 'Com base nas informações contidas no texto e assumindo que, em 2016, uma coroa sueca era equivalente a R$ 0,42, pode-se afirmar que o valor aproximado do Prêmio Nobel, para cada modalidade de premiação, em 2016 era, em milhões de reais, de cerca de',
                 '(A) 3,33',
                 '(B) 3,66',
@@ -3383,11 +3270,9 @@ CREATE TABLE tbImagens (
                 'a',
                 2019,
                 1
-                );
-
-        --questão 49--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (289,
+                ); 
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (289, --questão 49--
                 'A altura da caixa, em centímetros, será igual a',
                 '(A) 2,0',
                 '(B) 2,3',
@@ -3398,10 +3283,8 @@ CREATE TABLE tbImagens (
                 2019,
                 1
                 );
-
-        --questão 50--
-        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-        VALUES (290,
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (290, --questão 50--
                 'Sobre os tipos de rochas, podemos afirmar corretamente que aquelas formadas pela transformação de outras rochas existentes no interior da Terra, submetidas a enormes pressões e altas temperaturas, são conhecidas como',
                 '(A) ígneas.',
                 '(B) plutônicas.',
@@ -3730,11 +3613,11 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
         VALUES (661, -- questão 21
                 'Assinale a alternativa que apresenta o padrão geométrico cuja repetição compõe a figura 1.', 
-                'A)', 
-                'B)',
-                'C)',
-                'D)',
-                'E)',
+                'A) Opção A', 
+                'B) Opção B',
+                'C) Opção C',
+                'D) Opção D',
+                'E) Opção E',
                 'e',
                 2024,
                 1
@@ -3982,11 +3865,11 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
         VALUES (682, -- questão 42
                 'Assinale a alternativa que associa corretamente o agente modelador do relevo, o nome da erosão e sua ação.',
-                'A)',
-                'B)',
-                'C)',
-                'D)',
-                'E)',
+                'A) Opção A',
+                'B) Opção B',
+                'C) Opção C',
+                'D) Opção D',
+                'E) Opção E',
                 'd',
                 2024,
                 1
@@ -4152,7 +4035,713 @@ CREATE TABLE tbImagens (
             ('', 690, 'imgs/txtQ50.PNG'),
             ('', 690, 'imgs/txtQ50-1.PNG');
 
+-- INSERT TABLE tbQUESTIONS PROVA 2015 2 SEMESTRE
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 1
+        691,
+        'De acordo com as características dessa crônica, é correto afirmar que se trata de um texto',
+        'A) narrativo, pois conta um fato por meio das linguagens verbal e não verbal.',
+        'B) narrativo, pois conta, em primeira pessoa, um fato que pode ser verídico ou fictício.',
+        'C) narrativo, pois conta, em terceira pessoa, um fato que pode ser verídico ou fictício.',
+        'D) descritivo, pois o autor argumenta a favor da eficiência do transporte aéreo.',
+        'E) descritivo, pois o autor explora as características físicas das personagens.',
+        'C',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 2
+        692,
+        'Segundo o texto, é correto afirmar que o narrador descreve “a estranha passageira” como uma mulher',
+        'A) silenciosa, indiscreta e mal-humorada.',
+        'B) discreta, elegante e mal-humorada.',
+        'C) educada, tímida e impaciente.',
+        'D) introvertida, agressiva e distraída.',
+        'E) extrovertida, indelicada e indiscreta.',
+        'B',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 3
+        693,
+        'Considerando o texto, é correto dizer que “a estranha passageira”',
+        'A) exigiu que as aeromoças esclarecessem algumas dúvidas.',
+        'B) omitiu do narrador o fato de nunca ter viajado de avião.',
+        'C) era uma cliente assídua daquela companhia aérea.',
+        'D) impossibilitou que o narrador desfrutasse do prazer da leitura.',
+        'E) notou que alguns passageiros dispunham de assentos privilegiados.',
+        'D',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 4
+        694,
+        'As formas verbais em destaque foram empregadas no modo indicativo e a respeito delas é correto afirmar que',
+        'A) esquentara está no pretérito mais-que-perfeito e expressa incerteza sobre os fatos.',
+        'B) esquentara está no pretérito imperfeito e expressa convicção sobre fatos futuros.',
+        'C) percebi está no pretérito perfeito e expressa ação concluída no passado.',
+        'D) apertava está no pretérito perfeito e expressa ação habitual e repetitiva.',
+        'E) percebi está no pretérito imp',
+        'C',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 5
+        695,
+        'Assinale a alternativa em que o verbo e o pronome, entre parênteses, substituem corretamente as expressões em destaque.',
+        'A) O narrador transmitia calma e segurança à passageira. (transmitia-as)',
+        'B) Ele não pôde ler o romance recém-adquirido. (ler-lhes)',
+        'C) Antes da decolagem, os viajantes abriam jornais e revistas para se distrair. (abriam-os)',
+        'D) Os outros passageiros fingiram ignorar os equívocos daquela senhora. (ignorar-lhes)',
+        'E) A passageira arregalou os olhos ao descobrir a utilidade dos saquinhos. (arregalou-os)',
+        'A',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 6
+        696,
+        'Esses trechos apresentam, respectivamente, os discursos',
+        'A) direto, direto e direto.',
+        'B) direto, direto e indireto.',
+        'C) direto, indireto e direto.',
+        'D) indireto, direto e indireto.',
+        'E) indireto, direto e direto.',
+        'B',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 7
+        697,
+        'Uma doença infecciosa que pode ser prevenida com o extermínio de mosquitos transmissores é',
+        'A) a catapora.',
+        'B) a caxumba.',
+        'C) a malária.',
+        'D) a meningite.',
+        'E) o sarampo.',
+        'C',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 8
+        698,
+        'De acordo com a distribuição da malha rodoviária federal pavimentada, pode-se afirmar corretamente que,',
+        'A) em 2004, a região Sul contava com 22,2% da extensão dessa malha.',
+        'B) em 2014, a extensão dessa malha na região Centro-Oeste era de 8 235 km.',
+        'C) no período de 2004 a 2014, no Brasil, essa malha teve um crescimento de 19,7%.',
+        'D) em 2004 e em 2014, a região Sudeste, apresenta a maior participação na extensão dessa malha.',
+        'E) no período de 2004–2014, a região Norte, apesar da menor extensão, apresentou o maior crescimento dessa malha.',
+        'C',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 9
+        699,
+        'Esse processo causa grandes transtornos à agricultura e à pecuária. A respeito das formigas cortadeiras, é correto afirmar que',
+        'A) comem as plantas que cortam.',
+        'B) possuem quatro pares de patas locomotoras.',
+        'C) produzem seu próprio alimento por serem autótrofas.',
+        'D) apresentam o corpo dividido em cabeça, tórax e abdome.',
+        'E) realizam parasitismo quando interagem com os fungos do formigueiro.',
+        'A',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 10
+        700,
+        'Nessas condições, a componente vertical da tração a que cada ponto de fixação das alças é submetido será, em newtons,',
+        'A) 120.',
+        'B) 150.',
+        'C) 1 200.',
+        'D) 1 500.',
+        'E) 3 000.',
+        'D',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 11
+        701,
+        'Entre os produtos que são transportados por minerodutos estão',
+        'A) gás natural e gás liquefeito de petróleo.',
+        'B) sal-gema e concentrado fosfático.',
+        'C) óleo combustível e álcool.',
+        'D) gasolina e biodiesel.',
+        'E) querosene e nafta.',
+        'B',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 12
+        702,
+        'Sobre o texto é correto afirmar que',
+        'A) a oxiemoglobina se forma quando o sangue passa pelos capilares sanguíneos de todos os tecidos do corpo humano.',
+        'B) a proteína hemoglobina encontra-se no interior dos glóbulos vermelhos e é responsável pela coagulação do sangue.',
+        'C) o gás carbônico reage com substâncias orgânicas que se encontram no interior das células, a fim de liberar energia necessária aos processos vitais.',
+        'D) as hemácias possuem a proteína hemoglobina, a qual se combina com o gás oxigênio do ar que chega aos alvéolos pulmonares.',
+        'E) os glóbulos brancos e as substâncias orgânicas desempenham importante função no transporte dos gases respiratórios.',
+        'D',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 13
+        703,
+        'Sobre o processo de respiração celular mencionado no texto, pode-se afirmar corretamente que as organelas citoplasmáticas, responsáveis pela oxidação das substâncias orgânicas, recebem o nome de',
+        'A) lisossomos.',
+        'B) mitocôndrias.',
+        'C) ribossomos.',
+        'D) centríolos.',
+        'E) vacúolos.',
+        'B',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 14
+        704,
+        'O gás transportado pela hemoglobina dos tecidos para o pulmão é o',
+        'A) CO, denominado óxido de carbono.',
+        'B) CO, denominado monóxido de carbono.',
+        'C) CO₂, denominado dióxido de carbono.',
+        'D) CO₂, denominado monóxido de carbono.',
+        'E) CO₂, denominado trióxido de carbono.',
+        'C',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 15
+        705,
+        'Assim sendo, o volume de areia, em metros cúbicos, é',
+        'A) 9,44.',
+        'B) 9,82.',
+        'C) 10,24.',
+        'D) 10,56.',
+        'E) 10,78.',
+        'D',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 16
+        706,
+        'Considere que uma encomenda de 2 metros cúbicos de areia fina foi orçada em R$ 450,00. Nessas condições, a distância entre o ponto de distribuição de areia e o local da entrega é, em quilômetros,',
+        'A) 15.',
+        'B) 30.',
+        'C) 45.',
+        'D) 60.',
+        'E) 75.',
+        'D',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 17
+        707,
+        'De acordo com o texto, é correto afirmar que',
+        'A) a ocorrência de acidentes no Brasil é muito rara porque foi adotada uma legislação específica e rigorosa.',
+        'B) o Brasil adotou uma legislação moderada em relação ao transporte de produtos químicos por via rodoviária.',
+        'C) os rótulos de risco trazem os números ONU na linha superior, que identificam o produto de acordo com a listagem de produtos perigosos.',
+        'D) a CETESB mantém um serviço de informações via telefone para auxiliar nas ocorrências envolvendo substâncias químicas nas estradas brasileiras.',
+        'E) a ONU legisla sobre o transporte de produtos perigosos por meio de um comitê que relaciona os produtos perigosos à números, denominados número ONU.',
+        'C',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 18
+        708,
+        'Pela análise do texto e dos painéis de segurança representados no caminhão, conclui-se corretamente que os números ONU',
+        'A) 30 e 33 significam que o veículo transporta um único produto químico.',
+        'B) 30 e 33 significam que o veículo transporta produtos químicos diferentes.',
+        'C) 30 e 1993 significam que o veículo transporta produtos químicos diferentes.',
+        'D) 1993 e 1999 significam que o veículo transporta um único produto químico.',
+        'E) 1993 e 1999 significam que o veículo transporta produtos químicos diferentes.',
+        'E',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 19
+        709,
+        'Completado o plano de voo, a aeronave estará sobre o estado',
+        'A) da Bahia.',
+        'B) de São Paulo.',
+        'C) de Tocantins.',
+        'D) de Minas Gerais.',
+        'E) do Rio Grande do Sul.',
+        'B',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 20
+        710,
+        'A água desse rio, na região do acidente, apresentou-se',
+        'A) neutra, pela ionização do ácido na água.',
+        'B) ácida, pela ionização do ácido na água.',
+        'C) ácida, pela neutralização da água.',
+        'D) básica, pela neutralização da água.',
+        'E) básica, pela dissociação da base na água.',
+        'D',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 21
+        711,
+        'Assinale a alternativa correta sobre o processo descrito no texto.',
+        'A) O transporte de pólen entre os vegetais da caatinga depende exclusivamente de morcegos.',
+        'B) Os morcegos da caatinga são aves noturnas que se alimentam do sangue de animais dessa região.',
+        'C) As características das flores da caatinga não possuem relação com a polinização realizada pelos morcegos.',
+        'D) Os grãos de pólen transportados pelos morcegos entre plantas de espécies diferentes caracterizam a autopolinização.',
+        'E) A polinização cruzada ocorre entre uma planta e outra da mesma espécie, aumentando a variabilidade genética nos descendentes.',
+        'D',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 22
+        712,
+        'Nesse processo de eletrização, os grãos e a esteira ficam carregados com cargas elétricas de sinais',
+        'A) iguais, eletrizados por atrito.',
+        'B) iguais, eletrizados por contato.',
+        'C) opostos, eletrizados por atrito.',
+        'D) opostos, eletrizados por contato.',
+        'E) opostos, eletrizados por indução.',
+        'C',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 23
+        713,
+        'Sobre essas plantas é correto afirmar que',
+        'A) possuem raízes desenvolvidas, flores e frutos.',
+        'B) são visíveis apenas com o auxílio de microscópio.',
+        'C) desenvolvem estruturas especiais para a produção das sementes.',
+        'D) têm pequeno porte e se caracterizam pela ausência de vasos condutores de seiva.',
+        'E) parasitam outras plantas das quais retiram os nutrientes necessários para sua sobrevivência.',
+        'A',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 24
+        714,
+        'É correto afirmar que, durante a subida da cápsula da câmara até a superfície, a velocidade média da Fênix 2 foi, aproximadamente,',
+        'A) 0,7 km/h.',
+        'B) 2,6 km/h.',
+        'C) 3,4 km/h.',
+        'D) 3,6 km/h.',
+        'E) 4,4 km/h.',
+        'D',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 25
+        715,
+        'Essa corrente é um dos fatores responsáveis',
+        'A) pelo fenômeno das monções, na Ásia.',
+        'B) pelo aquecimento da costa da Noruega, na Europa.',
+        'C) pela existência do deserto do Atacama, na América do Sul.',
+        'D) pela exuberância da flora na ilha de Madagascar, na África.',
+        'E) pela imensa quantidade de chuvas no arquipélago do Havaí, na Oceania.',
+        'A',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 26
+        716,
+        'Sobre essas embarcações, é correto afirmar que seu uso foi predominante no período',
+        'A) contemporâneo, nas migrações dos chamados povos bárbaros.',
+        'B) medieval, com a expansão do Império de Alexandre, o Grande.',
+        'C) moderno, nas expedições portuguesas e espanholas.',
+        'D) da Segunda Revolução Industrial, no século XX.',
+        'E) da expansão do Império Romano, no século II.',
+        'C',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 27
+        717,
+        'O Canal do Panamá permite a interligação entre os oceanos',
+        'A) Glacial Ártico e Índico.',
+        'B) Atlântico e Pacífico.',
+        'C) Índico e Pacífico.',
+        'D) Índico e Atlântico.',
+        'E) Pacífico e Glacial Ártico.',
+        'B',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 28
+        718,
+        'Considere que entraram 100 kg da água do lago no aqueduto. Após essa massa de água ter percorrido o aqueduto, a energia cinética com que ela chegou ao reservatório foi, em joules, de',
+        'A) 100.',
+        'B) 200.',
+        'C) 1 000.',
+        'D) 2 000.',
+        'E) 20 000.',
+        'D',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 29
+        719,
+        'Esse deslocamento cotidiano é conhecido como migração',
+        'A) sazonal.',
+        'B) pendular.',
+        'C) permanente.',
+        'D) inter-regional.',
+        'E) de transumância.',
+        'B',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 30
+        720,
+        'Na cadeia alimentar descrita no texto, o peixe-leão comporta-se como',
+        'A) produtor.',
+        'B) decompositor.',
+        'C) consumidor primário.',
+        'D) consumidor secundário.',
+        'E) consumidor primário e secundário.',
+        'D',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 31
+        721,
+        'A expressão que completa de modo correto essa afirmação é',
+        'A) maior volume.',
+        'B) maior densidade.',
+        'C) maior temperatura.',
+        'D) menor calor específico.',
+        'E) menor capacidade térmica.',
+        'D',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 32
+        722,
+        'De acordo com os dados da tabela, sobre o transporte de africanos para o Brasil, é correto concluir que',
+        'A) mais de 2 milhões de africanos embarcaram entre 1601 e 1800.',
+        'B) a Amazônia não recebeu africanos escravizados no século XVIII.',
+        'C) Bahia e Pernambuco eram o destino da maior parte dessas pessoas.',
+        'D) o maior número de africanos destinados ao Sudeste embarcou no século XIX.',
+        'E) a região Sudeste sempre foi o destino da maior parte das pessoas que embarcaram.',
+        'C',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 33
+        723,
+        'Assinale a alternativa que corresponde corretamente aos agentes e ao movimento referido.',
+        'A) Cavaleiros transportando mercadorias do Pantanal.',
+        'B) Bandeirantes à procura de índios, ouro e pedras preciosas.',
+        'C) Tropeiros, com mulas, cavalos e bois, transportando mercadorias.',
+        'D) Viajantes em cavalos e mulas, para transportar ouro e pedras preciosas.',
+        'E) Navegantes em pequenas embarcações, para explorar a costa do sul do Brasil.',
+        'B',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 34
+        724,
+        'A análise da figura nos permite concluir corretamente que, nessa sequência,',
+        'A) ocorre a troca de íons positivos por íons negativos na célula.',
+        'B) para cada dois ânions que entram na célula, três cátions saem.',
+        'C) o número de íons positivos que entram e saem da célula é igual.',
+        'D) os íons de sódio entram na célula, enquanto os íons de potássio saem.',
+        'E) a cada três íons de sódio que saem da célula, dois íons de potássio entram.',
+        'D',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 35
+        725,
+        'O texto nos permite concluir corretamente que',
+        'A) o citoplasma controla as concentrações dos íons, capturando íons sódio e bombeando-os para fora da célula.',
+        'B) o transporte ativo permite fluxo de substâncias e íons do meio mais concentrado para o menos concentrado.',
+        'C) a alta concentração de sódio dentro da célula é importante para a síntese proteica e para a respiração.',
+        'D) o equilíbrio osmótico é mantido pelo bombeamento de íons de sódio do meio intracelular.',
+        'E) a concentração de potássio é maior no meio extracelular do que no meio intracelular.',
+        'A',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 36
+        726,
+        'Os íons, presentes no transporte ativo, formam com íons de cloro (cloreto) os compostos iônicos cloreto de sódio e cloreto de potássio, cujas fórmulas são, respectivamente:',
+        'A) NaCl e KCl.',
+        'B) NaCl₂ e KCl₂.',
+        'C) Na₂Cl e K₂Cl.',
+        'D) NaCl e K₂Cl.',
+        'E) Na₂Cl e KCl.',
+        'A',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 37
+        727,
+        'Nas condições apresentadas, cada ônibus equivale',
+        'A) à retirada de 72 carros das ruas, pois transporta 72 passageiros.',
+        'B) à retirada de 90 bicicletas das ruas, pois transporta 72 passageiros.',
+        'C) a 54 carros em termos de área urbana ocupada.',
+        'D) a 24 bicicletas em termos de área urbana ocupada.',
+        'E) a 216 bicicletas em termos de área urbana ocupada.',
+        'A',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 38
+        728,
+        'O acúmulo desses sedimentos nos rios e lagos constitui o processo denominado',
+        'A) assoreamento.',
+        'B) epirogênese.',
+        'C) vulcanismo.',
+        'D) tectonismo.',
+        'E) orogênese.',
+        'A',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 39
+        729,
+        'Assinale a alternativa que corresponde corretamente às informações e ao país citados no texto.',
+        'A) Os Emirados Árabes, grandes exportadores de petróleo, têm o principal aeroporto internacional do mundo.',
+        'B) Dubai é um país da Liga Árabe que está procurando se impor religiosamente aos demais da sua região.',
+        'C) Os Emirados Árabes têm o segundo maior aeroporto internacional do mundo, depois da Inglaterra.',
+        'D) Os Emirados Árabes, aliados de Irã e Iraque, estão sob intervenção militar dos Estados Unidos.',
+        'E) Dubai é uma cidade da Arábia Saudita, foco de graves conflitos religiosos e econômicos.',
+        'A',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 40
+        730,
+        'De acordo com as informações relativas ao esquema, o número máximo de estais que estão fixados do ponto A ao ponto B e que têm a outra extremidade na semirreta BC é',
+        'A) 7.',
+        'B) 9.',
+        'C) 11.',
+        'D) 13.',
+        'E) 15.',
+        'D',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 41
+        731,
+        'A distância entre os pontos E e C é, em metros,',
+        'A) 6.',
+        'B) 8.',
+        'C) 10.',
+        'D) 12.',
+        'E) 14.',
+        'C',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 42
+        732,
+        'Sabendo que Guarulhos segue o horário de Brasília (GMT –3, ou seja, menos três horas em relação ao meridiano central Greenwich), quando Carlos Frederico desembarcou em Londres, os relógios dessa cidade marcavam',
+        'A) 6 horas.',
+        'B) 9 horas.',
+        'C) 11 horas.',
+        'D) 17 horas.',
+        'E) 20 horas.',
+        'B',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 43
+        733,
+        'A figura de linguagem predominante nesse trecho da letra da música é',
+        'A) eufemismo, pois o eu lírico se revolta contra a tristeza e a dor da separação.',
+        'B) catacrese, pois a palavra trem foi empregada em sentido próprio para designar meio de transporte.',
+        'C) hipérbole, pois faz referência aos inúmeros trens que chegam e que partem da estação.',
+        'D) antítese, pois há referência aos encontros e às despedidas, situações opostas que fazem parte da vida.',
+        'E) anáfora, pois o compositor evita repetir vocábulos a fim de dar mais fluidez e lirismo aos versos.',
+        'D',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 44
+        734,
+        'A prosperidade e desenvolvimento da Europa nesse período podem ser atribuídos, principalmente,',
+        'A) às guerras e conflitos com países americanos.',
+        'B) à disputa por hegemonia com os Estados Unidos.',
+        'C) às excelentes condições de trabalho nas fábricas.',
+        'D) aos empréstimos obtidos de países como o Japão.',
+        'E) à corrida imperialista, explorando recursos de colônias.',
+        'E',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 45
+        735,
+        'Admitindo-se que não haja atrito entre as laterais da caixa de creme dental, em que se desenhou o vagão, e a caixa de papelão, para se obter o efeito de levitação e ainda um pequeno movimento horizontal do vagão sempre para a esquerda, em relação à figura desenhada, a disposição dos ímãs permanentes, no interior da caixa de papelão, deve ser a que se encontra representada em:',
+        'A) Opção A',
+        'B) Opção B',
+        'C) Opção C',
+        'D) Opção D',
+        'E) Opção E',
+        'A',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 46
+        736,
+        'Nessas condições, o ângulo de inclinação desse trecho da rua Baldwin é mais próximo de',
+        'A) 12°',
+        'B) 15°',
+        'C) 19°',
+        'D) 21°',
+        'E) 24°',
+        'B',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 47
+        737,
+        'De acordo com o texto, o serviço de transporte de passageiros nos trens de longo percurso modificou-se, entre as décadas de 1970 e 1990, em consequência da',
+        'A) ausência de iniciativas que beneficiassem o setor ferroviário.',
+        'B) concorrência com o setor aeroviário iniciada em 1945.',
+        'C) expansão dos serviços de transporte hidroviários.',
+        'D) criação de novas linhas e serviços ferroviários.',
+        'E) falta de incentivos à indústria automobilística.',
+        'D',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 48
+        738,
+        'A função de linguagem predominante nesse texto é',
+        'A) fática, pois a mensagem está centrada no canal, objetivando prolongar o contato.',
+        'B) metalinguística, pois influencia o interlocutor, de forma apelativa, indutiva.',
+        'C) referencial, pois transmite uma informação objetiva, expõe dados da realidade.',
+        'D) conativa, pois a mensagem busca influenciar o receptor, de forma apelativa.',
+        'E) poética, pois a mensagem está centrada na elaboração da linguagem.',
+        'C',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 49
+        739,
+        'Considerando a letra da música, conclui-se corretamente que o jongo',
+        'A) não é acompanhado por instrumentos musicais.',
+        'B) não se difundiu para além da região de Angola.',
+        'C) era um castigo imposto a africanos rebeldes.',
+        'D) é de origem angolana e era cantado à noite.',
+        'E) é uma forma de luta semelhante à capoeira.',
+        'D',
+        2015,
+        2
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- questão 50
+        740,
+        'Considerando a charge e as consequências e transtornos que os grandes congestionamentos causam, é correto concluir que',
+        'A) a irritação pela qual passam os motoristas nos congestionamentos nas grandes cidades pode ser resolvida pelo uso do telefone celular durante o ato de dirigir, pois isso diminui o risco de acidentes.',
+        'B) o problema dos congestionamentos das grandes cidades se resolve com a desapropriação de áreas públicas para a expansão da malha viária e o estreitamento das ruas e avenidas.',
+        'C) o uso do automóvel permitiu a contração do perímetro urbano das grandes cidades, em função da construção de grandes avenidas, viadutos e anéis viários em seu entorno.',
+        'D) os círculos publicitários abrem nas grandes cidades empresas especializadas na fabricação de veículos, explorando o status que o automóvel naturalmente oferece.',
+        'E) o aumento da frota de automóveis em circulação nas grandes cidades gera acréscimo nas despesas governamentais com a saúde pública.',
+        'E',
+        2015,
+        2
+    );
 
+-- INSERT TABLE tbIMAGENS PROVA 2015 2 SEMESTRE
+    INSERT INTO tbImagens (cod_image, cod_question, image_data)
+        VALUES
+            ('', 691, 'imgs2/apresentacao.PNG'),
+            ('', 691, 'imgs2/txtQ1-6.PNG'),
+            ('', 696, 'imgs2/txtQ6.PNG'),
+            ('', 697, 'imgs2/txtQ7.PNG'),
+            ('', 698, 'imgs2/txtQ8.PNG'),
+            ('', 699, 'imgs2/txtQ9.PNG'),
+            ('', 699, 'imgs2/txtQ9-1.PNG'),
+            ('', 700, 'imgs2/txtQ10.PNG'),
+            ('', 700, 'imgs2/txtQ10-1.PNG'),
+            ('', 701, 'imgs2/txtQ11.PNG'),
+            ('', 701, 'imgs2/txtQ11-1.PNG'),
+            ('', 702, 'imgs2/txtQ12-14.PNG'),
+            ('', 705, 'imgs2/txtQ15.PNG'),
+            ('', 706, 'imgs2/txtQ16.PNG'),
+            ('', 707, 'imgs2/txtQ17-18.PNG'),
+            ('', 709, 'imgs2/txtQ19.PNG'),
+            ('', 710, 'imgs2/txtQ20.PNG'),
+            ('', 711, 'imgs2/txtQ21.PNG'),
+            ('', 712, 'imgs2/txtQ22.PNG'),
+            ('', 712, 'imgs2/txtQ22-1.PNG'),
+            ('', 713, 'imgs2/txtQ23.PNG'),
+            ('', 714, 'imgs2/txtQ24.PNG'),
+            ('', 715, 'imgs2/txtQ25.PNG'),
+            ('', 716, 'imgs2/txtQ26.PNG'),
+            ('', 716, 'imgs2/txtQ26-1.PNG'),
+            ('', 717, 'imgs2/txtQ27.PNG'),
+            ('', 718, 'imgs2/txtQ28.PNG'),
+            ('', 718, 'imgs2/txtQ28-1.PNG'),
+            ('', 719, 'imgs2/txtQ29.PNG'),
+            ('', 720, 'imgs2/txtQ30.PNG'),
+            ('', 721, 'imgs2/txtQ31.PNG'),
+            ('', 722, 'imgs2/txtQ32.PNG'),
+            ('', 723, 'imgs2/txtQ33.PNG'),
+            ('', 724, 'imgs2/txtQ34-36.PNG'),
+            ('', 724, 'imgs2/txtQ34-36-1.PNG'),
+            ('', 724, 'imgs2/txtQ34-36-2.PNG'),
+            ('', 727, 'imgs2/txtQ37.PNG'),
+            ('', 728, 'imgs2/txtQ38.PNG'),
+            ('', 729, 'imgs2/txtQ39.PNG'),
+            ('', 730, 'imgs2/txtQ40-41.PNG'),
+            ('', 732, 'imgs2/txtQ42.PNG'),
+            ('', 732, 'imgs2/txtQ42-1.PNG'),
+            ('', 733, 'imgs2/txtQ43.PNG'),
+            ('', 733, 'imgs2/txtQ43-1.PNG'),
+            ('', 734, 'imgs2/txtQ44.PNG'),
+            ('', 735, 'imgs2/txtQ45.PNG'),
+            ('', 735, 'imgs2/txtQ45-1.PNG'),
+            ('', 736, 'imgs2/txtQ46.PNG'),
+            ('', 737, 'imgs2/txtQ47.PNG'),
+            ('', 738, 'imgs2/txtQ48.PNG'),
+            ('', 739, 'imgs2/txtQ49.PNG'),
+            ('', 740, 'imgs2/txtQ50.PNG');
 
 
 
