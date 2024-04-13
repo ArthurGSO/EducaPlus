@@ -733,11 +733,11 @@ CREATE TABLE tbImagens (
         (19, 38, 'imgs/txtQ38.PNG'),
         (20, 39, 'imgs/txtQ39-42.PNG'),
         (21, 43, 'imgs/txtQ43.PNG'),
-        (22, 45, 'imgs/imgQ45.PNG'),
+        (22, 45, 'imgs/txtQ45.PNG'),
         (23, 46, 'imgs/txtQ46.PNG'),
         (24, 48, 'imgs/txtQ48.PNG'),
         (25, 49, 'imgs/txtQ49.PNG'),
-        (26, 50, 'imgs/imgQ50.PNG');
+        (26, 50, 'imgs/txtQ50.PNG');
 
 -- INSERT TABLE tbQUESTIONS PROVA 2023 1 SEMESTRE
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre)
@@ -3414,77 +3414,750 @@ CREATE TABLE tbImagens (
                 );
 
 -- INSERT TABLE tbIMAGENS PROVA 2019 1 SEMESTRE
-        INSERT INTO tbImagens (cod_image, cod_question, image_data)
+    INSERT INTO tbImagens (cod_image, cod_question, image_data)
         VALUES 
-                ('', 241, 'imgs/txtQ1.PNG'),
-                ('', 242, 'imgs/txtQ2_1.PNG'),
-                ('', 242, 'imgs/txtQ2_2.PNG'),
-                ('', 243, 'imgs/txtQ3-4.PNG'),
-                ('', 245, 'imgs/imgQ5.PNG'),
-                ('', 245, 'imgs/txtQ5.PNG'),
-                ('', 246, 'imgs/txtQ6-8.PNG'),
-                ('', 249, 'imgs/txtQ9_1.PNG'),
-                ('', 249, 'imgs/imgQ9.PNG'),
-                ('', 249, 'imgs/txtQ9_2.PNG'),
-                ('', 250, 'imgs/txtQ10.PNG'),
-                ('', 251, 'imgs/txtQ11.PNG'),
-                ('', 252, 'imgs/imgQ12.PNG'),
-                ('', 252, 'imgs/txtQ12.PNG'),
-                ('', 253, 'imgs/txtQ13_1.PNG'),
-                ('', 253, 'imgs/imgQ13.PNG'),
-                ('', 253, 'imgs/txtQ13_2.PNG'),
-                ('', 254, 'imgs/txtQ14.PNG'),
-                ('', 255, 'imgs/txtQ15-17.PNG'),
-                ('', 255, 'imgs/imgQ15-17.PNG'),
-                ('', 256, 'imgs/imgQ16.PNG'),
-                ('', 257, 'imgs/txtQ17.PNG'),
-                ('', 258, 'imgs/txtQ18.PNG'),
-                ('', 258, 'imgs/imgQ18.PNG'),
-                ('', 259, 'imgs/txtQ19.PNG'),
-                ('', 260, 'imgs/imgQ20.PNG'),
-                ('', 261, 'imgs/txtQ21.PNG'),
-                ('', 262, 'imgs/txtQ22_1.PNG'),
-                ('', 262, 'imgs/txtQ22_2.PNG'),
-                ('', 263, 'imgs/txtQ23_1.PNG'),
-                ('', 263, 'imgs/txtQ23_2.PNG'),
-                ('', 263, 'imgs/txtQ23_3.PNG'),
-                ('', 264, 'imgs/txtQ24_1.PNG'),
-                ('', 264, 'imgs/txtQ24_2.PNG'),
-                ('', 265, 'imgs/txtQ25-26.PNG'),
-                ('', 267, 'imgs/txtQ27.PNG'),
-                ('', 267, 'imgs/imgQ27.PNG'),
-                ('', 268, 'imgs/txtQ28.PNG'),
-                ('', 269, 'imgs/imgQ29-31.PNG'),
-                ('', 269, 'imgs/txtQ29.PNG'),
-                ('', 271, 'imgs/txtQ31_1.PNG'),
-                ('', 271, 'imgs/txtQ31_2.PNG'),
-                ('', 272, 'imgs/txtQ32_1.PNG'),
-                ('', 272, 'imgs/imgQ32.PNG'),
-                ('', 272, 'imgs/txtQ32_2.PNG'),
-                ('', 273, 'imgs/txtQ33.PNG'),
-                ('', 273, 'imgs/imgQ33.PNG'),
-                ('', 274, 'imgs/imgQ34.PNG'),
-                ('', 274, 'imgs/txtQ34.PNG'),
-                ('', 275, 'imgs/txtQ35_1.PNG'),
-                ('', 275, 'imgs/txtQ35_2.PNG'),
-                ('', 276, 'imgs/txtQ36.PNG'),
-                ('', 277, 'imgs/imgQ37-39.PNG'),
-                ('', 277, 'imgs/txtQ37.PNG'),
-                ('', 279, 'imgs/imgQ39.PNG'),
-                ('', 279, 'imgs/imgQ39_2.PNG'),
-                ('', 280, 'imgs/txtQ40.PNG'),
-                ('', 281, 'imgs/txtQ41.PNG'),
-                ('', 282, 'imgs/txtQ42.PNG'),
-                ('', 283, 'imgs/txtQ43.PNG'),
-                ('', 283, 'imgs/imgQ43.PNG'),
-                ('', 284, 'imgs/txtQ44.PNG'),
-                ('', 284, 'imgs/imgQ44.PNG'),
-                ('', 285, 'imgs/txtQ45.PNG'),
-                ('', 286, 'imgs/txtQ46.PNG'),
-                ('', 287, 'imgs/imgQ47-49.PNG'),
-                ('', 289, 'imgs/txtQ49.PNG'),
-                ('', 289, 'imgs/imgQ49.PNG'),
-                ('', 290, 'imgs/txtQ50.PNG');
+            ('', 241, 'imgs/txtQ1.PNG'),
+            ('', 242, 'imgs/txtQ2_1.PNG'),
+            ('', 242, 'imgs/txtQ2_2.PNG'),
+            ('', 243, 'imgs/txtQ3-4.PNG'),
+            ('', 245, 'imgs/txtQ5.PNG'),
+            ('', 245, 'imgs/txtQ5.PNG'),
+            ('', 246, 'imgs/txtQ6-8.PNG'),
+            ('', 249, 'imgs/txtQ9_1.PNG'),
+            ('', 249, 'imgs/txtQ9.PNG'),
+            ('', 249, 'imgs/txtQ9_2.PNG'),
+            ('', 250, 'imgs/txtQ10.PNG'),
+            ('', 251, 'imgs/txtQ11.PNG'),
+            ('', 252, 'imgs/txtQ12.PNG'),
+            ('', 252, 'imgs/txtQ12.PNG'),
+            ('', 253, 'imgs/txtQ13_1.PNG'),
+            ('', 253, 'imgs/txtQ13.PNG'),
+            ('', 253, 'imgs/txtQ13_2.PNG'),
+            ('', 254, 'imgs/txtQ14.PNG'),
+            ('', 255, 'imgs/txtQ15-17.PNG'),
+            ('', 255, 'imgs/txtQ15-17.PNG'),
+            ('', 256, 'imgs/txtQ16.PNG'),
+            ('', 257, 'imgs/txtQ17.PNG'),
+            ('', 258, 'imgs/txtQ18.PNG'),
+            ('', 258, 'imgs/txtQ18.PNG'),
+            ('', 259, 'imgs/txtQ19.PNG'),
+            ('', 260, 'imgs/txtQ20.PNG'),
+            ('', 261, 'imgs/txtQ21.PNG'),
+            ('', 262, 'imgs/txtQ22_1.PNG'),
+            ('', 262, 'imgs/txtQ22_2.PNG'),
+            ('', 263, 'imgs/txtQ23_1.PNG'),
+            ('', 263, 'imgs/txtQ23_2.PNG'),
+            ('', 263, 'imgs/txtQ23_3.PNG'),
+            ('', 264, 'imgs/txtQ24_1.PNG'),
+            ('', 264, 'imgs/txtQ24_2.PNG'),
+            ('', 265, 'imgs/txtQ25-26.PNG'),
+            ('', 267, 'imgs/txtQ27.PNG'),
+            ('', 267, 'imgs/txtQ27.PNG'),
+            ('', 268, 'imgs/txtQ28.PNG'),
+            ('', 269, 'imgs/txtQ29-31.PNG'),
+            ('', 269, 'imgs/txtQ29.PNG'),
+            ('', 271, 'imgs/txtQ31_1.PNG'),
+            ('', 271, 'imgs/txtQ31_2.PNG'),
+            ('', 272, 'imgs/txtQ32_1.PNG'),
+            ('', 272, 'imgs/txtQ32.PNG'),
+            ('', 272, 'imgs/txtQ32_2.PNG'),
+            ('', 273, 'imgs/txtQ33.PNG'),
+            ('', 273, 'imgs/txtQ33.PNG'),
+            ('', 274, 'imgs/txtQ34.PNG'),
+            ('', 274, 'imgs/txtQ34.PNG'),
+            ('', 275, 'imgs/txtQ35_1.PNG'),
+            ('', 275, 'imgs/txtQ35_2.PNG'),
+            ('', 276, 'imgs/txtQ36.PNG'),
+            ('', 277, 'imgs/txtQ37-39.PNG'),
+            ('', 277, 'imgs/txtQ37.PNG'),
+            ('', 279, 'imgs/txtQ39.PNG'),
+            ('', 279, 'imgs/txtQ39_2.PNG'),
+            ('', 280, 'imgs/txtQ40.PNG'),
+            ('', 281, 'imgs/txtQ41.PNG'),
+            ('', 282, 'imgs/txtQ42.PNG'),
+            ('', 283, 'imgs/txtQ43.PNG'),
+            ('', 283, 'imgs/txtQ43.PNG'),
+            ('', 284, 'imgs/txtQ44.PNG'),
+            ('', 284, 'imgs/txtQ44.PNG'),
+            ('', 285, 'imgs/txtQ45.PNG'),
+            ('', 286, 'imgs/txtQ46.PNG'),
+            ('', 287, 'imgs/txtQ47-49.PNG'),
+            ('', 289, 'imgs/txtQ49.PNG'),
+            ('', 289, 'imgs/txtQ49.PNG'),
+            ('', 290, 'imgs/txtQ50.PNG');
+
+-- INSERT TABLE tbQUESTIONS PROVA 2015 1 SEMESTRE
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (641, -- questão 1
+                'Nessa micrografia, as estruturas celulares numeradas por 1 e 2 são denominadas, respectivamente,', 
+                'A) núcleo e mitocôndrias.', 
+                'B) parede celular e cloroplastos.', 
+                'C) retículo endoplasmático e plastos.', 
+                'D) complexo golgiense e ribossomos.', 
+                'E) membrana plasmática e centríolos.', 
+                'b',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (642, -- questão 2
+                'Analisando as características da pintura apresentada, é correto concluir que se trata de uma obra', 
+                'A) medieval e cavalheiresca.', 
+                'B) medieval e teocêntrica.', 
+                'C) classicista e modernista.', 
+                'D) renascentista e antropocêntrica.', 
+                'E) renascentista e ateísta.', 
+                'd',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (643, -- questão 3
+                'Assim sendo, se a medida do maior lado da tela for de 40 cm, então, a medida do menor lado será, em centímetros, aproximadamente,', 
+                'A) 22,94.', 
+                'B) 24,72.', 
+                'C) 28,54.', 
+                'D) 36,26.', 
+                'E) 64,72.', 
+                'b',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (644, -- questão 4
+                'Sobre o texto e a imagem, é correto afirmar que', 
+                'A) a artista escolheu um objeto que pouco se relaciona com o elemento escolhido.', 
+                'B) a bauxita é matéria-prima para obtenção desse elemento.', 
+                'C) a finalidade era promover o refrigerante.', 
+                'D) o elemento representado pela artista possui número atômico 355.', 
+                'E) o elemento escolhido é mau condutor de corrente elétrica e térmica.', 
+                'b',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (645, -- questão 5
+                'A imagem produzida pela artista Ellen Brooks representa o elemento químico', 
+                'A) antimônio.', 
+                'B) arsênio.', 
+                'C) astato.', 
+                'D) argônio.', 
+                'E) alumínio.', 
+                'e',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (646, -- questão 6
+                'Além dos aspectos descritos, pode-se afirmar que essa planta se caracteriza pela', 
+                'A) ausência de raízes.', 
+                'B) ausência de vasos condutores de seiva.', 
+                'C) presença de flores, frutos e sementes.', 
+                'D) presença de sementes comestíveis.', 
+                'E) presença de frutos comestíveis.',
+                'd',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (647, -- questão 7
+                'Assinale a alternativa que apresenta corretamente a área mais utilizada no período colonial para o plantio de cana-de-açúcar e o seu tipo de solo predominante.', 
+                'A) A zona da mata, com solo massapé, de cor escura.', 
+                'B) O triângulo mineiro, com solo aluvial vermelho-amarelado.', 
+                'C) O vale do Paraíba, com solo tchernozion bastante claro.', 
+                'D) O vale do Ribeira, com solo terra roxa, muito avermelhado.', 
+                'E) A campanha gaúcha, com predomínio do solo salmorão alaranjado.', 
+                'a',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (648, -- questão 8
+                'Sobre esse tema, podemos afirmar corretamente que', 
+                'A) a rapidez da inovação tecnológica não induz ao aumento de consumo, pois as mercadorias produzidas há mais tempo não conseguiriam ser vendidas, levando a um colapso do mercado varejista.', 
+                'B) a ampliação do consumo não leva a uma crise ambiental, pois a quantidade de matérias primas disponíveis no planeta aumenta na mesma proporção que a fabricação de produtos industriais.', 
+                'C) o desenvolvimento tecnológico não gera o aumento da vida útil dos produtos, levando a um aumento considerável da produção e a consequente diminuição da retirada de matérias-primas da natureza.', 
+                'D) o aumento do consumismo não impacta o meio ambiente, uma vez que, ao realizarmos o descarte de um determinado objeto, o meio ambiente cuida para que este retorne à natureza, reiniciando o ciclo.', 
+                'E) ao praticar o consumismo, as pessoas não estão agindo coletivamente, pois não levam em conta o impacto que o consumo exagerado provoca sobre o meio ambiente, bem como suas consequências para o futuro da humanidade.', 
+                'e',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (649, -- questão 9
+                'Se todas essas lâmpadas fossem mantidas acesas durante meia hora, ao longo da apresentação, a energia utilizada por elas seria, em watt-hora,', 
+                'A) 600.', 
+                'B) 800.', 
+                'C) 900.', 
+                'D) 1 200.', 
+                'E) 1 500.', 
+                'a',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (650, -- questão 10
+                'De acordo com as informações apresentadas, é correto concluir que o teatro grego da Antiguidade', 
+                '(A) legitimava o exercício do poder centralizado dos reis absolutistas.', 
+                '(B) contribuía para o exercício da cidadania no regime democrático.', 
+                '(C) priorizava a abordagem de temas que favoreciam a aristocracia.', 
+                '(D) excluía as discussões de temas reais, enfatizando temas mitológicos.', 
+                '(E) evitava se utilizar de elementos cômicos para tratar de assuntos sérios.', 
+                'b',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (651, -- questão 11
+                'Pode-se concluir que a doença retratada, no poema Pneumotórax, é conhecida como', 
+                '(A) esquistossomose.', 
+                '(B) toxoplasmose.', 
+                '(C) leishmaniose.', 
+                '(D) tuberculose.', 
+                '(E) leptospirose.', 
+                'd',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (652, -- questão 12
+                'As expressões que completam corretamente a frase anterior, na ordem em que aparecem, são', 
+                'A) repouso ... movimento com velocidade variável.', 
+                'B) repouso ... movimento com velocidade constante.', 
+                'C) movimento com velocidade variável ... repouso.', 
+                'D) movimento com velocidade constante ... repouso.', 
+                'E) movimento com velocidade variável ... movimento com velocidade variável.', 
+                'a',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (653, -- questão 13
+                'A sub-região nordestina que é a mais castigada pela seca retratada nesses romances é', 
+                'A) o agreste.', 
+                'B) o litoral.', 
+                'C) o sertão.', 
+                'D) o meio norte.', 
+                'E) a zona da mata.', 
+                'c',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (654, -- questão 14
+                'A figura de linguagem predominante nesse poema é', 
+                'A) hipérbole, pois a palavra estrela foi empregada para suavizar um termo.', 
+                'B) pleonasmo, pois a palavra história apresenta o mesmo sentido de incidente.', 
+                'C) sinestesia, pois a felicidade da estrela é tratada com indiferença pelo poeta.', 
+                'D) catacrese, pois a palavra pena foi empregada inadequadamente, num sentido impróprio.', 
+                'E) personificação, pois a lua vivencia uma situação que é própria dos seres humanos.', 
+                'e',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (655, -- questão 15
+                'Comparando as esponjas verdadeiras com o personagem Bob Esponja, é correto afirmar que', 
+                'A) ambos possuem corpo quadrado, maciço e resistente.', 
+                'B) ambos possuem sistema sensorial desenvolvido, a fim de reagir aos estímulos do meio ambiente.', 
+                'C) ambos possuem estruturas locomotoras, que permitem a movimentação para a obtenção de alimento.', 
+                'D) as esponjas verdadeiras, ao contrário do Bob Esponja, não possuem boca, pois são animais filtradores.', 
+                'E) as esponjas verdadeiras, ao contrário do Bob Esponja, podem viver fora da água.', 
+                'd',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (656, -- questão 16
+                'Se a cada 30 mm da fita de um filme existe um único fotograma, em uma animação de 3 minutos de duração, a fita terá um comprimento aproximado, em metros, de', 
+                'A) 70.', 
+                'B) 90.', 
+                'C) 130.', 
+                'D) 150.', 
+                'E) 220.', 
+                'c',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (657, -- questão 17
+                'É correto concluir que o discurso do personagem de Chaplin', 
+                'A) incentiva jovens soldados para que se alistem nas fileiras do Exército alemão.', 
+                'B) evidencia que os Estados Unidos estavam prestes a apoiar os países do Eixo.', 
+                'C) critica o modelo político totalitário que vigorava durante a Segunda Guerra.', 
+                'D) apoia o imperialismo defendido pela Tríplice Aliança na Primeira Guerra.', 
+                'E) defende a democracia, apresentando argumentos do antissemitismo.', 
+                'c',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (658, -- questão 18
+                'Sobre esse rio, é correto afirmar que ele', 
+                'A) corta o continente africano de leste a oeste e tem sua nascente no monte Kilimanjaro.', 
+                'B) nasce no coração da África Tropical e corre na direção leste, desaguando no oceano Índico.', 
+                'C) corta o deserto do Saara no norte africano e corre na direção sul, desaguando no oceano Pacífico.', 
+                'D) nasce no centro da África Equatorial e corre na direção oeste, desaguando no oceano Atlântico.', 
+                'E) nasce no interior do continente africano e corre na direção norte, desaguando no mar Mediterrâneo.', 
+                'e',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (659, -- questão 19
+                'Pode-se afirmar que esse submarino, ao seguir o fluxo sanguíneo normal da veia citada no texto, será levado diretamente para', 
+                'A) o fígado.', 
+                'B) o coração.', 
+                'C) os pulmões.', 
+                'D) a artéria aorta.', 
+                'E) o globo ocular.', 
+                'b',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (660, -- questão 20
+                'Nesse momento, considerando as quantidades de filme que os carretéis contêm e o tempo necessário para que o carretel R dê uma volta completa, é correto concluir que o carretel F gira em sentido', 
+                'A) anti-horário e dá mais voltas que o carretel R.', 
+                'B) anti-horário e dá menos voltas que o carretel R.', 
+                'C) horário e dá mais voltas que o carretel R.', 
+                'D) horário e dá menos voltas que o carretel R.', 
+                'E) horário e dá o mesmo número de voltas que o carretel R.', 
+                'd',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (661, -- questão 21
+                'Assinale a alternativa que apresenta o padrão geométrico cuja repetição compõe a figura 1.', 
+                'A)', 
+                'B)',
+                'C)',
+                'D)',
+                'E)',
+                'e',
+                2024,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (662, -- questão 22
+                'Entre esses materiais, temos', 
+                'A) um tubo de ensaio.', 
+                'B) um condensador.', 
+                'C) uma proveta.', 
+                'D) um béquer.', 
+                'E) uma pipeta.', 
+                'b',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (663, -- questão 23
+                'Podemos afirmar que o trecho apresentado é, predominantemente,', 
+                '(A) descritivo, pois defende uma tese baseada em argumentos expostos pelos moradores do vilarejo.', 
+                '(B) descritivo, pois narra fatos históricos ocorridos em uma pequena cidade do interior.', 
+                '(C) descritivo, pois representa, por meio de palavras, as características de ambientes e seres.', 
+                '(D) narrativo, pois relata um fato fictício, por meio de verbos no pretérito perfeito do indicativo.', 
+                '(E) narrativo, pois relata um fato verídico, por meio de verbos no presente do indicativo.', 
+                'c',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (664, -- questão 24
+                'A letra da música Vilarejo apresenta-nos um lugar', 
+                'A) inóspito, tedioso, no qual seus habitantes precisam ser heróis para sobreviver.', 
+                'B) misterioso, distante e belo onde os autores passaram a maior parte da adolescência.', 
+                'C) idealizado e maravilhoso, onde a felicidade e a harmonia são vivenciadas em plenitude.', 
+                'D) tranquilo e feliz, embora os estrangeiros vivam em comunidades isoladas.', 
+                'E) selvagem e de natureza exuberante que fica na divisa entre a Palestina e Shangri-lá.', 
+                'c',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (665, -- questão 25
+                'Assinale a alternativa que apresenta corretamente o valor semântico, entre parênteses, expresso pela preposição em destaque.', 
+                'A) Pra acalmar o coração / Lá o mundo tem razão. (posse)', 
+                'B) Portas e janelas ficam sempre abertas / Pra sorte entrar. (finalidade)', 
+                'C) Por cima das casas, cal / Frutas em qualquer quintal. (tempo)', 
+                'D) Terra de heróis, lares de mãe. (oposição)', 
+                'E) Em todas as mesas, pão. (causa)', 
+                'b',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (666, -- questão 26
+                'Analisando o conteúdo da letra, é correto relacionar a canção de Gonzaguinha ao período', 
+                'A) do “milagre econômico”, durante o governo de Castelo Branco.', 
+                'B) da instalação do regime militar, durante o governo de Figueiredo.', 
+                'C) da abertura do regime militar, durante o governo de Costa e Silva.', 
+                'D) da redemocratização do país, durante o governo de Ernesto Geisel.', 
+                'E) da vigência do Ato Institucional número 5, durante o governo Médici.', 
+                'e',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (667, -- questão 27
+                'A letra da música, respeitando a licença poética, retrata um fenômeno urbano presente nas grandes cidades que é a', 
+                'A) expansão das favelas, pois a intenção do poder público é aumentar esse tipo de moradia, oferecendo infraestrutura adequada nas periferias mais distantes do centro.', 
+                'B) falta de moradias, pois as grandes cidades estão saturadas e não possuem imóveis disponíveis, seja para compra, disponibilização, financiamento ou aluguel.', 
+                'C) ampliação dos cortiços, pois os vazios urbanos, existentes no centro das cidades, são utilizados pelo poder público para a construção desse tipo de moradia.', 
+                'D) violência urbana, pois os governantes deixaram de investir na ampliação do número de policiais, fazendo explodir a criminalidade nas grandes cidades.', 
+                'E) especulação imobiliária, pois alguns proprietários acumulam imóveis para utilizá-los futuramente, seja para construir ou para vender.', 
+                'e',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (668, -- questão 28
+                'Podemos afirmar que os termos “comida, diversão e arte”, nesse trecho, exercem sintaticamente a função de', 
+                'A) complemento nominal.', 
+                'B) sujeito composto.', 
+                'C) objeto indireto.', 
+                'D) objeto direto.', 
+                'E) aposto.', 
+                'd',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (669, -- questão 29
+                'Refletindo sobre a letra da canção de Chico Science, é correto associá-la aos conceitos de', 
+                'A) economia planificada e estatização.', 
+                'B) luta de classes e globalização.', 
+                'C) êxodo rural e imigração.', 
+                'D) sedentarismo e colonização.', 
+                'E) antropocentrismo e socialização.', 
+                'b',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (670, -- questão 30
+                'A cobertura e as laterais da tenda descrita serão totalmente revestidas por lona. Para que isso ocorra, a quantidade mínima de lona que deverá ser usada é, em metros quadrados, igual a', 
+                'A) 138.', 
+                'B) 384.', 
+                'C) 720.', 
+                'D) 1 104.', 
+                'E) 1 200.', 
+                'd',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (671, -- questão 31
+                'A quantidade de cabo utilizada para imobilizar as oito estacas, é, em metros,', 
+                '(A) 16√2.', 
+                '(B) 24√2.', 
+                '(C) 32√2.', 
+                '(D) 40√2.', 
+                '(E) 48√2.', 
+                'c',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (672, -- questão 32
+                'Assim sendo, o raio do globo é, aproximadamente, em metros,', 
+                '(A) 5,6.', 
+                '(B) 6,3.', 
+                '(C) 7,5.', 
+                '(D) 8,2.', 
+                '(E) 9,8.', 
+                'a',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (673, -- questão 33
+                'De acordo com as informações do texto, é correto afirmar que o Masp', 
+                'A) reúne 19 obras pintadas por Chateaubriand.', 
+                'B) foi doado pela Rainha Elizabeth II a São Paulo.', 
+                'C) está aberto ao público de domingo a domingo.', 
+                'D) tem a maior parte do seu acervo dedicada a artistas brasileiros.', 
+                'E) passou por obras que modificaram o seu formato original.', 
+                'e',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (674, -- questão 34
+                'Na imagem, temos representada uma molécula de glicose, cuja fórmula molecular é', 
+                'A) C₅H₆O₇', 
+                'B) C₆H₆O₆', 
+                'C) C₆H₁₂O₆', 
+                'D) C₁₂H₂₂O₁₁', 
+                'E) C₁₂H₂₂O₁₂', 
+                'c',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (675, -- questão 35
+                'Com base apenas nos dados apresentados nessa tabela, pode-se afirmar corretamente que', 
+                'A) a maioria das cidades citadas está situada no continente americano.', 
+                'B) as cinco exposições na Ásia, dentre as dez mais populares, tiveram entrada franca.', 
+                'C) a exposição mais visitada teve mais que o quádruplo de visitantes que a exposição brasileira menos visitada.', 
+                'D) o Brasil aparece em quatro das dez exposições mais populares do ano passado, de acordo com o número diário de visitantes.', 
+                'E) a exposição “Impressionismo: Paris e a Modernidade”, no Rio de Janeiro, ficou montada por menos tempo que a exposição “Dalí”, em Paris.', 
+                'e',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (676, -- questão 36
+                'De acordo com o texto, é correto o que se afirma em:', 
+                'A) Os restauradores acreditavam que os químicos possuíam sensibilidade para tratar a obra de arte.', 
+                'B) De acordo com Humphry, as guerras geraram um forte sentimento de preservação das obras artísticas.', 
+                'C) Os químicos eram muito requisitados para restaurações, pois suas intervenções eram sempre perfeitas.', 
+                'D) Os monumentos e obras artísticas destruídos pelas guerras mundiais foram um passo importante para a união da arte com a ciência.', 
+                'E) De acordo com Poincaré, o cientista estuda a natureza porque ela é muito útil, não porque gosta; estuda-a porque é necessário e não porque ela é bela.', 
+                'd',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (677, -- questão 37
+                'Assim sendo, pode-se concluir que a quantidade de visitantes que pagou meia entrada nesse dia foi de', 
+                '(A) 600 pessoas.', 
+                '(B) 650 pessoas.', 
+                '(C) 700 pessoas.', 
+                '(D) 750 pessoas.', 
+                '(E) 800 pessoas.', 
+                'a',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (678, -- questão 38
+                'De acordo com a norma-padrão da língua portuguesa, está correta a alternativa:', 
+                'A) Naquela região, muitos assinantes preferem o rádio à TV.', 
+                'B) À partir das vinte e três horas, ninguém entrava no teatro.', 
+                'C) Os funcionários do museu obedeceram os regulamentos.', 
+                'D) Lembrou-se que levaria a mãe à Bienal na cidade de São Paulo.', 
+                'E) Assistimos à diversos documentários sobre a Primeira Guerra.',
+                'a',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (679, -- questão 39
+                'De acordo com o texto, é correto afirmar que Mendeleev foi', 
+                'A) opositor à construção da Tabela Periódica.', 
+                'B) introduzido ao mundo das artes pela primeira esposa.', 
+                'C) quem descobriu o elemento químico de número atômico 101.', 
+                'D) merecidamente reconhecido, graças à sua audácia e ideias ousadas.', 
+                'E) o nome dado a um composto químico para homenagear esse grande cientista.', 
+                'd',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (680, -- questão 40
+                'A diferença entre os radioisótopos mencionados é de', 
+                'A) 2 prótons.', 
+                'B) 2 elétrons.', 
+                'C) 2 nêutrons.', 
+                'D) 157 nêutrons.', 
+                'E) 159 nêutrons.', 
+                'c',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (681, -- questão 41
+                'Com base nessas informações, é correto afirmar que a intensidade da força exercida por um único homem é, em newtons,', 
+                'A) 180.', 
+                'B) 240.', 
+                'C) 360.', 
+                'D) 480.', 
+                'E) 500.', 
+                'b',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (682, -- questão 42
+                'Assinale a alternativa que associa corretamente o agente modelador do relevo, o nome da erosão e sua ação.',
+                'A)',
+                'B)',
+                'C)',
+                'D)',
+                'E)',
+                'd',
+                2024,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (683, -- questão 43
+                'Para que o móbile permaneça equilibrado, conforme a figura, a barra maior que sustenta todo o conjunto deve receber um fio que a pendure, atado ao ponto numerado por', 
+                'A) 1.', 
+                'B) 2.', 
+                'C) 3.', 
+                'D) 4.', 
+                'E) 5.', 
+                'c',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (684, -- questão 44
+                'Sobre o contexto histórico em que viveu Aleijadinho, é correto afirmar que foi o período', 
+                'A) da colonização e do ciclo do ouro.', 
+                'B) da colonização e do ciclo do pau-brasil.', 
+                'C) do Primeiro Reinado e do ciclo do açúcar.', 
+                'D) do Segundo Reinado e do ciclo do café.', 
+                'E) da Regência Una e do ciclo da borracha.', 
+                'a',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (685, -- questão 45
+                'Se a escultura apresentada tem uma massa de bronze igual a 300 g, para que essa massa aumente sua temperatura em 2 ºC, deve absorver uma quantidade de calor, em calorias, igual a',
+                'A) 6.',
+                'B) 18.',
+                'C) 27.',
+                'D) 36.',
+                'E) 54.',
+                'e',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (686, -- questão 46
+                'Entre as principais medidas recomendadas para prevenir essa doença, destaca-se o uso de preservativos, a realização de exames periódicos e a vacinação. Sobre os benefícios relacionados ao uso dessa vacina, é correto afirmar que', 
+                'A) acarreta a imunização contra vários tipos de doenças sexualmente transmissíveis, como gonorreia e AIDS.', 
+                'B) substitui o uso de pílulas anticoncepcionais e imuniza também contra o HIV, vírus causador da AIDS.', 
+                'C) provoca o aumento na taxa de hemácias específicas que garantem a imunização contra o HPV.', 
+                'D) possui os anticorpos específicos prontos para atuar no processo de combate ao HPV.', 
+                'E) induz a produção de anticorpos específicos na proteção do organismo contra o HPV.', 
+                'e',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (687, -- questão 47
+                'Em um determinado período do século XX, os três países citados fizeram parte', 
+                'A) do Mercado Comum Europeu (MCE), bloco que deu origem à atual União Europeia.', 
+                'B) da União das Repúblicas Socialistas Soviéticas (URSS), que se desintegrou em 1991.', 
+                'C) da Organização do Tratado do Atlântico Norte (OTAN), que existe até os dias de hoje.', 
+                'D) do bloco de países capitalistas do leste europeu (CEI), que integravam a antiga Iugoslávia.', 
+                'E) do Movimento dos Países Não Alinhados (MNA), que propunha uma terceira via econômica.', 
+                'b',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (688, -- questão 48
+                'É correto afirmar que, no período histórico em que Baderna chegou ao Brasil, o governo enfrentava', 
+                'A) a Revolução Praieira.', 
+                'B) a Guerra de Canudos.', 
+                'C) a Revolta da Vacina.', 
+                'D) a Inconfidência Mineira.', 
+                'E) o Quilombo dos Palmares.', 
+                'a',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (689, -- questão 49
+                'Sobre o ser vivo apresentado na tirinha, é correto afirmar que', 
+                'A) é pluricelular e microscópico.', 
+                'B) realiza a reprodução por meio do processo de fagocitose.', 
+                'C) apresenta tecidos especializados à obtenção de alimento.', 
+                'D) é autótrofo, pois se alimenta de fungos, bactérias e de outros microrganismos.', 
+                'E) forma pseudópodes ou falsos-pés, relacionados à movimentação e à obtenção de alimento.', 
+                'e',
+                2015,
+                1
+                );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (690, -- questão 50
+            'Na cena criada por Quino, está presente a intertextualidade, pois',
+            'A) o humor surge em consequência da falta de dedicação e de empenho da faxineira no momento de realizar as tarefas da casa.',
+            'B) a dona da casa é uma pessoa que aprecia pintura e possui várias obras de artistas cubistas em sua residência.',
+            'C) as alterações realizadas pela faxineira na pintura de Picasso mantiveram a ideia original proposta pelo pintor para Guernica.',
+            'D) o cartunista reproduz a famosa pintura de Picasso, inserindo-a em um novo contexto que é a sala em desordem de uma residência.',
+            'E) a faxineira irrita-se com a sujeira deixada pelos adolescentes da casa os quais frequentemente realizam festas para os amigos.',
+            'd',
+            2015,
+            1
+        );
+
+-- INSERT TABLE tbIMAGENS PROVA 2015 1 SEMESTRE
+    INSERT INTO tbImagens (cod_image, cod_question, image_data)
+        VALUES
+            ('', 641, 'imgs/apresentacao.PNG'),
+            ('', 641, 'imgs/txtQ1.PNG'),
+            ('', 642, 'imgs/txtQ2.PNG'),
+            ('', 643, 'imgs/txtQ3.PNG'),
+            ('', 644, 'imgs/txtQ4-5.PNG'),
+            ('', 646, 'imgs/txtQ6.PNG'),
+            ('', 647, 'imgs/txtQ7.PNG'),
+            ('', 648, 'imgs/txtQ8.PNG'),
+            ('', 649, 'imgs/txtQ9.PNG'),
+            ('', 649, 'imgs/txtQ9-1.PNG'),
+            ('', 650, 'imgs/txtQ10.PNG'),
+            ('', 651, 'imgs/txtQ11.PNG'),
+            ('', 651, 'imgs/txtQ11-1.PNG'),
+            ('', 652, 'imgs/txtQ12.PNG'),
+            ('', 652, 'imgs/txtQ12-1.PNG'),
+            ('', 652, 'imgs/txtQ12-2.PNG'),
+            ('', 653, 'imgs/txtQ13.PNG'),
+            ('', 654, 'imgs/txtQ14.PNG'),
+            ('', 655, 'imgs/txtQ15.PNG'),
+            ('', 656, 'imgs/txtQ16.PNG'),
+            ('', 656, 'imgs/txtQ16-1.PNG'),
+            ('', 657, 'imgs/txtQ17.PNG'),
+            ('', 658, 'imgs/txtQ18.PNG'),
+            ('', 659, 'imgs/txtQ19.PNG'),
+            ('', 659, 'imgs/txtQ19-1.PNG'),
+            ('', 660, 'imgs/txtQ20.PNG'),
+            ('', 661, 'imgs/txtQ21.PNG'),
+            ('', 661, 'imgs/txtQ21-1.PNG'),
+            ('', 662, 'imgs/txtQ22.PNG'),
+            ('', 663, 'imgs/txtQ23-25.PNG'),
+            ('', 663, 'imgs/txtQ23-25-1.PNG'),
+            ('', 666, 'imgs/txtQ26.PNG'),
+            ('', 667, 'imgs/txtQ27.PNG'),
+            ('', 668, 'imgs/txtQ28.PNG'),
+            ('', 669, 'imgs/txtQ29.PNG'),
+            ('', 670, 'imgs/txtQ30-31.PNG'),
+            ('', 671, 'imgs/txtQ31.PNG'),
+            ('', 672, 'imgs/txtQ32.PNG'),
+            ('', 673, 'imgs/txtQ33.PNG'),
+            ('', 674, 'imgs/txtQ34.PNG'),
+            ('', 674, 'imgs/txtQ34-1.PNG'),
+            ('', 675, 'imgs/txtQ35.PNG'),
+            ('', 676, 'imgs/txtQ36.PNG'),
+            ('', 677, 'imgs/txtQ37.PNG'),
+            ('', 679, 'imgs/txtQ39-40.PNG'),
+            ('', 680, 'imgs/txtQ40.PNG'),
+            ('', 681, 'imgs/txtQ41.PNG'),
+            ('', 681, 'imgs/txtQ41-1.PNG'),
+            ('', 682, 'imgs/txtQ42.PNG'),
+            ('', 683, 'imgs/txtQ43.PNG'),
+            ('', 684, 'imgs/txtQ44.PNG'),
+            ('', 685, 'imgs/txtQ45.PNG'),
+            ('', 685, 'imgs/txtQ45-1.PNG'),
+            ('', 686, 'imgs/txtQ46.PNG'),
+            ('', 687, 'imgs/txtQ47.PNG'),
+            ('', 687, 'imgs/txtQ47-1.PNG'),
+            ('', 688, 'imgs/txtQ48.PNG'),
+            ('', 689, 'imgs/txtQ49.PNG'),
+            ('', 690, 'imgs/txtQ50.PNG'),
+            ('', 690, 'imgs/txtQ50-1.PNG');
+
+
+
+
+
+
+
 
 --foreign key (cod_servico) references tbServicos(cod_servico));
 
