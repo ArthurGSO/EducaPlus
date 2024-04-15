@@ -81,7 +81,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         3,
-        'Estratos da Floresta Amazônica', 
+        'Ela está subdivida em', 
         'A) Floresta aciculifoliada, mata de transição e mata ciliar.', 
         'B) Mata de igapó, mata de várzea e mata de terra firme.', 
         'C) Restinga, campos limpos e mata dos cocais.', 
@@ -94,7 +94,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         4,
-        'Características do Bioma Amazônia', 
+        'Considerando o tipo de vegetação, é correto afirmar que o Bioma Amazônia se caracteriza, principalmente, por apresentar', 
         'A) Gramíneas e plantas arbustivas; árvores de pequeno e médio porte, com folhas transformadas em espinhos para diminuir a transpiração e caules suculentos que armazenam água.', 
         'B) Plantas, que se desenvolvem em solos lamacentos e salgados, com troncos finos, cujas raízes se adaptam à fixação e se elevam à superfície para permitir a respiração.', 
         'C) Plantas herbáceas e arbustivas que compõem os campos; árvores de médio porte, geralmente com troncos grossos e retorcidos, folhas de superfície reduzida e raízes profundas.', 
@@ -107,7 +107,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         5,
-        'Letra da Canção sobre a Floresta Amazônica', 
+        'Segundo a letra da canção,', 
         'A) A falta de mobilização dos povos originários para proteger os biomas mencionados resulta do curto período de convivência com a floresta.', 
         'B) A destruição da Floresta Amazônica gera prejuízos à vida animal e à vegetal, amenizando os impactos na vida e na cultura daqueles que a habitam.', 
         'C) Os povos originários aliaram-se recentemente aos guardiões da floresta, quando houve um recrudescimento trágico do desmatamento.', 
@@ -120,20 +120,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         6,
-        'Recursos Literários na Letra da Canção', 
-        'A) Metáfora no trecho “contra trator, corrente, motosserra”, verso 03, pois os objetos listados simbolizam a superação da floresta contra as ameaças externas.', 
-        'B) Antítese entre “beleza” e “valor”, verso 6, pois são termos de sentido oposto.', 
-        'C) Paronomásia no excerto “tanta insânia e tanta insônia”, verso 12, pois se aproximam termos com sons semelhantes e sentidos diferentes.', 
-        'D) Paradoxo em “nos últimos e trágicos decênios”, verso 19, pois o conceito de “trágico” anula a ideia de novidade, expressa pelo termo “últimos”.', 
-        'E) Personificação na passagem “eles não pensam”, verso 25, pois se atribui a capacidade de pensar a seres inanimados.', 
-        'b',
-        2024,
-        1
-    );
-    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES (
-        7,
-        'Recursos Gramaticais na Letra da Canção', 
+        'Sobre os recursos gramaticais utilizados na construção do texto, é correto afirmar que', 
         'A) Os termos “porém” (v. 5), “pois” (v. 8) e “todavia” (v. 9) têm o mesmo sentido.', 
         'B) Os pronomes “seus” (v. 24) e “eles” (v. 25) se referem à mesma ideia, mencionada anteriormente no texto.', 
         'C) Os dois-pontos, utilizados nos versos 4 e 9, introduzem uma justificativa para os fatos apresentados.', 
@@ -145,8 +132,21 @@ CREATE TABLE tbImagens (
     );
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
+        7,
+        'Na letra dessa canção, ocorre',
+        'A) Metáfora no trecho “contra trator, corrente, motosserra”, verso 03, pois os objetos listados simbolizam a superação da floresta contra as ameaças externas.', 
+        'B) Antítese entre “beleza” e “valor”, verso 6, pois são termos de sentido oposto.', 
+        'C) Paronomásia no excerto “tanta insânia e tanta insônia”, verso 12, pois se aproximam termos com sons semelhantes e sentidos diferentes.', 
+        'D) Paradoxo em “nos últimos e trágicos decênios”, verso 19, pois o conceito de “trágico” anula a ideia de novidade, expressa pelo termo “últimos”.', 
+        'E) Personificação na passagem “eles não pensam”, verso 25, pois se atribui a capacidade de pensar a seres inanimados.', 
+        'b',
+        2024,
+        1
+    );
+    INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (
         8,
-        'Características dos Vertebrados da Floresta Amazônica',
+        'Com relação a todos os animais citados, é correto afirmar que',
         'A) Realizam as trocas gasosas por meio de um par de pulmões do tipo alveolar com paredes muito delgadas.',
         'B) Conseguem manter a temperatura corporal constante apesar de alterações da temperatura ambiental.',
         'C) Dependem de oxigênio, que é usado na oxidação de moléculas orgânicas, como a glicose, a fim de obter energia.',
@@ -159,7 +159,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         9,
-        'Informações sobre a Floresta Amazônica',
+        'De acordo com o texto, é correto afirmar que',
         'A) A floresta Amazônica brasileira tem 670 milhões de hectares.',
         'B) A maior floresta tropical do mundo está localizada totalmente em território brasileiro.',
         'C) O Brasil pode comprar créditos de carbono para custear a Floresta Amazônica.',
@@ -172,12 +172,12 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         10,
-        'Produto dos Números Destacados em Notação Científica',
+        'Considere os números destacados em negrito no texto e assinale a alternativa que apresenta, em notação científica, o seu produto.',
         'A) 1,0 × 10¹⁴',
         'B) 1,0 × 10¹³',
         'C) 1,0 × 10¹²',
         'D) 1,0 × 10¹¹',
-        'E) 1,0 × 10¹',
+        'E) 1,0 × 10¹⁰',
         'd',
         2024,
         1
@@ -185,7 +185,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         11,
-        'Quantidade de Créditos de Carbono da Floresta Amazônica',
+        'De acordo com o texto, a quantidade de créditos de carbono gerada pela parte brasileira da Floresta Amazônica seria, aproximadamente, de',
         'A) 402 milhões.',
         'B) 402 bilhões.',
         'C) 670 milhões.',
@@ -198,7 +198,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         12,
-        'Mapa de Movimentos de Ocupação na América do Sul',
+        'De acordo com a representação, é correto afirmar que',
         'A) As missões jesuíticas não só demarcavam os limites entre as possessões espanhola e portuguesa, mas também garantiam a posse da Amazônia para a Espanha.',
         'B) A ocupação da América Portuguesa ocorreu na costa atlântica, em detrimento da região da Amazônia, que permaneceu despovoada até o final do século XVII.',
         'C) A integração da Amazônia ao território da colônia portuguesa está relacionada à presença de missões jesuíticas e de expedições para escravização de indígenas.',
@@ -211,7 +211,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         13,
-        'Distância entre Ponto P e Acampamento A',
+        'Logo, é correto afirmar que a distância (em linha reta), em quilômetros, entre o ponto P e o acampamento A, é igual a',
         'A) 18.',
         'B) 20.',
         'C) 26.',
@@ -224,7 +224,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         14,
-        'Função Social do Gênero Textual',
+        'Com base no texto, o gênero textual abordado cumpre a função social de',
         'A) Colocar em destaque a revolução promovida pela tecnologia digital, já que essa mudança padroniza e limita a forma de aprender do estudante.',
         'B) Debater sobre os movimentos migratórios, cada vez maiores no nosso país, os quais prejudicam o surgimento de culturas novas na sociedade.',
         'C) Discutir as mudanças no núcleo familiar devido à dedicação exclusiva dos responsáveis a atividades profissionais, prejudicando a comunicação com as gerações mais jovens.',
@@ -237,7 +237,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         15,
-        'Transmissão de Ensinos e Histórias na Região Amazônica',
+        'De acordo com o texto, os ensinamentos e as histórias dos povos da Região Amazônica são transmitidos por meio de fontes',
         'A) Escritas.',
         'B) Iconográficas.',
         'C) Materiais.',
@@ -250,7 +250,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         16,
-        'Formação da Imagem da Lua vista por Naiá',
+        'A formação da imagem da Lua, vista por Naiá, é justificada pelo fenômeno óptico da',
         'A) Refração da luz, proveniente da Lua, no fundo do lago.',
         'B) Ilusão de óptica criada pelo movimento das águas do lago.',
         'C) Reflexão dos raios de luz, provenientes da Lua, pela superfície do lago.',
@@ -263,7 +263,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         17,
-        'Adaptações da Vitória-Régia',
+        'Essas adaptações podem ser comparadas ao uso de',
         'A) Pés de pato por mergulhadores.',
         'B) Sinalizadores em barcos de passeio.',
         'C) Toucas de natação por competidores olímpicos.',
@@ -276,7 +276,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         18,
-        'Estado do Acre',
+        'Sobre esse estado da federação, é correto afirmar que nele se encontra o ponto',
         'A) Central Geodésico do território brasileiro, localizado em sua capital.',
         'B) Mais ocidental do território brasileiro, a nascente do Rio Moa.',
         'C) Mais setentrional do território brasileiro, a nascente do Rio Ailã.',
@@ -354,9 +354,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         24,
-        'Denúncias são importantes formas de detecção das infrações ambientais. Um exemplo é a Linha Verde, do Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (Ibama), disponibilizada para todo o Brasil. Por meio dela, o cidadão pode informar possíveis infrações ambientais através de uma Central de Atendimento.
-        Suponha que a tabela apresentada registre o número de denúncias recebidas por um atendente sobre o desmatamento na Floresta Amazônica.
-        Uma expressão algébrica que relaciona o número de denúncias (N) em função do dia do mês (D) é',
+        'Uma expressão algébrica que relaciona o número de denúncias (N) em função do dia do mês (D) é',
         'A) N = 2D + 3.',
         'B) N = D + 3.',
         'C) N = 3D + 1',
@@ -369,8 +367,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         25,
-        'A usina de Belo Monte, no estado do Pará, é uma das maiores hidrelétricas do mundo. Possui capacidade instalada de aproximadamente 11 200 MW e fornece cerca de 4 500 MW de potência. Além disso, alaga uma região de cerca de 500 km².
-        Com base apenas nos dados fornecidos para as usinas de Balbina e de Belo Monte, localizadas na região Amazônica, é possível avaliar a crítica, presente no texto, à instalação da hidrelétrica de Balbina como',
+        'Com base apenas nos dados fornecidos para as usinas de Balbina e de Belo Monte, localizadas na região Amazônica, é possível avaliar a crítica, presente no texto, à instalação da hidrelétrica de Balbina como',
         'A) Incoerente, dado que 3 000 km² de área alagada não causam um impacto ambiental significativo para ser considerado um desastre.',
         'B) Coerente, já que são fornecidos apenas dados relativos à área alagada, que não são suficientes para analisar o impacto ambiental da usina de Balbina.',
         'C) Incoerente, uma vez que a usina de Belo Monte alaga uma região maior e tem potencial energético menor do que a usina de Balbina.',
@@ -396,8 +393,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         27,
-        'O Fator de Capacidade (η), em uma usina hidrelétrica, expressa a razão entre a capacidade real de transformação de seu potencial energético (ΔPU) e a capacidade instalada (ΔPT), ou seja, η = ΔPU / ΔPT.
-        Dessa forma, o fator η de capacidade da usina hidrelétrica de Balbina é de, aproximadamente,',
+        'Dessa forma, o fator η de capacidade da usina hidrelétrica de Balbina é de, aproximadamente,',
         'A) 0,08.',
         'B) 0,32.',
         'C) 0,40.',
@@ -423,7 +419,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES ( 
         29,
-        'A amplitude total, em um conjunto de dados, é a diferença entre o maior e o menor valor observado nesse conjunto. Analise o conjunto de dados apresentados no gráfico e assinale a alternativa que apresenta a sua amplitude total.',
+        'Analise o conjunto de dados apresentados no gráfico e assinale a alternativa que apresenta a sua amplitude total.',
         'A) 9 069',
         'B) 8 061',
         'C) 7 023',
@@ -449,7 +445,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         31,
-        'Por estarem localizadas próximas à linha do Equador, as regiões de clima equatorial recebem luz solar direta durante todo o ano, o que contribui para elevada umidade do ar e temperaturas altas e relativamente estáveis. Nas florestas ocorre a evapotranspiração, processo que combina a liberação de água na atmosfera, por meio da transpiração das folhas, com a evaporação da água existente no ambiente. A evapotranspiração desempenha um papel fundamental como regulador no clima porque, conforme a água evapora, ela',
+        'A evapotranspiração desempenha um papel fundamental como regulador no clima porque, conforme a água evapora, ela',
         'A) contribui na formação de arco-íris por meio da refração dos raios solares, e consequentemente aquece o ambiente.',
         'B) produz gás hidrogênio, um gás combustível que pode liberar calor para o ambiente, e consequentemente o aquecer.',
         'C) libera átomos de hidrogênio e oxigênio no ambiente, consequentemente o resfriando.',
@@ -475,7 +471,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         33,
-        'Segundo o IBGE, no Brasil, mais de 80% da população vive em áreas urbanas. Isso, entretanto, não impede a sociedade de se mobilizar e de realizar ações que possam auxiliar na preservação das florestas e das espécies ameaçadas de extinção. Embora ninguém consiga promover grandes mudanças sozinho, algumas atitudes podem fazer a diferença na preservação do meio ambiente e da biodiversidade, como',
+        'Embora ninguém consiga promover grandes mudanças sozinho, algumas atitudes podem fazer a diferença na preservação do meio ambiente e da biodiversidade, como',
         'A) Evitar comprar de pequenos produtores de hortifrúti que, por produzirem em menor escala, aumentam as áreas desmatadas e, consequentemente, o impacto ambiental.',
         'B) Comprar móveis e papéis cuja matéria-prima não seja de reflorestamento ou de empresas sem certificação de fonte legal e sustentável.',
         'C) Aumentar o consumo de itens descartáveis, como guardanapos, papéis, pratos e canudos, evitando a reciclagem de produtos usados.',
@@ -710,8 +706,9 @@ CREATE TABLE tbImagens (
 -- INSERT TABLE tbIMAGENS PROVA 2024 1 SEMESTRE
     INSERT INTO tbImagens (cod_question, image_data)
         VALUES 
-            (1, 'imgs/mapaQ1.PNG'),
             (1, 'imgs/txtQ1.png'),
+            (1, 'imgs/mapaQ1.PNG'),
+            (3, 'imgs/txtQ3.PNG'),
             (5, 'imgs/txtQ5-7.PNG'),
             (9, 'imgs/txtQ9-11.PNG'),
             (12, 'imgs/mapaQ12.PNG'),
@@ -731,11 +728,11 @@ CREATE TABLE tbImagens (
             (38, 'imgs/txtQ38.PNG'),
             (39, 'imgs/txtQ39-42.PNG'),
             (43, 'imgs/txtQ43.PNG'),
-            (45, 'imgs/txtQ45.PNG'),
+            (45, 'imgs/imgQ45.PNG'),
             (46, 'imgs/txtQ46.PNG'),
             (48, 'imgs/txtQ48.PNG'),
             (49, 'imgs/txtQ49.PNG'),
-            (50, 'imgs/txtQ50.PNG');
+            (50, 'imgs/imgQ50.PNG');
 
 -- INSERT TABLE tbQUESTIONS PROVA 2023 1 SEMESTRE
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre)
@@ -4449,7 +4446,7 @@ CREATE TABLE tbImagens (
                 'D) Opção D',
                 'E) Opção E',
                 'e',
-                2024,
+                2015,
                 1
                 );
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
@@ -4701,7 +4698,7 @@ CREATE TABLE tbImagens (
                 'D) Opção D',
                 'E) Opção E',
                 'd',
-                2024,
+                2015,
                 1
                 );
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
