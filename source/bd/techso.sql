@@ -2695,6 +2695,793 @@ CREATE TABLE tbImagens (
             (188, 'imgs/txtQ48.PNG'),
             (189, 'imgs/txtQ49-50.PNG');
 
+-- INSERT TABLE tbQUESTIONS PROVA 2019 1 SEMESTRE
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (241,
+                'Considerando os animais citados no texto, podemos afirmar que', 
+                'A) todos possuem asas, corpo mole e segmentado.', 
+                'B) as lacraias apresentam endoesqueleto calcário e patas articuladas.', 
+                'C) os gafanhotos, os grilos e as aranhas possuem um par de antenas e quatro pares de patas.', 
+                'D) as libélulas possuem exoesqueleto, três pares de patas e corpo segmentado em cabeça, tórax e abdome.', 
+                'E) as baratas, as aranhas e os escorpiões apresentam glândulas de veneno, exoesqueleto e corpo não segmentado.', 
+                'd',
+                2019,
+                1
+                );
+
+        --questão 2--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (242,
+                'Assinale a alternativa que, corretamente, descreve o contexto em que surgiu a escrita na Mesopotâmia.', 
+                'A) Os mesopotâmicos criaram a escrita como forma de se comunicar com os deuses, entalhando placas de argila que eram cuidadosamente depositadas no interior dos templos religiosos.', 
+                'B) O surgimento da escrita foi vinculado à criação de um sistema de educação segundo o qual todas as crianças deveriam dominar o conhecimento das letras e dos cálculos.', 
+                'C) As cidades da Mesopotâmia eram separadas por longas distâncias, percorridas a pé por mensageiros que levavam cartas e ofícios trocados entre os governantes.', 
+                'D) A evolução da literatura oral gerou a necessidade de registrar os textos poéticos declamados pelos grandes oradores da Antiguidade clássica.', 
+                'E) O desenvolvimento do comércio levou à criação da escrita, utilizada, inicialmente, para realizar registros contábeis e firmar contratos.', 
+                'e',
+                2019,
+                1
+                );
+
+
+
+
+        --questão 3--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (243,
+                'Na cena transcrita, a personagem Escrava vê, na linguagem escrita, qual é a alternativa correta sobre o contexto em que surgiu a escrita na Mesopotâmia?', 
+                'A) Os mesopotâmicos criaram a escrita como forma de se comunicar com os deuses, entalhando placas de argila que eram cuidadosamente depositadas no interior dos templos religiosos.', 
+                'B) O surgimento da escrita foi vinculado à criação de um sistema de educação segundo o qual todas as crianças deveriam dominar o conhecimento das letras e dos cálculos.', 
+                'C) As cidades da Mesopotâmia eram separadas por longas distâncias, percorridas a pé por mensageiros que levavam cartas e ofícios trocados entre os governantes.', 
+                'D) A evolução da literatura oral gerou a necessidade de registrar os textos poéticos declamados pelos grandes oradores da Antiguidade clássica.', 
+                'E) O desenvolvimento do comércio levou à criação da escrita, utilizada, inicialmente, para realizar registros contábeis e firmar contratos.', 
+                'c',
+                2019,
+                1
+                );
+
+        --questão 4--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (244,
+                'Sobre o foco narrativo do trecho transcrito, é certo afirmar que se trata de um narrador', 
+                'A) personagem, pois apresenta fatos que ocorreram com ele durante sua jornada pelo deserto.', 
+                'B) personagem observador, pois ele narra eventos dos quais não participa, mas aos quais assiste.', 
+                'C) observador, pois apresenta apenas as informações acessíveis pelos seus sentidos (o que ouviu ou viu).', 
+                'D) onisciente, pois tem acesso aos pensamentos e sentimentos da personagem, expressos em discurso indireto.', 
+                'E) personagem protagonista, pois relata fatos vivenciados por ele enquanto observava os trabalhos das personagens.', 
+                'd',
+                2019,
+                1);
+
+        --questão 5--
+        INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (245,
+                'Em Matemática, no estudo de funções, a parábola é uma curva que representa uma função polinomial',
+                'A) constante e sua expressão geral é dada por f(x) = a, com a ≠ 0.',
+                'B) de 1º grau e sua expressão geral é dada por f(x) = ax + b, com a ≠ 0.',
+                'C) de 1º grau e sua expressão geral é dada por f(x) = ax2 + bx + c, com a ≠ 0.',
+                'D) de 2º grau e sua expressão geral é dada por f(x) = ax + b, com a ≠ 0.',
+                'E) de 2º grau e sua expressão geral é dada por f(x) = ax2 + bx + c, com a ≠ 0.',
+                'e',
+                2019,
+                1
+                );
+
+        --questão 6--
+        INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (246,
+                'De acordo com o texto, assinale a alternativa correta.',
+                'A) Mendeleev construía seus baralhos para jogar paciência.',
+                'B) O baralho de Mendeleev continha os elementos químicos conhecidos na época.',
+                'C) Na Tabela de Mendeleev, os elementos estão organizados em ordem crescente de número atômico.',
+                'D) A Tabela Periódica, recebeu esse nome porque as propriedades dos elementos, na organização elaborada por Mendeleev, repetiam-se periodicamente.',
+                'E) A Tabela Periódica, usada nos dias de hoje, ainda é igual à primeira tabela de Mendeleev com os elementos em ordem crescente de massas atômicas.',
+                'd',
+                2019,
+                1
+                );
+
+        --questão 7--
+        INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (247,
+                'Mendeleev deixou, em sua Tabela, espaços vazios.',
+                'A) pois havia sonhado com novos elementos químicos e passou a pesquisá-los.',
+                'B) porque previa a descoberta de novos elementos químicos, o que realmente ocorreu posteriormente.',
+                'C) que foram preenchidos por novos elementos, com características diferentes das previstas por ele.',
+                'D) porque não existiam elementos que apresentassem as massas atômicas que deveriam ocupá-los.',
+                'E) para serem preenchidos por elementos químicos que havia descoberto, pouco antes de sonhar com a tabela.',
+                'b',
+                2019,
+                1
+                );
+
+        --questão 8--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (248,
+                'O elemento químico, cujo nome é em homenagem a esse grande cientista, apresenta', 
+                'A) número atômico igual a 258.', 
+                'B) número de massa igual a 101.', 
+                'C) estabilidade nuclear.', 
+                'D) número de prótons igual a 101.', 
+                'E) estabilidade na sua eletrosfera.', 
+                'd',
+                2019,
+                1
+                );
+
+        --questão 9--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (249,
+                'Assinale a alternativa que apresenta essa característica.', 
+                'A) A grande extensão territorial do Império impediu a construção de qualquer sistema de ligação entre a capital e a periferia, fazendo com que somente a cidade de Roma dispusesse de estradas pavimentadas para a circulação de pessoas e bigas.', 
+                'B) Em seu processo de expansão, o Império Romano fundou colônias nos cinco continentes e estabeleceu órgãos administrativos que, em escala reduzida, reproduziam a administração central e davam aos habitantes de todas as partes a sensação de viver na própria capital, a cidade de Roma.', 
+                'C) Diferentes pontos do Império Romano estavam ligados à capital, a cidade de Roma, e entre si por milhares de quilômetros de estradas pavimentadas por onde circulavam, principalmente, os mensageiros do Império.', 
+                'D) O processo de desintegração do Império Romano levou à construção de estradas que tinham o objetivo de facilitar a fuga dos habitantes da cidade de Roma, aterrorizados pela violência praticada pelos povos germânicos, que saquearam a cidade.', 
+                'E) Devido à grande influência do catolicismo na formação do Império Romano, os habitantes da capital, a cidade Roma, financiaram a pavimentação de milhares de quilômetros de estradas que eram utilizadas para a peregrinação à Terra Santa.', 
+                'c',
+                2019,
+                1
+                );
+
+        --questão 10--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (250,
+                'Um país que se candidate a membro desse bloco econômico deve necessariamente', 
+                'A) ser republicano e possuir economia de mercado, porém submetida a controles constantes por parte do Fundo Monetário Internacional (FMI).', 
+                'B) permanecer fiel à legislação do bloco e delegar suas questões de segurança nacional à Organização do Tratado do Atlântico Norte (OTAN).', 
+                'C) possuir regime monarquista de governo, aceitar a política econômica do bloco e se comprometer a utilizar o Euro.', 
+                'D) estar situado na Europa Ocidental e substituir sua Câmara de Deputados e seu Senado pelo Parlamento Europeu.', 
+                'E) ter instituições estáveis que garantam a democracia, o Estado de direito e o respeito aos direitos humanos.', 
+                'e',
+                2019,
+                1
+                );
+
+
+        --questão 11--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (251,
+                'Dentre os fatores que dificultam a aceitação da Turquia como membro do bloco, podemos corretamente destacar o fato de esse país', 
+                'A) dominar militarmente parte do território do Chipre, país membro da União Europeia.', 
+                'B) adotar o Euro, mas não se submeter às ordens do Banco Central Europeu.', 
+                'C) manter em seu território o povo Curdo, recusando-se a expulsá-lo.', 
+                'D) ter seu território inteiramente no continente asiático.', 
+                'E) ser uma república oficialmente islâmica.', 
+                'a',
+                2019,
+                1
+                );
+
+        --questão 12--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (252,
+                'Assinale a alternativa que contém o tempo que a Estrela da Morte demorou para se locomover do ponto A para o B.', 
+                'A) 5,0 ×10^4s', 
+                'B) 15,0 ×10^4s', 
+                'C) 45,0 ×10^4s', 
+                'D) √353 ×10^4s', 
+                'E) √ 353 / 3 ×10^4s', 
+                'a',
+                2019,
+                1
+                );
+
+        --questão 13--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (253,
+                'Podemos dizer que a parte esquerda e a parte direita da imagem correspondem, nesta ordem, ao momento em que a Lua se encontra em seu', 
+                'A) apogeu e perigeu.', 
+                'B) afélio e periélio.', 
+                'C) periélio e afélio.', 
+                'D) perigeu e afélio.', 
+                'E) perigeu e apogeu.', 
+                'e',
+                2019,
+                1
+                );
+
+        --questão 14--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (254,
+                'A bactéria chegou à Europa medieval', 
+                'A) alojada no sangue de cachorros de caça importados pela casa real britânica, interessada em fomentar novos hábitos culturais no nascente Estado-nação.', 
+                'B) devido aos fenômenos climáticos que, no século XVI, provocaram o brusco aquecimento do continente e diversas alterações no regime de chuvas.', 
+                'C) pela rota do Mar do Norte, onde os navios pesqueiros portugueses realizavam a caça comercial de baleias infectadas desde o século VII.', 
+                'D) alojada em ratos, instalados nos navios que realizavam as viagens de intercâmbio comercial entre o Ocidente e o Oriente a partir do século XII.', 
+                'E) por meio de peregrinos que, da Terra Santa, caminhavam a Santiago de Compostela, na atual Espanha, fugindo da perseguição do Império Romano.', 
+                'd',
+                2019,
+                1
+                );
+
+        --questão 15--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (255,
+                'O título da charge retoma o título da obra de Baudelaire, As Flores do Mal. O autor, para construir o humor em seu texto, utiliza-se de', 
+                'A) metalinguagem, na representação das flores, que recitam versos compostos pelo poeta ao próprio Baudelaire.', 
+                'B) saudosismo, nas falas das flores, pois elas representam costumes morais inerentes à sociedade francesa do século XIX.', 
+                'C) metáfora, na representação do poeta como flores que apenas dizem verdades, indiferentes às regras morais da sociedade.', 
+                'D) polissemia do substantivo “flores”, uma vez que podem se referir às próprias flores representadas na charge ou aos desejos moralmente rejeitados pelo poeta.', 
+                'E) ambiguidade na locução adjetiva “do mal”, pois, no título original, a locução representa a temática dos poemas, mas, na charge, representa o conteúdo dos conselhos das flores.', 
+                'e',
+                2019,
+                1
+                );
+
+        --questão 16--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (256,
+                'Sobre os períodos apresentados, é correto afirmar que', 
+                'A) o primeiro apresenta um desvio da norma culta, pois utiliza a terceira pessoa nos verbos “visualize” e “responda”, mas utiliza o pronome da segunda pessoa, “te”, sendo, contudo, adequado ao ambiente informal.', 
+                'B) o segundo seria adequado ao diálogo formal das flores com o poeta se fosse “Que as maratonas sejam assistidas nos dias úteis!”, devido ao teor religioso das falas.', 
+                'C) o terceiro apresenta o conteúdo adequado a hábitos de vida saudável para a personagem, representando a necessidade de abstenção de atitudes agradáveis.', 
+                'D) os três apresentam análises críticas sobre o comportamento humano, utilizando a variedade culta da linguagem para expressar o discurso típico da poesia.', 
+                'E) os três apresentam verbos conjugados no subjuntivo para expressar desejos do poeta que só podem ser verbalizados pelas Flores do Mal.', 
+                'a',
+                2019,
+                1
+                );
+
+        --questão 17--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (257,
+                'Assinale a alternativa que completa corretamente a frase com as falas transpostas.', 
+                'A) caso lhe escreverem uma mensagem, visualizasse, mas não responderia; pois assistiria às maratonas de séries naqueles dias úteis enquanto comia bacon.', 
+                'B) quando lhe escrevessem uma mensagem, visualizasse, mas não respondesse; que assistisse às maratonas de séries nos dias úteis; e que comesse bacon.', 
+                'C) quando lhe escreveriam uma mensagem, visualizaria, mas não responderia; que assistiria às maratonas nestes dias úteis; e que comeria bacon.', 
+                'D) se lhe escreverem uma mensagem, visualizá-la-ia, mas não a responderia; que assistisse às maratonas nos dias úteis; e que comeria bacon.', 
+                'E) ao te escreverem uma mensagem, visualize, contudo sem responder; assiste às maratonas de séries nesses dias úteis; e comas bacon',
+                'b',
+                2019,
+                1
+                );
+
+        --questão 18--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (258,
+                'Assinale a alternativa que associa corretamente a medida mais eficiente para prevenir, respectivamente, ascaridíase e ancilostomíase.', 
+                'A) IV e II.', 
+                'B) II e I.', 
+                'C) III e V.', 
+                'D) I e III.', 
+                'E) V e IV.', 
+                'b',
+                2019,
+                1
+                );
+
+        --questão 19--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (259,
+                'Suponha que a fragmentadora desse escritório só aceite uma folha por vez, sendo capaz de fazer sua função a uma velocidade de 3 metros por minuto. Sendo assim, para que um documento com 25 folhas seja fragmentado, levando em consideração que cada folha desse documento tem comprimento de 30 cm, o tempo mínimo para realizar a completa fragmentação desse documento é de', 
+                'A) 1 min 40 s.', 
+                'B) 2 min 20 s.', 
+                'C) 2 min 30 s.', 
+                'D) 3 min 50 s.', 
+                'E) 3 min 40 s.',
+                'c',
+                2019,
+                1
+                );
+
+        --questão 20--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (260,
+                'De acordo com o texto, é correto afirmar sobre a planta citada que', 
+                'A) possui ramos verdes, com folhas grandes e flores vistosas, sendo muito utilizada na alimentação de vários animais herbívoros.', 
+                'B) a simples mastigação ou ingestão de um pedaço de suas flores e raízes é capaz de causar intoxicações graves.', 
+                'C) a mastigação de suas folhas libera cristais de oxalato de cálcio que penetram nos tecidos resultando em lesões.', 
+                'D) todas as suas células podem desencadear um processo alérgico e distúrbios cardíacos.', 
+                'E) o suco vacuolar das células de suas folhas possui histamina, que atua na reorganização das membranas celulares dos tecidos foliares',
+                'c',
+                2019,
+                1
+                );
+
+        --questão 21--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (261,
+                'Considerando as principais funções desse órgão, é correto afirmar que', 
+                'A) a presença de uma epiderme queratinizada, do ponto de vista adaptativo, está diretamente relacionada à reserva nutritiva.', 
+                'B) as glândulas sudoríparas são responsáveis pela produção do suor, ajudando a elevar a temperatura do corpo, ao ser eliminado.', 
+                'C) a transpiração diminui em dias frios e os vasos sanguíneos da pele se dilatam, o que aumenta a perda de calor e mantém o corpo aquecido.', 
+                'D) a transpiração aumenta em dias quentes e os vasos sanguíneos da pele se contraem, o que diminui a irradiação de calor para o meio, esfriando o corpo.', 
+                'E) a exposição da pele aos raios ultravioleta pode causar vermelhidão, queimaduras e também estimula a produção de melanina, que a protege dos efeitos negativos da radiação',
+                'e',
+                2019,
+                1
+                );
+
+        --questão 22--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (262,
+                'Assinale a alternativa que apresenta as palavras que completam corretamente o texto.', 
+                'A) absorver, condução, superior', 
+                'B) absorver, convecção, inferior', 
+                'C) refletir, condução, superior', 
+                'D) refletir, condução, inferior', 
+                'E) refratar, convecção, superior',
+                'a',
+                2019,
+                1
+                );
+
+        --questão 23--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (263,
+                'Assinale a alternativa que apresenta, corretamente, o nome e as principais características desse processo.',
+                '(A) Fotossíntese: Produção de compostos orgânicos, como, por exemplo, os açúcares, a partir de moléculas de gás carbônico (CO2) e de água (H2O), na presença de energia luminosa.',
+                '(B) Respiração: Transformação de energia luminosa em energia potencial química, armazenada nas moléculas de glicídios (açúcares) produzidas no processo.',
+                '(C) Fermentação: Degradação completa de moléculas orgânicas liberando energia luminosa para a formação de moléculas de ATP (adenosina trifosfato).',
+                '(D) Fotossíntese: Oxidação de compostos orgânicos na presença de energia luminosa, formando moléculas de gás carbônico (CO2), de água (H2O) e liberando energia química que será usada pelos seres vivos.',
+                '(E) Respiração: Liberação de energia química a partir da combustão da matéria orgânica, principalmente glicose, na presença de energia luminosa, gás carbônico (CO2) e água (H2O).',
+                'd',
+                2019,
+                1
+                );
+
+
+        --questão 24--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (264,
+                'Na segunda estrofe, a faísca desencadeia uma transformação',
+                '(A) química e exotérmica, pois há liberação de energia.',
+                '(B) química e endotérmica, pois há absorção de energia.',
+                '(C) física e exotérmica, pois há absorção de energia.',
+                '(D) física e endotérmica, pois há liberação de energia.',
+                '(E) física e sem variação de energia.',
+                'a',
+                2019,
+                1
+                );
+
+        --questão 25--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (265,
+                'O singular da palavra escrita em negrito, na segunda estrofe, significa',
+                '(A) nesga de areia depositada paralelamente ao litoral.',
+                '(B) porção do continente que se projeta para o oceano.',
+                '(C) depressão alongada e estreita com laterais íngremes.',
+                '(D) reentrância da costa com formato aproximadamente circular.',
+                '(E) faixa estreita de terreno que conecta duas grandes extensões de terra.',
+                'e',
+                2019,
+                1
+                );
+
+
+        --questão 26--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (266,
+                'As palavras escritas em negrito, na quarta estrofe, podem ser substituídas correta e respectivamente pelos termos',
+                '(A) leste e sul.',
+                '(B) leste e norte.',
+                '(C) leste e oeste.',
+                '(D) oeste e norte.',
+                '(E) oeste e sul.',
+                'd',
+                2019,
+                1
+                );
+
+
+        --questão 27--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (267,
+                'Considerando o gráfico dado, o trabalho total realizado no deslocamento de 8 m, em joules, corresponde a',
+                '(A) 160.',
+                '(B) 240.',
+                '(C) 280.',
+                '(D) 320.',
+                '(E) 520.',
+                'd',
+                2019,
+                1
+                );
+
+        --questão 28--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (268,
+                'O poema faz referência a Palmares e à ideia de liberdade, os quais caracterizam',
+                '(A) a execução de Tiradentes, líder da Inconfidência Mineira, movimento emancipacionista frustrado, ocorrido em Minas Gerais no século XVIII.',
+                '(B) a demarcação de terras indígenas no Pará, garantidas pela Constituição Federal de 1988, promulgada após aproximadamente duas décadas de regime autoritário.',
+                '(C) a demolição do Complexo Penitenciário do Carandiru, em São Paulo, onde, na segunda metade do século XX, ocorreu uma das maiores chacinas da história do estado.',
+                '(D) o mais duradouro quilombo da história do Brasil, localizado em Alagoas, no qual se refugiaram milhares de escravos fugidos de cidades e fazendas ao longo do século XVII.',
+                '(E) as comunidades pobres do Rio de Janeiro que, por volta de 1910, foram expulsas dos cortiços no centro da cidade, no processo de reformas urbanas conduzido por Pereira Passos.',
+                'd',
+                2019,
+                1
+                );
+
+        --questão 29--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (269,
+                'Quando ele unir as peças que apresentam os íons K+ e NO3-, estará representando um composto',
+                '(A) iônico, denominado nitrato de potássio.',
+                '(B) iônico, denominado potássico de nitrogênio.',
+                '(C) molecular, denominado nitrato de potássio.',
+                '(D) molecular, denominado potássio de nitrogênio.',
+                '(E) metálico, denominado nitrato de potássio.',
+                'a',
+                2019,
+                1
+                );
+
+
+        --questão 30--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (270,
+                'Unindo as peças do quebra-cabeça de cátions e ânions, o aluno pode concluir, corretamente, que o cloreto de bário apresenta a fórmula',
+                '(A) BaCl.',
+                '(B) BaCl₂.',
+                '(C) ClBa.',
+                '(D) ClBa₂.',
+                '(E) Ba₂Cl₂.',
+                'b',
+                2019, 
+                1
+                );
+
+        --questão 31--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (271,
+                'Assinale a alternativa que apresenta, corretamente, os números das peças do quebra-cabeça que representam a fórmula do principal componente desse tempero, na seguinte ordem: Cátion e Ânion.',
+                '(A) 4, 3.',
+                '(B) 5, 4.',
+                '(C) 5, 2.',
+                '(D) 3, 3.',
+                '(E) 3, 4.',
+                'e',
+                2019,
+                1
+                );
+
+        --questão 32--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (272,
+                'Se, em dado momento, somente a lâmpada L4 tiver seu filamento rompido, apagando-se, é correto concluir que',
+                '(A) só L₃ permanecerá acesa.',
+                '(B) só L₁ e L₂ permanecerão acesas.',
+                '(C) só L₁ e L₃ permanecerão acesas.',
+                '(D) as demais lâmpadas permanecerão acesas.',
+                '(E) nenhuma das lâmpadas permanecerá acesa.',
+                'b',
+                2019,
+                1
+                );
+
+        --questão 33--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (273,
+                'Considerando a teia alimentar representada na figura, pode-se afirmar corretamente que os organismos',
+                '(A) II, III e IV são exclusivamente consumidores de primeira ordem.',
+                '(B) V e VII são consumidores de primeira e segunda ordem.',
+                '(C) IV e VII são exclusivamente decompositores.',
+                '(D) III são consumidores de segunda e terceira ordem.',
+                '(E) I são exclusivamente seres vivos parasitas.',
+                'd',
+                2019,
+                1
+                );
+
+
+        --questão 34--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (274,
+                'Sabendo que o chuveiro de sua casa tem potência de 2 800 W, o estudante calculou que, no período avaliado, o consumo de energia em sua casa, devido ao uso do chuveiro, foi, aproximadamente, de',
+                '(A) 90 kWh.',
+                '(B) 105 kWh.',
+                '(C) 125 kWh.',
+                '(D) 140 kWh.',
+                '(E) 155 kWh.',
+                'c',
+                2019,
+                1
+                );
+
+        --questão 35--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (275,
+                'Ao formular sua teoria, Montesquieu criticou o regime absolutista e defendeu a divisão do governo em três poderes – Executivo, Legislativo e Judiciário – como forma de',
+                '(A) garantir a centralização do poder monárquico e a vontade absoluta dos reis, bem como defender os interesses das classes dominantes.',
+                '(B) desestabilizar o governo e enfraquecer o Judiciário, bem como garantir a impunidade dos crimes cometidos pelos mais pobres.',
+                '(C) evitar a concentração de poder e os abusos dos governantes, bem como proteger as liberdades individuais dos cidadãos.',
+                '(D) estabilizar o governo e fortalecer o Executivo, bem como liberar as camadas subalternas da cobrança de impostos.',
+                '(E) fortalecer o povo e eliminar os governos, bem como eliminar as formas de punição consideradas abusivas.',
+                'c',
+                2019,
+                1
+                );
+
+
+        --questão 36--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (276,
+                'Nessas condições, pode-se afirmar que, no munícipio de São Paulo, para cada 3 eleitores registrados, existem',
+                '(A) 75 habitantes.',
+                '(B) 40 habitantes.',
+                '(C) 30 habitantes.',
+                '(D) 4 habitantes.',
+                '(E) 3 habitantes.',
+                'd',
+                2019,
+                1
+                );
+
+        --questão 37--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (277,
+                'Identifique a alternativa em que o modo e o tempo desse verbo estão analisados correta e respectivamente.',
+                '(A) Ajuda, presente do indicativo, ajudo, pretérito perfeito do indicativo.',
+                '(B) Ajuda, presente do subjuntivo, ajudo, presente do subjuntivo.',
+                '(C) Ajuda, pretérito do subjuntivo, ajudo, presente do indicativo.',
+                '(D) Ajuda, imperativo afirmativo, ajudo, presente do indicativo.',
+                '(E) Ajuda, imperativo afirmativo, ajudo, futuro do indicativo.',
+                'd',
+                2019,
+                1
+                );
+
+        --questão 38--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (278,
+                'O título da charge “democracinhas” é um neologismo composto pelo mesmo processo de formação presente no termo',
+                '(A) desanuviar, derivação sufixal.',
+                '(B) inativo, derivação parassintética.',
+                '(C) girassol, composição por hibridismo.',
+                '(D) fidalgo, composição por aglutinação.',
+                '(E) televisão, derivação prefixal e sufixal.',
+                'd',
+                2019,
+                1
+                );
+
+
+        --questão 39--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (279,
+                'Assinale a alternativa que apresenta a análise correta da função morfológica dos termos destacados nas passagens.',
+                '(A)',
+                '(B)',
+                '(C)',
+                '(D)',
+                '(E)',
+                'a',
+                2019,
+                1
+                );
+
+        --questão 40--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (280,
+                'Assinale a alternativa que apresenta o tempo mínimo e necessário para que todo o processo de votação seja finalizado nessa Zona Eleitoral.',
+                '(A) 3 h 55 min',
+                '(B) 3 h 45 min',
+                '(C) 2 h 40 min',
+                '(D) 2 h 25 min',
+                '(E) 1 h 15 min',
+                'b',
+                2019,
+                1
+                );
+
+
+        --questão 41--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (281,
+                'O Tratado foi assinado após a derrota alemã na',
+                '(A) Segunda Guerra Mundial e estabeleceu a divisão da Alemanha em dois países distintos; a construção do Muro de Berlim e a formação de uma Força Suprapartidária Permanente para fiscalizar as fronteiras e garantir a paz.',
+                '(B) Guerra Franco-Prussiana e estabeleceu a perda dos territórios da Prússia e da Bavária; a fortificação dos postos da fronteira com a França e a criação de uma comissão para apurar os crimes de guerra.',
+                '(C) Guerra Austro-Prussiana e estabeleceu a prestação de serviços sociais nas áreas devastadas pela guerra; a militarização das fronteiras da Alemanha e a implantação de políticas de austeridade fiscal, para combater a crise econômica alemã.',
+                '(D) Guerra da Crimeia e estabeleceu a aplicação de multas aos soldados alemães acusados de crimes de guerra; o desenvolvimento da indústria armamentista e a criação de grupos paramilitares para patrulhar estradas.',
+                '(E) Primeira Guerra Mundial e estabeleceu a perda de colônias alemãs na África e parte de seu território continental; a desmilitarização e o pagamento de uma alta indenização aos Aliados, o que agravou a crise econômica no país.',
+                'e',
+                2019,
+                1
+                );
+
+
+        --questão 42--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (282,
+                'Dentre essas transformações e suas distribuições no território brasileiro, podemos citar corretamente',
+                '(A) o surgimento do estado de Tocantins, desmembrado do estado de Goiás e incorporado à região Centro-Oeste.',
+                '(B) a transformação dos antigos territórios federais de Rondônia, Roraima e Amapá em estados pertencentes à região Norte.',
+                '(C) a incorporação do antigo território federal de Fernando de Noronha ao estado do Rio Grande do Norte, na região Nordeste.',
+                '(D) a divisão do estado de Mato Grosso em duas novas unidades da federação, o Mato Grosso do Sul e o Mato Grosso, na região Sudeste.',
+                '(E) o desmembramento do estado da Guanabara do estado do Rio de Janeiro quando da criação da cidade de Brasília, na região Sul.',
+                'b',
+                2019,
+                1
+                );
+
+        --questão 43--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (283,
+                'Entre as características da presença holandesa em Pernambuco, pode-se citar, corretamente',
+                '(A) a valorização da cultura muçulmana, a implementação da monocultura do café e a abolição da escravidão, considerada pelos holandeses um símbolo do atraso civilizatório brasileiro.',
+                '(B) a intolerância religiosa e a perseguição a cristãos e muçulmanos, o estímulo à mineração de ouro e prata e o descaso pelo patrimônio público, que não resistiu às intempéries e ao vandalismo.',
+                '(C) a implementação do regime absolutista, a perseguição a intelectuais e artistas e a deterioração dos equipamentos urbanos, cuja manutenção dependia dos investimentos diretos da Coroa portuguesa.',
+                '(D) o princípio da isonomia, o incentivo a pesquisas sobre geologia e astronomia e o desenvolvimento de uma cultura própria, na qual se destaca a miscigenação de elementos das três religiões monoteístas.',
+                '(E) a tolerância religiosa, o incentivo a pesquisas sobre a fauna e a  ora tropicais e o desenvolvimento da arquitetura, no qual se destacam a drenagem de áreas alagadiças e a construção da primeira ponte de grande porte do Brasil.',
+                'e',
+                2019,
+                1
+                );
+
+
+        --questão 44--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (284,
+                'Com suas observações, foi capaz de deduzir corretamente que o desnível do terreno era de',
+                '(A) 6,0 m.',
+                '(B) 8,0 m.',
+                '(C) 10,0 m.',
+                '(D) 12,0 m.',
+                '(E) 14,0 m.',
+                'a',
+                2019,
+                1
+                );
+
+        --questão 45--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (285,
+                'Sobre esse país é correto afirmar que',
+                '(A) foi a única colônia europeia na América a não adotar mão de obra escrava.',
+                '(B) era colônia holandesa e tornou-se um país independente em meados da década de 1970.',
+                '(C) sua língua oficial é o inglês, mas o espanhol é bastante utilizado, assim como alguns dialetos locais.',
+                '(D) é banhado pelo Oceano Pacífico e seu relevo é marcado pela existência da Cordilheira dos Andes, que corta o país de norte a sul.',
+                '(E) seu principal produto de exportação é a banana, o que torna sua economia estável devido às pequenas variações no mercado de commodities.',
+                'b',
+                2019,
+                1
+                );
+
+        --questão 46--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (286,
+                'Sobre as várias etapas do processo de imunização descritas no texto é correto afirmar que',
+                '(A) a pessoa picada por cobra venenosa deverá tomar soro, pois este contém os antígenos específicos que irão neutralizar o veneno.',
+                '(B) a aplicação de soro ou vacina em uma vítima de picada de cobra são processos indiferentes porque ambos possuem anticorpos.',
+                '(C) os anticorpos específicos produzidos contra o veneno da cobra, e injetados na vítima, permanecem ativos no sangue durante toda a vida do receptor.',
+                '(D) o soro não possui função preventiva, sendo usado apenas como forma de tratamento, pois contém anticorpos prontos para o uso em seres humanos.',
+                '(E) a devolução das células sanguíneas aos animais é importante porque, como as hemácias atuam na defesa, isso impede a manifestação de processos infecciosos nos cavalos.',
+                'd',
+                2019,
+                1
+                );
+
+
+        --questão 47--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (287,
+                'Considerando y o valor do prêmio em 2017 e x o valor do prêmio em 2016, assinale a alternativa que apresenta a relação correta entre os dois valores.',
+                '(A) y = x + 0,12',
+                '(B) y = 1,12 x',
+                '(C) y = 12 x',
+                '(D) x = 1,12 y',
+                '(E) x = y + 0,12',
+                'b',
+                2019,
+                1
+                );
+
+        --questão 48--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (288,
+                'Com base nas informações contidas no texto e assumindo que, em 2016, uma coroa sueca era equivalente a R$ 0,42, pode-se afirmar que o valor aproximado do Prêmio Nobel, para cada modalidade de premiação, em 2016 era, em milhões de reais, de cerca de',
+                '(A) 3,33',
+                '(B) 3,66',
+                '(C) 3,78',
+                '(D) 5,04',
+                '(E) 7,92',
+                'a',
+                2019,
+                1
+                );
+
+        --questão 49--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (289,
+                'A altura da caixa, em centímetros, será igual a',
+                '(A) 2,0',
+                '(B) 2,3',
+                '(C) 3,0',
+                '(D) 3,3',
+                '(E) 4,0',
+                'c',
+                2019,
+                1
+                );
+
+        --questão 50--
+        INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+        VALUES (290,
+                'Sobre os tipos de rochas, podemos afirmar corretamente que aquelas formadas pela transformação de outras rochas existentes no interior da Terra, submetidas a enormes pressões e altas temperaturas, são conhecidas como',
+                '(A) ígneas.',
+                '(B) plutônicas.',
+                '(C) magmáticas.',
+                '(D) sedimentares.',
+                '(E) metamórficas.',
+                'e',
+                2019,
+                1
+                );
+
+-- INSERT TABLE tbIMAGENS PROVA 2019 1 SEMESTRE
+        INSERT INTO tbImagens (cod_image, cod_question, image_data)
+        VALUES 
+                ('', 241, 'imgs/txtQ1.PNG'),
+                ('', 242, 'imgs/txtQ2_1.PNG'),
+                ('', 242, 'imgs/txtQ2_2.PNG'),
+                ('', 243, 'imgs/txtQ3-4.PNG'),
+                ('', 245, 'imgs/imgQ5.PNG'),
+                ('', 245, 'imgs/txtQ5.PNG'),
+                ('', 246, 'imgs/txtQ6-8.PNG'),
+                ('', 249, 'imgs/txtQ9_1.PNG'),
+                ('', 249, 'imgs/imgQ9.PNG'),
+                ('', 249, 'imgs/txtQ9_2.PNG'),
+                ('', 250, 'imgs/txtQ10.PNG'),
+                ('', 251, 'imgs/txtQ11.PNG'),
+                ('', 252, 'imgs/imgQ12.PNG'),
+                ('', 252, 'imgs/txtQ12.PNG'),
+                ('', 253, 'imgs/txtQ13_1.PNG'),
+                ('', 253, 'imgs/imgQ13.PNG'),
+                ('', 253, 'imgs/txtQ13_2.PNG'),
+                ('', 254, 'imgs/txtQ14.PNG'),
+                ('', 255, 'imgs/txtQ15-17.PNG'),
+                ('', 255, 'imgs/imgQ15-17.PNG'),
+                ('', 256, 'imgs/imgQ16.PNG'),
+                ('', 257, 'imgs/txtQ17.PNG'),
+                ('', 258, 'imgs/txtQ18.PNG'),
+                ('', 258, 'imgs/imgQ18.PNG'),
+                ('', 259, 'imgs/txtQ19.PNG'),
+                ('', 260, 'imgs/imgQ20.PNG'),
+                ('', 261, 'imgs/txtQ21.PNG'),
+                ('', 262, 'imgs/txtQ22_1.PNG'),
+                ('', 262, 'imgs/txtQ22_2.PNG'),
+                ('', 263, 'imgs/txtQ23_1.PNG'),
+                ('', 263, 'imgs/txtQ23_2.PNG'),
+                ('', 263, 'imgs/txtQ23_3.PNG'),
+                ('', 264, 'imgs/txtQ24_1.PNG'),
+                ('', 264, 'imgs/txtQ24_2.PNG'),
+                ('', 265, 'imgs/txtQ25-26.PNG'),
+                ('', 267, 'imgs/txtQ27.PNG'),
+                ('', 267, 'imgs/imgQ27.PNG'),
+                ('', 268, 'imgs/txtQ28.PNG'),
+                ('', 269, 'imgs/imgQ29-31.PNG'),
+                ('', 269, 'imgs/txtQ29.PNG'),
+                ('', 271, 'imgs/txtQ31_1.PNG'),
+                ('', 271, 'imgs/txtQ31_2.PNG'),
+                ('', 272, 'imgs/txtQ32_1.PNG'),
+                ('', 272, 'imgs/imgQ32.PNG'),
+                ('', 272, 'imgs/txtQ32_2.PNG'),
+                ('', 273, 'imgs/txtQ33.PNG'),
+                ('', 273, 'imgs/imgQ33.PNG'),
+                ('', 274, 'imgs/imgQ34.PNG'),
+                ('', 274, 'imgs/txtQ34.PNG'),
+                ('', 275, 'imgs/txtQ35_1.PNG'),
+                ('', 275, 'imgs/txtQ35_2.PNG'),
+                ('', 276, 'imgs/txtQ36.PNG'),
+                ('', 277, 'imgs/imgQ37-39.PNG'),
+                ('', 277, 'imgs/txtQ37.PNG'),
+                ('', 279, 'imgs/imgQ39.PNG'),
+                ('', 279, 'imgs/imgQ39_2.PNG'),
+                ('', 280, 'imgs/txtQ40.PNG'),
+                ('', 281, 'imgs/txtQ41.PNG'),
+                ('', 282, 'imgs/txtQ42.PNG'),
+                ('', 283, 'imgs/txtQ43.PNG'),
+                ('', 283, 'imgs/imgQ43.PNG'),
+                ('', 284, 'imgs/txtQ44.PNG'),
+                ('', 284, 'imgs/imgQ44.PNG'),
+                ('', 285, 'imgs/txtQ45.PNG'),
+                ('', 286, 'imgs/txtQ46.PNG'),
+                ('', 287, 'imgs/imgQ47-49.PNG'),
+                ('', 289, 'imgs/txtQ49.PNG'),
+                ('', 289, 'imgs/imgQ49.PNG'),
+                ('', 290, 'imgs/txtQ50.PNG');
+
 -- INSERT TABLE tbQUESTIONS PROVA 2015 1 SEMESTRE
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
         VALUES (641, -- questão 1
@@ -4069,9 +4856,3 @@ CREATE TABLE tbImagens (
             ('', 739, 'imgs2/txtQ49.PNG'),
             ('', 740, 'imgs2/txtQ50.PNG');
 
-
-
-
-
-
---Novo
