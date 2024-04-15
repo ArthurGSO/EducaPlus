@@ -2695,7 +2695,6 @@ CREATE TABLE tbImagens (
             (188, 'imgs/txtQ48.PNG'),
             (189, 'imgs/txtQ49-50.PNG');
 
-
 -- INSERT TABLE tbQUESTIONS PROVA 2015 1 SEMESTRE
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
         VALUES (641, -- questão 1
