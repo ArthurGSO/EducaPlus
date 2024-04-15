@@ -2695,663 +2695,6 @@ CREATE TABLE tbImagens (
             (188, 'imgs/txtQ48.PNG'),
             (189, 'imgs/txtQ49-50.PNG');
 
--- INSERT TABLE tbQUESTIONS PROVA 2020 1 SEMESTRE
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 1
-        191,
-        'Analise as alternativas e assinale a correta.',
-        '(A) O número 6 056 529 316 217 não é primo, e por isso está distante do restante.',
-        '(B) Como os números 37 e 73 são primos, então 16 e 61 também são.',
-        '(C) O número 237 é um número primo, assim como o 37 e o 137.',
-        '(D) Todo número primo é ímpar e só pode terminar em 1, 3, 7 ou 9.',
-        '(E) Há apenas quatro números primos que são menores do que 10.',
-        'E',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 2
-        192,
-        'Assim, na pele, entre os fatores que contribuem para a manutenção da temperatura corporal em dias frios, em ambientes abertos, destacam-se',
-        '(A) a dilatação dos vasos sanguíneos periféricos e maior eliminação de oleosidade pelas glândulas sebáceas.',
-        '(B) a dilatação dos vasos sanguíneos periféricos e maior eliminação de suor pelas glândulas sudoríparas.',
-        '(C) a dilatação dos vasos sanguíneos periféricos e eliminação contínua de suor pelas glândulas sebáceas.',
-        '(D) a contração dos vasos sanguíneos periféricos e menor eliminação de suor pelas glândulas sudoríparas.',
-        '(E) a contração dos vasos sanguíneos periféricos e maior eliminação de suor pelas glândulas sebáceas.',
-        'D',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 3
-        193,
-        'De acordo com o texto, é correto afirmar que',
-        '(A) a subalimentação inexiste em países considerados subdesenvolvidos.',
-        '(B) a subalimentação atinge principalmente os moradores das áreas urbanas.',
-        '(C) o aumento da produção industrial acabará com o problema da subalimentação.',
-        '(D) é possível acabar com o problema da subalimentação no mundo em que vivemos.',
-        '(E) é a proteção militar dada pelos países pobres aos países ricos que causa a subalimentação.',
-        'D',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 4
-        194,
-        'Analise-as e assinale a alternativa que apresenta apenas a afirmação correta sobre um dos sistemas representados.',
-        '(A) No sistema 1, temos duas substâncias simples.',
-        '(B) O sistema 1 é uma substância pura.',
-        '(C) No sistema 1, temos cinco componentes.',
-        '(D) O sistema 2 é uma mistura.',
-        '(E) No sistema 2, temos dois componentes.',
-        'A',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 5
-        195,
-        'Os depoimentos orais são considerados fontes',
-        '(A) históricas, pois contêm informações e conhecimentos transmitidos de geração a geração ou a versão pessoal de indivíduos que testemunharam acontecimentos históricos.',
-        '(B) etnográficas, pois são utilizadas para confirmar as diferenças culturais existentes no interior de uma mesma sociedade, fortalecendo os preconceitos e preservando os privilégios.',
-        '(C) científicas, pois sua obtenção se dá por meio de entrevistas realizadas por repórteres profissionais, vinculados aos grandes portais de notícias.',
-        '(D) epistemológicas, pois são documentos certificados por instituições extraoficiais, vinculadas a organismos diplomáticos internacionais.',
-        '(E) mitológicas, pois as versões pessoais são ratificadas pelos cientistas, comprometendo a credibilidade dos testemunhos.',
-        'A',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 6
-        196,
-        ' Assinale a alternativa que completa correta e respectivamente as lacunas da frase.',
-        '(A) maior; menor que',
-        '(B) maior; igual',
-        '(C) maior; maior que',
-        '(D) menor; igual',
-        '(E) menor; maior que',
-        'B',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 7
-        197,
-        'A expressão responsável pela construção do humor no texto é',
-        '(A) “não pago!”, repetida exaustivamente pela personagem com o intuito de criar, dessa forma, um eufemismo.',
-        '(B) “Contra tudo e contra todos”, passagem generalizante e imprópria ao contexto humorístico, trata-se de uma ironia.',
-        '(C) “paga ICM! Corro pra lá: Olha o fiscal me cobrando...”, passagem composta por verbos que se contradizem, formando, portanto, um paradoxo.',
-        '(D) “herói cobrado retumbante”, devido à sua semelhança sonora com um conhecido verso do Hino Nacional Brasileiro, configurando uma paronomásia.',
-        '(E) “Heroicamente! Denodadamente! Como um mártir”, expressões usadas para atingir a autoestima da personagem; trata-se de uma preterição.',
-        'D',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 8
-        198,
-        'A figura matemática que é descrita tendo, obrigatoriamente, todos os elementos do cartão de visita citado é o',
-        '(A) losango.',
-        '(B) pentágono.',
-        '(C) quadrado.',
-        '(D) retângulo.',
-        '(E) triângulo.',
-        'A',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 9
-        199,
-        'Sobre esse esquema é correto afirmar que',
-        '(A) os processos 1 e 2 são realizados pelos animais e vegetais na decomposição da matéria orgânica.',
-        '(B) os processos 1 e 2 são realizados pelos animais e vegetais na produção de compostos orgânicos.',
-        '(C) os processos 1 e 2 são realizados pelos animais na absorção e na eliminação do gás carbônico.',
-        '(D) o processo 1 é realizado pelos animais na combustão da matéria orgânica.',
-        '(E) o processo 1 é realizado pelos vegetais na produção da matéria orgânica.',
-        'E',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 10
-        200,
-        'O crescimento do tipo de restaurante retratado no texto se deve ao',
-        '(A) aumento significativo do desemprego, forçando milhões de trabalhadores e trabalhadoras a se alimentarem com refeições mais baratas e mais nutritivas servidas nesses restaurantes.',
-        '(B) surgimento de um movimento denominado slow food, que defende a utilização de produtos alimentares artesanais de qualidade produzidos de forma que respeite o meio ambiente.',
-        '(C) movimento mundial de valorização das alimentações locais como forma de prestigiar a comida feita nos vilarejos mais distantes e disponibilizadas por intermédio de restaurantes mundializados.',
-        '(D) fenômeno da globalização, que atua como fator determinante na modificação dos hábitos alimentares, gerando transformações no estilo de vida de milhões de pessoas espalhadas pelo planeta.',
-        '(E) resgate de uma modalidade de alimentação que surgiu no início do modo de produção capitalista no século XVI na Europa, baseada nas tabernas instaladas nas feiras comerciais como as de Flandres e de Champagne.',
-        'D',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 11
-        201,
-        'De acordo com o texto, é correto afirmar que',
-        '(A) os carros elétricos, fabricados atualmente, usam baterias do tipo níquel cádmio.',
-        '(B) as baterias de íons de lítio são maiores e mais pesadas que as baterias de hidreto de níquel.',
-        '(C) as baterias de lítio apresentam efeito memória e, por isso devemos recarregá-las por completo.',
-        '(D) aparelhos eletrônicos, fabricados atualmente, usam baterias menores e mais leves as quais não requerem tanta preocupação com sua carga e descarga.',
-        '(E) as baterias atuais podem ficar expostas a altas temperaturas sem perderem sua capacidade de recarga e nem sofrerem decomposição.',
-        'D',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 12
-        202,
-        'Sabendo que o lítio também é um metal alcalino, podemos afirmar que os átomos de lítio se ligam a átomos de cloro formando o composto cloreto de lítio, representado, corretamente, por',
-        '(A) Li2Cl',
-        '(B) Li2Cl2',
-        '(C) ClLi2',
-        '(D) Cl2Li2',
-        '(E) LiCl',
-        'E',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 13
-        203,
-        'Assinale a alternativa que apresenta, corretamente, as principais características do sistema de plantation.',
-        '(A) Agricultura diversificada, voltada para a subsistência, pequenas propriedades rurais, mão de obra familiar.',
-        '(B) Extrativismo, voltado para o mercado interno, médias propriedades, mão de obra imigrante.',
-        '(C) Monocultura, voltada para o mercado externo, latifúndio e mão de obra escrava.',
-        '(D) Produção agrícola diversificada, voltada para o mercado externo, latifúndio e mão de obra livre.',
-        '(E) Produção mecanizada, voltada para o mercado interno, pequenas propriedades, mão de obra escrava.',
-        'C',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 14
-        204,
-        'Assinale a alternativa que completa correta e respectivamente as lacunas da frase.',
-        '(A) condução, convecção, irradiação',
-        '(B) condução, irradiação, convecção',
-        '(C) convecção, condução, irradiação',
-        '(D) irradiação, condução, convecção',
-        '(E) irradiação, convecção, condução',
-        'D',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 15
-        205,
-        'Nessas condições, a menor temperatura que apareceria no texto em língua inglesa é',
-        '(A) –482 ºF.',
-        '(B) –212 ºF.',
-        '(C) –148 ºF.',
-        '(D) 148 ºF.',
-        '(E) 148 ºF.',
-        'C',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 16
-        206,
-        'Sobre esse esquema, podemos afirmar, corretamente, que os números I, II, III e IV representam, respectivamente,',
-        '(A) veias cavas, veias pulmonares, artéria pulmonar, artéria aorta',
-        '(B) veias cavas, veias pulmonares, artéria aorta, artéria pulmonar',
-        '(C) artéria aorta, artéria pulmonar, veias cavas, veias pulmonares',
-        '(D) artéria aorta, veias pulmonares, artéria pulmonar, veias cavas',
-        '(E) veias pulmonares, veias cavas, artéria aorta, artéria pulmonar',
-        'B',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 17
-        207,
-        'Assim como na agricultura, a atividade pecuária se diferencia em extensiva e intensiva. A pecuária intensiva é um sistema',
-        '(A) tradicional de produção, em que os animais são criados em grandes áreas, o qual emprega técnicas arcaicas com objetivo de manter a produtividade.',
-        '(B) tradicional de produção, em que predomina a utilização dos nutrientes do pasto como fonte de alimentos para os animais e utilização mínima de água.',
-        '(C) tradicional de produção, em que, nos períodos mais secos, complementa-se a alimentação dos rebanhos com cactáceas, como a palma e proteinados de baixo custo.',
-        '(D) moderno de produção, em que ocorrem investimentos em técnicas avançadas aplicadas nos rebanhos, tais como melhoramento genético e inseminação artificial.',
-        '(E) moderno de produção, em que os animais são criados soltos e, como forma de suplementação, é feito o fornecimento de sal comum e de sal mineral aos rebanhos.',
-        'D',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 18 --
-        208,
-        'Sobre o texto, analise as afirmações:',
-        'a) O desmatamento da floresta põe em risco, para além de suas riquezas naturais, a continuidade de conhecimentos tradicionais.',
-        'b) Apesar da biodiversidade existente na floresta Amazônica, o impacto gerado pelo seu desmatamento restringe-se às comunidades e aos povos locais.',
-        'c) A não preservação do bioma Amazônia pode acarretar impactos no clima mundial e até mesmo na pesquisa médico-científica.',
-        'd) O desmatamento da floresta põe em risco, para além de suas riquezas naturais, a continuidade de conhecimentos tradicionais e a não preservação do bioma Amazônica pode acarretar impactos no clima mundial e até mesmo na pesquisa médico-científica.',
-        'e) O desmatamento da floresta põe em risco, para além de suas riquezas naturais, a continuidade de conhecimentos tradicionais, o impacto gerado pelo seu desmatamento restringe-se às comunidades e aos povos locais e a não preservação do bioma Amazônica pode acarretar impactos no clima mundial e até mesmo na pesquisa médico-científica.',
-        'D',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES (  -- Questão 19 --
-        209,
-        'Observe os elementos de coesão destacados no texto. Analisando seu contexto de ocorrência, assim como suas funções sintático-semânticas, afirma-se corretamente que',
-        'a) “não só” é uma locução adverbial utilizada para negar a expressão “os povos indígenas e as comunidades locais”.',
-        'b) “não só... mas também”; “além disso” e “bem como” são locuções conjuntivas e expressam ideia de adição.',
-        'c) “No entanto”, como conjunção adversativa, pode ser substituída, sem alterar o sentido original do período, por “porque”.',
-        'd) “à medida que” está empregada inadequadamente no texto, pois deveria expressar proporção; logo, o correto seria “na medida em que”.',
-        'e) “mas também” exerce função de conjunção adversativa no texto, uma vez que expressa oposição em relação à oração anterior: “... a floresta Amazônica é reconhecida...”.',
-        'B',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 20 --
-        210,
-        'Para alcançar seu intento, o autor recorre a determinadas construções linguísticas, tal como',
-        'a) a variação entre verbos no presente do indicativo e verbos no presente do subjuntivo com a finalidade de discernir entre dados concretos e hipotéticos sobre a floresta, respectivamente.',
-        'b) o uso de verbos no presente e no pretérito perfeito do indicativo para retratar a realidade atual da floresta e seu uso tradicional no preparo de medicamentos, respectivamente.',
-        'c) a recorrência de verbos no imperativo e de vocativos direcionados ao leitor, a fim de alcançar sua adesão ao processo de preservação ambiental.',
-        'd) o uso predominante de linguagem denotativa na construção de narrativas sobre o processo de desmatamento da floresta a fim de fornecer informações acerca desse tópico.',
-        'e) o uso predominante da linguagem conotativa na construção textual para garantir objetividade e imparcialidade aos dados retratados.',
-        'B',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 21 --
-        211,
-        ' Assinale a alternativa cujo antecedente do pronome relativo está corretamente destacado.',
-        'a) “...o desmatamento da Amazônia gradualmente desmonta os frágeis processos ecológicos que levaram anos para serem construídos e refinados.”',
-        'b) “O conhecimento sobre o uso dessas plantas geralmente fica nas mãos de um curandeiro, que por sua vez repassa a tradição para um aprendiz...”',
-        'c) “Além disso, de todas as florestas tropicais do mundo, a Amazônia é a única que ainda está conservada, em termos de tamanho e diversidade.”',
-        'd) “Os cientistas acreditam que menos de 0,5% das espécies da flora foram detalhadamente estudadas...”',
-        'e) “Ao mesmo tempo em que o bioma Amazônia está encolhendo lentamente em tamanho...”',
-        'A',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 22 --
-        212,
-        ' De acordo com as informações do texto, é correto afirmar que',
-        'a) X < 15.',
-        'b) 15 < X < 20.',
-        'c) 15 > X > 20.',
-        'd) 15 < X > 20.',
-        'e) X > 20.',
-        'B',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 23 --
-        213,
-        ' Nessas condições, o número de carpas húngaras que o piscicultor vendeu foi igual a',
-        'a) 250.',
-        'b) 290.',
-        'c) 820.',
-        'd) 910.',
-        'e) 950.',
-        'a,b,c,d,e',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 24 --
-        214,
-        'De acordo com o texto, é correto afirmar que',
-        'a) a atual luta dos indígenas mexicanos é pelo direito de utilizar sementes transgênicas de milho em larga escala para poder aumentar ainda mais a produção desse grão.',
-        'b) a relação do povo mexicano com o milho é histórica, uma vez que esse grão é cultivado desde a época dos antigos povos que habitavam a região onde hoje se localiza o México.',
-        'c) o Brasil é o país que mais consome milho no mundo, uma vez que esse grão foi encontrado em abundância pelos portugueses que aqui aportaram no século XVI.',
-        'd) a dispersão das sementes de milho pela América Latina só foi possível em função da ação dos ventos que espalharam as sementes desse grão para todo o continente americano.',
-        'e) o povo maia tinha no milho um deus cristão, responsável pela eliminação da fome e pela manutenção da vida desse povo, que conviveu em harmonia com os colonizadores espanhóis.',
-        'B',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 25 --
-        215,
-        'Ainda de acordo com o texto, é correto afirmar que',
-        'a) o maior número de variedades de milho se encontra no Brasil, onde é usado para extrair o etanol.',
-        'b) o milho branco é a variedade mais rara encontrada no México e é utilizada para fazer canjica.',
-        'c) a glicose que vem do amido de milho é também usada no revestimento de comprimidos.',
-        'd) a palha do milho é utilizada na fabricação de cremes dentais e de pneus.',
-        'e) os maias usavam o milho na produção da penicilina.',
-        'C',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 26 --
-        216,
-        'Conclui-se, corretamente, que se trata de uma reação',
-        'A) exotérmica, pois cedeu calor para o sistema.',
-        'B) exotérmica, pois absorveu calor do sistema.',
-        'C) endotérmica, pois cedeu calor para o sistema.',
-        'D) endotérmica, pois absorveu calor do sistema.',
-        'E) isotérmica, pois não houve troca de energia.',
-        'A',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 27 --
-        217,
-        'Sabendo que a massa da solução referida no texto é 100 g e considerando o calor específico como 1 cal/g · ºC, a quantidade de calor trocada nesse processo é',
-        'A) 60 calorias.',
-        'B) 600 calorias.',
-        'C) 2 200 calorias.',
-        'D) 2 800 calorias.',
-        'E) 5 000 calorias.',
-        'B',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 28 --
-        218,
-        'Considere que, após uma determinada refeição, com o processo digestivo totalmente realizado, verificou-se que as substâncias absorvidas pelo sistema digestório, em maior quantidade foram os aminoácidos, que certamente foram obtidos dos alimentos, que predominavam nessa refeição, tais como',
-        'A) batata e mandioca.',
-        'B) arroz e salada de folhas.',
-        'C) macarrão.',
-        'D) polenta frita.',
-        'E) contrafilé na brasa.',
-        'E',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 29 --
-        219,
-        'Pouco antes da Revolução, a sociedade francesa estava dividida entre',
-        'A) apoiadores de Napoleão e de Robespierre, importantes lideranças políticas conservadoras que lutavam pela manutenção da monarquia francesa.',
-        'B) burguesia e trabalhadores rurais e urbanos, já que o clero e a nobreza não tinham participação significativa na política francesa no período pré-revolucionário.',
-        'C) Girondinos e Sans Culottes, grupos rivais que disputavam a hegemonia política e representavam os diferentes interesses da burguesia na relação com o rei Luís XVI.',
-        'D) Primeiro e Segundo Estados (clero e nobreza), que reuniam cerca de 3% da população, e Terceiro Estado, que abrigava a burguesia, os trabalhadores urbanos e rurais e pagava, sozinho, todas as taxas e os impostos diretos cobrados pela monarquia.',
-        'E) Primeiro e Segundo Estados (clero e nobreza), que reuniam a minoria da população, mas pagavam, sozinhos, todas as taxas e os impostos diretos que financiavam os programas assistenciais que mantinham parte do Terceiro Estado.',
-        'D',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 30
-        220,
-        'Sobre o conteúdo reflexivo-filosófico do diálogo transcrito, depreende-se corretamente que',
-        '(A) questiona as ações realizadas em vida para se alcançarem beleza e poder, uma vez que apenas os verdadeiros heróis, como Aquiles, são capazes de os manter na morte.',
-        '(B) expõe a importância da guerra para conseguir reconhecimento, já que, sem alguém para se lembrar dos heróis, a morte lentamente apaga suas grandes obras.',
-        '(C) critica a falta de objetividade de grandes líderes guerreiros, como Aquiles e Hermes, cuja atuação na Guerra de Troia levou milhares à morte.',
-        '(D) reflete sobre a validade das ações dos seres humanos para alcançar reconhecimento e beleza, condições perdidas após a morte.',
-        '(E) tem por objetivo criticar a vaidade excessiva de grandes líderes e intelectuais cuja morte aumenta ainda mais suas riquezas.',
-        'D',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 31
-        221,
-        'São sinônimas dos termos destacados, respectivamente, as palavras',
-        '(A) permanente e deteriorável.',
-        '(B) fraca e perene.',
-        '(C) débil e infinita.',
-        '(D) inócua e vitalícia.',
-        '(E) passageira e extinguível.',
-        'E',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 32
-        222,
-        'Assinale a alternativa em que o excerto esteja corretamente transposto para o discurso indireto.',
-        '(A) Menipo questionou Hermes sobre o paradeiro dos belos e belas, para, logo em seguida, exigir-lhe que o levasse até eles, posto que era novato aqui.',
-        '(B) Menipo perguntou a Hermes onde estavam os belos e as belas, ordenando-lhe que o levasse até eles, pois ele era novato naquele lugar.',
-        '(C) Hermes questiona a si mesmo onde estariam os belos e as belas, instigando-se para se levar até eles, uma vez que fora novo por lá.',
-        '(D) Hermes perguntou a Menipo onde estavam os belos e as belas, suplicando-lhe para que o levasse até eles, embora fosse novato ali.',
-        '(E) Menipo ordena a Hermes que estivessem todos, os belos e as belas, onde eles pudessem ser levados até ali, mesmo sendo novatos.',
-        'B',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 33
-        223,
-        'Sabendo que todas as faces da embalagem de Carlos Rogério são polígonos regulares, pode-se afirmar que um ângulo interno de uma dessas faces mede',
-        '(A) 108°',
-        '(B) 180°',
-        '(C) 360°',
-        '(D) 405°',
-        '(E) 540°',
-        'A',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 34
-        224,
-        'Considerando as características descritas dos animais coletados, é correto afirmar que os animais do Grupo 1 e do Grupo 2 são, respectivamente,',
-        '(A) Insetos e Aracnídeos',
-        '(B) Crustáceos e Insetos',
-        '(C) Aracnídeos e Insetos',
-        '(D) Insetos e Crustáceos',
-        '(E) Aracnídeos e Crustáceos',
-        'C',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 35
-        225,
-        'Entretanto, o maior objetivo das negociações era',
-        '(A) garantir os direitos portugueses de colonização sobre toda a área que se estende entre Angola e Moçambique, na África Austral, já que Portugal foi o primeiro país a se instalar nos territórios africanos.',
-        '(B) resolver os conflitos entre as potências europeias, que tinham interesse em adquirir a maior extensão de territórios e possessões na África, continente rico em recursos naturais e em matérias-primas.',
-        '(C) concretizar os planos de Martinho Lutero que, no contexto da Reforma Protestante, preconizou a conversão dos povos africanos ao cristianismo evangélico.',
-        '(D) apoiar a expansão do Partido Nazista alemão com a anexação de novos territórios e, consequentemente, de novos cidadãos para a formação do III Reich.',
-        '(E) impedir a participação dos países emergentes da América do Sul no comércio de longa distância de produtos como ouro, diamantes e marfim',
-        'B',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 36
-        226,
-        'Admita que os astronautas, ao utilizarem o veículo lunar, mantiveram velocidade constante igual à velocidade máxima. Assim sendo, a expectativa do tempo de uso do veículo, até o total esgotamento de suas baterias, seria de aproximadamente',
-        '(A) 3 h.',
-        '(B) 5 h.',
-        '(C) 6 h.',
-        '(D) 7 h.',
-        '(E) 9 h.',
-        'D',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 37
-        227,
-        'Considerando que o valor da aceleração da gravidade no planeta Terra seja 10 m/s2, o valor da aceleração da gravidade na Lua corresponde à',
-        '(A) metade do valor da aceleração da gravidade da Terra.',
-        '(B) terça parte do valor da aceleração da gravidade da Terra.',
-        '(C) quarta parte do valor da aceleração da gravidade da Terra.',
-        '(D) quinta parte do valor da aceleração da gravidade da Terra.',
-        '(E) sexta parte do valor da aceleração da gravidade da Terra.',
-        'E',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 38
-        228,
-        'As chuvas mencionadas no texto são esperadas, pois ajudam no plantio de',
-        '(A) arroz, em um sistema agrícola chamado terraceamento.',
-        '(B) azeitona, utilizando a técnica de rotação de culturas.',
-        '(C) feijão, em sistema de pecuária intensiva.',
-        '(D) uva, em sistema de pecuária extensiva.',
-        '(E) mandioca, plantada com técnicas industriais.',
-        'A',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 39
-        229,
-        'O texto se refere às chamadas sociedades',
-        '(A) feudais.',
-        '(B) fluviais.',
-        '(C) nômades.',
-        '(D) patriarcais.',
-        '(E) pré-históricas.',
-        'B',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 40
-        230,
-        'Um paciente desidratado, em que é administrado 500 mL de soro na veia, receberá uma massa de sal correspondente a',
-        '(A) 0,45 g.',
-        '(B) 4,50 g.',
-        '(C) 45,00 g.',
-        '(D) 9,00 g.',
-        '(E) 0,90 g.',
-        'B',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 41
-        231,
-        'Desse modo, o sal derivado do ácido sulfídrico, na reação de neutralização total com hidróxido de cálcio, será',
-        '(A) CaS: sulfeto de cálcio.',
-        '(B) CaS: sulfato de cálcio.',
-        '(C) CaS: sulfito de cálcio.',
-        '(D) NaS: sulfato de sódio.',
-        '(E) NaS: sulfeto de sódio.',
-        'A',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 42
-        232,
-        'Considerando cada afirmações e tendo como referência a posição do planeta na imagem apresentada, o ímã que poderia substituir o interior da Terra é ',
-        '(A)',
-        '(B)',
-        '(C)',
-        '(D)',
-        '(E)',
-        'B',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 43
-        233,
-        'Admita que a menina dos quadrinhos esteja visitando a avó que mora em outra cidade. A fim de voltar da casa de sua avó para o prédio onde mora, usando a bota de 7 léguas da história, a menina dá 3 passos para leste e 4 passos para o norte. A figura representa de modo esquemático esse trajeto realizado pela garota. A distância entre a casa da avó e o prédio no qual a menina mora é, em quilômetros, igual a',
-        '(A) 323,4.',
-        '(B) 231,0.',
-        '(C) 142,6.',
-        '(D) 46,2.',
-        '(E) 35,0',
-        'B',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 44
-        234,
-        ' Pode-se, portanto, estimar que a légua brasileira é maior que a portuguesa em cerca de',
-        '(A) 76%.',
-        '(B) 68%.',
-        '(C) 32%.',
-        '(D) 24%.',
-        '(E) 13%.',
-        'C',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 45
-        235,
-        'Sobre a Ciência e as Grandes Navegações, é correto afirmar que',
-        '(A) estavam ligadas ao desenvolvimento econômico das comunidades pesqueiras do litoral do mar Egeu.',
-        '(B) o desenvolvimento científico era considerado um empecilho para os navegadores, pois estes acreditavam que a Terra era plana.',
-        '(C) as viagens foram favorecidas por invenções, tais como as caravelas, navios rápidos, versáteis e de fácil manobra, que podiam navegar inclusive com ventos contrários.',
-        '(D) os grandes cientistas do período se afastaram dessa empreitada, pois, sob comando da Igreja Católica, dedicaram-se às grandes questões teológicas de sua época.',
-        '(E) a experiência dos povos americanos foi decisiva para o desenvolvimento científico de instrumentos de localização e de embarcações apropriadas para as viagens transoceânicas.',
-        'C',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 46
-        236,
-        'Assim, em relação a doenças como sarampo, caxumba, rubéola e poliomielite, pode-se afirmar corretamente que',
-        '(A) o alto custo da produção de suas vacinas específicas, não coberto pelo sistema público de saúde, torna inacessível e impossível a prevenção dessas doenças para a população.',
-        '(B) seus agentes infecciosos são vírus que, quando são enfraquecidos ou mortos para tratamento preventivo, estimulam uma resposta imunológica ativa no organismo humano.',
-        '(C) seus agentes infecciosos são bactérias que, apesar de terem sido erradicadas da maioria dos países, afetam preferencialmente idosos e pessoas de vida sedentária.',
-        '(D) a produção de vacinas específicas para cada uma delas é feita atualmente, em pequena escala, a partir da hiperimunização de cavalos.',
-        '(E) seus agentes infecciosos foram eliminados totalmente da maioria dos países, tornando desnecessária a aplicação de medidas preventivas.',
-        'B',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 47
-        237,
-        'A localização geográfica do cenário descrito no texto situa-se na região',
-        '(A) Sul do Brasil e sofre a influência do clima semiárido.',
-        '(B) Sul do Brasil e sofre a influência do clima subtropical.',
-        '(C) Nordeste do Brasil e sofre a influência do clima semiárido.',
-        '(D) Nordeste do Brasil e sofre a influência do clima subtropical.',
-        '(E) Centro-Oeste do Brasil e sofre a influência do clima tropical de altitude.',
-        'C',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 48
-        238,
-        'Esse instrumento simula o que acontece quando, devidamente protegidos, estamos observando, daqui da Terra, o Sol no momento em que ocorre um eclipse',
-        '(A) lunar total, com a Lua se interpondo entre a Terra e o Sol.',
-        '(B) lunar parcial, com a Terra se interpondo entre a Lua e o Sol.',
-        '(C) solar total, com a Lua se interpondo entre a Terra e o Sol.',
-        '(D) solar total, com a Terra se interpondo entre a Lua e o Sol.',
-        '(E) solar parcial, com a Lua se interpondo entre a Terra e o Sol.',
-        'C',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 49
-        239,
-        'Com base nessas informações, podemos afirmar corretamente que a quimioterapia atua',
-        '(A) bloqueando a digestão celular realizada pelos lisossomos.',
-        '(B) impedindo a respiração celular realizada pelas mitocôndrias.',
-        '(C) dificultando a eliminação de substâncias tóxicas do organismo.',
-        '(D) acelerando os processos de renovação celular dos tecidos sadios.',
-        '(E) inibindo a ocorrência de mitoses responsáveis pela proliferação celular.',
-        'E',
-        2020,
-        1
-    );
-    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
-    VALUES ( -- Questão 50
-        240,
-        'Segundo o texto,',
-        '(A) era considerado cidadão aquele que recusava a política, que não participava dos assuntos públicos e só se ocupava com a própria vida.',
-        '(B) havia uma lei que obrigava gregos a se envolverem com os assuntos coletivos, sob pena de terem seus direitos e sua liberdade cerceados.',
-        '(C) aqueles que se envolviam com a política eram tão idiotas quanto os que privilegiavam a vida privada, pois não percebiam que a política é o campo de atuação dos corruptos.',
-        '(D) a liberdade estava intrinsecamente ligada à ideia de cidadania, pois só podia se considerar livre aquele que participasse da condução coletiva dos assuntos da cidade.',
-        '(E) os direitos e os deveres eram construídos coletivamente pelos idiotas, enquanto os cidadãos viviam limitados ao mundo privado.',
-        '',
-        2020,
-        1
-    );
-
-
--- INSERT TABLE tbIMAGENS PROVA 2020 1 SEMESTRE
-
-
-
 -- INSERT TABLE tbQUESTIONS PROVA 2019 1 SEMESTRE
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
         VALUES (341, --questão 1--
@@ -5400,7 +4743,659 @@ CREATE TABLE tbImagens (
             ('', 739, 'imgs2/txtQ49.PNG'),
             ('', 740, 'imgs2/txtQ50.PNG');
 
+-- INSERT TABLE tbQUESTIONS PROVA 2020 1 SEMESTRE
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 1
+        191,
+        'Analise as alternativas e assinale a correta.',
+        '(A) O número 6 056 529 316 217 não é primo, e por isso está distante do restante.',
+        '(B) Como os números 37 e 73 são primos, então 16 e 61 também são.',
+        '(C) O número 237 é um número primo, assim como o 37 e o 137.',
+        '(D) Todo número primo é ímpar e só pode terminar em 1, 3, 7 ou 9.',
+        '(E) Há apenas quatro números primos que são menores do que 10.',
+        'E',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 2
+        192,
+        'Assim, na pele, entre os fatores que contribuem para a manutenção da temperatura corporal em dias frios, em ambientes abertos, destacam-se',
+        '(A) a dilatação dos vasos sanguíneos periféricos e maior eliminação de oleosidade pelas glândulas sebáceas.',
+        '(B) a dilatação dos vasos sanguíneos periféricos e maior eliminação de suor pelas glândulas sudoríparas.',
+        '(C) a dilatação dos vasos sanguíneos periféricos e eliminação contínua de suor pelas glândulas sebáceas.',
+        '(D) a contração dos vasos sanguíneos periféricos e menor eliminação de suor pelas glândulas sudoríparas.',
+        '(E) a contração dos vasos sanguíneos periféricos e maior eliminação de suor pelas glândulas sebáceas.',
+        'D',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 3
+        193,
+        'De acordo com o texto, é correto afirmar que',
+        '(A) a subalimentação inexiste em países considerados subdesenvolvidos.',
+        '(B) a subalimentação atinge principalmente os moradores das áreas urbanas.',
+        '(C) o aumento da produção industrial acabará com o problema da subalimentação.',
+        '(D) é possível acabar com o problema da subalimentação no mundo em que vivemos.',
+        '(E) é a proteção militar dada pelos países pobres aos países ricos que causa a subalimentação.',
+        'D',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 4
+        194,
+        'Analise-as e assinale a alternativa que apresenta apenas a afirmação correta sobre um dos sistemas representados.',
+        '(A) No sistema 1, temos duas substâncias simples.',
+        '(B) O sistema 1 é uma substância pura.',
+        '(C) No sistema 1, temos cinco componentes.',
+        '(D) O sistema 2 é uma mistura.',
+        '(E) No sistema 2, temos dois componentes.',
+        'A',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 5
+        195,
+        'Os depoimentos orais são considerados fontes',
+        '(A) históricas, pois contêm informações e conhecimentos transmitidos de geração a geração ou a versão pessoal de indivíduos que testemunharam acontecimentos históricos.',
+        '(B) etnográficas, pois são utilizadas para confirmar as diferenças culturais existentes no interior de uma mesma sociedade, fortalecendo os preconceitos e preservando os privilégios.',
+        '(C) científicas, pois sua obtenção se dá por meio de entrevistas realizadas por repórteres profissionais, vinculados aos grandes portais de notícias.',
+        '(D) epistemológicas, pois são documentos certificados por instituições extraoficiais, vinculadas a organismos diplomáticos internacionais.',
+        '(E) mitológicas, pois as versões pessoais são ratificadas pelos cientistas, comprometendo a credibilidade dos testemunhos.',
+        'A',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 6
+        196,
+        ' Assinale a alternativa que completa correta e respectivamente as lacunas da frase.',
+        '(A) maior; menor que',
+        '(B) maior; igual',
+        '(C) maior; maior que',
+        '(D) menor; igual',
+        '(E) menor; maior que',
+        'B',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 7
+        197,
+        'A expressão responsável pela construção do humor no texto é',
+        '(A) “não pago!”, repetida exaustivamente pela personagem com o intuito de criar, dessa forma, um eufemismo.',
+        '(B) “Contra tudo e contra todos”, passagem generalizante e imprópria ao contexto humorístico, trata-se de uma ironia.',
+        '(C) “paga ICM! Corro pra lá: Olha o fiscal me cobrando...”, passagem composta por verbos que se contradizem, formando, portanto, um paradoxo.',
+        '(D) “herói cobrado retumbante”, devido à sua semelhança sonora com um conhecido verso do Hino Nacional Brasileiro, configurando uma paronomásia.',
+        '(E) “Heroicamente! Denodadamente! Como um mártir”, expressões usadas para atingir a autoestima da personagem; trata-se de uma preterição.',
+        'D',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 8
+        198,
+        'A figura matemática que é descrita tendo, obrigatoriamente, todos os elementos do cartão de visita citado é o',
+        '(A) losango.',
+        '(B) pentágono.',
+        '(C) quadrado.',
+        '(D) retângulo.',
+        '(E) triângulo.',
+        'A',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 9
+        199,
+        'Sobre esse esquema é correto afirmar que',
+        '(A) os processos 1 e 2 são realizados pelos animais e vegetais na decomposição da matéria orgânica.',
+        '(B) os processos 1 e 2 são realizados pelos animais e vegetais na produção de compostos orgânicos.',
+        '(C) os processos 1 e 2 são realizados pelos animais na absorção e na eliminação do gás carbônico.',
+        '(D) o processo 1 é realizado pelos animais na combustão da matéria orgânica.',
+        '(E) o processo 1 é realizado pelos vegetais na produção da matéria orgânica.',
+        'E',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 10
+        200,
+        'O crescimento do tipo de restaurante retratado no texto se deve ao',
+        '(A) aumento significativo do desemprego, forçando milhões de trabalhadores e trabalhadoras a se alimentarem com refeições mais baratas e mais nutritivas servidas nesses restaurantes.',
+        '(B) surgimento de um movimento denominado slow food, que defende a utilização de produtos alimentares artesanais de qualidade produzidos de forma que respeite o meio ambiente.',
+        '(C) movimento mundial de valorização das alimentações locais como forma de prestigiar a comida feita nos vilarejos mais distantes e disponibilizadas por intermédio de restaurantes mundializados.',
+        '(D) fenômeno da globalização, que atua como fator determinante na modificação dos hábitos alimentares, gerando transformações no estilo de vida de milhões de pessoas espalhadas pelo planeta.',
+        '(E) resgate de uma modalidade de alimentação que surgiu no início do modo de produção capitalista no século XVI na Europa, baseada nas tabernas instaladas nas feiras comerciais como as de Flandres e de Champagne.',
+        'D',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 11
+        201,
+        'De acordo com o texto, é correto afirmar que',
+        '(A) os carros elétricos, fabricados atualmente, usam baterias do tipo níquel cádmio.',
+        '(B) as baterias de íons de lítio são maiores e mais pesadas que as baterias de hidreto de níquel.',
+        '(C) as baterias de lítio apresentam efeito memória e, por isso devemos recarregá-las por completo.',
+        '(D) aparelhos eletrônicos, fabricados atualmente, usam baterias menores e mais leves as quais não requerem tanta preocupação com sua carga e descarga.',
+        '(E) as baterias atuais podem ficar expostas a altas temperaturas sem perderem sua capacidade de recarga e nem sofrerem decomposição.',
+        'D',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 12
+        202,
+        'Sabendo que o lítio também é um metal alcalino, podemos afirmar que os átomos de lítio se ligam a átomos de cloro formando o composto cloreto de lítio, representado, corretamente, por',
+        '(A) Li2Cl',
+        '(B) Li2Cl2',
+        '(C) ClLi2',
+        '(D) Cl2Li2',
+        '(E) LiCl',
+        'E',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 13
+        203,
+        'Assinale a alternativa que apresenta, corretamente, as principais características do sistema de plantation.',
+        '(A) Agricultura diversificada, voltada para a subsistência, pequenas propriedades rurais, mão de obra familiar.',
+        '(B) Extrativismo, voltado para o mercado interno, médias propriedades, mão de obra imigrante.',
+        '(C) Monocultura, voltada para o mercado externo, latifúndio e mão de obra escrava.',
+        '(D) Produção agrícola diversificada, voltada para o mercado externo, latifúndio e mão de obra livre.',
+        '(E) Produção mecanizada, voltada para o mercado interno, pequenas propriedades, mão de obra escrava.',
+        'C',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 14
+        204,
+        'Assinale a alternativa que completa correta e respectivamente as lacunas da frase.',
+        '(A) condução, convecção, irradiação',
+        '(B) condução, irradiação, convecção',
+        '(C) convecção, condução, irradiação',
+        '(D) irradiação, condução, convecção',
+        '(E) irradiação, convecção, condução',
+        'D',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 15
+        205,
+        'Nessas condições, a menor temperatura que apareceria no texto em língua inglesa é',
+        '(A) –482 ºF.',
+        '(B) –212 ºF.',
+        '(C) –148 ºF.',
+        '(D) 148 ºF.',
+        '(E) 148 ºF.',
+        'C',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 16
+        206,
+        'Sobre esse esquema, podemos afirmar, corretamente, que os números I, II, III e IV representam, respectivamente,',
+        '(A) veias cavas, veias pulmonares, artéria pulmonar, artéria aorta',
+        '(B) veias cavas, veias pulmonares, artéria aorta, artéria pulmonar',
+        '(C) artéria aorta, artéria pulmonar, veias cavas, veias pulmonares',
+        '(D) artéria aorta, veias pulmonares, artéria pulmonar, veias cavas',
+        '(E) veias pulmonares, veias cavas, artéria aorta, artéria pulmonar',
+        'B',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 17
+        207,
+        'Assim como na agricultura, a atividade pecuária se diferencia em extensiva e intensiva. A pecuária intensiva é um sistema',
+        '(A) tradicional de produção, em que os animais são criados em grandes áreas, o qual emprega técnicas arcaicas com objetivo de manter a produtividade.',
+        '(B) tradicional de produção, em que predomina a utilização dos nutrientes do pasto como fonte de alimentos para os animais e utilização mínima de água.',
+        '(C) tradicional de produção, em que, nos períodos mais secos, complementa-se a alimentação dos rebanhos com cactáceas, como a palma e proteinados de baixo custo.',
+        '(D) moderno de produção, em que ocorrem investimentos em técnicas avançadas aplicadas nos rebanhos, tais como melhoramento genético e inseminação artificial.',
+        '(E) moderno de produção, em que os animais são criados soltos e, como forma de suplementação, é feito o fornecimento de sal comum e de sal mineral aos rebanhos.',
+        'D',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 18 --
+        208,
+        'Sobre o texto, analise as afirmações:',
+        'a) O desmatamento da floresta põe em risco, para além de suas riquezas naturais, a continuidade de conhecimentos tradicionais.',
+        'b) Apesar da biodiversidade existente na floresta Amazônica, o impacto gerado pelo seu desmatamento restringe-se às comunidades e aos povos locais.',
+        'c) A não preservação do bioma Amazônia pode acarretar impactos no clima mundial e até mesmo na pesquisa médico-científica.',
+        'd) O desmatamento da floresta põe em risco, para além de suas riquezas naturais, a continuidade de conhecimentos tradicionais e a não preservação do bioma Amazônica pode acarretar impactos no clima mundial e até mesmo na pesquisa médico-científica.',
+        'e) O desmatamento da floresta põe em risco, para além de suas riquezas naturais, a continuidade de conhecimentos tradicionais, o impacto gerado pelo seu desmatamento restringe-se às comunidades e aos povos locais e a não preservação do bioma Amazônica pode acarretar impactos no clima mundial e até mesmo na pesquisa médico-científica.',
+        'D',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES (  -- Questão 19 --
+        209,
+        'Observe os elementos de coesão destacados no texto. Analisando seu contexto de ocorrência, assim como suas funções sintático-semânticas, afirma-se corretamente que',
+        'a) “não só” é uma locução adverbial utilizada para negar a expressão “os povos indígenas e as comunidades locais”.',
+        'b) “não só... mas também”; “além disso” e “bem como” são locuções conjuntivas e expressam ideia de adição.',
+        'c) “No entanto”, como conjunção adversativa, pode ser substituída, sem alterar o sentido original do período, por “porque”.',
+        'd) “à medida que” está empregada inadequadamente no texto, pois deveria expressar proporção; logo, o correto seria “na medida em que”.',
+        'e) “mas também” exerce função de conjunção adversativa no texto, uma vez que expressa oposição em relação à oração anterior: “... a floresta Amazônica é reconhecida...”.',
+        'B',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 20 --
+        210,
+        'Para alcançar seu intento, o autor recorre a determinadas construções linguísticas, tal como',
+        'a) a variação entre verbos no presente do indicativo e verbos no presente do subjuntivo com a finalidade de discernir entre dados concretos e hipotéticos sobre a floresta, respectivamente.',
+        'b) o uso de verbos no presente e no pretérito perfeito do indicativo para retratar a realidade atual da floresta e seu uso tradicional no preparo de medicamentos, respectivamente.',
+        'c) a recorrência de verbos no imperativo e de vocativos direcionados ao leitor, a fim de alcançar sua adesão ao processo de preservação ambiental.',
+        'd) o uso predominante de linguagem denotativa na construção de narrativas sobre o processo de desmatamento da floresta a fim de fornecer informações acerca desse tópico.',
+        'e) o uso predominante da linguagem conotativa na construção textual para garantir objetividade e imparcialidade aos dados retratados.',
+        'B',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 21 --
+        211,
+        ' Assinale a alternativa cujo antecedente do pronome relativo está corretamente destacado.',
+        'a) “...o desmatamento da Amazônia gradualmente desmonta os frágeis processos ecológicos que levaram anos para serem construídos e refinados.”',
+        'b) “O conhecimento sobre o uso dessas plantas geralmente fica nas mãos de um curandeiro, que por sua vez repassa a tradição para um aprendiz...”',
+        'c) “Além disso, de todas as florestas tropicais do mundo, a Amazônia é a única que ainda está conservada, em termos de tamanho e diversidade.”',
+        'd) “Os cientistas acreditam que menos de 0,5% das espécies da flora foram detalhadamente estudadas...”',
+        'e) “Ao mesmo tempo em que o bioma Amazônia está encolhendo lentamente em tamanho...”',
+        'A',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 22 --
+        212,
+        ' De acordo com as informações do texto, é correto afirmar que',
+        'a) X < 15.',
+        'b) 15 < X < 20.',
+        'c) 15 > X > 20.',
+        'd) 15 < X > 20.',
+        'e) X > 20.',
+        'B',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 23 --
+        213,
+        ' Nessas condições, o número de carpas húngaras que o piscicultor vendeu foi igual a',
+        'a) 250.',
+        'b) 290.',
+        'c) 820.',
+        'd) 910.',
+        'e) 950.',
+        'a,b,c,d,e',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 24 --
+        214,
+        'De acordo com o texto, é correto afirmar que',
+        'a) a atual luta dos indígenas mexicanos é pelo direito de utilizar sementes transgênicas de milho em larga escala para poder aumentar ainda mais a produção desse grão.',
+        'b) a relação do povo mexicano com o milho é histórica, uma vez que esse grão é cultivado desde a época dos antigos povos que habitavam a região onde hoje se localiza o México.',
+        'c) o Brasil é o país que mais consome milho no mundo, uma vez que esse grão foi encontrado em abundância pelos portugueses que aqui aportaram no século XVI.',
+        'd) a dispersão das sementes de milho pela América Latina só foi possível em função da ação dos ventos que espalharam as sementes desse grão para todo o continente americano.',
+        'e) o povo maia tinha no milho um deus cristão, responsável pela eliminação da fome e pela manutenção da vida desse povo, que conviveu em harmonia com os colonizadores espanhóis.',
+        'B',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 25 --
+        215,
+        'Ainda de acordo com o texto, é correto afirmar que',
+        'a) o maior número de variedades de milho se encontra no Brasil, onde é usado para extrair o etanol.',
+        'b) o milho branco é a variedade mais rara encontrada no México e é utilizada para fazer canjica.',
+        'c) a glicose que vem do amido de milho é também usada no revestimento de comprimidos.',
+        'd) a palha do milho é utilizada na fabricação de cremes dentais e de pneus.',
+        'e) os maias usavam o milho na produção da penicilina.',
+        'C',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 26 --
+        216,
+        'Conclui-se, corretamente, que se trata de uma reação',
+        'A) exotérmica, pois cedeu calor para o sistema.',
+        'B) exotérmica, pois absorveu calor do sistema.',
+        'C) endotérmica, pois cedeu calor para o sistema.',
+        'D) endotérmica, pois absorveu calor do sistema.',
+        'E) isotérmica, pois não houve troca de energia.',
+        'A',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 27 --
+        217,
+        'Sabendo que a massa da solução referida no texto é 100 g e considerando o calor específico como 1 cal/g · ºC, a quantidade de calor trocada nesse processo é',
+        'A) 60 calorias.',
+        'B) 600 calorias.',
+        'C) 2 200 calorias.',
+        'D) 2 800 calorias.',
+        'E) 5 000 calorias.',
+        'B',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 28 --
+        218,
+        'Considere que, após uma determinada refeição, com o processo digestivo totalmente realizado, verificou-se que as substâncias absorvidas pelo sistema digestório, em maior quantidade foram os aminoácidos, que certamente foram obtidos dos alimentos, que predominavam nessa refeição, tais como',
+        'A) batata e mandioca.',
+        'B) arroz e salada de folhas.',
+        'C) macarrão.',
+        'D) polenta frita.',
+        'E) contrafilé na brasa.',
+        'E',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 29 --
+        219,
+        'Pouco antes da Revolução, a sociedade francesa estava dividida entre',
+        'A) apoiadores de Napoleão e de Robespierre, importantes lideranças políticas conservadoras que lutavam pela manutenção da monarquia francesa.',
+        'B) burguesia e trabalhadores rurais e urbanos, já que o clero e a nobreza não tinham participação significativa na política francesa no período pré-revolucionário.',
+        'C) Girondinos e Sans Culottes, grupos rivais que disputavam a hegemonia política e representavam os diferentes interesses da burguesia na relação com o rei Luís XVI.',
+        'D) Primeiro e Segundo Estados (clero e nobreza), que reuniam cerca de 3% da população, e Terceiro Estado, que abrigava a burguesia, os trabalhadores urbanos e rurais e pagava, sozinho, todas as taxas e os impostos diretos cobrados pela monarquia.',
+        'E) Primeiro e Segundo Estados (clero e nobreza), que reuniam a minoria da população, mas pagavam, sozinhos, todas as taxas e os impostos diretos que financiavam os programas assistenciais que mantinham parte do Terceiro Estado.',
+        'D',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 30
+        220,
+        'Sobre o conteúdo reflexivo-filosófico do diálogo transcrito, depreende-se corretamente que',
+        '(A) questiona as ações realizadas em vida para se alcançarem beleza e poder, uma vez que apenas os verdadeiros heróis, como Aquiles, são capazes de os manter na morte.',
+        '(B) expõe a importância da guerra para conseguir reconhecimento, já que, sem alguém para se lembrar dos heróis, a morte lentamente apaga suas grandes obras.',
+        '(C) critica a falta de objetividade de grandes líderes guerreiros, como Aquiles e Hermes, cuja atuação na Guerra de Troia levou milhares à morte.',
+        '(D) reflete sobre a validade das ações dos seres humanos para alcançar reconhecimento e beleza, condições perdidas após a morte.',
+        '(E) tem por objetivo criticar a vaidade excessiva de grandes líderes e intelectuais cuja morte aumenta ainda mais suas riquezas.',
+        'D',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 31
+        221,
+        'São sinônimas dos termos destacados, respectivamente, as palavras',
+        '(A) permanente e deteriorável.',
+        '(B) fraca e perene.',
+        '(C) débil e infinita.',
+        '(D) inócua e vitalícia.',
+        '(E) passageira e extinguível.',
+        'E',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 32
+        222,
+        'Assinale a alternativa em que o excerto esteja corretamente transposto para o discurso indireto.',
+        '(A) Menipo questionou Hermes sobre o paradeiro dos belos e belas, para, logo em seguida, exigir-lhe que o levasse até eles, posto que era novato aqui.',
+        '(B) Menipo perguntou a Hermes onde estavam os belos e as belas, ordenando-lhe que o levasse até eles, pois ele era novato naquele lugar.',
+        '(C) Hermes questiona a si mesmo onde estariam os belos e as belas, instigando-se para se levar até eles, uma vez que fora novo por lá.',
+        '(D) Hermes perguntou a Menipo onde estavam os belos e as belas, suplicando-lhe para que o levasse até eles, embora fosse novato ali.',
+        '(E) Menipo ordena a Hermes que estivessem todos, os belos e as belas, onde eles pudessem ser levados até ali, mesmo sendo novatos.',
+        'B',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 33
+        223,
+        'Sabendo que todas as faces da embalagem de Carlos Rogério são polígonos regulares, pode-se afirmar que um ângulo interno de uma dessas faces mede',
+        '(A) 108°',
+        '(B) 180°',
+        '(C) 360°',
+        '(D) 405°',
+        '(E) 540°',
+        'A',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 34
+        224,
+        'Considerando as características descritas dos animais coletados, é correto afirmar que os animais do Grupo 1 e do Grupo 2 são, respectivamente,',
+        '(A) Insetos e Aracnídeos',
+        '(B) Crustáceos e Insetos',
+        '(C) Aracnídeos e Insetos',
+        '(D) Insetos e Crustáceos',
+        '(E) Aracnídeos e Crustáceos',
+        'C',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 35
+        225,
+        'Entretanto, o maior objetivo das negociações era',
+        '(A) garantir os direitos portugueses de colonização sobre toda a área que se estende entre Angola e Moçambique, na África Austral, já que Portugal foi o primeiro país a se instalar nos territórios africanos.',
+        '(B) resolver os conflitos entre as potências europeias, que tinham interesse em adquirir a maior extensão de territórios e possessões na África, continente rico em recursos naturais e em matérias-primas.',
+        '(C) concretizar os planos de Martinho Lutero que, no contexto da Reforma Protestante, preconizou a conversão dos povos africanos ao cristianismo evangélico.',
+        '(D) apoiar a expansão do Partido Nazista alemão com a anexação de novos territórios e, consequentemente, de novos cidadãos para a formação do III Reich.',
+        '(E) impedir a participação dos países emergentes da América do Sul no comércio de longa distância de produtos como ouro, diamantes e marfim',
+        'B',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 36
+        226,
+        'Admita que os astronautas, ao utilizarem o veículo lunar, mantiveram velocidade constante igual à velocidade máxima. Assim sendo, a expectativa do tempo de uso do veículo, até o total esgotamento de suas baterias, seria de aproximadamente',
+        '(A) 3 h.',
+        '(B) 5 h.',
+        '(C) 6 h.',
+        '(D) 7 h.',
+        '(E) 9 h.',
+        'D',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 37
+        227,
+        'Considerando que o valor da aceleração da gravidade no planeta Terra seja 10 m/s2, o valor da aceleração da gravidade na Lua corresponde à',
+        '(A) metade do valor da aceleração da gravidade da Terra.',
+        '(B) terça parte do valor da aceleração da gravidade da Terra.',
+        '(C) quarta parte do valor da aceleração da gravidade da Terra.',
+        '(D) quinta parte do valor da aceleração da gravidade da Terra.',
+        '(E) sexta parte do valor da aceleração da gravidade da Terra.',
+        'E',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 38
+        228,
+        'As chuvas mencionadas no texto são esperadas, pois ajudam no plantio de',
+        '(A) arroz, em um sistema agrícola chamado terraceamento.',
+        '(B) azeitona, utilizando a técnica de rotação de culturas.',
+        '(C) feijão, em sistema de pecuária intensiva.',
+        '(D) uva, em sistema de pecuária extensiva.',
+        '(E) mandioca, plantada com técnicas industriais.',
+        'A',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 39
+        229,
+        'O texto se refere às chamadas sociedades',
+        '(A) feudais.',
+        '(B) fluviais.',
+        '(C) nômades.',
+        '(D) patriarcais.',
+        '(E) pré-históricas.',
+        'B',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 40
+        230,
+        'Um paciente desidratado, em que é administrado 500 mL de soro na veia, receberá uma massa de sal correspondente a',
+        '(A) 0,45 g.',
+        '(B) 4,50 g.',
+        '(C) 45,00 g.',
+        '(D) 9,00 g.',
+        '(E) 0,90 g.',
+        'B',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 41
+        231,
+        'Desse modo, o sal derivado do ácido sulfídrico, na reação de neutralização total com hidróxido de cálcio, será',
+        '(A) CaS: sulfeto de cálcio.',
+        '(B) CaS: sulfato de cálcio.',
+        '(C) CaS: sulfito de cálcio.',
+        '(D) NaS: sulfato de sódio.',
+        '(E) NaS: sulfeto de sódio.',
+        'A',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 42
+        232,
+        'Considerando cada afirmações e tendo como referência a posição do planeta na imagem apresentada, o ímã que poderia substituir o interior da Terra é ',
+        '(A)',
+        '(B)',
+        '(C)',
+        '(D)',
+        '(E)',
+        'B',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 43
+        233,
+        'Admita que a menina dos quadrinhos esteja visitando a avó que mora em outra cidade. A fim de voltar da casa de sua avó para o prédio onde mora, usando a bota de 7 léguas da história, a menina dá 3 passos para leste e 4 passos para o norte. A figura representa de modo esquemático esse trajeto realizado pela garota. A distância entre a casa da avó e o prédio no qual a menina mora é, em quilômetros, igual a',
+        '(A) 323,4.',
+        '(B) 231,0.',
+        '(C) 142,6.',
+        '(D) 46,2.',
+        '(E) 35,0',
+        'B',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 44
+        234,
+        ' Pode-se, portanto, estimar que a légua brasileira é maior que a portuguesa em cerca de',
+        '(A) 76%.',
+        '(B) 68%.',
+        '(C) 32%.',
+        '(D) 24%.',
+        '(E) 13%.',
+        'C',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 45
+        235,
+        'Sobre a Ciência e as Grandes Navegações, é correto afirmar que',
+        '(A) estavam ligadas ao desenvolvimento econômico das comunidades pesqueiras do litoral do mar Egeu.',
+        '(B) o desenvolvimento científico era considerado um empecilho para os navegadores, pois estes acreditavam que a Terra era plana.',
+        '(C) as viagens foram favorecidas por invenções, tais como as caravelas, navios rápidos, versáteis e de fácil manobra, que podiam navegar inclusive com ventos contrários.',
+        '(D) os grandes cientistas do período se afastaram dessa empreitada, pois, sob comando da Igreja Católica, dedicaram-se às grandes questões teológicas de sua época.',
+        '(E) a experiência dos povos americanos foi decisiva para o desenvolvimento científico de instrumentos de localização e de embarcações apropriadas para as viagens transoceânicas.',
+        'C',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 46
+        236,
+        'Assim, em relação a doenças como sarampo, caxumba, rubéola e poliomielite, pode-se afirmar corretamente que',
+        '(A) o alto custo da produção de suas vacinas específicas, não coberto pelo sistema público de saúde, torna inacessível e impossível a prevenção dessas doenças para a população.',
+        '(B) seus agentes infecciosos são vírus que, quando são enfraquecidos ou mortos para tratamento preventivo, estimulam uma resposta imunológica ativa no organismo humano.',
+        '(C) seus agentes infecciosos são bactérias que, apesar de terem sido erradicadas da maioria dos países, afetam preferencialmente idosos e pessoas de vida sedentária.',
+        '(D) a produção de vacinas específicas para cada uma delas é feita atualmente, em pequena escala, a partir da hiperimunização de cavalos.',
+        '(E) seus agentes infecciosos foram eliminados totalmente da maioria dos países, tornando desnecessária a aplicação de medidas preventivas.',
+        'B',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 47
+        237,
+        'A localização geográfica do cenário descrito no texto situa-se na região',
+        '(A) Sul do Brasil e sofre a influência do clima semiárido.',
+        '(B) Sul do Brasil e sofre a influência do clima subtropical.',
+        '(C) Nordeste do Brasil e sofre a influência do clima semiárido.',
+        '(D) Nordeste do Brasil e sofre a influência do clima subtropical.',
+        '(E) Centro-Oeste do Brasil e sofre a influência do clima tropical de altitude.',
+        'C',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 48
+        238,
+        'Esse instrumento simula o que acontece quando, devidamente protegidos, estamos observando, daqui da Terra, o Sol no momento em que ocorre um eclipse',
+        '(A) lunar total, com a Lua se interpondo entre a Terra e o Sol.',
+        '(B) lunar parcial, com a Terra se interpondo entre a Lua e o Sol.',
+        '(C) solar total, com a Lua se interpondo entre a Terra e o Sol.',
+        '(D) solar total, com a Terra se interpondo entre a Lua e o Sol.',
+        '(E) solar parcial, com a Lua se interpondo entre a Terra e o Sol.',
+        'C',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 49
+        239,
+        'Com base nessas informações, podemos afirmar corretamente que a quimioterapia atua',
+        '(A) bloqueando a digestão celular realizada pelos lisossomos.',
+        '(B) impedindo a respiração celular realizada pelas mitocôndrias.',
+        '(C) dificultando a eliminação de substâncias tóxicas do organismo.',
+        '(D) acelerando os processos de renovação celular dos tecidos sadios.',
+        '(E) inibindo a ocorrência de mitoses responsáveis pela proliferação celular.',
+        'E',
+        2020,
+        1
+    );
+    INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
+    VALUES ( -- Questão 50
+        240,
+        'Segundo o texto,',
+        '(A) era considerado cidadão aquele que recusava a política, que não participava dos assuntos públicos e só se ocupava com a própria vida.',
+        '(B) havia uma lei que obrigava gregos a se envolverem com os assuntos coletivos, sob pena de terem seus direitos e sua liberdade cerceados.',
+        '(C) aqueles que se envolviam com a política eram tão idiotas quanto os que privilegiavam a vida privada, pois não percebiam que a política é o campo de atuação dos corruptos.',
+        '(D) a liberdade estava intrinsecamente ligada à ideia de cidadania, pois só podia se considerar livre aquele que participasse da condução coletiva dos assuntos da cidade.',
+        '(E) os direitos e os deveres eram construídos coletivamente pelos idiotas, enquanto os cidadãos viviam limitados ao mundo privado.',
+        '',
+        2020,
+        1
+    );
 
+-- INSERT TABLE tbIMAGENS PROVA 2020 1 SEMESTRE
 
 
 
