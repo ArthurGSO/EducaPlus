@@ -25,13 +25,13 @@
     // Verifica se há questões
     if ($result->num_rows > 0) {
         echo "<form method='post' action='../../SubPags/calcular_pontuacao.php'>"; // Corrigindo o caminho do action
+        // Exibe a imagem de apresentação
+        $img = 'imgs/apresentacao.PNG';
+            if ( file_exists($img)) {
+                echo "<img src='imgs/apresentacao.PNG' alt='Imagem de apresentação da prova'>";
+            }
         // Exibe as questões com o formulário para seleção de respostas
         while ($row = $result->fetch_assoc()) {
-            $img = 'imgs/apresentacao.PNG';
-            if ( file_exists($img)) {
-                echo "existe"; 
-                echo "<img src='C:\xampp\htdocs\EducaPlus\PaginasPrincipais\Provas\2020\imgs\apresentacao.PNG' alt='Imagem de apresentação da prova'>";
-            }
             echo "<h2>Questão $contador_questao:</h2>"; // Exibe o número da questão
             // Recupera e exibe as imagens associadas à pergunta
             $cod_question = $row['cod_question'];

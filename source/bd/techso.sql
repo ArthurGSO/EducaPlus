@@ -3350,7 +3350,6 @@ CREATE TABLE tbImagens (
 -- INSERT TABLE tbIMAGENS PROVA 2020 1 SEMESTRE
     INSERT INTO tbImagens (cod_question, image_data)
         VALUES
-            (191, 'imgs/apresentacao.PNG'),
             (191, 'imgs/txtQ1.PNG'),
             (192, 'imgs/txtQ2.PNG'),
             (193, 'imgs/txtQ3.PNG'),
@@ -4805,7 +4804,6 @@ CREATE TABLE tbImagens (
 -- INSERT TABLE tbIMAGENS PROVA 2015 1 SEMESTRE
     INSERT INTO tbImagens (cod_question, image_data)
         VALUES
-            (641, 'imgs/apresentacao.PNG'),
             (641, 'imgs/txtQ1.PNG'),
             (642, 'imgs/txtQ2.PNG'),
             (643, 'imgs/txtQ3.PNG'),
@@ -5521,7 +5519,6 @@ CREATE TABLE tbImagens (
 -- INSERT TABLE tbIMAGENS PROVA 2015 2 SEMESTRE
     INSERT INTO tbImagens (cod_question, image_data)
         VALUES
-            (691, 'imgs2/apresentacao.PNG'),
             (691, 'imgs2/txtQ1-6.PNG'),
             (696, 'imgs2/txtQ6.PNG'),
             (697, 'imgs2/txtQ7.PNG'),

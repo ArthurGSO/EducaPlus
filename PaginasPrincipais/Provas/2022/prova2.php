@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="wcod_questionth=device-wcod_questionth, initial-scale=1.0">
-    <title>Simulado do Vestibulinho ETEC 2022 - 1° Semestre</title>
+    <title>Simulado do Vestibulinho ETEC 2022 - 2° Semestre</title>
 </head>
 <body>
-    <h2>Simulado do Vestibulinho ETEC 2022 - 1° Semestre</h2>
+    <h2>Simulado do Vestibulinho ETEC 2022 - 2° Semestre</h2>
     <?php
     require('../../../source/includes/connect.php'); 
     if(!$conexao) {
@@ -25,6 +25,11 @@
     // Verifica se há questões
     if ($result->num_rows > 0) {
         echo "<form method='post' action='../../SubPags/calcular_pontuacao.php'>"; // Corrigindo o caminho do action
+        // Exibe a imagem de apresentação
+        $img = 'imgs/apresentacao.PNG';
+            if ( file_exists($img)) {
+                echo "<img src='imgs/apresentacao.PNG' alt='Imagem de apresentação da prova'>";
+            }
         // Exibe as questões com o formulário para seleção de respostas
         while ($row = $result->fetch_assoc()) {
             echo "<h2>Questão $contador_questao:</h2>"; // Exibe o número da questão
@@ -48,7 +53,7 @@
             $contador_questao++;
         }
         echo "<input type='hidden' name='ano_prova' value='2022'>";
-        echo "<input type='hidden' name='semestre_prova' value='1'>";
+        echo "<input type='hidden' name='semestre_prova' value='2'>";
         echo "<input type='submit' value='Enviar Respostas'>";
         echo "</form>";
     } else {
