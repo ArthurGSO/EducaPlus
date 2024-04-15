@@ -4074,29 +4074,4 @@ CREATE TABLE tbImagens (
 
 
 
-
-
-
-
-
-
-
-
---foreign key (cod_servico) references tbServicos(cod_servico));
-
---create table tbServicos(
---cod_servico int not null auto_increment,
---tipo_ervico varchar(50),
---descricao varchar(60),
---valor double,
---primary key (cod_servico));
---
---create table tbPagamentos(
---cod_pag int not null auto_increment,
---metodo varchar(30) not null,
---saldo float,
---cod_usuario int not null,
---cod_servico int not null,
---primary key (cod_pag),
---foreign key (cod_usuario) references tbUsuarios(cod_usuario),
---foreign key (cod_servico) references tbServicos(cod_servico));
+--Novo
