@@ -4873,8 +4873,6 @@ CREATE TABLE tbImagens (
 
 
 
-
-
 --foreign key (cod_servico) references tbServicos(cod_servico));
 
 --create table tbServicos(
