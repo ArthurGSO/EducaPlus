@@ -510,7 +510,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         36,
-        'No período colonial, eram chamados de “drogas do sertão” os produtos nativos ou aclimatados que tinham origem na região Norte, onde se localizam atualmente os estados do Amazonas, do Pará e do Maranhão. Eram especiarias, castanhas, frutas, ervas, sementes, tintas e animais originários da Amazônia, como o peixe-boi e as tartarugas. O início da exploração desses produtos',
+        'O início da exploração desses produtos',
         'A) estimulou o fluxo migratório de nordestinos, que buscavam alternativas à seca; e de escravizados das regiões Sul e Sudeste que, na floresta, refugiaram-se em comunidades quilombolas.',
         'B) permitiu a integração da Amazônia ao restante da colônia, já que incentivou a abertura de estradas e ferrovias que a ligavam a diferentes partes do território nacional.',
         'C) enfraqueceu o controle e a fiscalização das fronteiras, impondo dificuldades ao Exército no monitoramento eficiente da área.',
@@ -562,7 +562,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         40,
-        'Para estimar o volume do tronco de uma árvore, pode-se utilizar a relação V = (H ·π · r^2)÷3, na qual V indica o volume do tronco, H a altura da árvore e r é o raio da base da árvore. Utilizando as medidas fornecidas no texto e a relação matemática dada, é correto estimar o volume mínimo do tronco de uma castanheira, em m³, em cerca de',
+        'Utilizando as medidas fornecidas no texto e a relação matemática dada, é correto estimar o volume mínimo do tronco de uma castanheira, em m³, em cerca de',
         'A) 100π÷3.',
         'B) 200π÷3.',
         'C) 400π÷3.',
@@ -588,7 +588,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         42,
-        'Suponha que um fruto caia de uma castanheira-do-brasil, a partir do repouso, de uma altura de 45 metros do chão, em uma queda livre de qualquer força dissipativa, e assuma que a aceleração gravitacional é igual a 10 m/s². Pode-se determinar a sua velocidade ao atingir o chão por meio da equação v = √(2 ⋅ g ⋅ H), em que a velocidade (v) depende da altura de queda (H) e da aceleração gravitacional (g). Assinale a alternativa que apresenta a velocidade, em m/s, com que o fruto de uma castanheira-do-brasil atingiria o chão.',
+        'Assinale a alternativa que apresenta a velocidade, em m/s, com que o fruto de uma castanheira-do-brasil atingiria o chão.',
         'A) 30.',
         'B) 25.',
         'C) 10.',
@@ -614,7 +614,7 @@ CREATE TABLE tbImagens (
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         44,
-        'Quando o petróleo é extraído, ele é separado em diferentes frações por meio de um processo denominado destilação fracionada. Dessas frações, obtêm-se combustíveis como gás natural, gás liquefeito de petróleo, gasolina e diesel. Esses combustíveis são de origem',
+        'Esses combustíveis são de origem',
         'A) fóssil, portanto de fonte renovável.',
         'B) fóssil, portanto de fonte não renovável.',
         'C) não fóssil, portanto de fonte não renovável.',
@@ -706,28 +706,40 @@ CREATE TABLE tbImagens (
 -- INSERT TABLE tbIMAGENS PROVA 2024 1 SEMESTRE
     INSERT INTO tbImagens (cod_question, image_data)
         VALUES 
-            (1, 'imgs/txtQ1.png'),
-            (1, 'imgs/mapaQ1.PNG'),
+            (1, 'imgs/txtQ1-2.PNG'),
             (3, 'imgs/txtQ3.PNG'),
             (5, 'imgs/txtQ5-7.PNG'),
+            (8, 'imgs/txtQ8.PNG'),
             (9, 'imgs/txtQ9-11.PNG'),
             (12, 'imgs/mapaQ12.PNG'),
             (13, 'imgs/txtQ13-15.PNG'),
+            (13, 'imgs/txtQ13.PNG'),
             (16, 'imgs/txtQ16-17.PNG'),
+            (17, 'imgs/txtQ17.PNG'),
+            (18, 'imgs/txtQ18.PNG'),
             (19, 'imgs/txtQ19-21.PNG'),
             (22, 'imgs/txtQ22.PNG'),
             (23, 'imgs/txtQ23.PNG'),
             (24, 'imgs/tabelaQ24.PNG'),
             (25, 'imgs/txtQ25-27.PNG'),
+            (25, 'imgs/txtQ25.PNG'),
+            (27, 'imgs/txtQ27.PNG'),
             (28, 'imgs/grafQ28-29.PNG'),
+            (29, 'imgs/txtQ29.PNG'),
             (30, 'imgs/txtQ30.PNG'),
+            (31, 'imgs/txtQ31.PNG'),
             (32, 'imgs/txtQ32.PNG'),
+            (33, 'imgs/txtQ33.PNG'),
             (34, 'imgs/txtQ34.PNG'),
             (35, 'imgs/txtQ35.PNG'),
+            (36, 'imgs/txtQ36.PNG'),
             (37, 'imgs/txtQ37.PNG'),
             (38, 'imgs/txtQ38.PNG'),
             (39, 'imgs/txtQ39-42.PNG'),
+            (40, 'imgs/txtQ40.PNG'),
+            (42, 'imgs/txtQ42.PNG'),
             (43, 'imgs/txtQ43.PNG'),
+            (44, 'imgs/txtQ44.PNG'),
             (45, 'imgs/imgQ45.PNG'),
             (46, 'imgs/txtQ46.PNG'),
             (48, 'imgs/txtQ48.PNG'),
