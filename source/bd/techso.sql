@@ -740,11 +740,11 @@ CREATE TABLE tbImagens (
             (42, 'imgs/txtQ42.PNG'),
             (43, 'imgs/txtQ43.PNG'),
             (44, 'imgs/txtQ44.PNG'),
-            (45, 'imgs/imgQ45.PNG'),
+            (45, 'imgs/txtQ45.PNG'),
             (46, 'imgs/txtQ46.PNG'),
             (48, 'imgs/txtQ48.PNG'),
             (49, 'imgs/txtQ49.PNG'),
-            (50, 'imgs/imgQ50.PNG');
+            (50, 'imgs/txtQ50.PNG');
 
 -- INSERT TABLE tbQUESTIONS PROVA 2023 1 SEMESTRE
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre)

@@ -31,7 +31,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $ano_prova !== null && $semestre_pro
         $acertos = 0;
         $erros = 0;
         $nao_respondidas = 0;
-        $questoes_erradas = []; // Armazena as questões respondidas incorretamente
 
         // Calcula a pontuação do usuário e contabiliza as respostas corretas, incorretas e não respondidas
         while ($row = mysqli_fetch_assoc($result)) {
@@ -43,11 +42,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $ano_prova !== null && $semestre_pro
                     $acertos++;
                 } else {
                     $erros++;
-                    // Armazena a questão respondida incorretamente e sua resposta correta
-                    $questoes_erradas[] = [
-                        'questao' => $questao_id,
-                        'resposta_correta' => $row['correct_option']
-                    ];
                 }
             } else {
                 $nao_respondidas++;
@@ -74,20 +68,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $ano_prova !== null && $semestre_pro
         echo "Número de questões corretas: $acertos<br>";
         echo "Número de questões erradas: $erros<br>";
         echo "Número de questões não respondidas: $nao_respondidas";
-
-        // Exibe as questões respondidas incorretamente e suas respostas corretas
-        if (!empty($questoes_erradas)) {
-            echo "<br><br>";
-            echo "Questões Respondidas Incorretamente:";
-            echo "<br>";
-            foreach ($questoes_erradas as $questao_errada) {
-                echo "<br>";
-                echo "Questão: " . $questao_errada['questao'];
-                echo "<br>";
-                echo "Resposta Correta: " . $questao_errada['resposta_correta'];
-                echo "<br>";
-            }
-        }
     } else {
         echo "Nenhuma pergunta encontrada para o ano $ano_prova e semestre $semestre_prova.";
     }

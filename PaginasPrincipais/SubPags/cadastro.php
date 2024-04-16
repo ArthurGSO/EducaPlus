@@ -14,7 +14,6 @@ include('../../source/includes/connect.php');
         $cadastro = 1;
             
     } else {
-
             echo "problema no cadastramento dos dados";
         }
 ?>
