@@ -75,19 +75,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $ano_prova !== null && $semestre_pro
         echo "Número de questões erradas: $erros<br>";
         echo "Número de questões não respondidas: $nao_respondidas";
 
-        // Exibe as questões respondidas incorretamente e suas respostas corretas
-        if (!empty($questoes_erradas)) {
-            echo "<br><br>";
-            echo "Questões Respondidas Incorretamente:";
-            echo "<br>";
-            foreach ($questoes_erradas as $questao_errada) {
-                echo "<br>";
-                echo "Questão: " . $questao_errada['questao'];
-                echo "<br>";
-                echo "Resposta Correta: " . $questao_errada['resposta_correta'];
-                echo "<br>";
-            }
-        }
+        // Armazena as questões respondidas incorretamente em uma variável de sessão para reutilização posterior
+        $_SESSION['questoes_erradas'] = $questoes_erradas;
+
+        // // Exibe as questões respondidas incorretamente e suas respostas corretas
+        // if (!empty($questoes_erradas)) {
+        //     echo "<br><br>";
+        //     echo "Questões Respondidas Incorretamente:";
+        //     echo "<br>";
+        //     foreach ($questoes_erradas as $questao_errada) {
+        //         echo "<br>";
+        //         echo "Questão: " . $questao_errada['questao'];
+        //         echo "<br>";
+        //         echo "Resposta Correta: " . $questao_errada['resposta_correta'];
+        //         echo "<br>";
+        //     }
+        // }
     } else {
         echo "Nenhuma pergunta encontrada para o ano $ano_prova e semestre $semestre_prova.";
     }

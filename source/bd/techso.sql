@@ -2000,7 +2000,7 @@ CREATE TABLE tbImagens (
             (139, 'imgs2/txtQ49.PNG'),
             (140, 'imgs2/txtQ50.PNG');
 
--- INSERT TABLE tbQUESTIONS PROVA 2022 1 SEMESTRE
+-- INSERT TABLE tbQUESTIONS PROVA 2022 2 SEMESTRE
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
         141,
@@ -2012,7 +2012,7 @@ CREATE TABLE tbImagens (
         'E) 630.',
         'D',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2025,7 +2025,7 @@ CREATE TABLE tbImagens (
         'E) o desemprego conjuntural e o desemprego estrutural são sinônimos, pois definem o mesmo tipo de desemprego.',
         'B',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2038,7 +2038,7 @@ CREATE TABLE tbImagens (
         'E) introdução de insetos parasitas na plantação, a fim de impedir que os seres causadores da praga cheguem à fase reprodutiva.',
         'D',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2051,7 +2051,7 @@ CREATE TABLE tbImagens (
         'E) 4 500,0.',
         'B',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2064,7 +2064,7 @@ CREATE TABLE tbImagens (
         'E) reuniram um conjunto de saberes e técnicas de trabalho e desenvolveram um modo de vida em sociedade.',
         'E',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2077,7 +2077,7 @@ CREATE TABLE tbImagens (
         'E) o potencial de transformação social das classes desfavorecidas, como representado no verso 24',
         'E',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2090,7 +2090,7 @@ CREATE TABLE tbImagens (
         'E) sol, cruza, mamãe, amordaçado.',
         'B',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2103,7 +2103,7 @@ CREATE TABLE tbImagens (
         'E) recorre à coleta de materiais recicláveis como metáfora para a imprudência de vivenciar apenas o presente, sem se preocupar com o futuro.',
         'B',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2116,7 +2116,7 @@ CREATE TABLE tbImagens (
         'E) anoitecer e à paralização dos sonhos.',
         'C',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2129,7 +2129,7 @@ CREATE TABLE tbImagens (
         'E) y > z > x.',
         'E',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2142,7 +2142,7 @@ CREATE TABLE tbImagens (
         'E) B e D.',
         'A',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2155,7 +2155,7 @@ CREATE TABLE tbImagens (
         'E) a localização das fábricas, que privilegiava a criação de empregos nos países pobres; e o investimento na formação do trabalhador, que deveria conhecer todas as etapas do processo produtivo.',
         'D',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2168,7 +2168,7 @@ CREATE TABLE tbImagens (
         'E) os proprietários das fábricas, durante a Revolução Industrial, preocupados com a qualidade de vida de seus trabalhadores e de suas famílias, criaram um projeto de distribuição de cestas básicas para as famílias de trabalhadores sindicalizados, com o intuito de fidelizar a mão de obra.',
         'C',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2181,7 +2181,7 @@ CREATE TABLE tbImagens (
         'E) “uma vez que”, no quarto parágrafo, corresponde a “porque”, pois explica a eficácia da atuação do empreendedor social diante de problemas muito complexos.',
         'A',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2194,7 +2194,7 @@ CREATE TABLE tbImagens (
         'E) o conceito de serviço social é similar ao do empreendedorismo social, pois ambos são ações individuais voltadas à formação de agremiações políticas.',
         'C',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2207,7 +2207,7 @@ CREATE TABLE tbImagens (
         'E) II e III apenas.',
         'D',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2220,7 +2220,7 @@ CREATE TABLE tbImagens (
         'E) grandes moléculas que darão origem ao petróleo.',
         'B',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2233,7 +2233,7 @@ CREATE TABLE tbImagens (
         'E) PVC.',
         'E',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2246,7 +2246,7 @@ CREATE TABLE tbImagens (
         'E) PE, PS e PET.',
         'B',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2259,7 +2259,7 @@ CREATE TABLE tbImagens (
         'E) o petróleo é a fonte de diversos tipos de matérias-primas e de combustíveis.',
         'E',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2272,7 +2272,7 @@ CREATE TABLE tbImagens (
         'E) substância simples revestida de estanho.',
         'A',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2285,7 +2285,7 @@ CREATE TABLE tbImagens (
         'E) confirmou a independência dos mercados financeiros, uma vez que foi contornada sem a necessidade de intervenção dos governos na economia.',
         'B',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2298,7 +2298,7 @@ CREATE TABLE tbImagens (
         'E) a vacina específica para Covid–19 demorou muito tempo para ser produzida, pois a bactéria causadora da doença era totalmente desconhecida.',
         'B',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2311,7 +2311,7 @@ CREATE TABLE tbImagens (
         'E) na Idade Média os pais se preocupavam com o futuro de seus filhos, uma vez que era preciso ser artesão ou camponês para pertencer à aristocracia feudal.',
         'A',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2324,7 +2324,7 @@ CREATE TABLE tbImagens (
         'E) Os alimentos como arroz, macarrão e batatas devem ser retirados da dieta, pois não fornecem nenhuma vantagem ao organismo.',
         'B',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2337,7 +2337,7 @@ CREATE TABLE tbImagens (
         'E) aumenta, exotérmica, libera',
         'E',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2350,7 +2350,7 @@ CREATE TABLE tbImagens (
         'E) causada por um tipo de vírus transmitido pela picada de mosquitos contaminados e, entre seus principais sintomas, destacam-se a febre, as dores no corpo e as manchas vermelhas.',
         'E',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2363,7 +2363,7 @@ CREATE TABLE tbImagens (
         'E) decantação e cloração.',
         'B',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2376,7 +2376,7 @@ CREATE TABLE tbImagens (
         '(E) uma doença causada pela produção insuficiente ou má absorção de insulina.',
         'C',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2389,7 +2389,7 @@ CREATE TABLE tbImagens (
         'Área: 3x y Perímetro: 3x + y',
         'D',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2402,7 +2402,7 @@ CREATE TABLE tbImagens (
         '(E) 25.',
         'C',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2415,7 +2415,7 @@ CREATE TABLE tbImagens (
         '(E) Construir e preservar áreas verdes uma vez que a vegetação facilita o processo de infiltração da água da chuva no solo.',
         'E',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2428,7 +2428,7 @@ CREATE TABLE tbImagens (
         '(E) exige que os trabalhadores de entrega por aplicativos criem empresas cooperativadas para facilitar o registro em carteira dessa categoria pelas empresas contratantes.',
         'C',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2441,7 +2441,7 @@ CREATE TABLE tbImagens (
         '(E)',
         'E',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2454,7 +2454,7 @@ CREATE TABLE tbImagens (
         '(E) as fronteiras atuais do Brasil foram definidas no final do século XVIII, quando as expedições bandeirantes terminaram.',
         'C',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2467,7 +2467,7 @@ CREATE TABLE tbImagens (
         '(E) 270,0.',
         'D',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2480,7 +2480,7 @@ CREATE TABLE tbImagens (
         '(E) a razão e a emoção devem avançar juntas, libertando-se dos erros do passado e do medo de errar.',
         'E',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2493,7 +2493,7 @@ CREATE TABLE tbImagens (
         '(E) é ilegal e dificulta a vida escolar e o desenvolvimento saudável da criança.',
         'E',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2506,7 +2506,7 @@ CREATE TABLE tbImagens (
         '(E) “Os homens se dividem em duas espécies: os que têm medo de viajar de avião e os que fingem que não têm”. (Fernando Sabino)',
         'A',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2519,7 +2519,7 @@ CREATE TABLE tbImagens (
         '(E) está relacionada à capacidade de interação da sua estrutura tanto com água quanto com gordura.',
         'E',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2532,7 +2532,7 @@ CREATE TABLE tbImagens (
         '(E) a extremidade do sabão que quebra a membrana lipídica do vírus é denominada hidrofílica.',
         'C',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2545,7 +2545,7 @@ CREATE TABLE tbImagens (
         '(E) seriamente, acerca das, possivelmente, índole e habilidade',
         'E',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2558,7 +2558,7 @@ CREATE TABLE tbImagens (
         '(E) pressupõe o auxílio da escola aos estudantes no processo de construção do autoconhecimento e de planejamento para alcançar seus objetivos.',
         'E',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2571,7 +2571,7 @@ CREATE TABLE tbImagens (
         '(E)',
         'A',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2584,7 +2584,7 @@ CREATE TABLE tbImagens (
         '(E) a formação de quilombos, comunidades estabelecidas por escravos fugidos em diferentes partes do Brasil.',
         'E',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2597,7 +2597,7 @@ CREATE TABLE tbImagens (
         '(E) promoveram uma modernização urbana que atraiu profissionais qualificados da Europa, mas não alteraram as estruturas escravistas da sociedade brasileira do século XIX.',
         'E',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2610,7 +2610,7 @@ CREATE TABLE tbImagens (
         '(E) um dos elementos que caracterizam o trabalho análogo ao escravo são as condições degradantes de trabalho, constatadas pela Operação Andrápodon.',
         'E',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2623,7 +2623,7 @@ CREATE TABLE tbImagens (
         '(E) têm a obrigação de participar do FGTS e da Previdência Privada.',
         'C',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2636,7 +2636,7 @@ CREATE TABLE tbImagens (
         '(E) as sementes dos demais garotos brotaram mesmo queimadas e seus vasos tinham lindas flores.',
         'C',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (
@@ -2649,7 +2649,7 @@ CREATE TABLE tbImagens (
         '(E) agir com rapidez e inteligência para ficar com o troco recebido a mais após uma compra.',
         'C',
         2022,
-        1
+        2
     );
 
 -- INSERT TABLE tbIMAGENS PROVA 2022 1 SEMESTRE
