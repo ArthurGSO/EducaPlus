@@ -146,24 +146,24 @@
   <div class="prova">
     <div class="titulo"> <span> ETEC 2023 </span></div>
     <div class="texto">A prova ETEC 2023 foi desafiadora, mas os estudantes se prepararam bem. As questões abordaram uma variedade de tópicos, exigindo um conhecimento sólido em todas as disciplinas.</div>
-    <a href=""><button class="button-29" role="button">Iniciar</button></a>
+    <a href="Provas/2023/prova1.php"><button class="button-29" role="button">Iniciar</button></a>
+  </div>
+  <div class="prova">
+    <div class="titulo"><span> ETEC 2024 </span></div>
+    <div class="texto">A prova ETEC 2024 foi marcada por questões complexas de matemática e ciências. Os estudantes que dominavam esses assuntos tiveram um bom desempenho.</div>
+    <a href="Provas/2024/prova1.php"><button class="button-29" role="button">Iniciar</button></a>
+
+  </div>
+  <div class="prova">
+    <div class="titulo"><span> ETEC 2015 </span></div>
+    <div class="texto">A prova ETEC 2015 destacou-se pelas questões de interpretação de texto. Os estudantes que leram atentamente e entenderam os textos se saíram bem.</div>
+    <a href="Provas/2015/prova1.php"><button class="button-29" role="button">Iniciar</button></a>
+
   </div>
   <div class="prova">
     <div class="titulo"><span> ETEC 2022 </span></div>
-    <div class="texto">A prova ETEC 2022 foi marcada por questões complexas de matemática e ciências. Os estudantes que dominavam esses assuntos tiveram um bom desempenho.</div>
-    <a href=""><button class="button-29" role="button">Iniciar</button></a>
-
-  </div>
-  <div class="prova">
-    <div class="titulo"><span> ETEC 2021 </span></div>
-    <div class="texto">A prova ETEC 2021 destacou-se pelas questões de interpretação de texto. Os estudantes que leram atentamente e entenderam os textos se saíram bem.</div>
-    <a href=""><button class="button-29" role="button">Iniciar</button></a>
-
-  </div>
-  <div class="prova">
-    <div class="titulo"><span> ETEC 2020 </span></div>
-    <div class="texto">A prova ETEC 2020 foi bem equilibrada, com questões de todas as disciplinas. Os estudantes que tiveram um estudo consistente ao longo do ano tiveram sucesso.</div>
-    <a href=""><button class="button-29" role="button">Iniciar</button></a>
+    <div class="texto">A prova ETEC 2022 foi bem equilibrada, com questões de todas as disciplinas. Os estudantes que tiveram um estudo consistente ao longo do ano tiveram sucesso.</div>
+    <a href="Provas/2022/prova2.php"><button class="button-29" role="button">Iniciar</button></a>
 
   </div>
 
@@ -171,7 +171,7 @@
   <div class="prova">
     <div class="titulo"><span> ETEC 2019 </span></div>
     <div class="texto">A prova ETEC 2019 foi bem equilibrada, com questões de todas as disciplinas. Os estudantes que tiveram um estudo consistente ao longo do ano tiveram sucesso.</div>
-    <a href=""><button class="button-29" role="button">Iniciar</button></a>
+    <a href="Provas/2019/prova1.php"><button class="button-29" role="button">Iniciar</button></a>
 
   </div>
 </div>

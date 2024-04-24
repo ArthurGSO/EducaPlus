@@ -49,6 +49,18 @@
             </div>
         </section>
 
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="source/img/undraw_about_us_page_re_2jfm.svg" alt="">
+            </div>
+            <div class="about-content">
+                <h2 class="heading"> Sobre <span>Nós</span></h2>
+               
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique ullam quasi sequi, porro totam quisquam repudiandae. Non, itaque repudiandae, numquam cum quod amet commodi soluta nostrum aliquid dolor, quia sit!</p>
+             <button class="button-29">Ver mais</button>
+            </div>
+        </section>
+
         <section id="testimonials" class="show animate">
             <img src="source/img/undraw_publish_article_re_3x8h.svg" id="testimonial_chef" alt="">
 
