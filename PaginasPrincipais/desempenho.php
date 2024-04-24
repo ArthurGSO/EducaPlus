@@ -11,6 +11,7 @@
     $total_incorretas = 0;
     $media_percentual = 0;
     $total_simulados = 0;
+    $taxa_acerto = 0;
 
     if ($result->num_rows > 0) {
         // Loop através de cada entrada do usuário
