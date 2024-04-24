@@ -1003,19 +1003,18 @@ aside.close .profile .info {
     transition: ease-in 0.5s;
   }
   .bai{
-    background: #140c0c;
+    background: rgb(179, 27, 27);
     color: #fff;
     width: 150px;
-    margin-top: 20px;
-    height: 30px;
-    border-radius: 5px;
-    border: none;
+    position: absolute;
     display: flex;
     align-items: center;
-    margin-top: 20px;
-
+    height: 30px;
     justify-content: center;
-    margin-left: 190px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+    margin-left: 10px;
     cursor: pointer;
     box-shadow: 0 0 0.5rem rgb(255, 255, 255);
  

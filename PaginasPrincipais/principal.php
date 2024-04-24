@@ -53,13 +53,13 @@
           </div>
         </div> <!-- PROVAS -->
 
-        <!-- <div class="menu">
+       <div class="menu">
             <i class='bx bx-question-mark'></i>
             <span>Questões</span>
             <i class="bx bx-chevron-down"></i>
-        </div>  --> <!-- MENU QUESTÕES -->
+        </div>   <!-- MENU QUESTÕES -->
                                   
-        <!-- <div class="menu-dropdown">
+       <div class="menu-dropdown">
           <div class="sub-menu">
             <a href="#"> <span class="menu">MATEMÁTICA</span></a>
             <a href="#"> <span class="menu">PORTUGUÊS</span></a>
@@ -67,7 +67,7 @@
             <a href="#"> <span class="menu">HISTÓRIA</span></a>
             <a href="#"> <span class="menu">GEOGRAFIA</span></a>
           </div>
-        </div>  --> <!-- MENU QUESTÕES MATÉRIA s-->
+        </div>  <!-- MENU QUESTÕES MATÉRIA --> 
 
         <div class="menu">
           <i class='bx bx-bar-chart-alt'></i>
@@ -168,42 +168,42 @@
 
       </div> <!-- "CARROSEL" RESUMO PROVAS -->
 
-    <!-- <h1 class="center">Faça questões por matéria: </h1>  -->
+    <h1 class="center">Faça questões por matéria: </h1>
 
-      <!-- <div class="secao azul">
+      <div class="secao azul">
         <h2> <i class="fa-solid fa-book"></i> Português</h2>
           <div class="topicos">
             <a href="#"><button class="button-28" role="button">Começar</button></a>
           </div>
-      </div> PORTUGUÊS -->
+      </div> <!-- PORTUGUÊS -->
 
-      <!-- <div class="secao vermelho">
+      <div class="secao vermelho">
         <h2> <i class="fa-solid fa-calculator"></i> Matemática</h2>
           <div class="topicos">
             <a href="#"><button class="button-28" role="button">Começar</button></a>
           </div>
-      </div> MATEMÁTICA -->
+      </div> <!-- MATEMÁTICA -->
 
-      <!-- <div class="secao verde">
+      <div class="secao verde">
         <h2>  <i class="fa-solid fa-earth-americas"></i> Geografia</h2>
           <div class="topicos">
             <a href="#"><button class="button-28" role="button">Começar</button></a>
           </div>
-      </div> GEOGRAFIA -->
+      </div> <!-- GEOGRAFIA -->
 
-      <!-- <div class="secao laranja">
+      <div class="secao laranja">
         <h2><i class="fa-solid fa-flask"></i> Ciências</h2>
           <div class="topicos">
             <a href="#"><button class="button-28" role="button">Começar</button></a>    
           </div>
-      </div> CIÊNCIAS -->
+      </div> <!-- CIÊNCIAS -->
 
-      <!-- <div class="secao amarelo">
+      <div class="secao amarelo">
         <h2><i class="fa-solid fa-landmark"></i> História</h2>
           <div class="topicos">
             <a href="#"><button class="button-28" role="button">Começar</button></a>
           </div>
-      </div> HISTÓRIA  -->
+      </div> <!-- HISTÓRIA  -->
 
     <!-- IMPORT CDNJS JQUERY -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>

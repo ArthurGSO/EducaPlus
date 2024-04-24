@@ -11,6 +11,7 @@
     $total_incorretas = 0;
     $media_percentual = 0;
     $total_simulados = 0;
+    $taxa_acerto = 0;
 
     if ($result->num_rows > 0) {
         // Loop através de cada entrada do usuário
@@ -67,7 +68,7 @@
         </div> <!-- HEADER -->
 
         <div class="nav">
-            <div class="menu active">
+            <div class="menu">
                 <i class='bx bxs-home'></i>
                 <span><a href="principal.php">Home</a></span>
             </div> <!-- BOTÃO HOME -->
@@ -92,13 +93,13 @@
                 </div>
             </div> <!-- PROVAS -->
 
-            <!-- <div class="menu">
+             <div class="menu">
                 <i class='bx bx-question-mark'></i>
                     <span>Questões</span>
                 <i class="bx bx-chevron-down"></i>
-            </div>  --> <!-- MENU QUESTÕES -->
+            </div> <!-- MENU QUESTÕES -->
                                     
-            <!-- <div class="menu-dropdown">
+             <div class="menu-dropdown">
             <div class="sub-menu">
                 <a href="#"> <span class="menu">MATEMÁTICA</span></a>
                 <a href="#"> <span class="menu">PORTUGUÊS</span></a>
@@ -106,16 +107,16 @@
                 <a href="#"> <span class="menu">HISTÓRIA</span></a>
                 <a href="#"> <span class="menu">GEOGRAFIA</span></a>
             </div>
-            </div>  --> <!-- MENU QUESTÕES MATÉRIA s-->
+            </div>  <!-- MENU QUESTÕES MATÉRIA s-->
 
-            <div class="menu">
+            <div class="menu active">
                 <i class='bx bx-bar-chart-alt'></i>
                 <span><a href="desempenho.php">Desempenho</a></span>
             </div> <!-- MENU DESEMPENHO -->
 
             <div class="menu">
                 <i class="bx bx-cog"></i>
-                <span><a href="configuracoes.html">Configurações</a></span>
+                <span><a href="configuracoes.php">Configurações</a></span>
             </div> <!-- MENU CONFIGURAÇÕES -->
                 
             <div class="menu" style="pointer-events: none;"></div>
