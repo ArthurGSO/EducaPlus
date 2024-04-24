@@ -1,8 +1,49 @@
 <?php
+    require('../source/includes/connect.php');
     date_default_timezone_set('America/Sao_Paulo'); 
-    session_start();
-?>
 
+    $cod_usuario = $_SESSION['id'];
+
+    $sql = "SELECT questoes_corretas, questoes_erradas, pontuacao_percent FROM tbResults WHERE cod_usuario = $cod_usuario";
+    $result = $conexao->query($sql);
+
+    $total_corretas = 0;
+    $total_incorretas = 0;
+    $media_percentual = 0;
+    $total_simulados = 0;
+
+    if ($result->num_rows > 0) {
+        // Loop através de cada entrada do usuário
+        while ($row = $result->fetch_assoc()) {
+            // Obter os dados de desempenho de cada entrada
+            $questoes_corretas = $row["questoes_corretas"];
+            $questoes_erradas = $row["questoes_erradas"];
+            $pontuacao_percent = $row["pontuacao_percent"];
+            
+            // Somar as questões corretas e incorretas
+            $total_corretas += $questoes_corretas;
+            $total_incorretas += $questoes_erradas;
+            
+            // Calcular a média do percentual de acerto
+            $media_percentual += $pontuacao_percent;
+
+            // Incrementar o número total de simulados
+            $total_simulados++;
+        }
+        
+        // Calcular a média do percentual de acerto
+        $media_percentual /= $result->num_rows;
+        // Formatar o percentual para 2 dígitos após a vírgula
+        $media_percentual = number_format($media_percentual, 2)."%";
+
+        // Calcular a taxa de acerto
+        $total_questoes = $total_corretas + $total_incorretas;
+        $taxa_acerto = ($total_corretas / $total_questoes) * 100;
+        $taxa_acerto = number_format($taxa_acerto, 2)."%";
+        
+    }
+?>
+        
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -126,25 +167,22 @@
 
             <div class="config-container">
                 <div class="config-box">
-                    <h4>Percentual</h4>
-                        <h2>
-                            
-                        </h2>
-                   
+                    <h4>Médias percentual dos simulados: </h4>
+                        <h1>
+                            <?php echo $media_percentual;?>
+                        </h1>
                 </div> <!-- PERCENTUAL --> 
 
                 <div class="acerto">
-                    <p>Questões que acertei:</p>
-                        <p>
-                            
-                        </p>
+                    <p>Questões que acertei: 
+                        <?php echo $total_corretas;?>
+                    </p>                   
                 </div> <!-- QUESTÕES ACERTADAS -->
 
                 <div class="erro">
-                    <p>Questões que errei:</p>
-                        <p>
-                            
-                        </p>   
+                    <p>Questões que errei: 
+                        <?php echo $total_incorretas;?>
+                    </p>
                 </div> <!-- QUESTÕES ERRADAS -->
 
                 <!-- <div class="matuniversal">
@@ -160,17 +198,16 @@
                 </div> --> <!-- MATÉRIA < TAXA ACERTO -->
 
                 <div class="matuniversal">
-                    <p>Simulados feitos: 5
-
+                    <p>Simulados feitos:
+                        <?php echo $total_simulados; ?>
                     </p>
                 </div> <!-- SIMULADOS FEITOS -->
 
                 <div class="matuniversal">
-                    <p>Taxa de acertos nos simulados:</p>
-                    <p>
-
-                    </p>
-                </div> <!-- TAXA DE ACERTO SIMLULADOS -->
+                    <p>Taxa de acertos geral: 
+                        <?php echo $taxa_acerto; ?>
+                    </p>                    
+                </div> <!-- TAXA DE ACERTO GERAL SIMLULADOS -->
 
                 <!-- <div class="matuniversal">
                     <p>Matérias que você precisa revisar</p>
@@ -220,5 +257,6 @@
     </script>
 
     <script src="javas.js"></script>
+       
 </body>
 </html>
