@@ -17,7 +17,7 @@
    
 </head>
 <body>
-    <?php if(isset($_SESSION['logstatus'])) { ?>
+  <?php if(isset($_SESSION['logstatus'])) { ?>
     <aside class="close">
         
       <div class="head">
@@ -58,7 +58,7 @@
             <span>Questões</span>
             <i class="bx bx-chevron-down"></i>
         </div>  --> <!-- MENU QUESTÕES -->
-                                   
+                                  
         <!-- <div class="menu-dropdown">
           <div class="sub-menu">
             <a href="#"> <span class="menu">MATEMÁTICA</span></a>
@@ -167,67 +167,68 @@
 
       </div> <!-- "CARROSEL" RESUMO PROVAS -->
 
-    <h1 class="center">Faça questões por matéria: </h1> 
+    <!-- <h1 class="center">Faça questões por matéria: </h1>  -->
 
-      <div class="secao azul">
+      <!-- <div class="secao azul">
         <h2> <i class="fa-solid fa-book"></i> Português</h2>
           <div class="topicos">
             <a href="#"><button class="button-28" role="button">Começar</button></a>
           </div>
-      </div> <!-- PORTUGUÊS -->
+      </div> PORTUGUÊS -->
 
-      <div class="secao vermelho">
+      <!-- <div class="secao vermelho">
         <h2> <i class="fa-solid fa-calculator"></i> Matemática</h2>
           <div class="topicos">
             <a href="#"><button class="button-28" role="button">Começar</button></a>
           </div>
-      </div> <!-- MATEMÁTICA -->
+      </div> MATEMÁTICA -->
 
-      <div class="secao verde">
+      <!-- <div class="secao verde">
         <h2>  <i class="fa-solid fa-earth-americas"></i> Geografia</h2>
           <div class="topicos">
             <a href="#"><button class="button-28" role="button">Começar</button></a>
           </div>
-      </div> <!-- GEOGRAFIA -->
+      </div> GEOGRAFIA -->
 
-      <div class="secao laranja">
+      <!-- <div class="secao laranja">
         <h2><i class="fa-solid fa-flask"></i> Ciências</h2>
           <div class="topicos">
             <a href="#"><button class="button-28" role="button">Começar</button></a>    
           </div>
-      </div> <!-- CIÊNCIAS -->
+      </div> CIÊNCIAS -->
 
-      <div class="secao amarelo">
+      <!-- <div class="secao amarelo">
         <h2><i class="fa-solid fa-landmark"></i> História</h2>
           <div class="topicos">
             <a href="#"><button class="button-28" role="button">Começar</button></a>
           </div>
-      </div> <!-- HISTÓRIA --> 
+      </div> HISTÓRIA  -->
 
-  <!-- IMPORT CDNJS JQUERY -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- IMPORT CDNJS JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-  <script>
-      $('.hamburger-menu').click(function() {
-          $('aside').toggleClass('close')
-      })
+    <script>
+        $('.hamburger-menu').click(function() {
+            $('aside').toggleClass('close')
+        })
 
-      $('.menu').click(function() {
-          $(this).siblings('.menu').removeClass('active')
-          $(this).addClass('active')
+        $('.menu').click(function() {
+            $(this).siblings('.menu').removeClass('active')
+            $(this).addClass('active')
 
-          $(this).next().siblings('.menu-dropdown').children('.sub-menu').slideUp()
-          $(this).next('.menu-dropdown').children('.sub-menu').slideToggle()
+            $(this).next().siblings('.menu-dropdown').children('.sub-menu').slideUp()
+            $(this).next('.menu-dropdown').children('.sub-menu').slideToggle()
 
-          $(this).next().siblings('.menu-dropdown').children('.sub-menu').children('.menu').removeClass('active')
-      })
-  </script>
+            $(this).next().siblings('.menu-dropdown').children('.sub-menu').children('.menu').removeClass('active')
+        })
+    </script>
 
-<?php } else {
-    include '../source/includes/connect.php';
-    loginRedirectError();
-} ?>
+  <?php } else {
+      include '../source/includes/connect.php';
+      loginRedirectError();
+  } ?>
+  
+  <script src="java.js"></script>
 
-<script src="java.js"></script>
 </body>
 </html>
