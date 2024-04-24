@@ -19,7 +19,7 @@
         
         <div class="head">
             <div class="logo">
-                <a href="../index.php" class="logo">Educa<span>Plus</span><i class='bx bx-pen bx-flip-vertical bx-tada' style='color:#0095f7' ></i></a>
+                <a href="../../../index.php" class="logo">Educa<span>Plus</span><i class='bx bx-pen bx-flip-vertical bx-tada' style='color:#0095f7' ></i></a>
             </div>
             <i class='bx bx-menu hamburger-menu'></i>
         </div>
@@ -27,7 +27,7 @@
         <div class="nav">
         <div class="menu">
                 <i class='bx bxs-home'></i>
-                <span><a href="principal.php">Home</a></span>
+                <span><a href="../../principal.php">Home</a></span>
                 </div>
             <div class="menu active">
                 <i class="bx bx-task"></i>
@@ -37,11 +37,14 @@
 
             <div class="menu-dropdown">
                 <div class="sub-menu">
-                    <span class="menu">ETEC 2021</span>
-                    <span class="menu">ETEC 2022</span> 
-                    <span class="menu"><a href="../PaginasPrincipais/Provas/2023/prova1.php">ETEC 2023 1° Semestre</span> </a>
-                    <span class="menu"><a href="../PaginasPrincipais/Provas/2023/prova2.php">ETEC 2023 2° Semestre</span> </a>
-                    <span class="menu"><a href="../PaginasPrincipais/Provas/2024/prova1.php">ETEC 2024 1° Semestre</span> </a>
+                    <span class="menu"><a href="../2015/prova2.php">ETEC 2015 2° Semestre</span></a>
+                    <span class="menu"><a href="../2019/prova1.php">ETEC 2019 1° Semestre</span></a>
+                    <span class="menu"><a href="../2019/prova2.php">ETEC 2019 2° Semestre</span></a> 
+                    <span class="menu"><a href="../2020/prova1.php">ETEC 2020 1° Semestre</span></a>
+                    <span class="menu"><a href="../2022/prova2.php">ETEC 2022 1° Semestre</span></a>
+                    <span class="menu"><a href="prova1.php">ETEC 2023 1° Semestre</span></a>
+                    <span class="menu"><a href="prova2.php">ETEC 2023 2° Semestre</span></a>
+                    <span class="menu"><a href="../2024/prova1.php">ETEC 2024 1° Semestre</span></a>
                 </div>
             </div>
 

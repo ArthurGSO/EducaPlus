@@ -21,7 +21,7 @@
         
         <div class="head">
             <div class="logo">
-                <a href="../index.php" class="logo">Educa<span>Plus</span><i class='bx bx-pen bx-flip-vertical bx-tada' style='color:#0095f7' ></i></a>
+                <a href="../../index.php" class="logo">Educa<span>Plus</span><i class='bx bx-pen bx-flip-vertical bx-tada' style='color:#0095f7' ></i></a>
             </div>
             <i class='bx bx-menu hamburger-menu'></i>
         </div>
