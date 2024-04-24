@@ -118,6 +118,7 @@ section{
     max-width: 70vh;
     position: absolute;
     top: 35%;
+    margin-left: 200px;
  
 
 }
@@ -306,6 +307,33 @@ section{
 
 
     
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: #6b646422;
+}
+.about-img img{
+    width: 35vw;
+    margin: 50px;
+}
+ 
+.about-content h2{
+    text-align: left;
+    line-height: 1.2;
+    color: #fff;
+}
+.about-content h3{
+    font-size: 2rem;
+}
+.about-content p{
+    font-size: 2rem;
+    color: #fff;
+    letter-spacing: .1rem;
+    margin: 2rem 0 3rem;
 }
 
 #testimonial_chef {

@@ -22,9 +22,8 @@
         ?>
         <nav class="navegation">
             <a href="#home" class="active">Home</a>
-            <a href="">Sobre nós</a>
-            <a href="principal.html">Sobre</a>
-            <a href="#services">Contato</a>
+            <a href="#about">Sobre nós</a>
+     
         </nav>
 
         <div class="button">

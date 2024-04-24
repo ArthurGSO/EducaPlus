@@ -77,7 +77,7 @@
             <div class="menu">
             
                 <i class="bx bx-cog"></i>
-                <span> <a href="configuracoes.html">Configurações </a></span>
+                <span> <a href="configuracoes.php">Configurações </a></span>
             </div>
             
             <div class="menu" style="pointer-events: none;"></div>
@@ -132,7 +132,7 @@
   <div class="banner">
     <img src="../source/img/undraw_join_re_w1lh.svg" alt="">
     <div>
-      <h1>Bem vindo, <span><?php echo $_SESSION['user']; ?></h1></span>
+    <h1>Bem vindo, <span><?php echo ucwords($_SESSION['user']); ?></span></h1>
       <div class="details-text">Bem vindo ao nosso site de educação! Estamos muito felizes por ter você conosco. Aqui, você encontrará uma variedade de recursos e materiais de aprendizado para ajudá-lo em sua jornada educacional. Explore, aprenda e cresça conosco. Desejamos a você uma experiência de aprendizado incrível e produtiva!</div>
     </div>
   </div>
