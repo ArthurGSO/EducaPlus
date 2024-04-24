@@ -37,7 +37,7 @@
           <i class="bx bx-task"></i>
           <span>Provas</span>
           <i class="bx bx-chevron-down"></i>
-        </div> <!-- MENU PROVAS -->
+        </div> <!-- SPAN PROVAS -->
 
         <div class="menu-dropdown">
           <div class="sub-menu">
@@ -51,7 +51,7 @@
             <span class="menu"><a href="provas/2023/prova2.php">ETEC 2023 2° Semestre</span></a>
             <span class="menu"><a href="provas/2024/prova1.php">ETEC 2024 1° Semestre</span></a>
           </div>
-        </div> <!-- MENU PROVAS -->
+        </div> <!-- PROVAS -->
 
         <!-- <div class="menu">
             <i class='bx bx-question-mark'></i>
@@ -171,52 +171,57 @@
 
       <div class="secao azul">
         <h2> <i class="fa-solid fa-book"></i> Português</h2>
-        <div class="topicos">
-        <a href="#"><button class="button-28" role="button">Começar</button></a>
+          <div class="topicos">
+            <a href="#"><button class="button-28" role="button">Começar</button></a>
+          </div>
       </div> <!-- PORTUGUÊS -->
 
       <div class="secao vermelho">
         <h2> <i class="fa-solid fa-calculator"></i> Matemática</h2>
-        <div class="topicos">
-        <a href="#"><button class="button-28" role="button">Começar</button></a>
+          <div class="topicos">
+            <a href="#"><button class="button-28" role="button">Começar</button></a>
+          </div>
       </div> <!-- MATEMÁTICA -->
 
       <div class="secao verde">
         <h2>  <i class="fa-solid fa-earth-americas"></i> Geografia</h2>
-        <div class="topicos">
-        <a href="#"><button class="button-28" role="button">Começar</button></a>
+          <div class="topicos">
+            <a href="#"><button class="button-28" role="button">Começar</button></a>
+          </div>
       </div> <!-- GEOGRAFIA -->
 
       <div class="secao laranja">
         <h2><i class="fa-solid fa-flask"></i> Ciências</h2>
-        <div class="topicos">
-        <a href="#"><button class="button-28" role="button">Começar</button></a>
+          <div class="topicos">
+            <a href="#"><button class="button-28" role="button">Começar</button></a>    
+          </div>
       </div> <!-- CIÊNCIAS -->
 
       <div class="secao amarelo">
         <h2><i class="fa-solid fa-landmark"></i> História</h2>
-        <div class="topicos">
-        <a href="#"><button class="button-28" role="button">Começar</button></a>
+          <div class="topicos">
+            <a href="#"><button class="button-28" role="button">Começar</button></a>
+          </div>
       </div> <!-- HISTÓRIA --> 
 
   <!-- IMPORT CDNJS JQUERY -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-    <script>
-        $('.hamburger-menu').click(function() {
-            $('aside').toggleClass('close')
-        })
+  <script>
+      $('.hamburger-menu').click(function() {
+          $('aside').toggleClass('close')
+      })
 
-        $('.menu').click(function() {
-            $(this).siblings('.menu').removeClass('active')
-            $(this).addClass('active')
+      $('.menu').click(function() {
+          $(this).siblings('.menu').removeClass('active')
+          $(this).addClass('active')
 
-            $(this).next().siblings('.menu-dropdown').children('.sub-menu').slideUp()
-            $(this).next('.menu-dropdown').children('.sub-menu').slideToggle()
+          $(this).next().siblings('.menu-dropdown').children('.sub-menu').slideUp()
+          $(this).next('.menu-dropdown').children('.sub-menu').slideToggle()
 
-            $(this).next().siblings('.menu-dropdown').children('.sub-menu').children('.menu').removeClass('active')
-        })
-    </script>
+          $(this).next().siblings('.menu-dropdown').children('.sub-menu').children('.menu').removeClass('active')
+      })
+  </script>
 
 <?php } else {
     include '../source/includes/connect.php';
