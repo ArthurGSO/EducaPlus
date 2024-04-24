@@ -1,3 +1,7 @@
+    
+                                        <!-- \\\\\\ ESTÁ EM DESENVOLVIMENTO ////// -->
+
+
 <?php
 require('../../source/includes/connect.php');
 
@@ -78,7 +82,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $ano_prova !== null && $semestre_pro
         echo "Número de questões não respondidas: $nao_respondidas";
 
         echo "<br><br>";
-        echo "Respostas incorretas e suas respectivas respostas corretas:<br>";
+        echo "Respostas incorretas e suas respectivas respostas corretas:<br>"; // 0
         foreach ($questoes_erradas as $questao_id => $respostas) {
             echo "- Questão incorreta: {$respostas['texto_questao']} - Resposta selecionada: {$respostas['resposta_errada']}<br>";
             echo "  Resposta correta: {$respostas['resposta_correta']}<br>";
