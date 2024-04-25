@@ -1,17 +1,66 @@
 <?php
-    date_default_timezone_set('America/Sao_Paulo'); 
+date_default_timezone_set('America/Sao_Paulo'); 
+session_start();
 
-    session_start();
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Processamento do formulário
+    if (isset($_POST['enviar_respostas'])) {
+
+        // Obtém os dados do formulário
+        $ano_prova = $_POST['ano_prova'] ?? null;
+        $semestre_prova = $_POST['semestre_prova'] ?? null;
+        
+        // Armazena os dados na sessão
+        $_SESSION['ano_prova'] = $ano_prova;
+        $_SESSION['semestre_prova'] = $semestre_prova;
+
+        // Aqui você processa as respostas e encaminha para a página de cálculo de pontuação
+        header("Location: ../../SubPags/calcular_pontuacao.php");
+        exit();
+    } elseif (isset($_POST['salvar_progresso'])) {
+        // Processamento para salvar o progresso na sessão
+        foreach ($_POST as $key => $value) {
+            if ($key != 'ano_prova' && $key != 'semestre_prova') {
+                $_SESSION[$key] = $value;
+            }
+        } // Salva os dados do formulário na sessão
+        $_SESSION['ano_prova'] = $_POST['ano_prova']; // Armazenando o ano da prova na sessão
+        $_SESSION['semestre_prova'] = $_POST['semestre_prova']; // Armazenando o semestre da prova na sessão
+        echo "Progresso da prova salvo com sucesso!";
+        header("Location: prova1.php");
+        exit();
+    }
+}
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simulado do Vestibulinho ETEC 2023 - 1° Semestre</title>
     <link rel="stylesheet" href="../prova.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        .floating-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000; /* Garante que o botão fique acima de outros elementos */
+            background-color: #0095f7; /* Cor de fundo do botão */
+            color: #fff; /* Cor do texto */
+            border: none; /* Remove a borda */
+            border-radius: 50%; /* Deixa o botão com formato circular */
+            padding: 15px; /* Espaçamento interno */
+            font-size: 18px; /* Tamanho do texto */
+            cursor: pointer; /* Muda o cursor ao passar por cima */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona sombra */
+        }
+
+        .floating-button:hover {
+            background-color: #007bb5; /* Cor de fundo ao passar por cima */
+        }
+    </style>
    
 </head>
 <body>
@@ -126,9 +175,6 @@
     // Verifica se há questões
     if ($result->num_rows > 0) {
         echo "<form method='post' action='../../SubPags/calcular_pontuacao.php'>"; // Corrigindo o caminho do action
-        // Exibe a imagem de apresentação
-       
-            
         // Exibe as questões com o formulário para seleção de respostas
         while ($row = $result->fetch_assoc()) {
             echo "<div class='container'>";
@@ -141,12 +187,14 @@
                 echo "<img src='{$row_imagem['image_data']}' alt='Imagem da pergunta'>";
             }
             echo "<p class='questao'>" . $row['text_question'] . "</p>";
-             echo "<ul>";
-            echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='A'>" . $row['option_a'] . "</li>";
-            echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='B'>" . $row['option_b'] . "</li>";
-            echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='C'>" . $row['option_c'] . "</li>";
-            echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='D'>" . $row['option_d'] . "</li>";
-            echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='E'>" . $row['option_e'] . "</li>";
+            echo "<ul>";
+            // Verifica se há uma resposta armazenada na sessão e a marca como selecionada
+            $resposta_sessao = isset($_SESSION["q{$row['cod_question']}"]) ? $_SESSION["q{$row['cod_question']}"] : '';
+            echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='A' " . ($resposta_sessao == 'A' ? 'checked' : '') . ">" . $row['option_a'] . "</li>";
+            echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='B' " . ($resposta_sessao == 'B' ? 'checked' : '') . ">" . $row['option_b'] . "</li>";
+            echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='C' " . ($resposta_sessao == 'C' ? 'checked' : '') . ">" . $row['option_c'] . "</li>";
+            echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='D' " . ($resposta_sessao == 'D' ? 'checked' : '') . ">" . $row['option_d'] . "</li>";
+            echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='E' " . ($resposta_sessao == 'E' ? 'checked' : '') . ">" . $row['option_e'] . "</li>";
             echo "</ul>";
             echo "</div>";
             
@@ -155,7 +203,13 @@
         }
         echo "<input type='hidden' name='ano_prova' value='2015'>";
         echo "<input type='hidden' name='semestre_prova' value='1'>";
-        echo "<input type='submit' value='Enviar Respostas'>";
+        echo "<input type='submit' name='enviar_respostas' value='Enviar Respostas'>";
+        // Botão flutuante -->
+        echo "<div class='form-group'>";
+        echo "<input type='hidden' name='ano_prova' value='2015'>";
+        echo "<input type='hidden' name='semestre_prova' value='1'>";
+        echo "<button type='submit' name='salvar_progresso' class='floating-button'>Salvar Progresso</button>";
+        echo "</div>";
         echo "</form>";
     } else {
         echo "Nenhuma questão encontrada no banco de dados.";
@@ -180,15 +234,26 @@
         })
   
         document.getElementById('openPopup').addEventListener('click', function() {
-    document.getElementById('popup').style.display = 'block';
-  });
+            document.getElementById('popup').style.display = 'block';
+        });
  
-  document.getElementById('closePopup').addEventListener('click', function() {
-    document.getElementById('popup').style.display = 'none';
-  });
+        document.getElementById('closePopup').addEventListener('click', function() {
+            document.getElementById('popup').style.display = 'none';
+        });
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 100) {
+                    $('.floating-button').fadeIn();
+                } else {
+                    $('.floating-button').fadeOut();
+                }
+            });
+        });
     </script>
 
 </body>
     
-</body>
 </html>
