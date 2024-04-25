@@ -37,15 +37,15 @@
 
             <div class="menu-dropdown">
                 <div class="sub-menu">
-                    <span class="menu"><a href="../2015/prova1.php">ETEC 2015 1° Semestre</span></a>
-                    <span class="menu"><a href="../2015/prova2.php">ETEC 2015 2° Semestre</span></a>
-                    <span class="menu"><a href="prova1.php">ETEC 2019 1° Semestre</span></a>
-                    <span class="menu"><a href="prova2.php">ETEC 2019 2° Semestre</span></a> 
-                    <span class="menu"><a href="../2020/prova1.php">ETEC 2020 1° Semestre</span></a>
-                    <span class="menu"><a href="../2022/prova2.php">ETEC 2022 1° Semestre</span></a>
-                    <span class="menu"><a href="../2023/prova1.php">ETEC 2023 1° Semestre</span></a>
-                    <span class="menu"><a href="../2023/prova2.php">ETEC 2023 2° Semestre</span></a>
-                    <span class="menu"><a href="../2024/prova1.php">ETEC 2024 1° Semestre</span></a>
+                    <span class="menu"><a href="../2015/prova1.php">2015 1° Semestre</span></a>
+                    <span class="menu"><a href="../2015/prova2.php">2015 2° Semestre</span></a>
+                    <span class="menu"><a href="prova1.php">2019 1° Semestre</span></a>
+                    <span class="menu"><a href="prova2.php">2019 2° Semestre</span></a> 
+                    <span class="menu"><a href="../2020/prova1.php">2020 1° Semestre</span></a>
+                    <span class="menu"><a href="../2022/prova2.php">2022 1° Semestre</span></a>
+                    <span class="menu"><a href="../2023/prova1.php">2023 1° Semestre</span></a>
+                    <span class="menu"><a href="../2023/prova2.php">2023 2° Semestre</span></a>
+                    <span class="menu"><a href="../2024/prova1.php">2024 1° Semestre</span></a>
                 </div>
             </div>
 
