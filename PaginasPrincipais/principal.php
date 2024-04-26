@@ -76,7 +76,7 @@
 
         <div class="menu">
           <i class="bx bx-cog"></i>
-          <span> <a href="configuracoes.html">Configurações </a></span>
+          <span> <a href="configuracoes.php">Configurações </a></span>
         </div> <!-- MENU CONFIGURAÇÕES -->
             
         <div class="menu" style="pointer-events: none;"></div>

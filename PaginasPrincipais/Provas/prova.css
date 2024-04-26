@@ -338,10 +338,10 @@ aside.close .profile .info {
     padding: 6rem;
     max-width: 1000px;
     border: 1px solid #fff;
-   
+    height: auto;
     
    
-    font-size: 2rem;
+    font-size: 1.3rem;
    
 }
 
