@@ -99,8 +99,8 @@
     <div class="popup-content">
     <span class="fecha" id="closePopup">&times;</span>
     <p>Confirmar saída?</p>
-    <a href="../source/includes/logout.php"> <button type="submit" class="btnlogout">Sair</button></a>
-    <a href="desempenho.php"> <button class="bai" type="submit">Não</button></a>
+    <a href="../../../source/includes/logout.php"> <button type="submit" class="btnlogout">Sim</button></a>
+    <a href=""> <button class="bai" type="submit">Não</button></a>
             </div>
         </div>
 </div>
