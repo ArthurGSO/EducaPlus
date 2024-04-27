@@ -1,7 +1,54 @@
 <?php
-    date_default_timezone_set('America/Sao_Paulo'); 
+date_default_timezone_set('America/Sao_Paulo'); 
+require('../source/includes/connect.php');
 
-    session_start();
+// Verifica se o botão foi clicado
+if(isset($_POST['alterar_imagem'])) {
+    // Verifica se um arquivo foi enviado
+    if(isset($_FILES['nova_imagem'])) {
+        // Verifica se não houve erro no upload
+        if($_FILES['nova_imagem']['error'] === 0) {
+            $cod_usuario = $_SESSION['id'];
+            $imagem_temp = $_FILES['nova_imagem']['tmp_name'];
+            
+            // Prepara a imagem para ser armazenada no banco de dados
+            $imagem_data = file_get_contents($imagem_temp);
+            
+            // Verifica se o usuário já possui uma imagem de perfil
+            $sql = "SELECT cod_image_perfil FROM tbImagensPerfil WHERE cod_usuario = $cod_usuario";
+            $result = $conexao->query($sql);
+            
+            if($result->num_rows > 0) {
+                // Se já existir uma imagem, atualiza-a
+                $row = $result->fetch_assoc();
+                $cod_imagem_perfil = $row['cod_image_perfil'];
+                
+                $sql = "UPDATE tbImagensPerfil SET image_data = ? WHERE cod_image_perfil = ?";
+                $stmt = $conexao->prepare($sql);
+                $stmt->bind_param("si", $imagem_data, $cod_imagem_perfil);
+                if($stmt->execute()) {
+                    echo "Imagem atualizada com sucesso!";
+                } else {
+                    echo "Erro ao atualizar imagem: " . $conexao->error;
+                }
+            } else {
+                // Se não existir uma imagem, insere uma nova
+                $sql = "INSERT INTO tbImagensPerfil (cod_usuario, image_data) VALUES (?, ?)";
+                $stmt = $conexao->prepare($sql);
+                $stmt->bind_param("is", $cod_usuario, $imagem_data);
+                if($stmt->execute()) {
+                    echo "Imagem inserida com sucesso!";
+                } else {
+                    echo "Erro ao inserir imagem: " . $conexao->error;
+                }
+            }
+        } else {
+            echo "Erro no upload da imagem.";
+        }
+    } else {
+        echo "Nenhuma imagem selecionada.";
+    }
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -84,7 +131,22 @@
 
       <div class="foot">
         <div class="profile">
-          <img src="../source/img/1381432-Solo-Leveling-Sung-Jinwoo.jpg" alt="profile">
+          <?php
+            // Recupera a imagem de perfil do usuário
+            $cod_usuario = $_SESSION['id'];
+            $sql = "SELECT image_data FROM tbImagensPerfil WHERE cod_usuario = $cod_usuario";
+            $result = $conexao->query($sql);
+
+            if ($result->num_rows > 0) {
+                // Exibe a imagem de perfil
+                $row = $result->fetch_assoc();
+                echo '<img src="data:image/jpeg;base64,'.base64_encode($row['image_data']).'" alt="profile">';
+            } else {
+                // Se o usuário não tiver uma imagem de perfil, exibe uma imagem padrão
+                echo 'erro';
+            }
+          ?>
+          <!-- <img src="../source/img/1381432-Solo-Leveling-Sung-Jinwoo.jpg" alt="profile"> -->
           <div class="info">
             <span class="name">Usuário:
               <?php
@@ -115,42 +177,39 @@
             <span class="fecha" id="closePopup">&times;</span>
             <p>Confirmar saída?</p>
             <a href="../source/includes/logout.php"> <button type="submit" class="btnlogout">Sim</button></a>
-            <a href="principal.php"> <button class="bai" type="submit">Não</button></a>
+            <a href="configuracoes.php"> <button class="bai" type="submit">Não</button></a>
           </div>
         </div> <!-- BOTÃO DE SAIR EM POPUP -->
       </div> <!-- LEFT MENU FOOTER -->
 
     </aside> <!-- LEFT MENU -->
+      <section class="dese">
+        <div class="princi">
 
+          <h1>Configurações</h1>
 
-        <section class="dese">
-            <div class="princi">
-                <h1>Configurações</h1>
-            
-            <div class="config-container">
-                <div class="config-box">
-                    
-                    <h4>Avatar</h4>
-                    <h2></h2>
-                     
-                        
-                            <img src="img/" alt="img">
-                        
-    
-                   
-                        <button class="button-27">Alterar imagem</button>
-                </div>
-                <div class="config-box">
-                    <h4>Dados Pessoais</h4>
-                    <h2></h2>
+          <div class="config-container">
 
+            <div class="config-box">
 
-                    <button class="button-27">Alterar senha</button>
-                    <button class="button-29">Salvar Alterações</button>
-
-                </div>
+              <h4>Avatar</h4>
+              <h2></h2>
+                <!-- <img src="img/" alt="img">
+                <button class="button-27">Alterar imagem</button> -->
+                <form method="post" enctype="multipart/form-data"><br><br>
+                    <input type="file" name="nova_imagem"><br><br>
+                    <button type="submit" name="alterar_imagem" class="button-27">Alterar imagem</button>
+                </form>
             </div>
-        </section>
+            <div class="config-box">
+                <h4>Dados Pessoais</h4>
+                <h2></h2>
+                <button class="button-27">Alterar senha</button>
+                <button class="button-29">Salvar Alterações</button>
+            </div>
+          </div>
+        </div>
+      </section>
 
     <!-- IMPORT CDNJS JQUERY -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
