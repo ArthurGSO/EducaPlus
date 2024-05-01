@@ -20,9 +20,13 @@
         $email = $conexao->real_escape_string($_POST['email']); //medida protetiva contra sql_injection
         $senha = $conexao->real_escape_string($_POST['senha']); // do tipo -> 1='1' e etc
 
-        $sql_query = "SELECT * from tbusuarios where email_usuario = '$email' LIMIT 1"; //verificando dados de login no BD
-        $sql_result = $conexao->query($sql_query) or die("Falha no SQL".$conexao->error); //Executar a query SQL e verificar erros
-
+        $sql_query = "SELECT * from tbusuarios where email_usuario = ?"; //verificando dados de login no BD
+        $stmt = $conexao->prepare($sql_query);
+        $stmt->bind_param("s", $email);
+        $stmt->execute();
+        $sql_result = $stmt->get_result();
+        $stmt->close();
+        
         $usuario = $sql_result->fetch_assoc(); //Associção da váriavel com o usuário no BD
 
             if(password_verify($senha, $usuario['senha'])) {
@@ -33,8 +37,11 @@
                   
                 // Query para atualizar a data de login do user no Banco de Dados
 
-                $sql_updt_login = "UPDATE tbUsuarios SET login = '{$_SESSION['dt_login']}' WHERE cod_usuario = {$_SESSION['id']}";
-                $conexao->query($sql_updt_login) or die("Falha ao atualizar data de login: ".$conexao->error);
+                $sql_updt_login = "UPDATE tbUsuarios SET login = '{$_SESSION['dt_login']}' WHERE cod_usuario = ?";
+                $stmt = $conexao->prepare($sql_updt_login);
+                $stmt->bind_param("s", $_SESSION['id']);
+                $stmt->execute();
+                $stmt->close();
 
                 // Formatar a data de cadastro e login para BR
                 $_SESSION['dt_login'] = date('d-m-Y H:i:s');
