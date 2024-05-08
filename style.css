@@ -32,7 +32,13 @@
     
    background-color: black;
 }
-
+#dark-mode-toggle{
+    background: var(--branco-color);
+    border: 1px solid var(--border-color);
+    color: var(--preto-color);
+    border-radius: 5px;
+ 
+}
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -264,7 +270,7 @@ section{
 
 
 .footer{
-    background:#302f32;
+    background:#0095f7;
     padding:30px 0px;
     font-family: 'Play', sans-serif;
     text-align:center;
@@ -274,13 +280,13 @@ section{
     width:100%;
     margin:1% 0%;
     padding:0.6% 0%;
-    color:gray;
+    color:rgb(255, 255, 255);
     font-size:0.8em;
     }
     
     .footer .row a{
     text-decoration:none;
-    color:gray;
+    color:rgb(255, 255, 255);
     transition:0.5s;
     }
     .footer .row p{
@@ -603,7 +609,7 @@ aside {
     background: var(--branco-color);
     width: 250px;
     height: 100vh;
-    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15); /* Suaviza a sombra */
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -630,12 +636,12 @@ aside {
 
 .head .logo .logo-title span {
     color: #0c3044;
+    font-weight: 600; /* Torna o texto do logo mais destacado */
 }
 
 .head .bx-menu {
-    font-size: 45px;
+    font-size: 35px; /* Reduz o tamanho do ícone do menu */
     cursor: pointer;
-    
 }
 
 
@@ -666,14 +672,14 @@ aside:not(aside.close) .nav {
     transition: 0.3s;
     justify-content: space-between;
 }
-
 .menu:hover {
-    background: #f2f2f2;
+    background: #e6e6e6; /* Suaviza a cor de fundo ao passar o mouse */
     color: black;
 }
 
+
 .menu i {
-    font-size: 25px;
+    font-size: 20px; /* Reduz o tamanho do ícone do menu */
 }
 
 .menu span {
@@ -696,8 +702,9 @@ aside:not(aside.close) .nav {
 .profile img {
     width: 45px;
     height: 45px;
-    border-radius: 100%;
+    border-radius: 50%; /* Torna a imagem do perfil redonda */
 }
+
 
 .profile .info {
     display: flex;
@@ -761,7 +768,7 @@ aside.close .menu:hover span {
 }
 
 .nav .menu.active {
-    background: linear-gradient(90deg, var(--bg-color), var(--border-color));
+    background: var(--bg-color);
     color: white;
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -840,6 +847,7 @@ aside.close .profile .info {
 
 .popup-content {
     background-color: var(--second-bg-color);
+ 
     position: absolute;
     top: 50%;
     left: 50%;
@@ -942,7 +950,7 @@ aside.close .profile .info {
     display: block;
     width: 10rem;
     height: 0.5rem;
-    background-color: var(--second-bg-color);
+    background-color: var(--border-color);
     position: absolute;
     border-radius: 4rem;
   }
@@ -971,7 +979,7 @@ aside.close .profile .info {
     display: block;
     width: 20%;
     height: 0.5rem;
-    background-color: var(--second-bg-color);
+    background-color: var(--border-color);
     position: absolute;
     border-radius: 4rem;
   }
@@ -1001,6 +1009,7 @@ aside.close .profile .info {
   }
   .prova span{
     font-size: 2rem;
+    color: var(--border-color);
   }
   .prova:hover{
     transform: scale(1.1);
@@ -1079,7 +1088,7 @@ aside.close .profile .info {
         display: block;
         width: 10rem;
         height: 0.5rem;
-        background-color: var(--second-bg-color);
+        background-color: var(--border-color);
     
         position: absolute;
         border-radius: 4rem;
@@ -1213,7 +1222,7 @@ tr:nth-child(even) td {
 .button-29 {
     align-items: center;
     appearance: none;
-    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    background-image: radial-gradient(100% 100% at 100% 0, var(--border-color) 0, #5adaff 100%);
     border: 0;
     border-radius: 6px;
     box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
@@ -1260,7 +1269,7 @@ tr:nth-child(even) td {
   .button-28 {
       align-items: center;
       appearance: none;
-      background-image: radial-gradient(100% 100% at 100% 0,  #5468ff  0, #5adaff 100%);
+      background-image: radial-gradient(100% 100% at 100% 0,  var(--border-color)  0, #5adaff 100%);
       border: 0;
       border-radius: 6px;
       box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
@@ -1307,7 +1316,7 @@ tr:nth-child(even) td {
     .button-27 {
       align-items: center;
       appearance: none;
-      background-image: radial-gradient(100% 100% at 100% 0,  #5468ff  0, #5adaff 100%);
+      background-image: radial-gradient(100% 100% at 100% 0,  var(--border-color)  0, #5adaff 100%);
       border: 0;
       border-radius: 6px;
       box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
