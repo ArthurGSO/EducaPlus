@@ -1,5 +1,4 @@
 <?php
-    date_default_timezone_set('America/Sao_Paulo'); 
 
     session_start();
 ?>
@@ -19,17 +18,17 @@
         
         <div class="head">
             <div class="logo">
-                <a href="../../../index.php" class="logo">Educa<span>Plus</span><i class='bx bx-pen bx-flip-vertical bx-tada' style='color:#0095f7' ></i></a>
+                <a href="#" class="logo">Educa<span>Plus</span><i class='bx bx-pen bx-flip-vertical bx-tada' style='color:#0095f7' ></i></a>
             </div>
             <i class='bx bx-menu hamburger-menu'></i>
         </div>
 
         <div class="nav">
-        <div class="menu">
+            <div class="menu">
                 <i class='bx bxs-home'></i>
                 <span><a href="../../principal.php">Home</a></span>
                 </div>
-            <div class="menu active">
+            <div class="menu  active">
                 <i class="bx bx-task"></i>
                 <span>Provas</span>
                 <i class="bx bx-chevron-down"></i>
@@ -37,10 +36,10 @@
 
             <div class="menu-dropdown">
                 <div class="sub-menu">
-                    <span class="menu"><a href="prova1.php">ETEC 2015 1° Semestre</span></a>
-                    <span class="menu"><a href="prova2.php">ETEC 2015 2° Semestre</span></a>
+                <span class="menu"><a href="../2015/prova1.php">ETEC 2015 1° Semestre</span></a>
+                    <span class="menu"><a href="../2015/prova2.php">ETEC 2015 2° Semestre</span></a>
                     <span class="menu"><a href="../2019/prova1.php">ETEC 2019 1° Semestre</span></a>
-                    <span class="menu"><a href="../2019/prova2.php">ETEC 2019 2° Semestre</span></a> 
+                    <!-- <span class="menu"><a href="../PaginasPrincipais/Provas/2019/prova2.php">ETEC 2019 2° Semestre</span></a> SEM QUESTOES -->
                     <span class="menu"><a href="../2020/prova1.php">ETEC 2020 1° Semestre</span></a>
                     <span class="menu"><a href="../2022/prova2.php">ETEC 2022 1° Semestre</span></a>
                     <span class="menu"><a href="../2023/prova1.php">ETEC 2023 1° Semestre</span></a>
@@ -72,8 +71,9 @@
             </div>
 
             <div class="menu">
+            
                 <i class="bx bx-cog"></i>
-                <span><a href="../../configuracoes.php">Configurações</a></span>
+                <span> <a href="../../configuracoes.php">Configurações</a></span>
             </div>
             
             <div class="menu" style="pointer-events: none;"></div>
@@ -84,28 +84,37 @@
                 <img src="../../../source/img/1381432-Solo-Leveling-Sung-Jinwoo.jpg" alt="profile">
                 <div class="info">
                     <span class="name">
-                    <h1> <?php
-                           echo $_SESSION['user'];                      
-                        ?>       </h1>               
+                      <h1>
+                      <span><?php echo ucwords($_SESSION['user']); ?></span></h1>
+                                      
                     </span>
+                  
                 </div>
             </div>
-
-            <button id="openPopup" class="opnen"> 
+<!-- pop up de sair -->
+<button id="dark-mode-toggle">DarkMode</button>
+<button id="openPopup" class="opnen"> 
     <div class="menu menu-logout">
-    <i class="bx bx-log-out"></i>
-    <span>      Sair   </span></button>
-    <div id="popup" class="popup"> 
-    <div class="popup-content">
-    <span class="fecha" id="closePopup">&times;</span>
+                <i class="bx bx-log-out"></i>
+                <span>      Sair   </span></button>
+
+                <div id="popup" class="popup"> 
+                <div class="popup-content">
+                <span class="fecha" id="closePopup"><i class='bx bx-x'></i></span>
     <p>Confirmar saída?</p>
-    <a href="../source/includes/logout.php"> <button type="submit" class="btnlogout">Sair</button></a>
-    <a href="desempenho.php"> <button class="bai" type="submit">Não</button></a>
-            </div>
+    <a href="../../../source/includes/logout.php"> <button type="submit" class="btnlogout">Sair</button></a>
+    <a href="prova1.php"> <button class="bai" type="submit">Não</button></a>
+
+    </div>
+    </div>
+
         </div>
-</div>
-</div>
-</div>
+
+
+        </div>
+        </div>
+        </div>
+
     </aside>
 <body>
    
@@ -123,7 +132,12 @@
 
     // Inicializa o contador de questões
     $contador_questao = 1;
-
+    echo "<div id='timer'>
+    <h1 id='watch'>00:00:00</h1>
+    <button class='start-btn' onclick='start()'>Começar</button>
+    <button class='pause-btn' onclick='pause()'>Pausar</button>
+    <button class='stop-btn' onclick='stop()''>Parar</button>
+</div>";
     // Verifica se há questões
     if ($result->num_rows > 0) {
         echo "<form method='post' action='../../SubPags/calcular_pontuacao.php'>"; // Corrigindo o caminho do action
@@ -142,13 +156,13 @@
             }
             echo "<p class='questao'>" . $row['text_question'] . "</p>";
             echo "<ul>";
-           echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='A'>" . $row['option_a'] . "</li>";
-           echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='B'>" . $row['option_b'] . "</li>";
-           echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='C'>" . $row['option_c'] . "</li>";
-           echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='D'>" . $row['option_d'] . "</li>";
-           echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='E'>" . $row['option_e'] . "</li>";
-           echo "</ul>";
-           echo "</div>";
+            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='A'>" . $row['option_a'] . "</label></li>";
+            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='B'>" . $row['option_b'] . "</label></li>";
+            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='C'>" . $row['option_c'] . "</label></li>";
+            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='D'>" . $row['option_d'] . "</label></li>";
+            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='E'>" . $row['option_e'] . "</label></li>";
+            echo "</ul>";
+            echo "</div>";
            
             
             // Incrementa o contador de questões
@@ -188,6 +202,55 @@
   document.getElementById('closePopup').addEventListener('click', function() {
     document.getElementById('popup').style.display = 'none';
   });
+  var sec=0
+var min=0
+var hr=0
+
+var interval
+
+function twoDigits(digit){
+    if(digit<10){
+        return('0'+digit)
+    }else{
+        return(digit)
+    }
+}
+
+function start(){
+    watch()
+    interval= setInterval(watch,1000)
+
+
+}
+
+function pause(){
+    clearInterval(interval)
+
+}
+
+function stop(){
+    clearInterval(interval)
+    sec=0
+    min=0
+    window.alert("You've stopped at: "+document.getElementById('watch').innerText)
+    document.getElementById('watch').innerText='00:00:00'
+
+}
+
+function watch(){
+    sec++
+    if(sec==60){
+        min++
+        sec=0
+        if(min==60){
+            min=0
+            hr++
+        }
+    }
+    document.getElementById('watch').innerText=twoDigits(hr)+':'+twoDigits(min)+':'+twoDigits(sec)
+}
     </script>
+ <script src="../../java.js"></script>
+
 </body>
 </html>

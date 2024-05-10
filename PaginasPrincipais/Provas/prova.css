@@ -9,20 +9,41 @@
 :root {
     --bg-color:  #0c3044;
     --second-bg-color: #0095f7;
+    --border-color: #0095f7;
+
     --acerto-color: #00ab69ff;
     --erro-color: #e81300ff;
     --box-shadow-color: rgba(0, 0, 0, 0.212);
-}
+    
+    --branquinho-color:#ffff;
+    --branco-color: #fff;
+    --preto-color: black;
 
+   
+}
+.dark-mode {
+    --bg-color: #222222; /* Nova cor de fundo para o modo escuro */
+    --second-bg-color: #0095f7; /* Nova segunda cor de fundo para o modo escuro */
+    --border-color: #182fc2; /* Nova cor da borda para o modo escuro */
+    --acerto-color: #00ab69ff; /* Mantendo a mesma cor para o acerto */
+    --erro-color: #e81300ff; /* Mantendo a mesma cor para o erro */
+    --box-shadow-color: rgba(255, 255, 255, 0.212); /* Nova cor da sombra para o modo escuro */
+    --branquinho-color:#ffff;
+    --branco-color: #353333; /* Nova cor branca para o modo escuro */
+    --preto-color: #fff; /* Nova cor preta para o modo escuro */
+    
+   background-color: black;
+}
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
+    min-height: 100vh;
     background-color: var(--bg-color);
 }
 
 .logo {
     user-select: none;
-    color: black;
+    color: var(--preto-color);
     font-weight: 600;
     font-size: 2.5rem;
 }
@@ -33,10 +54,10 @@ span {
 
 
 aside {
-    background: white;
+    background: var(--branco-color);
     width: 250px;
     height: 100vh;
-    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15); /* Suaviza a sombra */
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -63,12 +84,14 @@ aside {
 
 .head .logo .logo-title span {
     color: #0c3044;
+    font-weight: 600; /* Torna o texto do logo mais destacado */
 }
 
 .head .bx-menu {
-    font-size: 45px;
+    font-size: 35px; /* Reduz o tamanho do ícone do menu */
     cursor: pointer;
 }
+
 
 .nav {
     border-top: solid #f2f2f2;
@@ -97,14 +120,14 @@ aside:not(aside.close) .nav {
     transition: 0.3s;
     justify-content: space-between;
 }
-
 .menu:hover {
-    background: #f2f2f2;
+    background: #e6e6e6; /* Suaviza a cor de fundo ao passar o mouse */
     color: black;
 }
 
+
 .menu i {
-    font-size: 25px;
+    font-size: 20px; /* Reduz o tamanho do ícone do menu */
 }
 
 .menu span {
@@ -127,8 +150,9 @@ aside:not(aside.close) .nav {
 .profile img {
     width: 45px;
     height: 45px;
-    border-radius: 100%;
+    border-radius: 50%; /* Torna a imagem do perfil redonda */
 }
+
 
 .profile .info {
     display: flex;
@@ -176,7 +200,6 @@ aside.close .menu span {
     transition: 0.3s;
     pointer-events: none;
 }
-
 aside.close .menu i:nth-child(1) {
     width: 100%;
     text-align: center;
@@ -192,7 +215,7 @@ aside.close .menu:hover span {
 }
 
 .nav .menu.active {
-    background: linear-gradient(90deg, #0c3044, #1a73ae);
+    background: var(--bg-color);
     color: white;
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -257,7 +280,7 @@ aside.close .profile .info {
 .opnen{
     background: transparent;
     border: none;
-    color: #000000;
+    color: var(--preto-color);
    
 }
 
@@ -266,10 +289,11 @@ aside.close .profile .info {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .popup-content {
-    background-color: #09577f;
+    background-color: var(--second-bg-color);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -280,12 +304,16 @@ aside.close .profile .info {
     border-radius: 10px;
     color: #fff;
     box-shadow: 0 0 0.2rem rgb(255, 255, 255);
+    padding-top: 40px;
 }
-.fecha {
+.fecha .bx{
     position: absolute;
     top: 10px;
     right: 10px;
     cursor: pointer;
+    color: black;
+    font-size: 1rem;
+    
  
   }
   .btnlogout{
@@ -293,18 +321,17 @@ aside.close .profile .info {
     color: #fff;
     width: 150px;
     position: absolute;
-    display: flex;
-    align-items: center;
+  
     height: 30px;
-    justify-content: center;
+  
     border-radius: 5px;
-    margin-top: 20px;
+ 
     border: none;
-    margin-left: 10px;
+
     cursor: pointer;
     box-shadow: 0 0 0.5rem rgb(255, 255, 255);
  
- 
+    display: block;
  
   }
   .popup button:hover{
@@ -312,18 +339,17 @@ aside.close .profile .info {
     transition: ease-in 0.5s;
   }
   .bai{
-    background: #140c0c;
+    background: #ca2a2a;
     color: #fff;
     width: 150px;
-    margin-top: 20px;
+ 
     height: 30px;
     border-radius: 5px;
     border: none;
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
+   
 
-    justify-content: center;
+    
+    display: block;
     margin-left: 190px;
     cursor: pointer;
     box-shadow: 0 0 0.5rem rgb(255, 255, 255);
@@ -331,80 +357,152 @@ aside.close .profile .info {
   }
 
 
-.container {
-    background-color: #151c24;
-    border-radius: 20px;
-    margin: 0px auto 20px; /* Removido o espaçamento superior */
-    padding: 6rem;
-    max-width: 1000px;
-    border: 1px solid #fff;
-   
-    
-   
-    font-size: 2rem;
-   
+  .container {
+    background-color: var(--branco-color);
+    border-radius: 15px;
+    margin: 0 auto 2rem;/* Centraliza o container */
+    padding: 4rem;
+    max-width: 800px;
+    border: 3px solid var(--border-color);
+    height: calc(100% - 4rem); /* Subtrai a margem do topo e do fundo */
+    font-size: 1.5rem;
+    box-sizing: border-box; /* Inclui padding e border no tamanho do elemento */
+    overflow: auto; /* Adicionado para lidar com o conteúdo excedente */
 }
 
-
-.questao {
-    background-color: #151c24;
+.questao, .opcao {
+    background-color: var(--branco-color);
     border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px black;
-  
-   
-    color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px var(--border-color);
+    color: var(--preto-color);
 }
 
 .opcao {
-    background-color: #151c24;
-    border-radius: 5px;
     padding: 10px;
     margin-bottom: 10px;
-    box-shadow: 0 0 10px black;
     cursor: pointer;
-    transform: scale(1.05);
-    color: #fff;
-    
+    transition: transform 0.3s ease; /* Suaviza a transformação */
 }
-li{
+
+.opcao:hover {
+    transform: scale(1.05);
+    background-color: var(--preto-color);
+    color: var(--branco-color);
+}
+
+li {
     list-style: none;
 }
+
 .opcao input[type="radio"] {
     margin-right: 10px;
-
-   
 }
 
 img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 20px;
+    margin: 0 auto 15px; /* Centraliza a imagem */
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 input[type="submit"] {
-    background-color: #4CAF50; /* Cor de fundo */
-    color: white; /* Cor do texto */
-    padding: 14px 20px; /* Padding */
-    margin-left: 260px;
-    border: none; /* Sem borda */
-    cursor: pointer; /* Cursor de mão ao passar o mouse */
-    width: 65%; /* Largura total */
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border: 1px solid #fff;
+    background-color: #45A29E;
+    color: white;
+    padding: 12px 18px;
+    margin: 0 400px 2rem;
+    border: none;
+    cursor: pointer;
+    width: 700px;
+    border-radius: 8px;
+    border: 1px solid #66FCF1;
+    transition: all 0.3s ease; /* Suaviza todas as transformações */
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.05);
+    background-color: #66FCF1;
+    color: #0B0C10;
+}
+#timer {
+    position: fixed; /* Fixa o elemento na tela */
+    right: 30px; /* Alinha o elemento à direita */
+    top: 50%; /* Posiciona no meio da tela verticalmente */
+    transform: translateY(-50%); /* Centraliza o elemento verticalmente */
+    background: #fff; /* Define a cor de fundo para branco */
+    padding: 10px 20px; /* Adiciona um espaçamento interno */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    font-size: 1rem; /* Define o tamanho da fonte */
+    color: #333; /* Define a cor do texto */
+  }
+  
+  /* Estilização para quando o mouse passa sobre o botão */
+  #timer:hover {
+    background-color: #e7e7e7; /* Muda a cor de fundo ao passar o mouse */
+  }
+  
+.start-btn{
+    background-color: green;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.pause-btn{
+    background-color: grey;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
 
 }
 
-input[type="submit"]:hover{
-transform: scale(1.05);
-background-color: #26d42c;
+.stop-btn{
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
 
+    
 }
+.relogio{
+    background: #fff;
+    min-width: 50vw
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 2rem;
+        font-size: 1rem;
+    }
+
+    .questao, .opcao {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .opcao {
+        padding: 5px;
+        margin-bottom: 5px;
+    }
+
+    img {
+        margin: 0 auto 10px; /* Centraliza a imagem */
+    }
+
+    input[type="submit"] {
+        padding: 7px 10px;
+        margin: 0 auto 10px; /* Centraliza o botão */
+        width: 100%;
+    }
+}
+
 
 
 

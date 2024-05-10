@@ -23,7 +23,7 @@
         <nav class="navegation">
             <a href="#home" class="active">Home</a>
             <a href="#about">Sobre nós</a>
-     
+            <a href="#services">Contato</a>
         </nav>
 
         <div class="button">
@@ -46,8 +46,10 @@
                 <!-- lembrar de por imagem aqui -->
                 <img src="source/img/undraw_learning_re_32qv.svg" alt="homeimg">
             </div>
-        </section>
 
+
+
+        </section>
         <section class="about" id="about">
             <div class="about-img">
                 <img src="source/img/undraw_about_us_page_re_2jfm.svg" alt="">
@@ -60,6 +62,12 @@
             </div>
         </section>
 
+
+
+
+
+
+
         <section id="testimonials" class="show animate">
             <img src="source/img/undraw_publish_article_re_3x8h.svg" id="testimonial_chef" alt="">
 
@@ -68,7 +76,7 @@
                     Depoimentos
                 </h2>
                 <h3 class="section-subtitle">
-                    O que os clientes falam sobre nós
+                    O que os usuários dizem:
                 </h3>
 
                 <div id="feedbacks">
@@ -141,6 +149,9 @@
                 </button>
             </div>
         </section>
+
+
+
         
     </main>
     <footer>
