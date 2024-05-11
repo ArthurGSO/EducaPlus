@@ -84,7 +84,18 @@
 
       <div class="foot">
         <div class="profile">
-          <img src="../source/img/1381432-Solo-Leveling-Sung-Jinwoo.jpg" alt="profile">
+          <?php
+          require("../source/includes/connect.php");
+          if(!$conexao) {
+            die("Falha na conexão com o banco de dados: " . mysqli_connect_error());
+          }
+          $id = $_SESSION['id'];
+          $sql = "SELECT image_data FROM tbImagensPerfil WHERE cod_usuario = $id";
+          $result = $conexao->query($sql);
+          $row_img = $result->fetch_assoc();
+          echo "<img src='{$row_img['image_data']}' alt='profile'>";
+          ?>
+          <!-- <img src="../source/img/1381432-Solo-Leveling-Sung-Jinwoo.jpg" alt="profile"> -->
           <div class="info">
             <span class="name">Usuário:
               <?php
