@@ -121,11 +121,10 @@
 </div>
     </aside>
 <body>
-    <?php
+<?php
     if(!$conexao) {
         die("Falha na conexão com o banco de dados: " . mysqli_connect_error());
     }
-
     // Seleciona as questões do banco de dados
     $start_question = 1; // Começa da primeira questão
     $end_question = 50; // Exibe até a quinta questão
@@ -172,7 +171,7 @@
     }
 
     mysqli_close($conexao);
-    ?>
+?>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>

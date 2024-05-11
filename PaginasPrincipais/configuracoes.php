@@ -1,54 +1,54 @@
 <?php
-date_default_timezone_set('America/Sao_Paulo'); 
-require('../source/includes/connect.php');
-// Verifica se o botão foi clicado
-if(isset($_POST['alterar_imagem'])) {
-    // Verifica se um arquivo foi enviado
-    if(isset($_FILES['nova_imagem'])) {
-        // Verifica se não houve erro no upload
-        if($_FILES['nova_imagem']['error'] === 0) {
-            $cod_usuario = $_SESSION['id'];
-            $imagem_temp = $_FILES['nova_imagem']['tmp_name'];
-            
-            // Prepara a imagem para ser armazenada no banco de dados
-            $imagem_data = file_get_contents($imagem_temp);
-            
-            // Verifica se o usuário já possui uma imagem de perfil
-            $sql = "SELECT cod_image_perfil FROM tbImagensPerfil WHERE cod_usuario = $cod_usuario";
-            $result = $conexao->query($sql);
-            
-            if($result->num_rows > 0) {
-                // Se já existir uma imagem, atualiza-a
-                $row = $result->fetch_assoc();
-                $cod_imagem_perfil = $row['cod_image_perfil'];
-                
-                $sql = "UPDATE tbImagensPerfil SET image_data = ? WHERE cod_image_perfil = ?";
-                $stmt = $conexao->prepare($sql);
-                $stmt->bind_param("si", $imagem_data, $cod_imagem_perfil);
-                if($stmt->execute()) {
-                    echo "Imagem atualizada com sucesso!";
-                } else {
-                    echo "Erro ao atualizar imagem: " . $conexao->error;
-                }
-            } else {
-                // Se não existir uma imagem, insere uma nova
-                $sql = "INSERT INTO tbImagensPerfil (cod_usuario, image_data) VALUES (?, ?)";
-                $stmt = $conexao->prepare($sql);
-                $stmt->bind_param("is", $cod_usuario, $imagem_data);
-                if($stmt->execute()) {
-                    echo "Imagem inserida com sucesso!";
-                } else {
-                    echo "Erro ao inserir imagem: " . $conexao->error;
-                }
-            }
-        } else {
-            echo "Erro no upload da imagem.";
-        }
-    } else {
-        echo "Nenhuma imagem selecionada.";
-    }
-}
-?>
+  date_default_timezone_set('America/Sao_Paulo'); 
+  require('../source/includes/connect.php');
+  // Verifica se o botão foi clicado
+  if(isset($_POST['alterar_imagem'])) {
+      // Verifica se um arquivo foi enviado
+      if(isset($_FILES['nova_imagem'])) {
+          // Verifica se não houve erro no upload
+          if($_FILES['nova_imagem']['error'] === 0) {
+              $cod_usuario = $_SESSION['id'];
+              $imagem_temp = $_FILES['nova_imagem']['tmp_name'];
+              
+              // Prepara a imagem para ser armazenada no banco de dados
+              $imagem_data = file_get_contents($imagem_temp);
+              
+              // Verifica se o usuário já possui uma imagem de perfil
+              $sql = "SELECT cod_image_perfil FROM tbImagensPerfil WHERE cod_usuario = $cod_usuario";
+              $result = $conexao->query($sql);
+              
+              if($result->num_rows > 0) {
+                  // Se já existir uma imagem, atualiza-a
+                  $row = $result->fetch_assoc();
+                  $cod_imagem_perfil = $row['cod_image_perfil'];
+                  
+                  $sql = "UPDATE tbImagensPerfil SET image_data = ? WHERE cod_image_perfil = ?";
+                  $stmt = $conexao->prepare($sql);
+                  $stmt->bind_param("si", $imagem_data, $cod_imagem_perfil);
+                  if($stmt->execute()) {
+                      // echo "Imagem atualizada com sucesso!";
+                  } else {
+                      // echo "Erro ao atualizar imagem: " . $conexao->error;
+                  }
+              } else {
+                  // Se não existir uma imagem, insere uma nova
+                  $sql = "INSERT INTO tbImagensPerfil (cod_usuario, image_data) VALUES (?, ?)";
+                  $stmt = $conexao->prepare($sql);
+                  $stmt->bind_param("is", $cod_usuario, $imagem_data);
+                  if($stmt->execute()) {
+                      // echo "Imagem inserida com sucesso!";
+                  } else {
+                      // echo "Erro ao inserir imagem: " . $conexao->error;
+                  }
+              }
+          } else {
+              // echo "Erro no upload da imagem.";
+          }
+      } else {
+          // echo "Nenhuma imagem selecionada.";
+      }
+  }
+?> <!-- INSERE IMAGEM -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -59,8 +59,6 @@ if(isset($_POST['alterar_imagem'])) {
     <!-- IMPORT BOXICONS -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-   
 </head>
 <body>
   <?php if(isset($_SESSION['logstatus']))  ?>

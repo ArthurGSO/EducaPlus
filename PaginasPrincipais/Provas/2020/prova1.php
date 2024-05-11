@@ -121,8 +121,7 @@
 </div>
     </aside>
 <body>
-    
-    <?php
+<?php
     if(!$conexao) {
         die("Falha na conexão com o banco de dados: " . mysqli_connect_error());
     }
@@ -173,7 +172,7 @@
     }
 
     mysqli_close($conexao);
-    ?>
+?>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>

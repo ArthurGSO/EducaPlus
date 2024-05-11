@@ -1,7 +1,6 @@
 <?php
-    date_default_timezone_set('America/Sao_Paulo'); 
-
-    session_start();
+  require('../source/includes/connect.php');
+  date_default_timezone_set('America/Sao_Paulo'); 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -85,7 +84,6 @@
       <div class="foot">
         <div class="profile">
           <?php
-            require('../source/includes/connect.php');
             // Recupera a imagem de perfil do usuário
             $cod_usuario = $_SESSION['id'];
             $sql = "SELECT image_data FROM tbImagensPerfil WHERE cod_usuario = $cod_usuario";

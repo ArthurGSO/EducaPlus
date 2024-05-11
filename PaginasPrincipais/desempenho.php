@@ -43,7 +43,7 @@
         $taxa_acerto = number_format($taxa_acerto, 2)."%";
         
     }
-?>
+?> <!-- CALCULA PONTUAÇÃO -->
         
 <!DOCTYPE html>
 <html lang="en">
