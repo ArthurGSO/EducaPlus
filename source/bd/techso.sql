@@ -54,7 +54,7 @@ CREATE TABLE tbImagens (
 CREATE TABLE tbImagensPerfil (
     cod_image_perfil int not null auto_increment primary key,
     cod_usuario int not null,
-    image_data varchar(255),
+    image_data LONGBLOB,
     foreign key (cod_usuario) references tbUsuarios(cod_usuario)
 );
 
