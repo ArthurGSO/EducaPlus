@@ -85,6 +85,7 @@
       <div class="foot">
         <div class="profile">
           <?php
+            require('../source/includes/connect.php');
             // Recupera a imagem de perfil do usuário
             $cod_usuario = $_SESSION['id'];
             $sql = "SELECT image_data FROM tbImagensPerfil WHERE cod_usuario = $cod_usuario";

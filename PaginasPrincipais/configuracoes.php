@@ -1,7 +1,6 @@
 <?php
 date_default_timezone_set('America/Sao_Paulo'); 
 require('../source/includes/connect.php');
-$session_start();
 // Verifica se o botão foi clicado
 if(isset($_POST['alterar_imagem'])) {
     // Verifica se um arquivo foi enviado
