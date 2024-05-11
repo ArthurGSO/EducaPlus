@@ -85,17 +85,20 @@
       <div class="foot">
         <div class="profile">
           <?php
-          require("../source/includes/connect.php");
-          if(!$conexao) {
-            die("Falha na conexão com o banco de dados: " . mysqli_connect_error());
-          }
-          $id = $_SESSION['id'];
-          $sql = "SELECT image_data FROM tbImagensPerfil WHERE cod_usuario = $id";
-          $result = $conexao->query($sql);
-          $row_img = $result->fetch_assoc();
-          echo "<img src='{$row_img['image_data']}' alt='profile'>";
+            // Recupera a imagem de perfil do usuário
+            $cod_usuario = $_SESSION['id'];
+            $sql = "SELECT image_data FROM tbImagensPerfil WHERE cod_usuario = $cod_usuario";
+            $result = $conexao->query($sql);
+
+            if ($result->num_rows > 0) {
+                // Exibe a imagem de perfil
+                $row = $result->fetch_assoc();
+                echo '<img src="data:image/jpeg;base64,'.base64_encode($row['image_data']).'" alt="profile">';
+            } else {
+                // Se o usuário não tiver uma imagem de perfil, exibe uma imagem padrão
+                echo '<img src="../source/img/perfil-padrao.png" alt="profile">';
+            }
           ?>
-          <!-- <img src="../source/img/1381432-Solo-Leveling-Sung-Jinwoo.jpg" alt="profile"> -->
           <div class="info">
             <span class="name">Usuário:
               <?php

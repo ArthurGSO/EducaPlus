@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set('America/Sao_Paulo'); 
 require('../source/includes/connect.php');
-
+$session_start();
 // Verifica se o botão foi clicado
 if(isset($_POST['alterar_imagem'])) {
     // Verifica se um arquivo foi enviado
@@ -143,10 +143,9 @@ if(isset($_POST['alterar_imagem'])) {
                 echo '<img src="data:image/jpeg;base64,'.base64_encode($row['image_data']).'" alt="profile">';
             } else {
                 // Se o usuário não tiver uma imagem de perfil, exibe uma imagem padrão
-                echo 'erro';
+                echo '<img src="../source/img/perfil-padrao.png" alt="profile">';
             }
           ?>
-          <!-- <img src="../source/img/1381432-Solo-Leveling-Sung-Jinwoo.jpg" alt="profile"> -->
           <div class="info">
             <span class="name">Usuário:
               <?php
