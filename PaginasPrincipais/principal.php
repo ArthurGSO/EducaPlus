@@ -1,7 +1,6 @@
 <?php
-    date_default_timezone_set('America/Sao_Paulo'); 
-
-    session_start();
+  require('../source/includes/connect.php');
+  date_default_timezone_set('America/Sao_Paulo'); 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -38,19 +37,19 @@
                 <i class="bx bx-chevron-down"></i>
             </div>
 
-            <div class="menu-dropdown">
-                <div class="sub-menu">
-                <span class="menu"><a href="../PaginasPrincipais/Provas/2015/prova1.php">ETEC 2015 1° Semestre</span></a>
-                    <span class="menu"><a href="../PaginasPrincipais/Provas/2015/prova2.php">ETEC 2015 2° Semestre</span></a>
-                    <span class="menu"><a href="../PaginasPrincipais/Provas/2019/prova1.php">ETEC 2019 1° Semestre</span></a>
-                    <!-- <span class="menu"><a href="../PaginasPrincipais/Provas/2019/prova2.php">ETEC 2019 2° Semestre</span></a> SEM QUESTOES -->
-                    <span class="menu"><a href="../PaginasPrincipais/Provas/2020/prova1.php">ETEC 2020 1° Semestre</span></a>
-                    <span class="menu"><a href="../PaginasPrincipais/Provas/2022/prova2.php">ETEC 2022 1° Semestre</span></a>
-                    <span class="menu"><a href="../PaginasPrincipais/Provas/2023/prova1.php">ETEC 2023 1° Semestre</span></a>
-                    <span class="menu"><a href="../PaginasPrincipais/Provas/2023/prova2.php">ETEC 2023 2° Semestre</span></a>
-                    <span class="menu"><a href="../PaginasPrincipais/Provas/2024/prova1.php">ETEC 2024 1° Semestre</span></a>
-                </div>
-            </div>
+        <div class="menu-dropdown">
+          <div class="sub-menu">
+            <span class="menu"><a href="provas/2015/prova1.php">2015 1° Semestre</span></a>
+            <span class="menu"><a href="provas/2015/prova2.php">2015 2° Semestre</span></a>
+            <span class="menu"><a href="provas/2019/prova1.php">2019 1° Semestre</span></a>
+            <span class="menu"><a href="provas/2019/prova2.php">2019 2° Semestre</span></a> 
+            <span class="menu"><a href="provas/2020/prova1.php">2020 1° Semestre</span></a>
+            <span class="menu"><a href="provas/2022/prova2.php">2022 1° Semestre</span></a>
+            <span class="menu"><a href="provas/2023/prova1.php">2023 1° Semestre</span></a>
+            <span class="menu"><a href="provas/2023/prova2.php">2023 2° Semestre</span></a>
+            <span class="menu"><a href="provas/2024/prova1.php">2024 1° Semestre</span></a>
+          </div>
+        </div> <!-- PROVAS -->
 
             <div class="menu">
                 <i class='bx bx-question-mark'></i>
@@ -74,33 +73,55 @@
                 <span><a href="desempenho.php">Desempenho</a></span>
             </div>
 
-            <div class="menu">
-            
-                <i class="bx bx-cog"></i>
-                <span> <a href="configuracoes.php">Configurações </a></span>
-            </div>
+        <div class="menu">
+          <i class="bx bx-cog"></i>
+          <span> <a href="configuracoes.php">Configurações </a></span>
+        </div> <!-- MENU CONFIGURAÇÕES -->
             
             <div class="menu" style="pointer-events: none;"></div>
         </div>
 
-        <div class="foot">
-            <div class="profile">
-                <img src="../source/img/1381432-Solo-Leveling-Sung-Jinwoo.jpg" alt="profile">
-                <div class="info">
-                    <span class="name">
-                      <h1>
-                      <span><?php echo ucwords($_SESSION['user']); ?></span></h1>
-                                      
-                    </span>
-                  
-                </div>
-            </div>
-<!-- pop up de sair -->
-<button id="dark-mode-toggle">DarkMode</button>
-<button id="openPopup" class="opnen"> 
-    <div class="menu menu-logout">
-                <i class="bx bx-log-out"></i>
-                <span>      Sair   </span></button>
+      <div class="foot">
+        <div class="profile">
+          <?php
+            // Recupera a imagem de perfil do usuário
+            $cod_usuario = $_SESSION['id'];
+            $sql = "SELECT image_data FROM tbImagensPerfil WHERE cod_usuario = $cod_usuario";
+            $result = $conexao->query($sql);
+
+            if ($result->num_rows > 0) {
+                // Exibe a imagem de perfil
+                $row = $result->fetch_assoc();
+                echo '<img src="data:image/jpeg;base64,'.base64_encode($row['image_data']).'" alt="profile">';
+            } else {
+                // Se o usuário não tiver uma imagem de perfil, exibe uma imagem padrão
+                echo '<img src="../source/img/perfil-padrao.png" alt="profile">';
+            }
+          ?>
+          <div class="info">
+            <span class="name">Usuário:
+              <?php
+                  echo $_SESSION['user'];                          
+              ?>                      
+            </span>
+            <span class="name">Data de Login:
+              <?php
+                  echo $_SESSION['dt_login'];                         
+              ?>                      
+            </span>
+            <span class="name">Data de Cadastro:
+              <?php
+                  echo $_SESSION['dt_cadastro'];                          
+              ?>                      
+            </span>
+          </div>
+        </div> <!-- LEFT PROFILE INFOS -->
+
+        <button id="openPopup" class="opnen"> 
+            <div class="menu menu-logout">
+              <i class="bx bx-log-out"></i>
+              <span>Sair</span>
+        </button> <!-- BOTÃO DE POPUP DO BOTÃO DE SAIR -->
 
                 <div id="popup" class="popup"> 
                 <div class="popup-content">
@@ -136,37 +157,40 @@
 <div class="container-provas">
 
 
-  <div class="prova">
-    <div class="titulo"> <span> ETEC 2023 </span></div>
-    <div class="texto">A prova ETEC 2023 foi desafiadora, mas os estudantes se prepararam bem. As questões abordaram uma variedade de tópicos, exigindo um conhecimento sólido em todas as disciplinas.</div>
-    <a href="../PaginasPrincipais/Provas/2023/prova1.php"><button class="button-29" role="button">Iniciar</button></a>
-  </div>
-  <div class="prova">
-    <div class="titulo"><span> ETEC 2022 </span></div>
-    <div class="texto">A prova ETEC 2022 foi marcada por questões complexas de matemática e ciências. Os estudantes que dominavam esses assuntos tiveram um bom desempenho.</div>
-    <a href="../PaginasPrincipais/Provas/2022/prova2.php"><button class="button-29" role="button">Iniciar</button></a>
+        <div class="prova">
+          <div class="titulo"> <span> ETEC 2023 </span></div>
+          <div class="texto">A prova ETEC 2023 foi desafiadora, mas os estudantes se prepararam bem. As questões abordaram uma variedade de tópicos, exigindo um conhecimento sólido em todas as disciplinas.</div>
+          <a href="provas/2023/prova1.php"><button class="button-29" role="button">Iniciar</button></a>
+        </div> <!-- PROVA 2023 -->
 
-  </div>
-  <div class="prova">
-    <div class="titulo"><span> ETEC 2021 </span></div>
-    <div class="texto">A prova ETEC 2021 destacou-se pelas questões de interpretação de texto. Os estudantes que leram atentamente e entenderam os textos se saíram bem.</div>
-    <a href="../PaginasPrincipais/Provas/2015/prova1.php"><button class="button-29" role="button">Iniciar</button></a>
+        <div class="prova">
+          <div class="titulo"><span> ETEC 2022 </span></div>
+          <div class="texto">A prova ETEC 2022 foi marcada por questões complexas de matemática e ciências. Os estudantes que dominavam esses assuntos tiveram um bom desempenho.</div>
+          <a href="provas/2022/prova1.php"><button class="button-29" role="button">Iniciar</button></a>
 
-  </div>
-  <div class="prova">
-    <div class="titulo"><span> ETEC 2020 </span></div>
-    <div class="texto">A prova ETEC 2020 foi bem equilibrada, com questões de todas as disciplinas. Os estudantes que tiveram um estudo consistente ao longo do ano tiveram sucesso.</div>
-    <a href="../PaginasPrincipais/Provas/2020/prova1.php"><button class="button-29" role="button">Iniciar</button></a>
+        </div> <!-- PROVA 2022 -->
 
-  </div>
+        <div class="prova">
+          <div class="titulo"><span> ETEC 2021 </span></div>
+          <div class="texto">A prova ETEC 2021 destacou-se pelas questões de interpretação de texto. Os estudantes que leram atentamente e entenderam os textos se saíram bem.</div>
+          <a href="provas/2021/prova1.php"><button class="button-29" role="button">Iniciar</button></a>
+        </div> <!-- PROVA 2021 -->
 
+        <div class="prova">
+          <div class="titulo"><span> ETEC 2020 </span></div>
+          <div class="texto">A prova ETEC 2020 foi bem equilibrada, com questões de todas as disciplinas. Os estudantes que tiveram um estudo consistente ao longo do ano tiveram sucesso.</div>
+          <a href="provas/2020/prova1.php"><button class="button-29" role="button">Iniciar</button></a>
+        </div> <!-- PR0VA 2020 --> 
 
-</div>
-</div>
+        <div class="prova">
+          <div class="titulo"><span> ETEC 2019 </span></div>
+          <div class="texto">A prova ETEC 2019 foi bem equilibrada, com questões de todas as disciplinas. Os estudantes que tiveram um estudo consistente ao longo do ano tiveram sucesso.</div>
+          <a href="provas/2019/prova1.php"><button class="button-29" role="button">Iniciar</button></a>
+        </div> <!-- PROVA 2019 -->
 
+      </div> <!-- "CARROSEL" RESUMO PROVAS -->
 
-<h1 class="center">Faça questões por matéria: </h1> 
-
+    <!-- <h1 class="center">Faça questões por matéria: </h1>  -->
 
     
   <div class="secao azul">

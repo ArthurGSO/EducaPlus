@@ -1,6 +1,6 @@
 <?php
-
-    session_start();
+    require('../../../source/includes/connect.php'); 
+    date_default_timezone_set('America/Sao_Paulo'); 
 ?>
 
 <!DOCTYPE html>
@@ -36,15 +36,15 @@
 
             <div class="menu-dropdown">
                 <div class="sub-menu">
-                <span class="menu"><a href="../2015/prova1.php">ETEC 2015 1° Semestre</span></a>
-                    <span class="menu"><a href="../2015/prova2.php">ETEC 2015 2° Semestre</span></a>
-                    <span class="menu"><a href="../2019/prova1.php">ETEC 2019 1° Semestre</span></a>
-                    <!-- <span class="menu"><a href="../PaginasPrincipais/Provas/2019/prova2.php">ETEC 2019 2° Semestre</span></a> SEM QUESTOES -->
-                    <span class="menu"><a href="../2020/prova1.php">ETEC 2020 1° Semestre</span></a>
-                    <span class="menu"><a href="../2022/prova2.php">ETEC 2022 1° Semestre</span></a>
-                    <span class="menu"><a href="../2023/prova1.php">ETEC 2023 1° Semestre</span></a>
-                    <span class="menu"><a href="../2023/prova2.php">ETEC 2023 2° Semestre</span></a>
-                    <span class="menu"><a href="../2024/prova1.php">ETEC 2024 1° Semestre</span></a>
+                    <span class="menu"><a href="../2015/prova1.php">2015 1° Semestre</span></a>
+                    <span class="menu"><a href="../2015/prova2.php">2015 2° Semestre</span></a>
+                    <span class="menu"><a href="../2019/prova1.php">2019 1° Semestre</span></a>
+                    <span class="menu"><a href="../2019/prova2.php">2019 2° Semestre</span></a> 
+                    <span class="menu"><a href="../2020/prova1.php">2020 1° Semestre</span></a>
+                    <span class="menu"><a href="../2022/prova2.php">2022 1° Semestre</span></a>
+                    <span class="menu"><a href="../2023/prova1.php">2023 1° Semestre</span></a>
+                    <span class="menu"><a href="../2023/prova2.php">2023 2° Semestre</span></a>
+                    <span class="menu"><a href="prova1.php">2024 1° Semestre</span></a>
                 </div>
             </div>
 
@@ -81,7 +81,21 @@
 
         <div class="foot">
             <div class="profile">
-                <img src="../../../source/img/1381432-Solo-Leveling-Sung-Jinwoo.jpg" alt="profile">
+                <?php
+                    // Recupera a imagem de perfil do usuário
+                    $cod_usuario = $_SESSION['id'];
+                    $sql = "SELECT image_data FROM tbImagensPerfil WHERE cod_usuario = $cod_usuario";
+                    $result = $conexao->query($sql);
+
+                    if ($result->num_rows > 0) {
+                        // Exibe a imagem de perfil
+                        $row = $result->fetch_assoc();
+                        echo '<img src="data:image/jpeg;base64,'.base64_encode($row['image_data']).'" alt="profile">';
+                    } else {
+                        // Se o usuário não tiver uma imagem de perfil, exibe uma imagem padrão
+                        echo '<img src="../source/img/perfil-padrao.png" alt="profile">';
+                    }
+                ?>
                 <div class="info">
                     <span class="name">
                       <h1>
@@ -95,36 +109,26 @@
 <button id="dark-mode-toggle">DarkMode</button>
 <button id="openPopup" class="opnen"> 
     <div class="menu menu-logout">
-                <i class="bx bx-log-out"></i>
-                <span>      Sair   </span></button>
-
-                <div id="popup" class="popup"> 
-                <div class="popup-content">
-                <span class="fecha" id="closePopup"><i class='bx bx-x'></i></span>
-    <p>Confirmar saída?</p>
-    <a href="../../../source/includes/logout.php"> <button type="submit" class="btnlogout">Sair</button></a>
-    <a href="prova1.php"> <button class="bai" type="submit">Não</button></a>
-
+        <i class="bx bx-log-out"></i>
+        <span>      Sair   </span></button>
+        <div id="popup" class="popup"> 
+            <div class="popup-content">
+                <span class="fecha" id="closePopup">&times;</span>
+                <p>Confirmar saída?</p>
+                <a href="../../../source/includes/logout.php"> <button type="submit" class="btnlogout">Sim</button></a>
+                <a href=""> <button class="bai" type="submit">Não</button></a>
+            </div>
+        </div>
     </div>
-    </div>
-
-        </div>
-
-
-        </div>
-        </div>
-        </div>
-
+</div>
+</div>
     </aside>
 
 <body>
-
-    <?php
-    require('../../../source/includes/connect.php'); 
+<?php
     if(!$conexao) {
         die("Falha na conexão com o banco de dados: " . mysqli_connect_error());
     }
-
     // Seleciona as questões do banco de dados
     $start_question = 1; // Começa da primeira questão
     $end_question = 50; // Exibe até a quinta questão
@@ -177,7 +181,7 @@
     }
 
     mysqli_close($conexao);
-    ?>
+?>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
