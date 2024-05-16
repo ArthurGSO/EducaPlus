@@ -1,6 +1,6 @@
 <?php
     require('../source/includes/connect.php');
-    date_default_timezone_set('America/Sao_Paulo'); 
+  
 
     $cod_usuario = $_SESSION['id'];
 

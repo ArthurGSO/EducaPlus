@@ -51,6 +51,12 @@ CREATE TABLE tbImagens (
     foreign key (cod_question) references tbQuestions(cod_question)
 );
 
+CREATE TABLE tbImagensPerfil (
+    cod_image_perfil int not null auto_increment primary key,
+    cod_usuario int not null,
+    image_data LONGBLOB,
+    foreign key (cod_usuario) references tbUsuarios(cod_usuario)
+);
 -- INSERT TABLE tbQUESTIONS PROVA 2024 1 SEMESTRE
     INSERT INTO tbQuestions(cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, exam_year, semestre) 
     VALUES (

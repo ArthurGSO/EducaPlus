@@ -32,13 +32,83 @@
     
    background-color: black;
 }
-#dark-mode-toggle{
-    background: var(--branco-color);
-    border: 1px solid var(--border-color);
-    color: var(--preto-color);
-    border-radius: 5px;
- 
+.darkzaodecria input {
+  display: none;
 }
+
+.display {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.darkzaodecria label {
+    width: 200px;
+    height: 30px;
+    border-radius: 999px;
+    background: #F3F3F3;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.05) inset;
+    cursor: pointer;
+    position: relative;
+}
+
+.darkzaodecria .circle {
+    width: 24px;
+    height: 24px;
+    border-radius: 99px;
+    background: white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.05),
+    -10px -10px 30px rgba(0, 0, 0, 0.05) inset;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(10%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.darkzaodecria svg {
+    width: 14px;
+    position: absolute;
+}
+.sun {
+    color: #FFD600;
+    margin-top: 0%;
+    opacity: 1;
+}
+.moon {
+    margin-top: -150%;
+    color: white;
+    opacity: 0;
+}
+
+
+input[type=checkbox]:checked + .display label {
+    background: #1F1F21;
+    
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5) inset;
+}
+input[type=checkbox]:checked + .display label .circle {
+    left: 100%;
+    transition: 0.3s ease-in;
+    transform: translate(-110%, -50%);
+    background: #2C2C2F;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5),
+    -10px -10px 30px rgba(0, 0, 0, 0.5) inset;
+}
+input[type=checkbox]:checked + .display label .circle .sun {
+    margin-top: 150%;
+    opacity: 0;
+}
+input[type=checkbox]:checked + .display label .circle .moon {
+    margin-top: 0%;
+    opacity: 1;
+}
+
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -985,51 +1055,101 @@ aside.close .profile .info {
   }
 
   .container-provas {
-    margin-left: 250px;
-    width: 1200px;
+    width: 80vw;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-  }
+    flex-wrap: wrap;
+    margin-left: 250px;
+}
 
-  .prova {
-    width: 320px; /* Ajuste a largura conforme necessário */
-
-    height: 200px;
+.prova {
+    width: 40%;
+    height: 15rem;
     margin: 10px;
     padding: 10px;
     box-sizing: border-box;
-    background-color: var(--branco-color); /* Adiciona um fundo cinza claro */
-    border-radius: 5px; /* Adiciona bordas arredondadas */
+    background-color: var(--branco-color);
+    border-radius: 5px;
     cursor: pointer;
     box-shadow: 0 0 0.5rem rgb(1, 1, 1);
+}
 
-    
-
-
-  }
-  .prova span{
+.prova span {
     font-size: 2rem;
     color: var(--border-color);
-  }
-  .prova:hover{
-    transform: scale(1.1);
-  }
-  .titulo {
-    font-weight: bold;
-    text-transform: uppercase; /* Transforma o texto em maiúsculas */
-    color: #333; /* Altera a cor do texto */
-    font-size: 1.2em; /* Aumenta o tamanho da fonte */
-    margin-bottom: 10px; /* Adiciona uma margem abaixo do título */
-  }
-  .texto {
-    color: var(--preto-color); /* Altera a cor do texto do item */
-    font-size: 1.2rem; /* Reduz o tamanho da fonte do item */
-  }
+}
 
-  .container-provas button{
+.prova:hover {
+    transform: scale(1.1);
+}
+
+.titulo {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.texto {
+    color: var(--preto-color);
+    font-size: 1.2rem;
+}
+
+.container-provas button {
     margin-left: 25%;
     margin-top: 10%;
-  }
+}
+
+/* Consulta de mídia para telas menores que 600px */
+@media (max-width: 600px) {
+    .prova {
+        width: 100%;
+    }
+
+    .prova span {
+        font-size: 1.5rem;
+    }
+
+    .titulo {
+        font-size: 1em;
+    }
+
+    .texto {
+        font-size: 1rem;
+    }
+
+    .container-provas button {
+        margin-left: 0;
+        margin-top: 5%;
+    }
+}
+
+/* Consulta de mídia para telas maiores que 1200px */
+@media (min-width: 1200px) {
+    .prova {
+        width: 30rem; /* Aumenta a largura para telas maiores */
+        height: 20rem; /* Aumenta a altura para telas maiores */
+    }
+
+    .prova span {
+        font-size: 2.5rem; /* Aumenta o tamanho da fonte para telas maiores */
+    }
+
+    .titulo {
+        font-size: 1.5em; /* Aumenta o tamanho da fonte para telas maiores */
+    }
+
+    .texto {
+        font-size: 1.5rem; /* Aumenta o tamanho da fonte para telas maiores */
+    }
+
+    .container-provas button {
+        margin-left: 0;
+        margin-top: 5%;
+    }
+}
 
 
    
@@ -1105,6 +1225,7 @@ aside.close .profile .info {
    
 }
 
+
 .config-container .config-box{
     box-shadow: 1.5rem 1.5rem 5rem rgba(0, 0, 0, 0.212);
     background: var(--bg-color);
@@ -1116,6 +1237,21 @@ aside.close .profile .info {
 h4{
     color: var(--branquinho-color);
     font-size: 2rem;
+}
+.container-dados {
+    display: flex;
+    justify-content: space-between;
+  }
+.dados{
+
+    
+    background: var(--branco-color);
+    height: 5rem;
+    color: var(--preto-color);
+    margin: 10px;
+    padding: 10px;
+    width: 25%;
+    border-radius: 1rem;
 }
 
 
