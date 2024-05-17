@@ -1,6 +1,6 @@
 <?php
-
-    session_start();
+    require('../../../source/includes/connect.php'); 
+    date_default_timezone_set('America/Sao_Paulo'); 
 ?>
 
 <!DOCTYPE html>
@@ -15,81 +15,84 @@
 </head>
 <body>
 <aside class="close">
-        
-        <div class="head">
-            <div class="logo">
-                <a href="#" class="logo">Educa<span>Plus</span><i class='bx bx-pen bx-flip-vertical bx-tada' style='color:#0095f7' ></i></a>
-            </div>
-            <i class='bx bx-menu hamburger-menu'></i>
+    <div class="head">
+        <div class="logo">
+            <a href="../../../index.php" class="logo">Educa<span>Plus</span><i class='bx bx-pen bx-flip-vertical bx-tada' style='color:#0095f7' ></i></a>
         </div>
+        <i class='bx bx-menu hamburger-menu'></i>
+    </div> <!-- HEADER -->
 
-        <div class="nav">
-            <div class="menu">
-                <i class='bx bxs-home'></i>
-                <span><a href="../../principal.php">Home</a></span>
-                </div>
-            <div class="menu  active">
-                <i class="bx bx-task"></i>
+    <div class="nav">
+        <div class="menu">
+            <i class='bx bxs-home'></i>
+            <span><a href="../../principal.php">Home</a></span>
+        </div> <!-- BOTÃO HOME -->
+        <div class="menu active">
+            <i class="bx bx-task"></i>
                 <span>Provas</span>
-                <i class="bx bx-chevron-down"></i>
+            <i class="bx bx-chevron-down"></i>
+        </div> <!-- SPAN PROVAS -->
+        <div class="menu-dropdown">
+            <div class="sub-menu">
+                <span class="menu"><a href="../2015/prova1.php">2015 1° Semestre</span></a>
+                <span class="menu"><a href="../2015/prova2.php">2015 2° Semestre</span></a>
+                <span class="menu"><a href="prova1.php">2019 1° Semestre</span></a>
+                <span class="menu"><a href="prova2.php">2019 2° Semestre</span></a> 
+                <span class="menu"><a href="../2020/prova1.php">2020 1° Semestre</span></a>
+                <span class="menu"><a href="../2022/prova2.php">2022 1° Semestre</span></a>
+                <span class="menu"><a href="../2023/prova1.php">2023 1° Semestre</span></a>
+                <span class="menu"><a href="../2023/prova2.php">2023 2° Semestre</span></a>
+                <span class="menu"><a href="../2024/prova1.php">2024 1° Semestre</span></a>
             </div>
-
-            <div class="menu-dropdown">
-                <div class="sub-menu">
-                <span class="menu"><a href="../2015/prova1.php">ETEC 2015 1° Semestre</span></a>
-                    <span class="menu"><a href="../2015/prova2.php">ETEC 2015 2° Semestre</span></a>
-                    <span class="menu"><a href="../2019/prova1.php">ETEC 2019 1° Semestre</span></a>
-                    <!-- <span class="menu"><a href="../PaginasPrincipais/Provas/2019/prova2.php">ETEC 2019 2° Semestre</span></a> SEM QUESTOES -->
-                    <span class="menu"><a href="../2020/prova1.php">ETEC 2020 1° Semestre</span></a>
-                    <span class="menu"><a href="../2022/prova2.php">ETEC 2022 1° Semestre</span></a>
-                    <span class="menu"><a href="../2023/prova1.php">ETEC 2023 1° Semestre</span></a>
-                    <span class="menu"><a href="../2023/prova2.php">ETEC 2023 2° Semestre</span></a>
-                    <span class="menu"><a href="../2024/prova1.php">ETEC 2024 1° Semestre</span></a>
-                </div>
-            </div>
-
-            <div class="menu">
-                <i class='bx bx-question-mark'></i>
+        </div> <!-- PROVAS -->
+        <div class="menu">
+            <i class='bx bx-question-mark'></i>
                 <span>Questões</span>
-                <i class="bx bx-chevron-down"></i>
-
+            <i class="bx bx-chevron-down"></i>
+        </div> <!-- SPAN QUESTÕES -->
+        <div class="menu-dropdown">
+            <div class="sub-menu">
+                <a href="#"> <span class="menu">MATEMÁTICA</span></a>
+                <a href="#"> <span class="menu">PORTUGUÊS</span></a>
+                <a href="#"> <span class="menu">CIÊNCIA</span></a>
+                <a href="#"> <span class="menu">HISTÓRIA</span></a>
+                <a href="#"> <span class="menu">GEOGRAFIA</span></a>
             </div>
+        </div> <!-- MENU MATÉRIAS -->
+        <div class="menu">
+            <i class='bx bx-bar-chart-alt'></i>
+            <span><a href="../../desempenho.php">Desempenho</a></span>
+        </div> <!-- DESEMPENHO -->
+        <div class="menu">
+            <i class="bx bx-cog"></i>
+            <span><a href="configuracoes.html">Configurações</a></span>
+        </div> <!-- CONFIGURAÇÕES -->
+        <div class="menu" style="pointer-events: none;"></div>
+    </div> <!-- MENU LATERAL -->
 
-            <div class="menu-dropdown">
-                <div class="sub-menu">
-                    <a href="#"> <span class="menu">MATEMÁTICA</span></a>
-                    <a href="#"> <span class="menu">PORTUGUÊS</span></a>
-                    <a href="#"> <span class="menu">CIÊNCIA</span></a>
-                    <a href="#"> <span class="menu">HISTÓRIA</span></a>
-                    <a href="#"> <span class="menu">GEOGRAFIA</span></a>
-                </div>
-            </div>
+    <div class="foot">
+        <div class="profile">
+            <?php
+                // Recupera a imagem de perfil do usuário
+                $cod_usuario = $_SESSION['id'];
+                $sql = "SELECT image_data FROM tbImagensPerfil WHERE cod_usuario = $cod_usuario";
+                $result = $conexao->query($sql);
 
-            <div class="menu">
-                <i class='bx bx-bar-chart-alt'></i>
-                <span><a href="../../desempenho.php">Desempenho</a></span>
-            </div>
-
-            <div class="menu">
-            
-                <i class="bx bx-cog"></i>
-                <span> <a href="../../configuracoes.php">Configurações</a></span>
-            </div>
-            
-            <div class="menu" style="pointer-events: none;"></div>
-        </div>
-
-        <div class="foot">
-            <div class="profile">
-                <img src="../../../source/img/1381432-Solo-Leveling-Sung-Jinwoo.jpg" alt="profile">
-                <div class="info">
-                    <span class="name">
-                      <h1>
-                      <span><?php echo ucwords($_SESSION['user']); ?></span></h1>
-                                      
-                    </span>
-                  
-                </div>
+                if ($result->num_rows > 0) {
+                    // Exibe a imagem de perfil
+                    $row = $result->fetch_assoc();
+                    echo '<img src="data:image/jpeg;base64,'.base64_encode($row['image_data']).'" alt="profile">';
+                } else {
+                    // Se o usuário não tiver uma imagem de perfil, exibe uma imagem padrão
+                    echo '<img src="../source/img/perfil-padrao.png" alt="profile">';
+                }
+            ?>
+            <div class="info">
+                <span class="name">
+                    <h1>
+                        <?php echo $_SESSION['user'];?>
+                    </h1>               
+                </span>
             </div>
 <!-- pop up de sair -->
 <button id="dark-mode-toggle">DarkMode</button>
@@ -158,14 +161,14 @@
             }
             echo "<p class='questao'>" . $row['text_question'] . "</p>";
             echo "<ul>";
-            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='A'>" . $row['option_a'] . "</label></li>";
-            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='B'>" . $row['option_b'] . "</label></li>";
-            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='C'>" . $row['option_c'] . "</label></li>";
-            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='D'>" . $row['option_d'] . "</label></li>";
-            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='E'>" . $row['option_e'] . "</label></li>";
-            echo "</ul>";
-            echo "</div>";
-           
+        echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='A'>" . $row['option_a'] . "</li>";
+        echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='B'>" . $row['option_b'] . "</li>";
+        echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='C'>" . $row['option_c'] . "</li>";
+        echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='D'>" . $row['option_d'] . "</li>";
+        echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='E'>" . $row['option_e'] . "</li>";
+        echo "</ul>";
+        echo "</div>";
+        
             
             // Incrementa o contador de questões
             $contador_questao++;
@@ -179,9 +182,9 @@
     }
 
     mysqli_close($conexao);
-    ?>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+?>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
         $('.hamburger-menu').click(function() {
             $('aside').toggleClass('close')
@@ -196,7 +199,7 @@
 
             $(this).next().siblings('.menu-dropdown').children('.sub-menu').children('.menu').removeClass('active')
         })
-  
+
         document.getElementById('openPopup').addEventListener('click', function() {
     document.getElementById('popup').style.display = 'block';
   });

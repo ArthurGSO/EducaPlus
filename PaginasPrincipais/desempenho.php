@@ -43,7 +43,7 @@
         $taxa_acerto = number_format($taxa_acerto, 2)."%";
         
     }
-?>
+?> <!-- CALCULA PONTUAÇÃO -->
         
 <!DOCTYPE html>
 <html lang="en">
@@ -80,15 +80,15 @@
 
             <div class="menu-dropdown">
                 <div class="sub-menu">
-                <span class="menu"><a href="../PaginasPrincipais/Provas/2015/prova1.php">ETEC 2015 1° Semestre</span></a>
-                    <span class="menu"><a href="../PaginasPrincipais/Provas/2015/prova2.php">ETEC 2015 2° Semestre</span></a>
-                    <span class="menu"><a href="../PaginasPrincipais/Provas/2019/prova1.php">ETEC 2019 1° Semestre</span></a>
-                    <span class="menu"><a href="../PaginasPrincipais/Provas/2019/prova2.php">ETEC 2019 2° Semestre</span></a> SEM QUESTOES
-                    <span class="menu"><a href="../PaginasPrincipais/Provas/2020/prova1.php">ETEC 2020 1° Semestre</span></a>
-                    <span class="menu"><a href="../PaginasPrincipais/Provas/2022/prova2.php">ETEC 2022 1° Semestre</span></a>
-                    <span class="menu"><a href="../PaginasPrincipais/Provas/2023/prova1.php">ETEC 2023 1° Semestre</span></a>
-                    <span class="menu"><a href="../PaginasPrincipais/Provas/2023/prova2.php">ETEC 2023 2° Semestre</span></a>
-                    <span class="menu"><a href="../PaginasPrincipais/Provas/2024/prova1.php">ETEC 2024 1° Semestre</span></a>
+                    <span class="menu"><a href="provas/2015/prova1.php">2015 1° Semestre</span></a>
+                    <span class="menu"><a href="provas/2015/prova2.php">2015 2° Semestre</span></a>
+                    <span class="menu"><a href="provas/2019/prova1.php">2019 1° Semestre</span></a>
+                    <span class="menu"><a href="provas/2019/prova2.php">2019 2° Semestre</span></a> 
+                    <span class="menu"><a href="provas/2020/prova1.php">2020 1° Semestre</span></a>
+                    <span class="menu"><a href="provas/2022/prova2.php">2022 1° Semestre</span></a>
+                    <span class="menu"><a href="provas/2023/prova1.php">2023 1° Semestre</span></a>
+                    <span class="menu"><a href="provas/2023/prova2.php">2023 2° Semestre</span></a>
+                    <span class="menu"><a href="provas/2024/prova1.php">2024 1° Semestre</span></a>
                 </div>
             </div>
 
@@ -156,20 +156,13 @@
 
                 <div id="popup" class="popup"> 
                 <div class="popup-content">
-                <span class="fecha" id="closePopup"><i class='bx bx-x'></i></span>
-    <p>Confirmar saída?</p>
-    <a href="../source/includes/logout.php"> <button type="submit" class="btnlogout">Sair</button></a>
-    <a href="principal.php"> <button class="bai" type="submit">Não</button></a>
-
-    </div>
-    </div>
-
-        </div>
-
-
-        </div>
-        </div>
-        </div>
+                    <span class="fecha" id="closePopup">&times;</span>
+                    <p>Confirmar saída?</p>
+                    <a href="../../../source/includes/logout.php"> <button type="submit" class="btnlogout">Sim</button></a>
+                    <a href=""> <button class="bai" type="submit">Não</button></a>
+                </div>
+            </div> <!-- BOTÃO DE SAIR EM POPUP -->
+        </div> <!-- LEFT MENU FOOTER -->
 
     </aside> <!-- LEFT MENU -->
 

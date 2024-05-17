@@ -135,29 +135,30 @@
       <h1 class="center">Comece agora:</h1> 
         <div class="container-provas">
 
-          <div class="prova">
-            <div class="titulo"> <span> ETEC 2023 </span></div>
-            <div class="texto">A prova ETEC 2023 foi desafiadora, mas os estudantes se prepararam bem. As questões abordaram uma variedade de tópicos, exigindo um conhecimento sólido em todas as disciplinas.</div>
-            <a href="../PaginasPrincipais/Provas/2023/prova1.php"><button class="button-29" role="button">Iniciar</button></a>
-          </div> <!-- PROVA 2023 -->
+        <div class="prova">
+          <div class="titulo"> <span> ETEC 2023 </span></div>
+          <div class="texto">A prova ETEC 2023 foi desafiadora, mas os estudantes se prepararam bem. As questões abordaram uma variedade de tópicos, exigindo um conhecimento sólido em todas as disciplinas.</div>
+          <a href="provas/2023/prova1.php"><button class="button-29" role="button">Iniciar</button></a>
+        </div> <!-- PROVA 2023 -->
 
-          <div class="prova">
-            <div class="titulo"><span> ETEC 2022 </span></div>
-            <div class="texto">A prova ETEC 2022 foi marcada por questões complexas de matemática e ciências. Os estudantes que dominavam esses assuntos tiveram um bom desempenho.</div>
-            <a href="../PaginasPrincipais/Provas/2022/prova2.php"><button class="button-29" role="button">Iniciar</button></a>
-          </div> <!-- PROVA 2022 -->
+        <div class="prova">
+          <div class="titulo"><span> ETEC 2022 </span></div>
+          <div class="texto">A prova ETEC 2022 foi marcada por questões complexas de matemática e ciências. Os estudantes que dominavam esses assuntos tiveram um bom desempenho.</div>
+          <a href="provas/2022/prova1.php"><button class="button-29" role="button">Iniciar</button></a>
 
-          <div class="prova">
-            <div class="titulo"><span> ETEC 2021 </span></div>
-            <div class="texto">A prova ETEC 2021 destacou-se pelas questões de interpretação de texto. Os estudantes que leram atentamente e entenderam os textos se saíram bem.</div>
-            <a href="../PaginasPrincipais/Provas/2015/prova1.php"><button class="button-29" role="button">Iniciar</button></a>
-          </div> <!-- PROVA 2021 -->
+        </div> <!-- PROVA 2022 -->
 
-          <div class="prova">
-            <div class="titulo"><span> ETEC 2020 </span></div>
-            <div class="texto">A prova ETEC 2020 foi bem equilibrada, com questões de todas as disciplinas. Os estudantes que tiveram um estudo consistente ao longo do ano tiveram sucesso.</div>
-            <a href="../PaginasPrincipais/Provas/2020/prova1.php"><button class="button-29" role="button">Iniciar</button></a>
-          </div> <!-- PR0VA 2020 --> 
+        <div class="prova">
+          <div class="titulo"><span> ETEC 2021 </span></div>
+          <div class="texto">A prova ETEC 2021 destacou-se pelas questões de interpretação de texto. Os estudantes que leram atentamente e entenderam os textos se saíram bem.</div>
+          <a href="provas/2021/prova1.php"><button class="button-29" role="button">Iniciar</button></a>
+        </div> <!-- PROVA 2021 -->
+
+        <div class="prova">
+          <div class="titulo"><span> ETEC 2020 </span></div>
+          <div class="texto">A prova ETEC 2020 foi bem equilibrada, com questões de todas as disciplinas. Os estudantes que tiveram um estudo consistente ao longo do ano tiveram sucesso.</div>
+          <a href="provas/2020/prova1.php"><button class="button-29" role="button">Iniciar</button></a>
+        </div> <!-- PR0VA 2020 --> 
 
         </div> <!-- "CARROSEL" RESUMO PROVAS -->
         
