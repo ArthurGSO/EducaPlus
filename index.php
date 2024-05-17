@@ -16,13 +16,14 @@
     <header class="header">
         <div id="menu-btn" class="fas fa-bars"></div>
         
-        <a href="#" class="logo">Educa<span>Plus</span><i class='bx bx-pen bx-flip-vertical bx-tada' style='color:#352eab' ></i></a>
+        <a href="" class="logo">Educa<span>Plus</span><i class='bx bx-pen bx-flip-vertical bx-tada' style='color:#352eab' ></i></a>
         <?php
             if(isset($_GET['deluser'])) { echo "<h2><span>Conta apagada com sucesso!!</span></h2>"; }  
         ?>
         <nav class="navegation">
             <a href="#home" class="active">Home</a>
-            <a href="#about">Sobre nós</a>
+            <a href="">Sobre nós</a>
+            <a href="principal.html">Sobre</a>
             <a href="#services">Contato</a>
         </nav>
 
@@ -46,27 +47,7 @@
                 <!-- lembrar de por imagem aqui -->
                 <img src="source/img/undraw_learning_re_32qv.svg" alt="homeimg">
             </div>
-
-
-
         </section>
-        <section class="about" id="about">
-            <div class="about-img">
-                <img src="source/img/undraw_about_us_page_re_2jfm.svg" alt="">
-            </div>
-            <div class="about-content">
-                <h2 class="heading"> Sobre <span>Nós</span></h2>
-               
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique ullam quasi sequi, porro totam quisquam repudiandae. Non, itaque repudiandae, numquam cum quod amet commodi soluta nostrum aliquid dolor, quia sit!</p>
-             <button class="button-29">Ver mais</button>
-            </div>
-        </section>
-
-
-
-
-
-
 
         <section id="testimonials" class="show animate">
             <img src="source/img/undraw_publish_article_re_3x8h.svg" id="testimonial_chef" alt="">
@@ -76,7 +57,7 @@
                     Depoimentos
                 </h2>
                 <h3 class="section-subtitle">
-                    O que os usuários dizem:
+                    O que os clientes falam sobre nós
                 </h3>
 
                 <div id="feedbacks">
@@ -149,9 +130,6 @@
                 </button>
             </div>
         </section>
-
-
-
         
     </main>
     <footer>

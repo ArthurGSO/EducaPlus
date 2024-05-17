@@ -83,7 +83,7 @@
                 <span class="menu"><a href="../PaginasPrincipais/Provas/2015/prova1.php">ETEC 2015 1° Semestre</span></a>
                     <span class="menu"><a href="../PaginasPrincipais/Provas/2015/prova2.php">ETEC 2015 2° Semestre</span></a>
                     <span class="menu"><a href="../PaginasPrincipais/Provas/2019/prova1.php">ETEC 2019 1° Semestre</span></a>
-                    <!-- <span class="menu"><a href="../PaginasPrincipais/Provas/2019/prova2.php">ETEC 2019 2° Semestre</span></a> SEM QUESTOES -->
+                    <span class="menu"><a href="../PaginasPrincipais/Provas/2019/prova2.php">ETEC 2019 2° Semestre</span></a> SEM QUESTOES
                     <span class="menu"><a href="../PaginasPrincipais/Provas/2020/prova1.php">ETEC 2020 1° Semestre</span></a>
                     <span class="menu"><a href="../PaginasPrincipais/Provas/2022/prova2.php">ETEC 2022 1° Semestre</span></a>
                     <span class="menu"><a href="../PaginasPrincipais/Provas/2023/prova1.php">ETEC 2023 1° Semestre</span></a>
@@ -125,14 +125,26 @@
 
         <div class="foot">
             <div class="profile">
-                <img src="../source/img/1381432-Solo-Leveling-Sung-Jinwoo.jpg" alt="profile">
+                <?php
+                    // Recupera a imagem de perfil do usuário
+                    $cod_usuario = $_SESSION['id'];
+                    $sql = "SELECT image_data FROM tbImagensPerfil WHERE cod_usuario = $cod_usuario";
+                    $result = $conexao->query($sql);
+
+                    if ($result->num_rows > 0) {
+                        // Exibe a imagem de perfil
+                        $row = $result->fetch_assoc();
+                        echo '<img src="data:image/jpeg;base64,'.base64_encode($row['image_data']).'" alt="profile">';
+                    } else {
+                        // Se o usuário não tiver uma imagem de perfil, exibe uma imagem padrão
+                        echo '<img src="../source/img/perfil-padrao.png" alt="profile">';
+                    }
+                ?>
                 <div class="info">
                     <span class="name">
                       <h1>
-                      <span><?php echo ucwords($_SESSION['user']); ?></span></h1>
-                                      
-                    </span>
-                  
+                      <span><?php echo ucwords($_SESSION['user']); ?></span></h1>                                   
+                    </span>              
                 </div>
             </div>
 <!-- pop up de sair -->
