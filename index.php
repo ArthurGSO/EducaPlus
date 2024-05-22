@@ -23,6 +23,9 @@
         <nav class="navegation">
             <a href="#home" class="active">Home</a>
             <a href="#about">Sobre nós</a>
+            <a href="#faq">FAQ</a>
+
+
             <a href="#services">Contato</a>
         </nav>
 
@@ -62,12 +65,6 @@
             </div>
         </section>
 
-
-
-
-
-
-
         <section id="testimonials" class="show animate">
             <img src="source/img/undraw_publish_article_re_3x8h.svg" id="testimonial_chef" alt="">
 
@@ -81,7 +78,7 @@
 
                 <div id="feedbacks">
                     <div class="feedback">
-                        <img src="source/img/avatar.png" class="feedback-avatar" alt="">
+                        <img src="source/img/perfil-padrao.png" class="feedback-avatar" alt="">
 
                         <div class="feedback-content">
                             <p>
@@ -102,7 +99,7 @@
                     </div>
 
                     <div class="feedback">
-                        <img src="source/img/avatar.png" class="feedback-avatar" alt="">
+                        <img src="source/img/perfil-padrao.png" class="feedback-avatar" alt="">
 
                         <div class="feedback-content">
                             <p>
@@ -123,7 +120,7 @@
                     </div>
 
                     <div class="feedback">
-                        <img src="source/img/avatar.png" class="feedback-avatar" alt="">
+                        <img src="source/img/perfil-padrao.png" class="feedback-avatar" alt="">
 
                         <div class="feedback-content">
                             <p>
@@ -150,7 +147,96 @@
             </div>
         </section>
 
+    <section class="wrapper" id="faq" >
+      <h1 class="heading" ><span>Perguntas frequentes</span></h1>
+        <div class="faq">
+            <button class="accordion">
+                O que é EducaPlus?
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+        <div class="pannel">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, inventore eum. Esse, harum qui officia et excepturi distinctio corporis quos? Laudantium unde ea aliquid vitae alias modi sequi qui nesciunt!
+            </p>
+        </div>
+      </div>
 
+      <div class="faq">
+        <button class="accordion">
+          Lorem
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+            saepe molestiae distinctio asperiores cupiditate consequuntur dolor
+            ullam, iure eligendi harum eaque hic corporis debitis porro
+            consectetur voluptate rem officiis architecto.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          Lorem
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+            saepe molestiae distinctio asperiores cupiditate consequuntur dolor
+            ullam, iure eligendi harum eaque hic corporis debitis porro
+            consectetur voluptate rem officiis architecto.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          lorem
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+            saepe molestiae distinctio asperiores cupiditate consequuntur dolor
+            ullam, iure eligendi harum eaque hic corporis debitis porro
+            consectetur voluptate rem officiis architecto.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          Lorem
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+            saepe molestiae distinctio asperiores cupiditate consequuntur dolor
+            ullam, iure eligendi harum eaque hic corporis debitis porro
+            consectetur voluptate rem officiis architecto.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          Lorem
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+            saepe molestiae distinctio asperiores cupiditate consequuntur dolor
+            ullam, iure eligendi harum eaque hic corporis debitis porro
+            consectetur voluptate rem officiis architecto.
+          </p>
+        </div>
+      </div>
+    </div>
+</section>
 
         
     </main>
@@ -172,5 +258,25 @@
 
     <!-- javascript -->
     <script src="source/javascript/main.js"></script>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+    this.parentElement.classList.toggle("active");
+
+    var pannel = this.nextElementSibling;
+
+    if (pannel.style.display === "block") {
+      pannel.style.display = "none";
+    } else {
+      pannel.style.display = "block";
+    }
+  });
+}
+
+    </script>
 </body>
 </html>

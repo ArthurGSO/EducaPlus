@@ -125,14 +125,15 @@ html {
 span {
     color: var(--second-bg-color);
 }
-#menu-btn{
+
+#menu-btn {
     font-size: 2rem;
     color: var(--preto-color);
     display: none;
     cursor: pointer;
-
 }
-.header{
+
+.header {
     width: 100%;
     top: 0;
     left: 0;
@@ -145,7 +146,8 @@ span {
     box-shadow: 0 0 1rem black;
     background: hwb(0 100% 0%);
 }
-.navegation a{
+
+.navegation a {
     text-decoration: none;
     font-size: 1.1em;
     color: var(--preto-color);
@@ -154,14 +156,13 @@ span {
     font-weight: 500;
     transition: .3s;
     display: inline-block;
-
-
-    
 }
-.navegation a:hover{
-    color: #2bdbdb ;
+
+.navegation a:hover {
+    color: #2bdbdb;
 }
-.navegation a::after{
+
+.navegation a::after {
     content: '';
     width: 100%;
     bottom: -6px;
@@ -174,43 +175,43 @@ span {
     transform: scaleX(0);
     transition: transform .5s ease-in;
 }
-.navegation a:hover::after{
+
+.navegation a:hover::after {
     transform-origin: left;
     transform: scaleX(1);
 }
 
 /* home */
 
-section{
+section {
     min-height: 100vh;
     padding: 2rem 7%;
 }
-.home{
+
+.home {
     display: flex;
     align-items: center;
-    max-width: 1000px;
+    max-width: 1200px;
     justify-content: center;
-
     overflow: hidden;
-  
 }
-.content p{
+
+.content p {
     color: var(--branco-color);
     letter-spacing: 1.5px;
     font-size: 1.5rem;
     margin-bottom: 2rem;
-
- 
 }
-.content h2{
+
+.content h2 {
     font-size: 4rem;
     font-weight: 600;
     color: var(--branco-color);
     margin-bottom: 1rem;
-
 }
+
 .img img{
-    max-width: 70vh;
+    max-width: 30vw;
     position: absolute;
     top: 35%;
  
@@ -274,6 +275,75 @@ section{
    
 } 
 
+/* fac */
+.wrapper{
+    padding: 10rem;
+
+    background: #ffffff;
+}
+  
+  .wrapper > p,
+  .wrapper > h1 {
+    margin: 1.5rem 0;
+    text-align: center;
+   
+  }
+  
+  .wrapper > h1 {
+    letter-spacing: 3px;
+  }
+  
+  .accordion {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 100%;
+   
+    padding: 2rem 2.5rem;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+   
+  }
+  
+  .accordion i {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+  }
+  
+  .active,
+  .accordion:hover {
+    background-color: #f1f7f5;
+  }
+  .pannel {
+    padding: 0 2rem 2.5rem 2rem;
+    background-color: white;
+    overflow: hidden;
+    background-color: #f1f7f5;
+    display: none;
+    margin-top: 2rem;
+
+  }
+  .pannel p {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+  
+  .faq {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+
+  }
+
+  
+
+/* relatos */
 #testimonials {
     min-height: calc(100vh - 91px);
     display: flex;
@@ -749,7 +819,9 @@ aside:not(aside.close) .nav {
 
 
 .menu i {
-    font-size: 20px; /* Reduz o tamanho do ícone do menu */
+    font-size: 20px;
+    margin-right: 5px;
+    color: black; /* Reduz o tamanho do ícone do menu */
 }
 
 .menu span {
@@ -849,6 +921,9 @@ aside.close .menu:hover span {
 
 .menu.active i:nth-child(3) {
     transform: rotate(180deg);
+}
+.menu.active i{
+    color: #fff;
 }
 
 aside.close .menu-dropdown {
@@ -1243,8 +1318,6 @@ h4{
     justify-content: space-between;
   }
 .dados{
-
-    
     background: var(--branco-color);
     height: 5rem;
     color: var(--preto-color);
@@ -1252,6 +1325,10 @@ h4{
     padding: 10px;
     width: 25%;
     border-radius: 1rem;
+}
+.dados p{
+    font-size: 1.5rem;
+   padding: 10px;
 }
 
 
@@ -1352,6 +1429,9 @@ td {
 tr:nth-child(even) td {
     background-color: #f2f2f2; /* Cor de fundo alternada */
 }
+
+
+
 
 
 

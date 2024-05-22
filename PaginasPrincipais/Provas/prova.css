@@ -18,8 +18,6 @@
     --branquinho-color:#ffff;
     --branco-color: #fff;
     --preto-color: black;
-
-   
 }
 .dark-mode {
     --bg-color: #222222; /* Nova cor de fundo para o modo escuro */
@@ -34,6 +32,82 @@
     
    background-color: black;
 }
+.darkzaodecria input {
+    display: none;
+  }
+  
+  .display {
+      width: 100%;
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+  }
+  
+  .darkzaodecria label {
+      width: 200px;
+      height: 30px;
+      border-radius: 999px;
+      background: #F3F3F3;
+      box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.05) inset;
+      cursor: pointer;
+      position: relative;
+  }
+  
+  .darkzaodecria .circle {
+      width: 24px;
+      height: 24px;
+      border-radius: 99px;
+      background: white;
+      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.05),
+      -10px -10px 30px rgba(0, 0, 0, 0.05) inset;
+      position: absolute;
+      top: 50%;
+      left: 0%;
+      transform: translate(10%, -50%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+  }
+  .darkzaodecria svg {
+      width: 14px;
+      position: absolute;
+  }
+  .sun {
+      color: #FFD600;
+      margin-top: 0%;
+      opacity: 1;
+  }
+  .moon {
+      margin-top: -150%;
+      color: white;
+      opacity: 0;
+  }
+  
+  
+  input[type=checkbox]:checked + .display label {
+      background: #1F1F21;
+      
+      box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5) inset;
+  }
+  input[type=checkbox]:checked + .display label .circle {
+      left: 100%;
+      transition: 0.3s ease-in;
+      transform: translate(-110%, -50%);
+      background: #2C2C2F;
+      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5),
+      -10px -10px 30px rgba(0, 0, 0, 0.5) inset;
+  }
+  input[type=checkbox]:checked + .display label .circle .sun {
+      margin-top: 150%;
+      opacity: 0;
+  }
+  input[type=checkbox]:checked + .display label .circle .moon {
+      margin-top: 0%;
+      opacity: 1;
+  }
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -127,7 +201,9 @@ aside:not(aside.close) .nav {
 
 
 .menu i {
-    font-size: 20px; /* Reduz o tamanho do ícone do menu */
+    font-size: 20px;
+    margin-right: 5px;
+    color: black; /* Reduz o tamanho do ícone do menu */
 }
 
 .menu span {
@@ -200,6 +276,7 @@ aside.close .menu span {
     transition: 0.3s;
     pointer-events: none;
 }
+
 aside.close .menu i:nth-child(1) {
     width: 100%;
     text-align: center;
@@ -226,6 +303,9 @@ aside.close .menu:hover span {
 
 .menu.active i:nth-child(3) {
     transform: rotate(180deg);
+}
+.menu.active i{
+    color: #fff;
 }
 
 aside.close .menu-dropdown {
@@ -294,6 +374,7 @@ aside.close .profile .info {
 
 .popup-content {
     background-color: var(--second-bg-color);
+ 
     position: absolute;
     top: 50%;
     left: 50%;
@@ -357,12 +438,13 @@ aside.close .profile .info {
   }
 
 
+
   .container {
     background-color: var(--branco-color);
     border-radius: 15px;
     margin: 0 auto 2rem;/* Centraliza o container */
     padding: 4rem;
-    max-width: 800px;
+    max-width: 1200px;
     border: 3px solid var(--border-color);
     height: calc(100% - 4rem); /* Subtrai a margem do topo e do fundo */
     font-size: 1.5rem;
@@ -375,7 +457,7 @@ aside.close .profile .info {
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 15px;
-    box-shadow: 0 0 10px var(--border-color);
+    box-shadow: 0 0 5px var(--border-color);
     color: var(--preto-color);
 }
 

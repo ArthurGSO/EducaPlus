@@ -1,7 +1,6 @@
 <?php
 
-require('../../../source/includes/connect.php'); 
-
+    session_start();
 ?>
 
 <!DOCTYPE html>
@@ -9,8 +8,8 @@ require('../../../source/includes/connect.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulado do Vestibulinho ETEC 2022 - 1° Semestre</title>
-    <link rel="stylesheet" href="../prova.css">
+    <title>Simulado do Vestibulinho ETEC 2023 - 1° Semestre</title>
+    <link rel="stylesheet" href="../Provas/prova.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
    
 </head>
@@ -26,10 +25,10 @@ require('../../../source/includes/connect.php');
 
         <div class="nav">
         <div class="menu">
-             <a href="../../principal.php"><i class='bx bxs-home'></i>
+             <a href="../principal.php"><i class='bx bxs-home'></i>
                 <span>Home</span></a>
                 </div>
-            <div class="menu  active">
+            <div class="menu">
                 <i class="bx bx-task"></i>
                 <span>Provas</span>
                 <i class="bx bx-chevron-down"></i>
@@ -37,19 +36,19 @@ require('../../../source/includes/connect.php');
 
             <div class="menu-dropdown">
                 <div class="sub-menu">
-                <span class="menu"><a href="../2015/prova1.php">ETEC 2015 1° Semestre</span></a>
-                    <span class="menu"><a href="../2015/prova2.php">ETEC 2015 2° Semestre</span></a>
-                    <span class="menu"><a href="../2019/prova1.php">ETEC 2019 1° Semestre</span></a>
+                <span class="menu"><a href="../provas/2015/prova1.php">ETEC 2015 1° Semestre</span></a>
+                    <span class="menu"><a href="../provas/2015/prova2.php">ETEC 2015 2° Semestre</span></a>
+                    <span class="menu"><a href="../provas/2019/prova1.php">ETEC 2019 1° Semestre</span></a>
                     <!-- <span class="menu"><a href="../../PaginasPrincipais/Provas/2019/prova2.php">ETEC 2019 2° Semestre</span></a> SEM QUESTOES -->
-                    <span class="menu"><a href="../2020/prova1.php">ETEC 2020 1° Semestre</span></a>
-                    <span class="menu"><a href="../2022/prova2.php">ETEC 2022 1° Semestre</span></a>
-                    <span class="menu"><a href="../2023/prova1.php">ETEC 2023 1° Semestre</span></a>
-                    <span class="menu"><a href="../2023/prova2.php">ETEC 2023 2° Semestre</span></a>
-                    <span class="menu"><a href="../2024/prova1.php">ETEC 2024 1° Semestre</span></a>
+                    <span class="menu"><a href="../provas/2020/prova1.php">ETEC 2020 1° Semestre</span></a>
+                    <span class="menu"><a href="../provas/2022/prova2.php">ETEC 2022 1° Semestre</span></a>
+                    <span class="menu"><a href="../provas/2023/prova1.php">ETEC 2023 1° Semestre</span></a>
+                    <span class="menu"><a href="../provas/2023/prova2.php">ETEC 2023 2° Semestre</span></a>
+                    <span class="menu"><a href="../provas/2024/prova1.php">ETEC 2024 1° Semestre</span></a>
                 </div>
             </div>
 
-            <div class="menu">
+            <div class="menu active">
                 <i class='bx bx-question-mark'></i>
                 <span>Questões</span>
                 <i class="bx bx-chevron-down"></i>
@@ -58,22 +57,22 @@ require('../../../source/includes/connect.php');
 
             <div class="menu-dropdown">
                 <div class="sub-menu">
-                <span class="menu"><a href="../../materias/matematica.php"> MATEMÁTICA</span></a>
-                  <span class="menu"> <a href="../../materias/portu.php"> PORTUGUÊS</span></a>
-                  <span class="menu"><a href="../../materias/ciencias.php"> CIÊNCIA</span></a>
-                  <span class="menu"> <a href="../../materias/historia.php"> HISTÓRIA</span></a>
-                  <span class="menu"> <a href="../../materias/geografia.php"> GEOGRAFIA</span></a>
-                  <span class="menu"> <a href="../../materias/cienciashumanas.php"> CIÊNCIAS HUMANAS</span></a>
+                <span class="menu"><a href="matematica.php"> MATEMÁTICA</span></a>
+                  <span class="menu"> <a href="portu.php"> PORTUGUÊS</span></a>
+                  <span class="menu"><a href="ciencias.php"> CIÊNCIA</span></a>
+                  <span class="menu"> <a href="historia.php"> HISTÓRIA</span></a>
+                  <span class="menu"> <a href="geografia.php"> GEOGRAFIA</span></a>
+                  <span class="menu"> <a href="cienciashumanas.php"> CIÊNCIAS HUMANAS</span></a>
                 </div>
             </div>
 
             <div class="menu">
-            <a href="../../desempenho.php"> <i class='bx bx-bar-chart-alt'></i>
+            <a href="../desempenho.php"> <i class='bx bx-bar-chart-alt'></i>
                 <span>Desempenho</span></a>
             </div>
             <div class="menu">
             
-            <a href="../../configuracoes.php"> <i class="bx bx-cog"></i>
+            <a href="../configuracoes.php"> <i class="bx bx-cog"></i>
                 <span>Configurações </span></a>
             </div>
             
@@ -94,7 +93,7 @@ require('../../../source/includes/connect.php');
                 echo '<img src="data:image/jpeg;base64,'.base64_encode($row['image_data']).'" alt="profile" class="perfil">';
             } else {
                 // Se o usuário não tiver uma imagem de perfil, exibe uma imagem padrão
-                echo '<img src="../../../source/img/perfil-padrao.png" alt="profile">';
+                echo '<img src="../../source/img/perfil-padrao.png" alt="profile">';
             }
           ?>
                 <div class="info">
@@ -133,8 +132,8 @@ require('../../../source/includes/connect.php');
                 <div class="popup-content">
                 <span class="fecha" id="closePopup"><i class='bx bx-x'></i></span>
     <p>Confirmar saída?</p>
-    <a href="../source/includes/logout.php"> <button type="submit" class="btnlogout">Sair</button></a>
-    <a href="principal.php"> <button class="bai" type="submit">Não</button></a>
+    <a href="../../source/includes/logout.php"> <button type="submit" class="btnlogout">Sair</button></a>
+    <a href="ciencias.php"> <button class="bai" type="submit">Não</button></a>
 
     </div>
     </div>
@@ -147,72 +146,64 @@ require('../../../source/includes/connect.php');
         </div>
 
     </aside>
-
 <body>
     
-
-    <?php
-
+<?php
+    require('../../../source/includes/connect.php'); 
     if(!$conexao) {
         die("Falha na conexão com o banco de dados: " . mysqli_connect_error());
     }
 
     // Seleciona as questões do banco de dados
-    $start_question = 141; // Começa da primeira questão
-    $end_question = 190; // Exibe até a quinta questão
-    $sql = "SELECT * FROM tbQuestions WHERE cod_question BETWEEN $start_question AND $end_question";
+    $materia = "História"; // Substitua por sua matéria desejada
+    $sql = "SELECT * FROM tbQuestions WHERE Materia = '$materia'";
     $result = $conexao->query($sql);
 
-    // Inicializa o contador de questões
     $contador_questao = 1;
-
     echo "<div id='timer'>
     <h1 id='watch'>00:00:00</h1>
-    <button class='start-btn' onclick='start()'>Começar</button>
+    <button class='start-btn' onclick='start()'>Coemçar</button>
     <button class='pause-btn' onclick='pause()'>Pausar</button>
     <button class='stop-btn' onclick='stop()''>Parar</button>
 </div>";
-
-    // Verifica se há questões
     if ($result->num_rows > 0) {
-        echo "<form method='post' action='../../SubPags/calcular_pontuacao.php'>"; // Corrigindo o caminho do action
-        // Exibe a imagem de apresentação
-      
-        // Exibe as questões com o formulário para seleção de respostas
+        echo "<form method='post' action='../../SubPags/calcular_pontuacao.php'>"; 
+ 
         while ($row = $result->fetch_assoc()) {
             echo "<div class='container'>";
-            echo "<h2 class='questao'>Questão $contador_questao:</h2>"; // Exibe o número da questão
-            // Recupera e exibe as imagens associadas à pergunta
+            echo "<h2 class='questao'>Questão $contador_questao:</h2>";// Exibe o número da questão
             $cod_question = $row['cod_question'];
             $sql_imagens = "SELECT image_data FROM tbImagens WHERE cod_question = $cod_question";
             $result_imagens = $conexao->query($sql_imagens);
+           
             while ($row_imagem = $result_imagens->fetch_assoc()) {
-                echo "<img src='{$row_imagem['image_data']}' alt='Imagem da pergunta'>";
+                echo "<img src='{$row_imagem['image_data']}' alt='Imagem da pergunta' class='imgpergunta'>";
             }
             echo "<p class='questao'>" . $row['text_question'] . "</p>";
             echo "<ul>";
-            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='A'>" . $row['option_a'] . "</label></li>";
-            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='B'>" . $row['option_b'] . "</label></li>";
-            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='C'>" . $row['option_c'] . "</label></li>";
-            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='D'>" . $row['option_d'] . "</label></li>";
-            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='E'>" . $row['option_e'] . "</label></li>";
+            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='A'" . (isset($_COOKIE['q'.$row['cod_question']]) && $_COOKIE['q'.$row['cod_question']] == 'A' ? ' checked' : '') . ">" . $row['option_a'] . "</label></li>";
+            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='B'" . (isset($_COOKIE['q'.$row['cod_question']]) && $_COOKIE['q'.$row['cod_question']] == 'B' ? ' checked' : '') . ">" . $row['option_b'] . "</label></li>";
+            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='C'" . (isset($_COOKIE['q'.$row['cod_question']]) && $_COOKIE['q'.$row['cod_question']] == 'C' ? ' checked' : '') . ">" . $row['option_c'] . "</label></li>";
+            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='D'" . (isset($_COOKIE['q'.$row['cod_question']]) && $_COOKIE['q'.$row['cod_question']] == 'd' ? ' checked' : '') . ">" . $row['option_d'] . "</label></li>";
+            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='E'" . (isset($_COOKIE['q'.$row['cod_question']]) && $_COOKIE['q'.$row['cod_question']] == 'e' ? ' checked' : '') . ">" . $row['option_e'] . "</label></li>";
             echo "</ul>";
             echo "</div>";
-            
-            
-            // Incrementa o contador de questões
             $contador_questao++;
         }
-        echo "<input type='hidden' name='ano_prova' value='2022'>";
-        echo "<input type='hidden' name='semestre_prova' value='2'>";
+        echo "<input type='hidden' name='ano_prova' value='2015'>";
+        echo "<input type='hidden' name='semestre_prova' value='1'>";
         echo "<input type='submit' value='Enviar Respostas'>";
         echo "</form>";
     } else {
-        echo "Nenhuma questão encontrada no banco de dados.";
+        echo "Nenhuma questão encontrada para a matéria $materia.";
     }
-
+    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+        foreach ($_POST as $key => $value) {
+            setcookie($key, $value, time() + (86400 * 30), "/"); // O cookie expira em 30 dias
+        }
+    }
     mysqli_close($conexao);
-    ?>
+?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
         $('.hamburger-menu').click(function() {
@@ -236,8 +227,7 @@ require('../../../source/includes/connect.php');
   document.getElementById('closePopup').addEventListener('click', function() {
     document.getElementById('popup').style.display = 'none';
   });
-
-  var sec=0
+var sec=0
 var min=0
 var hr=0
 
@@ -284,8 +274,13 @@ function watch(){
     }
     document.getElementById('watch').innerText=twoDigits(hr)+':'+twoDigits(min)+':'+twoDigits(sec)
 }
+
+
+
     </script>
+
  <script src="../../java.js"></script>
-    
 </body>
+   
+
 </html>

@@ -29,8 +29,8 @@
 
         <div class="nav">
             <div class="menu active">
-                <i class='bx bxs-home'></i>
-                <span><a href="principal.php">Home</a></span>
+             <a href="principal.php"><i class='bx bxs-home'></i>
+                <span>Home</span></a>
                 </div>
             <div class="menu">
                 <i class="bx bx-task"></i>
@@ -61,23 +61,25 @@
 
             <div class="menu-dropdown">
                 <div class="sub-menu">
-                    <a href="#"> <span class="menu">MATEMÁTICA</span></a>
-                    <a href="#"> <span class="menu">PORTUGUÊS</span></a>
-                    <a href="#"> <span class="menu">CIÊNCIA</span></a>
-                    <a href="#"> <span class="menu">HISTÓRIA</span></a>
-                    <a href="#"> <span class="menu">GEOGRAFIA</span></a>
+                  <span class="menu"><a href="../PaginasPrincipais/materias/matematica.php"> MATEMÁTICA</span></a>
+                  <span class="menu"> <a href="../PaginasPrincipais/materias/portu.php"> PORTUGUÊS</span></a>
+                  <span class="menu"><a href="../PaginasPrincipais/materias/ciencias.php"> CIÊNCIA</span></a>
+                  <span class="menu"> <a href="../PaginasPrincipais/materias/historia.php"> HISTÓRIA</span></a>
+                  <span class="menu"> <a href="../PaginasPrincipais/materias/geografia.php"> GEOGRAFIA</span></a>
+                  <span class="menu"> <a href="../PaginasPrincipais/materias/cienciashumanas.php"> CIÊNCIAS HUMANAS</span></a>
+
                 </div>
             </div>
 
             <div class="menu">
-                <i class='bx bx-bar-chart-alt'></i>
-                <span><a href="desempenho.php">Desempenho</a></span>
+            <a href="desempenho.php"> <i class='bx bx-bar-chart-alt'></i>
+                <span>Desempenho</span></a>
             </div>
 
             <div class="menu">
             
-                <i class="bx bx-cog"></i>
-                <span> <a href="configuracoes.php">Configurações </a></span>
+            <a href="configuracoes.php"> <i class="bx bx-cog"></i>
+                <span>Configurações </span></a>
             </div>
             
             <div class="menu" style="pointer-events: none;"></div>
@@ -201,7 +203,7 @@
   <div class="secao azul">
     <h2> <i class="fa-solid fa-book"></i> Português</h2>
     <div class="topicos">
-    <a href="#"><button class="button-28" role="button">Começar</button></a>
+    <a href="../PaginasPrincipais/materias/portu.php"><button class="button-28" role="button">Começar</button></a>
   
     </div>
   </div>
@@ -209,7 +211,7 @@
   <div class="secao vermelho">
     <h2> <i class="fa-solid fa-calculator"></i> Matemática</h2>
     <div class="topicos">
-    <a href="#"><button class="button-28" role="button">Começar</button></a>
+    <a href="../PaginasPrincipais/materias/matematica.php"><button class="button-28" role="button">Começar</button></a>
 
     </div>
   </div>
@@ -219,7 +221,7 @@
   
     <h2>  <i class="fa-solid fa-earth-americas"></i> Geografia</h2>
     <div class="topicos">
-    <a href="#"><button class="button-28" role="button">Começar</button></a>
+    <a href="../PaginasPrincipais/materias/geografia.php"><button class="button-28" role="button">Começar</button></a>
 
     </div>
   </div>
@@ -227,7 +229,7 @@
   <div class="secao laranja">
     <h2><i class="fa-solid fa-flask"></i> Ciências</h2>
     <div class="topicos">
-    <a href="#"><button class="button-28" role="button">Começar</button></a>
+    <a href="../PaginasPrincipais/materias/ciencias.php"><button class="button-28" role="button">Começar</button></a>
 
     </div>
   </div>
@@ -235,7 +237,15 @@
   <div class="secao amarelo">
     <h2><i class="fa-solid fa-landmark"></i> História</h2>
     <div class="topicos">
-    <a href="#"><button class="button-28" role="button">Começar</button></a>
+    <a href="../PaginasPrincipais/materias/historia.php"><button class="button-28" role="button">Começar</button></a>
+
+    </div>
+  </div>
+  
+  <div class="secao amarelo">
+    <h2><i class="fa-solid fa-landmark"></i> Ciências Humanas</h2>
+    <div class="topicos">
+    <a href="../PaginasPrincipais/materias/cienciashumanas.php"><button class="button-28" role="button">Começar</button></a>
 
     </div>
   </div>
