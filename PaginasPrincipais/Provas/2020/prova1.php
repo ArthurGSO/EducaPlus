@@ -8,7 +8,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulado do Vestibulinho ETEC 2023 - 1° Semestre</title>
+    <title>Simulado do Vestibulinho ETEC 2020 - 1° Semestre</title>
     <link rel="stylesheet" href="../prova.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
    

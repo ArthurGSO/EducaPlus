@@ -1,6 +1,6 @@
 <?php
     require('../../../source/includes/connect.php'); 
-    date_default_timezone_set('America/Sao_Paulo'); 
+    date_default_timezone_set('America/Sao_Paulo');
 ?>
 
 <!DOCTYPE html>
@@ -8,91 +8,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulado do Vestibulinho ETEC 2023 - 1° Semestre</title>
+    <title>Simulado do Vestibulinho ETEC 2019 - 1° Semestre</title>
     <link rel="stylesheet" href="../prova.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
    
 </head>
 <body>
 <aside class="close">
-    <div class="head">
-        <div class="logo">
-            <a href="../../../index.php" class="logo">Educa<span>Plus</span><i class='bx bx-pen bx-flip-vertical bx-tada' style='color:#0095f7' ></i></a>
+        
+        <div class="head">
+            <div class="logo">
+                <a href="#" class="logo">Educa<span>Plus</span><i class='bx bx-pen bx-flip-vertical bx-tada' style='color:#0095f7' ></i></a>
+            </div>
+            <i class='bx bx-menu hamburger-menu'></i>
         </div>
-        <i class='bx bx-menu hamburger-menu'></i>
-    </div> <!-- HEADER -->
 
-    <div class="nav">
-        <div class="menu">
-            <i class='bx bxs-home'></i>
-            <span><a href="../../principal.php">Home</a></span>
-        </div> <!-- BOTÃO HOME -->
-        <div class="menu active">
-            <i class="bx bx-task"></i>
+        <div class="nav">
+            <div class="menu">
+                <i class='bx bxs-home'></i>
+                <span><a href="../../principal.php">Home</a></span>
+                </div>
+            <div class="menu  active">
+                <i class="bx bx-task"></i>
                 <span>Provas</span>
-            <i class="bx bx-chevron-down"></i>
-        </div> <!-- SPAN PROVAS -->
-        <div class="menu-dropdown">
-            <div class="sub-menu">
-                <span class="menu"><a href="../2015/prova1.php">2015 1° Semestre</span></a>
-                <span class="menu"><a href="../2015/prova2.php">2015 2° Semestre</span></a>
-                <span class="menu"><a href="prova1.php">2019 1° Semestre</span></a>
-                <span class="menu"><a href="prova2.php">2019 2° Semestre</span></a> 
-                <span class="menu"><a href="../2020/prova1.php">2020 1° Semestre</span></a>
-                <span class="menu"><a href="../2022/prova2.php">2022 1° Semestre</span></a>
-                <span class="menu"><a href="../2023/prova1.php">2023 1° Semestre</span></a>
-                <span class="menu"><a href="../2023/prova2.php">2023 2° Semestre</span></a>
-                <span class="menu"><a href="../2024/prova1.php">2024 1° Semestre</span></a>
+                <i class="bx bx-chevron-down"></i>
             </div>
-        </div> <!-- PROVAS -->
-        <div class="menu">
-            <i class='bx bx-question-mark'></i>
+
+            <div class="menu-dropdown">
+                <div class="sub-menu">
+                    <span class="menu"><a href="../2015/prova1.php">2015 1° Semestre</span></a>
+                    <span class="menu"><a href="../2015/prova2.php">2015 2° Semestre</span></a>
+                    <span class="menu"><a href="prova1.php">2019 1° Semestre</span></a>
+                    <span class="menu"><a href="prova2.php">2019 2° Semestre</span></a> 
+                    <span class="menu"><a href="../2020/prova1.php">2020 1° Semestre</span></a>
+                    <span class="menu"><a href="../2022/prova2.php">2022 1° Semestre</span></a>
+                    <span class="menu"><a href="../2023/prova1.php">2023 1° Semestre</span></a>
+                    <span class="menu"><a href="../2023/prova2.php">2023 2° Semestre</span></a>
+                    <span class="menu"><a href="../2024/prova1.php">2024 1° Semestre</span></a>
+                </div>
+            </div>
+
+            <div class="menu">
+                <i class='bx bx-question-mark'></i>
                 <span>Questões</span>
-            <i class="bx bx-chevron-down"></i>
-        </div> <!-- SPAN QUESTÕES -->
-        <div class="menu-dropdown">
-            <div class="sub-menu">
-                <a href="#"> <span class="menu">MATEMÁTICA</span></a>
-                <a href="#"> <span class="menu">PORTUGUÊS</span></a>
-                <a href="#"> <span class="menu">CIÊNCIA</span></a>
-                <a href="#"> <span class="menu">HISTÓRIA</span></a>
-                <a href="#"> <span class="menu">GEOGRAFIA</span></a>
+                <i class="bx bx-chevron-down"></i>
+
             </div>
-        </div> <!-- MENU MATÉRIAS -->
-        <div class="menu">
-            <i class='bx bx-bar-chart-alt'></i>
-            <span><a href="../../desempenho.php">Desempenho</a></span>
-        </div> <!-- DESEMPENHO -->
-        <div class="menu">
-            <i class="bx bx-cog"></i>
-            <span><a href="configuracoes.html">Configurações</a></span>
-        </div> <!-- CONFIGURAÇÕES -->
-        <div class="menu" style="pointer-events: none;"></div>
-    </div> <!-- MENU LATERAL -->
 
-    <div class="foot">
-        <div class="profile">
-            <?php
-                // Recupera a imagem de perfil do usuário
-                $cod_usuario = $_SESSION['id'];
-                $sql = "SELECT image_data FROM tbImagensPerfil WHERE cod_usuario = $cod_usuario";
-                $result = $conexao->query($sql);
+            <div class="menu-dropdown">
+                <div class="sub-menu">
+                    <a href="#"> <span class="menu">MATEMÁTICA</span></a>
+                    <a href="#"> <span class="menu">PORTUGUÊS</span></a>
+                    <a href="#"> <span class="menu">CIÊNCIA</span></a>
+                    <a href="#"> <span class="menu">HISTÓRIA</span></a>
+                    <a href="#"> <span class="menu">GEOGRAFIA</span></a>
+                </div>
+            </div>
 
-                if ($result->num_rows > 0) {
-                    // Exibe a imagem de perfil
-                    $row = $result->fetch_assoc();
-                    echo '<img src="data:image/jpeg;base64,'.base64_encode($row['image_data']).'" alt="profile">';
-                } else {
-                    // Se o usuário não tiver uma imagem de perfil, exibe uma imagem padrão
-                    echo '<img src="../source/img/perfil-padrao.png" alt="profile">';
-                }
-            ?>
-            <div class="info">
-                <span class="name">
-                    <h1>
-                        <?php echo $_SESSION['user'];?>
-                    </h1>               
-                </span>
+            <div class="menu">
+                <i class='bx bx-bar-chart-alt'></i>
+                <span><a href="../../desempenho.php">Desempenho</a></span>
+            </div>
+
+            <div class="menu">
+            
+                <i class="bx bx-cog"></i>
+                <span> <a href="../../configuracoes.php">Configurações</a></span>
+            </div>
+            
+            <div class="menu" style="pointer-events: none;"></div>
+        </div>
+
+        <div class="foot">
+            <div class="profile">
+                <?php
+                    // Recupera a imagem de perfil do usuário
+                    $cod_usuario = $_SESSION['id'];
+                    $sql = "SELECT image_data FROM tbImagensPerfil WHERE cod_usuario = $cod_usuario";
+                    $result = $conexao->query($sql);
+
+                    if ($result->num_rows > 0) {
+                        // Exibe a imagem de perfil
+                        $row = $result->fetch_assoc();
+                        echo '<img src="data:image/jpeg;base64,'.base64_encode($row['image_data']).'" alt="profile">';
+                    } else {
+                        // Se o usuário não tiver uma imagem de perfil, exibe uma imagem padrão
+                        echo '<img src="../source/img/perfil-padrao.png" alt="profile">';
+                    }
+                ?>
+                <div class="info">
+                    <span class="name">
+                      <h1>
+                      <span><?php echo ucwords($_SESSION['user']); ?></span></h1>
+                                      
+                    </span>
+                  
+                </div>
             </div>
 <!-- pop up de sair -->
 <button id="dark-mode-toggle">DarkMode</button>
@@ -105,12 +116,9 @@
                 <div class="popup-content">
                 <span class="fecha" id="closePopup"><i class='bx bx-x'></i></span>
     <p>Confirmar saída?</p>
-    <a href="../../../source/includes/logout.php"> <button type="submit" class="btnlogout">Sair</button></a>
-    <a href="prova1.php"> <button class="bai" type="submit">Não</button></a>
-
-    </div>
-    </div>
-
+    <a href="../../../source/includes/logout.php"> <button type="submit" class="btnlogout">Sim</button></a>
+    <a href=""> <button class="bai" type="submit">Não</button></a>
+            </div>
         </div>
 
 
@@ -121,9 +129,7 @@
     </aside>
 
 <body>
-   
-    <?php
-    require('../../../source/includes/connect.php'); 
+<?php
     if(!$conexao) {
         die("Falha na conexão com o banco de dados: " . mysqli_connect_error());
     }
@@ -147,7 +153,10 @@
     if ($result->num_rows > 0) {
         echo "<form method='post' action='../../SubPags/calcular_pontuacao.php'>"; // Corrigindo o caminho do action
         // Exibe a imagem de apresentação
-        
+        $img = 'imgs2/apresentacao.PNG';
+            if ( file_exists($img)) {
+                echo "<img src='imgs2/apresentacao.PNG' alt='Imagem de apresentação da prova'>";
+            }
         // Exibe as questões com o formulário para seleção de respostas
         while ($row = $result->fetch_assoc()) {
             echo "<div class='container'>";
@@ -161,20 +170,19 @@
             }
             echo "<p class='questao'>" . $row['text_question'] . "</p>";
             echo "<ul>";
-        echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='A'>" . $row['option_a'] . "</li>";
-        echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='B'>" . $row['option_b'] . "</li>";
-        echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='C'>" . $row['option_c'] . "</li>";
-        echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='D'>" . $row['option_d'] . "</li>";
-        echo "<li class='opcao'><input type='radio' name='q{$row['cod_question']}' value='E'>" . $row['option_e'] . "</li>";
-        echo "</ul>";
-        echo "</div>";
-        
+            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='A'>" . $row['option_a'] . "</label></li>";
+            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='B'>" . $row['option_b'] . "</label></li>";
+            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='C'>" . $row['option_c'] . "</label></li>";
+            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='D'>" . $row['option_d'] . "</label></li>";
+            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='E'>" . $row['option_e'] . "</label></li>";
+            echo "</ul>";
+            echo "</div>";
             
             // Incrementa o contador de questões
             $contador_questao++;
         }
         echo "<input type='hidden' name='ano_prova' value='2019'>";
-        echo "<input type='hidden' name='semestre_prova' value='1'>";
+        echo "<input type='hidden' name='semestre_prova' value='2'>";
         echo "<input type='submit' value='Enviar Respostas'>";
         echo "</form>";
     } else {
@@ -183,8 +191,8 @@
 
     mysqli_close($conexao);
 ?>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
         $('.hamburger-menu').click(function() {
             $('aside').toggleClass('close')
@@ -199,7 +207,7 @@
 
             $(this).next().siblings('.menu-dropdown').children('.sub-menu').children('.menu').removeClass('active')
         })
-
+  
         document.getElementById('openPopup').addEventListener('click', function() {
     document.getElementById('popup').style.display = 'block';
   });
@@ -256,7 +264,6 @@ function watch(){
     document.getElementById('watch').innerText=twoDigits(hr)+':'+twoDigits(min)+':'+twoDigits(sec)
 }
     </script>
-    
  <script src="../../java.js"></script>
 
 </body>

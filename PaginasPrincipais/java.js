@@ -29,6 +29,3 @@ document.getElementById('openPopup').addEventListener('click', function() {
       body.classList.add('dark-mode');
     }
   });
-
-
-
