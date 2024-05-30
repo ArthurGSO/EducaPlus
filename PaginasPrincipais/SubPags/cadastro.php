@@ -10,8 +10,19 @@ include('../../source/includes/connect.php');
         $senha = $_POST['password'];
         $cadastro = date("Y-m-d H:i:s");
         $senhacry = password_hash($senha, PASSWORD_DEFAULT);
-        $sql = "INSERT INTO tbUsuarios(nome_usuario, email_usuario, celular, senha, data_cadastro)VALUES('$nome', '$email', '$telefone', '$senhacry', '$cadastro')";
-        $cadastro = 1;
+        $sql = "INSERT INTO tbUsuarios(nome_usuario, email_usuario, celular, senha, data_cadastro)VALUES(?, ?, ?, ?, '$cadastro')";
+        $stmt = $conexao->prepare($sql);
+        if (!$stmt) {
+            die("Erro na preparação stmt".$conexao->error);
+        }
+        $stmt->bind_param("ssss", $_POST['name'], $_POST['email'], $_POST['number'], password_hash($_POST['password'], PASSWORD_DEFAULT));
+        if ($stmt->execute()) {
+            $cadastro = 1;
+        } else {
+            // Erro ao executar a declaração
+            echo "Erro ao cadastrar os dados: " . $stmt->error;
+        }
+        
             
     } else {
 
@@ -48,7 +59,7 @@ include('../../source/includes/connect.php');
             <img src="../../source/img/4871d9279dcf1c108c0dd3c325844b6a.png" alt="img">
         </div>
         <div class="form">
-            <form action="cadastro.php" method="post">
+            <form onsubmit="return verificarSenhas()" action="cadastro.php" method="post">
                 <div class="form-header">
                     <div class="title">
                         <h1>Cadastre-se</h1>
@@ -93,17 +104,25 @@ include('../../source/includes/connect.php');
 <?php
     if (isset($cadastro) == 1) {
 
-        if(mysqli_query($conexao,$sql)){
-
-                echo "<p><br><br><br><br><br><br><br><br>Cadastro efetuado!!<br>Verifique o seu email!!!</p>";
-                sleep(2);
-                loginRedirect();
+        echo "<p><br><br><br><br><br><br><br><br>Cadastro efetuado!!<br>Verifique o seu email!!!</p>";
+        sleep(2);
+        loginRedirect();
         
-            }else{
-
-                die("Erro ao cadastrar: ").mysqli_connect_error($conexao);
-            }
     }
 ?>
+
+<script>
+    function verificarSenhas() {
+        var senha = document.getElementById("password").value;
+        var confirmarSenha = document.getElementById("confirmPassword").value;
+
+        if (senha !== confirmarSenha) {
+            alert("As senhas não são iguais. Por favor, digite novamente.");
+            return false;
+        }
+        return true;
+    }
+</script>
+
 </body>
 </html>
