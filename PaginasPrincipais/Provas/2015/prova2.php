@@ -93,7 +93,7 @@
                         echo '<img src="data:image/jpeg;base64,'.base64_encode($row['image_data']).'" alt="profile">';
                     } else {
                         // Se o usuário não tiver uma imagem de perfil, exibe uma imagem padrão
-                        echo '<img src="../source/img/perfil-padrao.png" alt="profile">';
+                        echo '<img src="../../../source/img/perfil-padrao.png" alt="profile">';
                     }
                 ?>
                 <div class="info">
