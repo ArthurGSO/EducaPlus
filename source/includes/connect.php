@@ -49,11 +49,10 @@
                 $_SESSION['logstatus'] = TRUE; // Definindo status de login no site
                 
                 usleep(8000);
-                header('Location: ../../PaginasPrincipais/principal.php', true, 301); // Redirect página inicial
-                exit();
-
+                redirect('../../PaginasPrincipais/index.php'); // Redirect página inicial
             } else {
-                $_SESSION['logerror'] = "Erro de login, verifique os dados inseridos!";     
+                $_SESSION['logerror'] = "Erro de login, verifique os dados inseridos!";  
+                redirect('login.php?error=true'); 
             }
         }
     }
@@ -84,6 +83,6 @@
     }
 
     function PrincipalRedirect() {
-        redirect('../../PaginasPrincipais/principal.php');
+        redirect('../../PaginasPrincipais/index.php');
     }
 ?>

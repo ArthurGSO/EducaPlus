@@ -42,7 +42,7 @@
                     <a href="esqueci_senha.php">Esqueceu a senha?</a> <br>
                     <a href="cadastro.php"> Não tem uma conta? Cadastre-se</a>  
                 </div>
-                
+                <h2><?php if(isset($_GET['error'])){ echo $_SESSION['logerror'];} ?></h2>
                 <div class="continue-button">
                         <button type="submit" name="logar"><a href="">Login</a> </button>
                 </div>

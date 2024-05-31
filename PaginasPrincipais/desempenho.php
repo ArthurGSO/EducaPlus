@@ -70,7 +70,7 @@
         <div class="nav">
             <div class="menu">
                 <i class='bx bxs-home'></i>
-                <span><a href="principal.php">Home</a></span>
+                <span><a href="index.php">Home</a></span>
                 </div>
             <div class="menu">
                 <i class="bx bx-task"></i>

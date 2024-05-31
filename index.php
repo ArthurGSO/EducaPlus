@@ -18,7 +18,7 @@
         
         <a href="" class="logo">Educa<span>Plus</span><i class='bx bx-pen bx-flip-vertical bx-tada' style='color:#352eab' ></i></a>
         <?php
-            if(isset($_GET['deluser'])) { echo "<h2><span>Conta apagada com sucesso!!</span></h2>"; }  
+            unset($_SESSION['logerror']); if(isset($_GET['deluser'])) { echo "<h2><span>Conta apagada com sucesso!!</span></h2>"; }  
         ?>
         <nav class="navegation">
             <a href="#home" class="active">Home</a>

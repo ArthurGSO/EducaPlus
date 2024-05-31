@@ -1,5 +1,6 @@
 <?php
-  require('../source/includes/connect.php');
+  session_start();
+  require_once('../source/includes/connect.php');
   date_default_timezone_set('America/Sao_Paulo'); 
 ?>
 <!DOCTYPE html>
@@ -19,7 +20,7 @@
         
       <div class="head">
         <div class="logo">
-            <a href="#" class="logo">Educa<span>Plus</span><i class='bx bx-pen bx-flip-vertical bx-tada' style='color:black' ></i></a>
+            <a href="../index.php" class="logo">Educa<span>Plus</span><i class='bx bx-pen bx-flip-vertical bx-tada' style='color:black' ></i></a>
         </div>
         <i class='bx bx-menu hamburger-menu'></i>
       </div> <!-- HEADER -->
@@ -27,7 +28,7 @@
       <div class="nav">
         <div class="menu active">
             <i class='bx bxs-home'></i>
-            <span><a href="principal.php">Home</a></span>
+            <span><a href="index.php">Home</a></span>
         </div> <!-- BOTÃO HOME -->
 
         <div class="menu">
@@ -116,7 +117,7 @@
               <span class="fecha" id="closePopup"><i class='bx bx-x'></i></span>
               <p>Confirmar saída?</p>
               <a href="../source/includes/logout.php"> <button type="submit" class="btnlogout">Sair</button></a>
-              <a href="principal.php"> <button class="bai" type="submit">Não</button></a>
+              <a href="index.php"> <button class="bai" type="submit">Não</button></a>
             </div>
           </div> <!-- BOTÃO DE SAIR EM POPUP -->
       </div> <!-- LEFT MENU FOOTER -->
@@ -144,15 +145,9 @@
         <div class="prova">
           <div class="titulo"><span> ETEC 2022 </span></div>
           <div class="texto">A prova ETEC 2022 foi marcada por questões complexas de matemática e ciências. Os estudantes que dominavam esses assuntos tiveram um bom desempenho.</div>
-          <a href="provas/2022/prova1.php"><button class="button-29" role="button">Iniciar</button></a>
+          <a href="provas/2022/prova2.php"><button class="button-29" role="button">Iniciar</button></a>
 
         </div> <!-- PROVA 2022 -->
-
-        <div class="prova">
-          <div class="titulo"><span> ETEC 2021 </span></div>
-          <div class="texto">A prova ETEC 2021 destacou-se pelas questões de interpretação de texto. Os estudantes que leram atentamente e entenderam os textos se saíram bem.</div>
-          <a href="provas/2021/prova1.php"><button class="button-29" role="button">Iniciar</button></a>
-        </div> <!-- PROVA 2021 -->
 
         <div class="prova">
           <div class="titulo"><span> ETEC 2020 </span></div>
@@ -218,8 +213,11 @@
         })
     </script>
     
-  <?php } else {
-      include '../source/includes/connect.php';
+  <?php } elseif (isset($_SESSION['logerror'])) {
+      include_once '../source/includes/connect.php';
+      loginRedirectError();
+  } else {
+      include_once '../source/includes/connect.php';
       loginRedirectError();
   } ?>
 
