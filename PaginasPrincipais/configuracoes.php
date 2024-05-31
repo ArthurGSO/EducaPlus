@@ -185,11 +185,29 @@
                                 <button type="submit" name="alterar_imagem" class="button-27">Alterar imagem</button>
                             </form>
                     </div>
-                    <div class="config-box">
+                    <div class="config-box2">
                         <h4>Dados Pessoais</h4>
-                        <h2></h2>
+                            <div class="container-dados">
+                                <div class="dados">
+                                    <p>Nome: <?php echo $_SESSION['user']?></p>
+                                </div> <!-- NOME -->
+                                <div class="dados">
+                                    <p>Email: <?php echo $_SESSION['email']?></p>
+                                </div> <!-- EMAIL -->
+                                <div class="dados">
+                                    <p>Telefone: <?php echo $_SESSION['number']?></p>
+                                </div> <!-- TELEFONE --> 
+                                <div class="dados">
+                                    <p>Data de Cadastro: <?php echo $_SESSION['dt_cadastro'] ?></p>
+                                </div> <!-- DATA DE CADASTRO -->
+                                <div class="dados">
+                                    <p>Data de Login: <?php echo $_SESSION['dt_login']  ?></p>
+                                </div> <!-- DATA DE LOGIN -->
+                            </div> <!-- DADOS PESSOAIS -->
+                        
                         <button class="button-27">Alterar senha</button>
                         <button class="button-29">Salvar Alterações</button>
+                    </div> <!-- MENU DADOS PESSOAIS -->
                 </div>
             </div>
         </section>

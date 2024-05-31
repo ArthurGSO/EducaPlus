@@ -32,7 +32,9 @@
             if(password_verify($senha, $usuario['senha'])) {
 
                 $_SESSION['user'] = $usuario['nome_usuario'];
-                $_SESSION['id'] = $usuario['cod_usuario'];
+                $_SESSION['id'] = $usuario['cod_usuario'];             
+                $_SESSION['email'] = $usuario['email_usuario'];
+                $_SESSION['number'] = $usuario['celular'];
                 $_SESSION['dt_login'] = date('Y-m-d H:i:s');
                   
                 // Query para atualizar a data de login do user no Banco de Dados
