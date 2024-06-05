@@ -49,6 +49,7 @@ CREATE TABLE tbImagens (
     cod_image int not null auto_increment primary key,
     cod_question int not null,
     image_data varchar(255),
+    materia varchar(30),
     foreign key (cod_question) references tbQuestions(cod_question)
 );
 
@@ -762,35 +763,35 @@ CREATE TABLE tbImagensPerfil (
     );
 
 -- INSERT TABLE tbIMAGENS PROVA 2024 1 SEMESTRE
-    INSERT INTO tbImagens (cod_question, image_data)
-        VALUES 
-            (1, 'imgs/txtQ1.png'),
-            (1, 'imgs/mapaQ1.PNG'),
-            (3, 'imgs/txtQ3.PNG'),
-            (5, 'imgs/txtQ5-7.PNG'),
-            (9, 'imgs/txtQ9-11.PNG'),
-            (12, 'imgs/mapaQ12.PNG'),
-            (13, 'imgs/txtQ13-15.PNG'),
-            (16, 'imgs/txtQ16-17.PNG'),
-            (19, 'imgs/txtQ19-21.PNG'),
-            (22, 'imgs/txtQ22.PNG'),
-            (23, 'imgs/txtQ23.PNG'),
-            (24, 'imgs/tabelaQ24.PNG'),
-            (25, 'imgs/txtQ25-27.PNG'),
-            (28, 'imgs/grafQ28-29.PNG'),
-            (30, 'imgs/txtQ30.PNG'),
-            (32, 'imgs/txtQ32.PNG'),
-            (34, 'imgs/txtQ34.PNG'),
-            (35, 'imgs/txtQ35.PNG'),
-            (37, 'imgs/txtQ37.PNG'),
-            (38, 'imgs/txtQ38.PNG'),
-            (39, 'imgs/txtQ39-42.PNG'),
-            (43, 'imgs/txtQ43.PNG'),
-            (45, 'imgs/imgQ45.PNG'),
-            (46, 'imgs/txtQ46.PNG'),
-            (48, 'imgs/txtQ48.PNG'),
-            (49, 'imgs/txtQ49.PNG'),
-            (50, 'imgs/imgQ50.PNG');
+    INSERT INTO tbImagens (cod_question, image_data, materia)
+VALUES 
+    (1, 'imgs/txtQ1.png', 'Matemática'),
+    (1, 'imgs/mapaQ1.PNG', 'Matemática'),
+    (3, 'imgs/txtQ3.PNG', 'Matemática'),
+    (5, 'imgs/txtQ5-7.PNG', 'Matemática'),
+    (9, 'imgs/txtQ9-11.PNG', 'Matemática'),
+    (12, 'imgs/mapaQ12.PNG', 'Matemática'),
+    (13, 'imgs/txtQ13-15.PNG', 'Matemática'),
+    (16, 'imgs/txtQ16-17.PNG', 'Matemática'),
+    (19, 'imgs/txtQ19-21.PNG', 'Matemática'),
+    (22, 'imgs/txtQ22.PNG', 'Matemática'),
+    (23, 'imgs/txtQ23.PNG', 'Matemática'),
+    (24, 'imgs/tabelaQ24.PNG', "Matemática"),
+    (25, 'imgs/txtQ25-27.PNG', 'Matemática'),
+    (28, 'imgs/grafQ28-29.PNG', "Matemática"),
+    (30, 'imgs/txtQ30.PNG', 'Matemática'),
+    (32, 'imgs/txtQ32.PNG', 'Matemática'),
+    (34, 'imgs/txtQ34.PNG', 'Matemática'),
+    (35, 'imgs/txtQ35.PNG', 'Matemática'),
+    (37, 'imgs/txtQ37.PNG', 'Matemática'),
+    (38, 'imgs/txtQ38.PNG', 'Matemática'),
+    (39, 'imgs/txtQ39-42.PNG', "Matemática"),
+    (43, 'imgs/txtQ43.PNG', 'Matemática'),
+    (45, 'imgs/imgQ45.PNG', 'Matemática'),
+    (46, 'imgs/txtQ46.PNG', 'Matemática'),
+    (48, 'imgs/txtQ48.PNG', 'Matemática'),
+    (49, 'imgs/txtQ49.PNG', 'Matemática'),
+    (50, 'imgs/imgQ50.PNG', 'Matemática');
 
 -- INSERT TABLE tbQUESTIONS PROVA 2023 1 SEMESTRE
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre)

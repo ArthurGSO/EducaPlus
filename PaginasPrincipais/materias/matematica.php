@@ -25,7 +25,7 @@
 
         <div class="nav">
         <div class="menu">
-             <a href="../principal.php"><i class='bx bxs-home'></i>
+             <a href="../index.php"><i class='bx bxs-home'></i>
                 <span>Home</span></a>
                 </div>
             <div class="menu">
@@ -155,8 +155,8 @@
     }
 
     // Seleciona as questões do banco de dados
-    $materia = "Matemática"; // Substitua por sua matéria desejada
-    $sql = "SELECT * FROM tbQuestions WHERE Materia = '$materia'";
+    $materia = 'Matemática'; // Substitua por sua matéria desejada
+    $sql = "SELECT * FROM tbQuestions WHERE materia = '$materia'";
     $result = $conexao->query($sql);
 
     $contador_questao = 1;
@@ -173,7 +173,7 @@
             echo "<div class='container'>";
             echo "<h2 class='questao'>Questão $contador_questao:</h2>";// Exibe o número da questão
             $cod_question = $row['cod_question'];
-            $sql_imagens = "SELECT image_data FROM tbImagens WHERE cod_question = $cod_question";
+            $sql_imagens = "SELECT image_data FROM tbImagens WHERE cod_question = '$cod_question'";
             $result_imagens = $conexao->query($sql_imagens);
            
             while ($row_imagem = $result_imagens->fetch_assoc()) {

@@ -59,7 +59,7 @@
 
         <div class="menu-dropdown">
           <div class="sub-menu">
-              <a href="#"> <span class="menu">MATEMÁTICA</span></a>
+              <a href="materias/matematica.php"> <span class="menu">MATEMÁTICA</span></a>
               <a href="#"> <span class="menu">PORTUGUÊS</span></a>
               <a href="#"> <span class="menu">CIÊNCIA</span></a>
               <a href="#"> <span class="menu">HISTÓRIA</span></a>
