@@ -175,8 +175,7 @@
         // Passa o array $questoes para a próxima página via campos ocultos
         foreach ($questoes as $cod_question => $num_questao) {
             echo "<input type='hidden' name='questoes[$cod_question]' value='$num_questao'>";
-        }
-        
+        }      
         echo "<input type='hidden' name='ano_prova' value='2024'>";
         echo "<input type='hidden' name='semestre_prova' value='1'>";
         echo "<input type='submit' value='Enviar Respostas'>";

@@ -764,34 +764,34 @@ CREATE TABLE tbImagensPerfil (
 
 -- INSERT TABLE tbIMAGENS PROVA 2024 1 SEMESTRE
     INSERT INTO tbImagens (cod_question, image_data, materia)
-VALUES 
-    (1, 'imgs/txtQ1.png', 'Matemática'),
-    (1, 'imgs/mapaQ1.PNG', 'Matemática'),
-    (3, 'imgs/txtQ3.PNG', 'Matemática'),
-    (5, 'imgs/txtQ5-7.PNG', 'Matemática'),
-    (9, 'imgs/txtQ9-11.PNG', 'Matemática'),
-    (12, 'imgs/mapaQ12.PNG', 'Matemática'),
-    (13, 'imgs/txtQ13-15.PNG', 'Matemática'),
-    (16, 'imgs/txtQ16-17.PNG', 'Matemática'),
-    (19, 'imgs/txtQ19-21.PNG', 'Matemática'),
-    (22, 'imgs/txtQ22.PNG', 'Matemática'),
-    (23, 'imgs/txtQ23.PNG', 'Matemática'),
-    (24, 'imgs/tabelaQ24.PNG', "Matemática"),
-    (25, 'imgs/txtQ25-27.PNG', 'Matemática'),
-    (28, 'imgs/grafQ28-29.PNG', "Matemática"),
-    (30, 'imgs/txtQ30.PNG', 'Matemática'),
-    (32, 'imgs/txtQ32.PNG', 'Matemática'),
-    (34, 'imgs/txtQ34.PNG', 'Matemática'),
-    (35, 'imgs/txtQ35.PNG', 'Matemática'),
-    (37, 'imgs/txtQ37.PNG', 'Matemática'),
-    (38, 'imgs/txtQ38.PNG', 'Matemática'),
-    (39, 'imgs/txtQ39-42.PNG', "Matemática"),
-    (43, 'imgs/txtQ43.PNG', 'Matemática'),
-    (45, 'imgs/imgQ45.PNG', 'Matemática'),
-    (46, 'imgs/txtQ46.PNG', 'Matemática'),
-    (48, 'imgs/txtQ48.PNG', 'Matemática'),
-    (49, 'imgs/txtQ49.PNG', 'Matemática'),
-    (50, 'imgs/imgQ50.PNG', 'Matemática');
+        VALUES 
+            (1, 'imgs/txtQ1.png', 'Matemática'),
+            (1, 'imgs/mapaQ1.PNG', 'Matemática'),
+            (3, 'imgs/txtQ3.PNG', 'Matemática'),
+            (5, 'imgs/txtQ5-7.PNG', 'Matemática'),
+            (9, 'imgs/txtQ9-11.PNG', 'Matemática'),
+            (12, 'imgs/mapaQ12.PNG', 'Matemática'),
+            (13, 'imgs/txtQ13-15.PNG', 'Matemática'),
+            (16, 'imgs/txtQ16-17.PNG', 'Matemática'),
+            (19, 'imgs/txtQ19-21.PNG', 'Matemática'),
+            (22, 'imgs/txtQ22.PNG', 'Matemática'),
+            (23, 'imgs/txtQ23.PNG', 'Matemática'),
+            (24, 'imgs/tabelaQ24.PNG', "Matemática"),
+            (25, 'imgs/txtQ25-27.PNG', 'Matemática'),
+            (28, 'imgs/grafQ28-29.PNG', "Matemática"),
+            (30, 'imgs/txtQ30.PNG', 'Matemática'),
+            (32, 'imgs/txtQ32.PNG', 'Matemática'),
+            (34, 'imgs/txtQ34.PNG', 'Matemática'),
+            (35, 'imgs/txtQ35.PNG', 'Matemática'),
+            (37, 'imgs/txtQ37.PNG', 'Matemática'),
+            (38, 'imgs/txtQ38.PNG', 'Matemática'),
+            (39, 'imgs/txtQ39-42.PNG', "Matemática"),
+            (43, 'imgs/txtQ43.PNG', 'Matemática'),
+            (45, 'imgs/imgQ45.PNG', 'Matemática'),
+            (46, 'imgs/txtQ46.PNG', 'Matemática'),
+            (48, 'imgs/txtQ48.PNG', 'Matemática'),
+            (49, 'imgs/txtQ49.PNG', 'Matemática'),
+            (50, 'imgs/imgQ50.PNG', 'Matemática');
 
 -- INSERT TABLE tbQUESTIONS PROVA 2023 1 SEMESTRE
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre)
@@ -803,7 +803,7 @@ VALUES
         'C) leitor; humanidade; clima; e Terra.',
         'D) leitores e autor; leitor; parte; e importância.',
         'E) autor e leitores; humanidade; parte do oxigênio; e ameaças.',
-        'A', -- Deixe o campo de resposta correta vazio
+        'A) leitor; leitores e autor; oxigênio; e oceanos.',
         'Português',
         2023,
         '1'
@@ -817,7 +817,7 @@ VALUES
         'C) Perguntas dirigidas ao leitor e linguagem coloquial são utilizadas a fim de conquistar atenção para as informações desenvolvidas e despertar o pensamento reflexivo.',
         'D) A narração predomina no texto, e o narrador procura facilitar a construção das imagens relacionadas às ações dos oceanos expostas por ele.',
         'E) A hashtag (#), utilizada pelo autor, fere a gramática normativa adequada ao gênero desenvolvido, pois o texto deve circular em canais de comunicação formais como revistas científicas.',
-        'C', -- Deixe o campo de resposta correta vazio
+        'C) Perguntas dirigidas ao leitor e linguagem coloquial são utilizadas a fim de conquistar atenção para as informações desenvolvidas e despertar o pensamento reflexivo.',
         'Português',
         2023,
         '1'
@@ -831,7 +831,7 @@ VALUES
         'C) crônica, por tecer comentários pessoais em linguagem coloquial sobre a realidade de mares e oceanos.',
         'D) anúncio publicitário, por tentar convencer os consumidores a comprarem produtos feitos de materiais reutilizáveis.',
         'E) campanha social, por apresentar informações a fim de mobilizar o público sobre a necessidade de proteger os oceanos.',
-        'E', -- Deixe o campo de resposta correta vazio
+        'E) campanha social, por apresentar informações a fim de mobilizar o público sobre a necessidade de proteger os oceanos.',
         'Português',
         2023,
         '1'
@@ -845,7 +845,7 @@ VALUES
         'C) os termos “oceanos” e “mares” são sinônimos, pois representam territórios com formas e tamanhos similares.',
         'D) os mares concentram todas as águas existentes no planeta Terra, daí o nome Planeta Azul.',
         'E) os oceanos se diferenciam dos mares, pois aqueles têm maiores extensões que estes.',
-        'E', -- Deixe o campo de resposta correta vazio
+        'E) os oceanos se diferenciam dos mares, pois aqueles têm maiores extensões que estes.',
         'Geografia',
         2023,
         '1'
@@ -859,7 +859,7 @@ VALUES
         'C) César Augusto Cielo Filho, nadador brasileiro. Recordista e vencedor de diversas competições, conquistou a medalha de ouro nos 50 metros livre nos Jogos Olímpicos, prova mais rápida da natação. Está entre os atletas brasileiros com mais medalhas em Campeonatos Mundiais de qualquer esporte.',
         'D) Isabel Cristina Leopoldina Augusta Micaela Gabriela Rafaela Gonzaga, a Princesa Isabel. Foi a responsável pela assinatura das leis do Ventre Livre e Áurea que, respectivamente, libertava os filhos de escravizados nascidos no Brasil e abolia a escravidão no país.',
         'E) Bruno da Cunha Araújo Pereira, indigenista brasileiro, dedicou-se à proteção dos povos indígenas e da Floresta Amazônica, combatendo ações ilegais de invasores, como garimpeiros e madeireiros, a fim de promover a garantia de direitos a esses povos, como saúde, educação e autonomia.',
-        'E', -- Deixe o campo de resposta correta vazio
+        'E) Bruno da Cunha Araújo Pereira, indigenista brasileiro, dedicou-se à proteção dos povos indígenas e da Floresta Amazônica, combatendo ações ilegais de invasores, como garimpeiros e madeireiros, a fim de promover a garantia de direitos a esses povos, como saúde, educação e autonomia.',
         'História',
         2023,
         '1'
@@ -873,7 +873,7 @@ VALUES
         'C) 10,3.',
         'D) 20,1.',
         'E) 37,1.',
-        'A', -- Deixe o campo de resposta correta vazio
+        'A) 2,9.',
         'Matemática',
         2023,
         '1'
@@ -887,7 +887,7 @@ VALUES
         'C) batendo os pés e os braços ao mesmo tempo.',
         'D) no ponto médio entre o fundo e a superfície do oceano.',
         'E) batendo apenas os pés, mas mantendo os braços junto ao corpo.',
-        'B', -- Deixe o campo de resposta correta vazio
+        'B) mais próximo à superfície do oceano.',
         'Ciências',
         2023,
         '1'
@@ -901,7 +901,7 @@ VALUES
         'C) as focas apresentam diferentes hábitos alimentares e ocupam diferentes níveis tróficos.',
         'D) os peixes pequenos e o krill pertencem ao mesmo nível trófico, pois se alimentam diretamente do fitoplâncton.',
         'E) o extermínio dos pinguins ocasionará a diminuição da população de orcas, pois estas se alimentam daqueles mamíferos.',
-        'C', -- Deixe o campo de resposta correta vazio
+        'C) as focas apresentam diferentes hábitos alimentares e ocupam diferentes níveis tróficos.',
         'Ciências',
         2023,
         '1'
@@ -915,7 +915,7 @@ VALUES
         'C) a baleia-azul é um mamífero sem dentes, que filtra a água do mar de onde retira grandes quantidades de alimento.',
         'D) os peixes pequenos e as lulas competem com a baleia azul e com as focas pelo seu alimento.',
         'E) os pinguins se alimentam principalmente de copépodes e de peixes pequenos.',
-        'C', -- Deixe o campo de resposta correta vazio
+        'C) a baleia-azul é um mamífero sem dentes, que filtra a água do mar de onde retira grandes quantidades de alimento.',
         'Ciências',
         2023,
         '1'
@@ -929,7 +929,7 @@ VALUES
         'C) empatia, pois se conscientiza sobre e realidade daqueles em condições diferentes da sua.',
         'D) acanhamento, porque deve usar tênis velho na rua diante de outras crianças.',
         'E) autonomia, pois, diante do constrangimento de ver crianças descalças, ele doa seu tênis.',
-        'C', -- Deixe o campo de resposta correta vazio
+        'C) empatia, pois se conscientiza sobre e realidade daqueles em condições diferentes da sua.',
         'Português',
         2023,
         '1'
@@ -943,7 +943,7 @@ VALUES
         'C) o resultado de uma sociedade ambientalmente sustentável, que propõe soluções viáveis para a convivência entre os seres vivos.',
         'D) a poluição de mares e rios, que coloca em risco a manutenção da vida nesses ambientes e gera a necessidade de intervenções protetivas.',
         'E) a urgência com que o curso dos rios deve ser alterado para garantir a sobrevivência de peixes e humanos atingidos pela poluição do ar e das águas.',
-        'D', -- Deixe o campo de resposta correta vazio
+        'D) a poluição de mares e rios, que coloca em risco a manutenção da vida nesses ambientes e gera a necessidade de intervenções protetivas.',
         'Geografia',
         2023,
         '1'
@@ -957,7 +957,7 @@ VALUES
         'C) as ações de correntes marítimas frias de origem equatorial.',
         'D) os tremores sísmicos no assoalho oceânico e/ou vulcanismo.',
         'E) os deslocamentos dos oceanos existentes no núcleo interno do nosso planeta.',
-        'D', -- Deixe o campo de resposta correta vazio
+        'D) os tremores sísmicos no assoalho oceânico e/ou vulcanismo.',
         'Geografia',
         2023,
         '1'
@@ -971,7 +971,7 @@ VALUES
         'C) próximo à costa, devido às alterações na salinidade da água, resultantes do grande volume de precipitações.',
         'D) em águas profundas, devido à alteração na densidade da água, promovida pela variação de temperatura e de salinidade da água.',
         'E) em águas profundas, devido à circulação da água junto a outras com substâncias como NaCl, O2, CO2 e CaCO3, em temperatura constante.',
-        'D', -- Deixe o campo de resposta correta vazio
+        'D) em águas profundas, devido à alteração na densidade da água, promovida pela variação de temperatura e de salinidade da água.',
         'Ciências',
         2023,
         '1'
@@ -985,7 +985,7 @@ VALUES
         'C) a formação de recifes de corais, devido à alteração na salinidade pela presença de cloreto de sódio.',
         'D) o transporte de nutrientes para o zooplâncton a fim de realizar a fotossíntese e construir suas conchas.',
         'E) a preservação na salinidade da água devido à formação de gelo, à ebulição, à precipitação e à descarga fluvial.',
-        'A', -- Deixe o campo de resposta correta vazio
+        'A) a retirada de dióxido de carbono da água pelo fitoplâncton por meio da fotossíntese, formando glicose.',
         'Ciências',
         2023,
         '1'
@@ -999,7 +999,7 @@ VALUES
         'C) as algas sargaços, em grande quantidade, podem causar alguns problemas na navegação ao prejudicar as hélices e os motores dos navios, além de emitir mau cheiro devido à decomposição dessas algas acumuladas nas praias.',
         'D) as algas sargaços são utilizadas como matéria-prima na fabricação de papel, antibióticos, cosméticos e sabão; na fermentação alcoólica para a produção de vinho e saquê; e na reciclagem do lixo.',
         'E) as algas sargaços provocam o fenômeno denominado maré vermelha, responsável pela mortandade de peixes, de gaivotas e de outros animais, devido às substâncias tóxicas eliminadas na água.',
-        'C', -- Deixe o campo de resposta correta vazio
+        'C) as algas sargaços, em grande quantidade, podem causar alguns problemas na navegação ao prejudicar as hélices e os motores dos navios, além de emitir mau cheiro devido à decomposição dessas algas acumuladas nas praias.',
         'Ciências',
         2023,
         '1'
@@ -1013,7 +1013,7 @@ VALUES
         'C) a poluição dos oceanos causada por substâncias tóxicas utilizadas nas atividades de mineração é benéfica para as cadeias alimentares dos ecossistemas de mangues e recifes.',
         'D) a pesca predatória ocorre quando a remoção de uma espécie de peixe é feita em um ritmo maior do que a taxa de reprodução da espécie para repor sua população.',
         'E) os plásticos, dentre os diversos tipos de poluentes que afetam os mares, têm a grande vantagem de permanecer pouco tempo no ambiente.',
-        'D', -- Deixe o campo de resposta correta vazio
+        'D) a pesca predatória ocorre quando a remoção de uma espécie de peixe é feita em um ritmo maior do que a taxa de reprodução da espécie para repor sua população.',
         'Ciências',
         2023,
         '1'
@@ -1027,7 +1027,7 @@ VALUES
         'C) armazenar os esgotos sanitários nas lagoas costeiras.',
         'D) jogar os esgotos sanitários nos lagos das usinas hidrelétricas.',
         'E) tratar os esgotos sanitários antes de despejá-los no oceano.',
-        'E', -- Deixe o campo de resposta correta vazio
+        'E) tratar os esgotos sanitários antes de despejá-los no oceano.',
         'Ciências',
         2023,
         '1'
@@ -1041,7 +1041,7 @@ VALUES
         'C) A substituição de copos, talheres, canudos e garrafas descartáveis por produtos reutilizáveis a fim de preservar os ecossistemas durante sua vida útil e também após o descarte.',
         'D) A utilização de sacolinhas plásticas para empacotar as compras no supermercado, pois não prejudicam o meio ambiente e são recicladas para a alimentação da fauna marinha.',
         'E) O estímulo à produção de objetos descartáveis a fim de diminuir o consumo de recursos naturais e de reduzir o volume de lixo no ambiente.',
-        'C', -- Deixe o campo de resposta correta vazio
+        'C) A substituição de copos, talheres, canudos e garrafas descartáveis por produtos reutilizáveis a fim de preservar os ecossistemas durante sua vida útil e também após o descarte.',
         'Ciências',
         2023,
         '1'
@@ -1055,7 +1055,7 @@ VALUES
         'C) a assinatura do Tratado de Madri; e a disputa pelas ilhas do Pacífico, travada entre Portugal e Espanha.',
         'D) o avanço da Inglaterra sobre os territórios conquistados pelos portugueses; e a Guerra dos Cem Anos.',
         'E) a assinatura do Tratado de Tordesilhas; e a chegada dos portugueses ao território do atual Brasil.',
-        'E', -- Deixe o campo de resposta correta vazio
+        'E) a assinatura do Tratado de Tordesilhas; e a chegada dos portugueses ao território do atual Brasil.',
         'História',
         2023,
         '1'
@@ -1069,7 +1069,7 @@ VALUES
         'C) de 2010 para 2019, aumentou 10,5%, ultrapassando aquele efetuado por meio do transporte aéreo.',
         'D) em 2019, foi superior ao quíntuplo daquele registrado por meio de transporte aéreo.',
         'E) em 2019, foi 14% menor que a soma dos percentuais do transporte aéreo e dos outros transportes.',
-        'A', -- Deixe o campo de resposta correta vazio
+        'A) em 2010, foi maior que o dobro da soma dos percentuais do transporte aéreo e dos outros transportes.',
         'Geografia',
         2023,
         '1'
@@ -1083,7 +1083,7 @@ VALUES
         'C) a iodação do sal para consumo humano no Brasil deve ser suspensa, principalmente para crianças e idosos, a fim de manter a baixa prevalência de DDI.',
         'D) o uso de sal de cozinha iodado e o alto consumo de alimentos de origem marinha, além de leite, ovos e algumas frutas, estão entre as causas do aumento dos casos de DDI.',
         'E) uma criança com deficiência de iodo pode apresentar, em seu desenvolvimento, baixo crescimento dos ossos e deficiência intelectual.',
-        'E', -- Deixe o campo de resposta correta vazio
+        'E) uma criança com deficiência de iodo pode apresentar, em seu desenvolvimento, baixo crescimento dos ossos e deficiência intelectual.',
         'Ciências',
         2023,
         '1'
@@ -1097,7 +1097,7 @@ VALUES
         'C) físico, denominado decantação.',
         'D) químico, denominado evaporação.',
         'E) químico, denominado ebulição.',
-        'A', -- Deixe o campo de resposta correta vazio
+        'A) físico, denominado vaporização.',
         'Ciências',
         2023,
         '1'
@@ -1111,7 +1111,7 @@ VALUES
         'C) 1,50.',
         'D) 3,00.',
         'E) 4,50.',
-        'B', -- Deixe o campo de resposta correta vazio
+        'B) 0,02.',
         'Ciências',
         2023,
         '1'
@@ -1125,7 +1125,7 @@ VALUES
         'C) 74 elétrons.',
         'D) 74 prótons.',
         'E) 127 nêutrons.',
-        'A', -- Deixe o campo de resposta correta vazio
+        'A) 53 prótons.',
         'Ciências',
         2023,
         '1'
@@ -1139,7 +1139,7 @@ VALUES
         'C) a aparência gelatinosa que o peixe-gota assume para afastar seus predadores.',
         'D) a necessidade de se adequar a padrões de beleza impostos pela sociedade.',
         'E) a dilatação sofrida por um corpo quando ele se encontra no fundo do oceano.',
-        'D', -- Deixe o campo de resposta correta vazio
+        'D) a necessidade de se adequar a padrões de beleza impostos pela sociedade.',
         'Português',
         2023,
         '1'
@@ -1153,7 +1153,7 @@ VALUES
         'C) as riquezas existentes nos oceanos devem ser exploradas por empresas privadas, a fim de impedir que empresas estatais se apropriem desses bens.',
         'D) o conhecimento que se tem sobre os oceanos deve ser disseminado entre as pessoas devido à importância que esse ambiente possui.',
         'E) o entendimento sobre os oceanos deve ficar armazenado nas universidades públicas para beneficiar as empresas petrolíferas.',
-        'D', -- Deixe o campo de resposta correta vazio
+        'D) o conhecimento que se tem sobre os oceanos deve ser disseminado entre as pessoas devido à importância que esse ambiente possui.',
         'Geografia',
         2023,
         '1'
@@ -1167,7 +1167,7 @@ VALUES
         'C) os diferentes povos que habitavam a Europa utilizavam preferencialmente as rotas terrestres para seus deslocamentos pelo continente.',
         'D) o mar Mediterrâneo foi largamente navegado pelos povos antigos, que estabeleceram contatos e miscigenaram suas culturas.',
         'E) devido à sua forte interação, os vários povos antigos mantiveram a pureza de suas tradições e de suas culturas.',
-        'D', -- Deixe o campo de resposta correta vazio
+        'D) o mar Mediterrâneo foi largamente navegado pelos povos antigos, que estabeleceram contatos e miscigenaram suas culturas.',
         'História',
         2023,
         '1'
@@ -1181,7 +1181,7 @@ VALUES
         'C) 5.',
         'D) 6.',
         'E) 7.',
-        'C', -- Deixe o campo de resposta correta vazio
+        'C) 5.',
         'Ciências',
         2023,
         '1'
@@ -1195,7 +1195,7 @@ VALUES
         'C) subir até a metade do caminho e aumentar a velocidade de subida na metade final.',
         'D) subir rapidamente até o nível do mar para diminuir a pressão o mais rápido possível.',
         'E) subir lentamente até o nível do mar para que a pressão varie o mínimo possível ao longo do tempo.',
-        'E', -- Deixe o campo de resposta correta vazio
+        'E) subir lentamente até o nível do mar para que a pressão varie o mínimo possível ao longo do tempo.',
         'Ciências',
         2023,
         '1'
@@ -1209,7 +1209,7 @@ VALUES
         'C) concentrou a produção industrial nas manufaturas dos países periféricos do continente africano e possibilitou o aproveitamento da oferta de mão de obra barata e qualificada.',
         'D) favoreceu o desenvolvimento do ramo do turismo e, associado à conquista de direitos trabalhistas como férias pelos operários escravizados, foi responsável pelo aumento da circulação de pessoas nos cinco continentes.',
         'E) reorientou a economia inglesa, que passou a se dedicar majoritariamente à produção de insumos para a indústria naval, em detrimento da produção de tecidos e outras mercadorias que caracterizaram a Primeira Revolução Industrial.',
-        'B', -- Deixe o campo de resposta correta vazio
+        'B) diminuiu o tempo do transporte de matérias-primas e mercadorias, barateou o preço do frete e possibilitou a expansão dos mercados consumidores ao ligar diferentes partes do globo.',
         'História',
         2023,
         '1'
@@ -1223,7 +1223,7 @@ VALUES
         'C) 0,010.',
         'D) 0,200.',
         'E) 1,000.',
-        'A', -- Deixe o campo de resposta correta vazio
+        'A) 0,014.',
         'Ciências',
         2023,
         '1'
@@ -1237,7 +1237,7 @@ VALUES
         'C) 0,3.',
         'D) 0,4.',
         'E) 0,5.',
-        'B', -- Deixe o campo de resposta correta vazio
+        'B) 0,2.',
         'Ciências',
         2023,
         '1'
@@ -1251,7 +1251,7 @@ VALUES
         'C) à intolerância religiosa, que responsabiliza Iemanjá pelos processos históricos que possibilitaram a escravização de africanos.',
         'D) ao período imperial do Brasil que, quando governado por Iemanjá, anexou partes importantes do território africano.',
         'E) à escravização e ao tráfico de mão-de-obra africana para a realização dos mais diferentes trabalhos no Brasil.',
-        'E', -- Deixe o campo de resposta correta vazio
+        'E) à escravização e ao tráfico de mão-de-obra africana para a realização dos mais diferentes trabalhos no Brasil.',
         'História',
         2023,
         '1'
@@ -1265,7 +1265,7 @@ VALUES
         'C) pelo uso recorrente da lama como matéria-prima para a indústria.',
         'D) pelo desenvolvimento urbano e socioambiental.',
         'E) pela riqueza de oportunidades ao indivíduo.',
-        'B', -- Deixe o campo de resposta correta vazio
+        'B) pela pobreza, reforçada pelas imagens do urubu e da sujeira.',
         'Português',
         2023,
         '1'
@@ -1279,7 +1279,7 @@ VALUES
         'C) as preposições “de” e “a”, na passagem “da lama ao caos”, indicam respectivamente origem e destino.',
         'D) “quanto” pode ser substituído por “embora” na passagem “quanto mais miséria tem”.',
         'E) o gerúndio em “pintando” e “segurando” expressa ações concluídas no passado.',
-        'C', -- Deixe o campo de resposta correta vazio
+        'C) as preposições “de” e “a”, na passagem “da lama ao caos”, indicam respectivamente origem e destino.',
         'Português',
         2023,
         '1'
@@ -1293,7 +1293,7 @@ VALUES
         'C) 11',
         'D) 8',
         'E) 4',
-        'B', -- Deixe o campo de resposta correta vazio
+        'B) 13',
         'Matemática',
         2023,
         '1'
@@ -1307,7 +1307,7 @@ VALUES
         'C) 3,0×10^2.',
         'D) 3,0×10^1.',
         'E) 3,0×10^0.',
-        'B', -- Deixe o campo de resposta correta vazio
+        'B) 3,0×10^3.',
         'Geografia',
         2023,
         '1'
@@ -1321,7 +1321,7 @@ VALUES
         'C) ambientes costeiros que apresentam raízes aéreas e que existem exclusivamente nos estados do Amapá e de Santa Catarina.',
         'D) áreas de proteção permanente, além de serem fundamentais para a reprodução de diversas espécies de peixes e crustáceos.',
         'E) encontrados nas regiões litorâneas do Brasil, principalmente nos estados de Tocantins e Goiás.',
-        'D', -- Deixe o campo de resposta correta vazio
+        'D) áreas de proteção permanente, além de serem fundamentais para a reprodução de diversas espécies de peixes e crustáceos.',
         'Ciências',
         2023,
         '1'
@@ -1335,7 +1335,7 @@ VALUES
         'C) o ataque do Terceiro Estado contra Luís XVI, na Revolução Francesa, em 1789.',
         'D) o Desembarque de tropas dos países aliados na Normandia, litoral da França, em 1944.',
         'E) a Guerra Franco-Prussiana, que colocou fim ao processo de Unificação Alemã em 1871.',
-        'D', -- Deixe o campo de resposta correta vazio
+        'D) o Desembarque de tropas dos países aliados na Normandia, litoral da França, em 1944.',
         'História',
         2023,
         '1'
@@ -1349,7 +1349,7 @@ VALUES
         'C) 12.',
         'D) 10.',
         'E) 4.',
-        'B', -- Deixe o campo de resposta correta vazio
+        'B) 32.',
         'Matemática',
         2023,
         '1'
@@ -1399,7 +1399,7 @@ VALUES
         'C) um pouco, origem, diferentes, particular.',
         'D) metade, força, discretos, inerente.',
         'E) ora, origem, diferentes, genérica.',
-        'C', -- Deixe o campo de resposta correta vazio
+        'C) um pouco, origem, diferentes, particular.',
         'Português',
         2023,
         '2'
@@ -1413,7 +1413,7 @@ VALUES
         'C) ao texto jornalístico desenvolvido para comentar o conflito entre indígenas e portugueses.',
         'D) à brevidade do próprio texto, cuja concisão se deve à origem popular do tema.',
         'E) aos elementos históricos ligados à incorporação da viola em nossa cultura.',
-        'E', -- Deixe o campo de resposta correta vazio
+        'E) aos elementos históricos ligados à incorporação da viola em nossa cultura.',
         'Português',
         2023,
         '2'
@@ -1427,7 +1427,7 @@ VALUES
         'C) o conceito de cultura caipira é anterior à Colonização, uma vez que se origina nos hábitos dos povos indígenas.',
         'D) o caipira, cuja cultura fora menosprezada por ser tachada como atrasada, tornou-se símbolo da identidade paulista.',
         'E) a técnica e o ritmo da música caipira são simples por serem resultado da junção das culturas indígena, africana e portuguesa.',
-        'D', -- Deixe o campo de resposta correta vazio
+        'D) o caipira, cuja cultura fora menosprezada por ser tachada como atrasada, tornou-se símbolo da identidade paulista.',
         'Português',
         2023,
         '2'
@@ -1441,7 +1441,7 @@ VALUES
         'C) ao dialeto falado pelos portugueses da corte que, quando chegaram ao Brasil, desenvolveram uma linguagem própria, traduzida no ritmo sofisticado da viola caipira.',
         'D) ao processo de industrialização, na década de 1960, em que a viola caipira virou símbolo de modernidade e foi adotada pelos membros da burguesia.',
         'E) ao uso que os bandeirantes deram ao instrumento trazido ao Brasil pelos negros escravizados no continente africano, no início do século XVI.',
-        'B', -- Deixe o campo de resposta correta vazio
+        'B) à atuação dos bandeirantes, que realizavam expedições ao interior para escravizar populações indígenas e procurar metais preciosos no período colonial.',
         'Português',
         2023,
         '2'
@@ -1455,7 +1455,7 @@ VALUES
         'C) C',
         'D) D',
         'E) E',
-        'A', -- Deixe o campo de resposta correta vazio
+        'A) A',
         'Ciências',
         2023,
         '2'
@@ -1469,7 +1469,7 @@ VALUES
         'C) a gênese da coxinha é incerta, sua receita sofreu modificações no decorrer dos anos, e é um alimento popular em São Paulo.',
         'D) o salgadinho, apesar de ser feito com ingredientes acessíveis e populares, é símbolo da elite industrial paulista.',
         'E) a atribuição da origem da coxinha à família real é estratégia de marketing para aumentar o preço da iguaria popular.',
-        'C', -- Deixe o campo de resposta correta vazio
+        'C) a gênese da coxinha é incerta, sua receita sofreu modificações no decorrer dos anos, e é um alimento popular em São Paulo.',
         'Português',
         2023,
         '2'
@@ -1483,7 +1483,7 @@ VALUES
         'C) narrativo, por contar a trajetória do alimento, desde a sua invenção até à chegada ao Brasil.',
         'D) descritivo, por caracterizar as impressões sensoriais de quem prova uma coxinha.',
         'E) prescritivo, por enfatizar a criatividade dos cozinheiros no preparo das coxinhas.',
-        'B', -- Deixe o campo de resposta correta vazio
+        'B) injuntivo, por fornecer comandos que podem ser seguidos na receita do alimento.',
         'Português',
         2023,
         '2'
@@ -1497,7 +1497,7 @@ VALUES
         'C) 490.',
         'D) 630.',
         'E) 770.',
-        'C', -- Deixe o campo de resposta correta vazio
+        'C) 490.',
         'Matemática',
         2023,
         '2'
@@ -1511,7 +1511,7 @@ VALUES
         'C) disciplina e perseverança, uma vez que a tentativa e o erro eram estimuladores do seu processo criativo.',
         'D) persistência e determinação, dado que o fracasso era uma opção aceitável dentro do contexto.',
         'E) iniciativa e empreendedorismo, pois a experimentação de novas ideias criou um produto.',
-        'E', -- Deixe o campo de resposta correta vazio
+        'E) iniciativa e empreendedorismo, pois a experimentação de novas ideias criou um produto.',
         'Português',
         2023,
         '2'
@@ -1525,7 +1525,7 @@ VALUES
         'C) foi imposta pelos poderes político e religioso, por meio de decretos papais e projetos de lei, embora não tivesse apelo popular.',
         'D) é um fenômeno inexpressivo na história do Brasil, tendo sido ignorada pelas autoridades desde o período colonial.',
         'E) iniciou-se no Brasil colônia, atravessou o período imperial e se manteve viva na República.',
-        'E', -- Deixe o campo de resposta correta vazio
+        'E) iniciou-se no Brasil colônia, atravessou o período imperial e se manteve viva na República.',
         'História',
         2023,
         '2'
@@ -1539,7 +1539,7 @@ VALUES
         'C) A utilização de produtos biodegradáveis e a reciclagem de materiais.',
         'D) A potencialização do efeito estufa e a modificação de habitat.',
         'E) A diminuição de mananciais e a extinção de espécies.',
-        'C', -- Deixe o campo de resposta correta vazio
+        'C) A utilização de produtos biodegradáveis e a reciclagem de materiais.',
         'Ciências',
         2023,
         '2'
@@ -1553,7 +1553,7 @@ VALUES
         'C) tenha empatia para com o próximo.',
         'D) conte com a causalidade do destino.',
         'E) alimente-se de forma saudável e pratique atividades físicas.',
-        'B', -- Deixe o campo de resposta correta vazio
+        'B) saia de sua zona de conforto.',
         'Sociologia',
         2023,
         '2'
@@ -1567,7 +1567,7 @@ VALUES
         'C) NO2, formado por átomos de 3 elementos químicos.',
         'D) NO e o NO2, que diferem por 1 elemento químico.',
         'E) CO, que, diferentemente do CO2, é formado por 2 elementos químicos.',
-        'B', -- Deixe o campo de resposta correta vazio
+        'B) O3, formado por 3 átomos de 1 elemento químico.',
         'Ciências',
         2023,
         '2'
@@ -1581,7 +1581,7 @@ VALUES
         'C) a produção do soro antipestoso, utilizado para eliminar as pulgas parasitas dos ratos contaminados, acabou com o surto da peste bubônica na cidade de Santos.',
         'D) aprevenção contra casos de envenenamentos por animais e contra doenças comuns no Brasil, como tuberculose e verminoses, é feita através de vacinação da população.',
         'E) o soro é obtido de um animal que recebe o antígeno e, posteriormente, tem parte do seu sangue retirado para extração dos anticorpos.',
-        'E', -- Deixe o campo de resposta correta vazio
+        'E) o soro é obtido de um animal que recebe o antígeno e, posteriormente, tem parte do seu sangue retirado para extração dos anticorpos.',
         'Ciências',
         2023,
         '2'
@@ -1595,7 +1595,7 @@ VALUES
         'C) a Ponte Pênsil foi construída para sustentar os encanamentos responsáveis pelo carregamento do esgoto colhido nas cidades de São Vicente e de Santos.',
         'D) a usina hidrelétrica de Itaipu, em São Vicente, foi a responsável pela construção da Ponte Pênsil, encarregada de enviar água para movimentar suas turbinas.',
         'E) os municípios do Japuí e dos Barbosas passaram a ter uma ligação terrestre por meio da Ponte Pênsil, pois, anteriormente, a ligação entre eles era realizada por intermédio de barcos.',
-        'C', -- Deixe o campo de resposta correta vazio
+        'C) a Ponte Pênsil foi construída para sustentar os encanamentos responsáveis pelo carregamento do esgoto colhido nas cidades de São Vicente e de Santos.',
         'História',
         2023,
         '2'
@@ -1609,7 +1609,7 @@ VALUES
         'C) consolidou-se como metrópole industrial, concentrando o parque industrial brasileiro na capital e em sua região metropolitana, principalmente a partir da década de 1950, com a chegada das indústrias automobilísticas.',
         'D) permaneceu como uma vila pobre e isolada do litoral, sendo a única vila no interior do Brasil, mantendo-se por meio de lavouras de subsistência cultivadas por mulheres e crianças.',
         'E) vivenciou a expansão da produção do café, inicialmente na região da Avenida Paulista e depois nas regiões de Cidade Ademar, Santo Amaro, Butantã, Morumbi e Casa Verde.',
-        'C', -- Deixe o campo de resposta correta vazio
+        'C) consolidou-se como metrópole industrial, concentrando o parque industrial brasileiro na capital e em sua região metropolitana, principalmente a partir da década de 1950, com a chegada das indústrias automobilísticas.',
         'História',
         2023,
         '2'
@@ -1623,7 +1623,7 @@ VALUES
         'C) 350,0.',
         'D) 970,9.',
         'E) 97,0.',
-        'D', -- Deixe o campo de resposta correta vazio
+        'D) 970,9.',
         'Matemática',
         2023,
         '2'
@@ -1637,7 +1637,7 @@ VALUES
         'C) NaCl, KCl, Mg2Cl',
         'D) ClNa, ClK, Cl2Mg',
         'E) ClNa, ClK, ClMg',
-        'B', -- Deixe o campo de resposta correta vazio
+        'B) NaCl, KCl, MgCl2',
         'Ciências',
         2023,
         '2'
@@ -1651,7 +1651,7 @@ VALUES
         'C) camuflagem.',
         'D) inquilinismo.',
         'E) predatismo.',
-        'C', -- Resposta correta é a opção C
+        'C) camuflagem.',
         'Ciências',
         2023,
         '2'
@@ -1665,7 +1665,7 @@ VALUES
         'C) marés altas nas regiões da Terra em que é dia, porque essas regiões estão mais próximas do Sol.',
         'D) marés baixas nas regiões da Terra em que é noite, porque essas regiões estão mais distantes do Sol.',
         'E) marés altas em regiões da Terra que estão mais próximas da Lua ao longo do movimento de rotação da Terra.',
-        'E', -- Deixe o campo de resposta correta vazio
+        'E) marés altas em regiões da Terra que estão mais próximas da Lua ao longo do movimento de rotação da Terra.',
         'Geografia',
         2023,
         '2'
@@ -1679,7 +1679,7 @@ VALUES
         'C) a Sabesp contribuiu na prevenção da mortalidade infantil por meio não só da produção e da distribuição de água potável, mas também da coleta de esgoto.',
         'D) o Sistema Cantareira é responsável pela distribuição de água potável em todo o estado de São Paulo.',
         'E) as ETAs são fábricas produtoras de água destilada que, posteriormente, é tratada para ser, então, distribuída.',
-        'C', -- Deixe o campo de resposta correta vazio
+        'C) a Sabesp contribuiu na prevenção da mortalidade infantil por meio não só da produção e da distribuição de água potável, mas também da coleta de esgoto.',
         'Ciências',
         2023,
         '2'
@@ -1693,7 +1693,7 @@ VALUES
         'C) 1,50',
         'D) 1,75',
         'E) 2,00',
-        'E', -- Deixe o campo de resposta correta vazio
+        'E) 2,00',
         'Matemática',
         2023,
         '2'
@@ -1707,7 +1707,7 @@ VALUES
         'C) 1,0 × 10^9.',
         'D) 1,0 × 10^10.',
         'E) 1,0 × 10^11.',
-        'D', -- Deixe o campo de resposta correta vazio
+        'D) 1,0 × 10^10.',
         'Matemática',
         2023,
         '2'
@@ -1721,7 +1721,7 @@ VALUES
         'C) solubilidade, pois os flocos são dissolvidos e separados na filtração.',
         'D) solubilidade, pois os flocos formados irão para a superfície dos tanques e serão retirados com peneiras.',
         'E) densidade, pois os flocos formados irão para o fundo dos tanques e serão aspirados lentamente.',
-        'E', -- Deixe o campo de resposta correta vazio
+        'E) densidade, pois os flocos formados irão para o fundo dos tanques e serão aspirados lentamente.',
         'Ciências',
         2023,
         '2'
@@ -1735,7 +1735,7 @@ VALUES
         'C) o flúor, adicionado à água potável, atua na digestão dos resíduos alimentares que ficam na cavidade bucal quando a higienização não é realizada corretamente.',
         'D) a fluoretação da água aumenta a desmineralização do esmalte dos dentes, reduzindo o aparecimento de cáries, por isso é um processo importante na saúde bucal.',
         'E) o flúor é usado na prevenção de cáries, pois fortalece o esmalte dos dentes, formando um material resistente à acidez decorrente da ação de bactérias.',
-        'E', -- Resposta correta
+        'E) o flúor é usado na prevenção de cáries, pois fortalece o esmalte dos dentes, formando um material resistente à acidez decorrente da ação de bactérias.',
         'Ciências',
         2023,
         '2'
@@ -1749,7 +1749,7 @@ VALUES
         'C) o rio Tietê possui 122 quilômetros, sendo que, destes, 71 estão poluídos.',
         'D) o trecho morto do rio Tietê aumentou 41 quilômetros entre os anos de 2018 e 2019.',
         'E) as promessas de limpeza do rio Tietê já ocorriam em 1940 devido a pressões populares.',
-        'D', -- Deixe o campo de resposta correta vazio
+        'D) o trecho morto do rio Tietê aumentou 41 quilômetros entre os anos de 2018 e 2019.',
         'Geografia',
         2023,
         '2'
@@ -1763,7 +1763,7 @@ VALUES
         'C) a chegada da Família Real Portuguesa ao Rio de Janeiro.',
         'D) o extermínio dos povos indígenas do Planalto Paulista.',
         'E) a Proclamação da Independência do Brasil.',
-        'E', -- Deixe o campo de resposta correta vazio
+        'E) a Proclamação da Independência do Brasil.',
         'História',
         2023,
         '2'
@@ -1777,7 +1777,7 @@ VALUES
         'C) Ser estagiário remunerado em uma empresa de distribuição de alimentos.',
         'D) Visitar e conversar com pacientes internados em hospitais.',
         'E) Atuar profissionalmente na elaboração de jogos on-line.',
-        'D', -- Deixe o campo de resposta correta vazio
+        'D) Visitar e conversar com pacientes internados em hospitais.',
         'Sociologia',
         2023,
         '2'
@@ -1791,7 +1791,7 @@ VALUES
         'C) o cartum demonstra, por meio da linguagem não verbal, que as bicicletas não são veículos viáveis para a mobilidade urbana.',
         'D) a charge tematiza a impossibilidade de solucionar a falta de mobilidade nos grandes centros urbanos.',
         'E) o cartum representa a dificuldade de vivenciar plenamente a cidade devido à falta de automóveis.',
-        'A', -- Deixe o campo de resposta correta vazio
+        'A) a charge aborda a oposição entre mobilidade e imobilidade, sendo esta representada pela imagem de uma expressão figurada.',
         'Português',
         2023,
         '2'
@@ -1805,7 +1805,7 @@ VALUES
         'C) as reticências utilizadas expressam a continuidade de uma enumeração não concluída.',
         'D) “que” é um conectivo de comparação e está subordinado ao termo “melhor”.',
         'E) “para” é uma preposição final utilizada, no texto, para indicar o destino da personagem.',
-        'D', -- Deixe o campo de resposta correta vazio
+        'D) “que” é um conectivo de comparação e está subordinado ao termo “melhor”.',
         'Português',
         2023,
         '2'
@@ -1819,7 +1819,7 @@ VALUES
         'C) entrava no país pelo porto de Santos, vindo da Etiópia, e era distribuído nos entrepostos e armazéns do interior de São Paulo.',
         'D) ocupava posição irrelevante na pauta de exportações brasileiras, sendo consumido em países pequenos, como Guiana Francesa e Suriname.',
         'E) era enviado principalmente para os Estados Unidos e para diferentes países da Europa, sendo o principal produto de exportação do Brasil.',
-        'E', -- Deixe o campo de resposta correta vazio
+        'E) era enviado principalmente para os Estados Unidos e para diferentes países da Europa, sendo o principal produto de exportação do Brasil.',
         'História',
         2023,
         '2'
@@ -1833,7 +1833,7 @@ VALUES
         'C) 39,5 km/h',
         'D) 34,5 km/h',
         'E) 24,5 km/h',
-        'C', -- Deixe o campo de resposta correta vazio
+        'C) 39,5 km/h',
         'Matemática',
         2023,
         '2'
@@ -1847,7 +1847,7 @@ VALUES
         'C) fertilizante.',
         'D) trigo.',
         'E) soja.',
-        'E', -- Deixe o campo de resposta correta vazio
+        'E) soja.',
         'Geografia',
         2023,
         '2'
@@ -1861,7 +1861,7 @@ VALUES
         'C) a estação Nipônica foi assim nomeada como uma homenagem aos imigrantes japoneses que vieram ao Brasil no século XIX para participar da construção de ferrovias.',
         'D) o nome de cada estação da linha citada estava ligado tanto a eventos históricos vinculados ao estado de São Paulo quanto a correntes imigratórias e à localização geográfica.',
         'E) o nome das estações coincide com o nome das cidades que se formaram ao seu redor, pois elas mantiveram suas denominações e, portanto, não houve trocas de nomes até os dias de hoje.',
-        'D', -- Deixe o campo de resposta correta vazio
+        'D) o nome de cada estação da linha citada estava ligado tanto a eventos históricos vinculados ao estado de São Paulo quanto a correntes imigratórias e à localização geográfica.',
         'História',
         2023,
         '2'
@@ -1875,7 +1875,7 @@ VALUES
         'C) um projeto de vida bem estruturado é como um barco sem instrumentos de navegação e sem cinemas que nos permitam assistir a filmes sem roteiros previamente traçados.',
         'D) toda revolução é um retrocesso e a única possível é aquela que faz nossa caminhada seguir além do túmulo, ou seja, quando transformamos o regime social de nosso país em um império.',
         'E) nossa realização como pessoa necessita de retrocessos para que possamos nos desvencilhar de qualquer caminho pré-estabelecido e, assim, construirmos nossos sonhos sem as amarras da sociedade.',
-        'B', -- Resposta correta
+        'B) o estabelecimento dos próprios caminhos e o esforço para fazer o nosso melhor são ações fundamentais para empreender qualquer projeto de vida.',
         'Sociologia',
         2023,
         '2'
@@ -1889,7 +1889,7 @@ VALUES
         'C) manter o consumo elevado de sal, e aumentar o consumo de bebida alcoólica.',
         'D) controlar o excesso de peso, e tomar as medicações quando indicadas.',
         'E) comer alimentos ricos em carboidratos, óleos e gorduras; e excluir legumes, verduras e cereais.',
-        'D', -- Opção correta
+        'D) controlar o excesso de peso, e tomar as medicações quando indicadas.',
         'Ciências',
         2023,
         '2'
@@ -1903,7 +1903,7 @@ VALUES
         'C) a demolição da Igreja de Nossa Senhora do Rosário dos Homens Pretos era parte do objetivo de eliminar do centro da cidade qualquer elemento considerado atrasado, que lembrasse o passado colonial.',
         'D) embora São Paulo possuísse símbolos modernos, ela só passou a ser considerada moderna, como as cidades dos países civilizados, quando Antônio da Silva Prado criou o cargo de prefeito em 1911.',
         'E) a criação do cargo de prefeito interrompeu os esforços de modernização da capital, a remodelação dos espaços e do aparelhamento urbano, especialmente no centro da cidade.',
-        'C', -- Deixe o campo de resposta correta vazio
+        'C) a demolição da Igreja de Nossa Senhora do Rosário dos Homens Pretos era parte do objetivo de eliminar do centro da cidade qualquer elemento considerado atrasado, que lembrasse o passado colonial.',
         'História',
         2023,
         '2'
@@ -1917,7 +1917,7 @@ VALUES
         'C) heptágono.',
         'D) undecágono.',
         'E) dodecágono.',
-        'D', -- Deixe o campo de resposta correta vazio
+        'D) undecágono.',
         'Matemática',
         2023,
         '2'
@@ -1931,7 +1931,7 @@ VALUES
         'C) isósceles e obtusângulo.',
         'D) escaleno e obtusângulo.',
         'E) isósceles e retângulo.',
-        'C', -- Deixe o campo de resposta correta vazio
+        'C) isósceles e obtusângulo.',
         'Matemática',
         2023,
         '2'
@@ -1945,7 +1945,7 @@ VALUES
         'C) todos os vegetais descritos nos espaços de visitação são aclorofilados, portanto incapazes de realizar fotossíntese e de produzir seu próprio alimento.',
         'D) as espécies pau-brasil e imbuia são plantas arbustivas, de dois a seis metros de altura, que estão ameaçadas de extinção, pois não possuem vasos condutores de seiva.',
         'E) a presença de bichos-preguiça e bugios no Jardim Botânico é prejudicial ao equilíbrio do ecossistema, pois são carnívoros e competem entre si pelo alimento escasso.',
-        'B', -- Deixe o campo de resposta correta vazio
+        'B) os ciprestes e os pinheiros são plantas conhecidas como gimnospermas, pois formam sementes não envolvidas por frutos.',
         'Ciências',
         2023,
         '2'
@@ -1959,7 +1959,7 @@ VALUES
         'C) Dom Pedro I se dirigia a essa árvore para chorar e lamentar a ida de milhares de paulistas para lutarem na Guerra do Paraguai.',
         'D) essa árvore foi trazida do Paraguai durante a Guerra para servir de apoio psicológico para as mães que tinham perdido seus filhos no conflito.',
         'E) a árvore, que dá nome a uma estrada localizada no município de São Paulo, está protegida, hoje em dia, pelo poder público, que proíbe seu corte.',
-        'E', -- Deixe o campo de resposta correta vazio
+        'E) a árvore, que dá nome a uma estrada localizada no município de São Paulo, está protegida, hoje em dia, pelo poder público, que proíbe seu corte.',
         'História',
         2023,
         '2'
@@ -1973,7 +1973,7 @@ VALUES
         'C) as partes duras dos animais, como dentes, ossos, vértebras e carapaças, não são passíveis de fossilização.',
         'D) os registros paleontológicos revelam informações as quais permitem os estudos sobre seres vivos de determinadas épocas.',
         'E) as partes moles dos animais e dos vegetais são rapidamente fossilizadas devido à presença de bactérias e fungos decompositores.',
-        'D', -- Deixe o campo de resposta correta vazio
+        'D) os registros paleontológicos revelam informações as quais permitem os estudos sobre seres vivos de determinadas épocas.',
         'Ciências',
         2023,
         '2'
@@ -1987,7 +1987,7 @@ VALUES
         'C) 36.',
         'D) 42.',
         'E) 210.',
-        'B', -- Deixe o campo de resposta correta vazio
+        'B) 30.',
         'Matemática',
         2023,
         '2'
@@ -2001,7 +2001,7 @@ VALUES
         'C) Sudoeste.',
         'D) Sudeste.',
         'E) Norte.',
-        'D', -- Deixe o campo de resposta correta vazio
+        'D) Sudeste.',
         'Geografia',
         2023,
         '2'
@@ -2015,7 +2015,7 @@ VALUES
         'C) Eldorado.',
         'D) Ilhabela.',
         'E) Olímpia.',
-        'A', -- Deixe o campo de resposta correta vazio
+        'A) Aparecida.',
         'Geografia',
         2023,
         '2'
@@ -2029,7 +2029,7 @@ VALUES
         'C) substância pura.',
         'D) mistura destilada.',
         'E) mistura.',
-        'E', -- Insira a opção correta aqui
+        'E) mistura.',
         'Ciências',
         2023,
         '2'
@@ -2043,7 +2043,7 @@ VALUES
         'C) diminui; se manter igual',
         'D) aumenta; diminuir',
         'E) aumenta; aumentar',
-        'C', -- Deixe o campo de resposta correta vazio
+        'A) diminui; aumentar',
         'Matemática',
         2023,
         '2'
@@ -2057,7 +2057,7 @@ VALUES
         'C) a atleta enfrentou dificuldades relacionadas às condições financeiras de sua família e ao fato de que, em sua infância, não havia muitas meninas com quem pudesse jogar.',
         'D) a atleta considera o futebol profissional um esporte democrático, pois, sem condições financeiras e sem ajuda, ela encontrou facilidade para praticá-lo.',
         'E) para ser bem sucedida no esporte que escolheu, bastou a atleta acreditar em seu potencial e se empenhar nos treinos.',
-        'C', -- Deixe o campo de resposta correta vazio
+        'C) a atleta enfrentou dificuldades relacionadas às condições financeiras de sua família e ao fato de que, em sua infância, não havia muitas meninas com quem pudesse jogar.',
         'Português',
         2023,
         '2'
@@ -2071,7 +2071,7 @@ VALUES
         'C) aquecer; expandir; aumentando',
         'D) resfriar; contrair; aumentando',
         'E) aquecer; contrair; diminuindo',
-        'A', -- Deixe o campo de resposta correta vazio
+        'A) aquecer; expandir; diminuindo',
         'Ciências',
         2023,
         '2'
@@ -2085,7 +2085,7 @@ VALUES
         'C) o ensino da resiliência nas escolas, pois o entendimento da realidade do próximo acarreta a necessidade de contatos interpessoais virtuais e físicos.',
         'D) o uso constante de linguagem informal e acessível, pois o desconhecimento linguístico impede a concretização de uma comunicação efetiva fora da internet.',
         'E) a valorização do autoconhecimento e do senso crítico, competências capazes de gerar um indivíduo questionador, atento à realidade e independente.',
-        'E', -- Alternativa correta
+        'E) a valorização do autoconhecimento e do senso crítico, competências capazes de gerar um indivíduo questionador, atento à realidade e independente.',
         'Sociologia',
         2023,
         '2'
@@ -2814,9 +2814,9 @@ VALUES
     VALUES (
         189,
         'De acordo com a fábula,',
-        '(A) o imperador esperava que os garotos percebessem a troca das sementes e as substituíssem para demonstrarem que eram astutos.',
-        '(B) qualquer outro garoto merecia ser o imperador, pois suas plantas floresceram enquanto o vaso de Ping estava vazio.',
-        '(C) o conselho do pai encorajou Ping a ser honesto e a apresentar seu resultado, mesmo que negativo.',
+        'De acordo com a fábula,',
+        '(A) o imperador esperava que os garotos percebessem a troca das sementes e as substituíssem para demonstrarem que eram astutos.','(C) o conselho do pai encorajou Ping a ser honesto e a apresentar seu resultado, mesmo 
+        que negativo.',
         '(D) devemos nos omitir, quando nossa ação não represente uma vitória, para sermos bem-sucedidos.',
         '(E) as sementes dos demais garotos brotaram mesmo queimadas e seus vasos tinham lindas flores.',
         'C',
@@ -3752,8 +3752,9 @@ VALUES
         --questão 7--
         INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
         VALUES (247,
-                'Mendeleev deixou, em sua Tabela, espaços vazios.',
-                'A) pois havia sonhado com novos elementos químicos e passou a pesquisá-los.',
+        VALUES (247,
+    'A) pois havia sonhado 
+                com novos elementos químicos e passou a pesquisá-los.',
                 'B) porque previa a descoberta de novos elementos químicos, o que realmente ocorreu posteriormente.',
                 'C) que foram preenchidos por novos elementos, com características diferentes das previstas por ele.',
                 'D) porque não existiam elementos que apresentassem as massas atômicas que deveriam ocupá-los.',
@@ -4838,8 +4839,9 @@ VALUES
                 'A letra da música, respeitando a licença poética, retrata um fenômeno urbano presente nas grandes cidades que é a', 
                 'A) expansão das favelas, pois a intenção do poder público é aumentar esse tipo de moradia, oferecendo infraestrutura adequada nas periferias mais distantes do centro.', 
                 'B) falta de moradias, pois as grandes cidades estão saturadas e não possuem imóveis disponíveis, seja para compra, disponibilização, financiamento ou aluguel.', 
-                'C) ampliação dos cortiços, pois os vazios urbanos, existentes no centro das cidades, são utilizados pelo poder público para a construção desse tipo de moradia.', 
-                'D) violência urbana, pois os governantes deixaram de investir na ampliação do número de policiais, fazendo explodir a criminalidade nas grandes cidades.', 
+                'B) falta de moradias, pois as grandes cidades estão saturadas e não possuem imóveis disponíveis, seja para compra, disponibilização, financiamento ou aluguel.', 
+    'D) violência urbana, 
+                pois os governantes deixaram de investir na ampliação do número de policiais, fazendo explodir a criminalidade nas grandes cidades.', 
                 'E) especulação imobiliária, pois alguns proprietários acumulam imóveis para utilizá-los futuramente, seja para construir ou para vender.', 
                 'e',
                 'Geografia',
