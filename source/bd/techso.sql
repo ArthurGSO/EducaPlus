@@ -2137,7 +2137,7 @@ CREATE TABLE tbImagensPerfil (
             (139, 'imgs2/txtQ49.PNG'),
             (140, 'imgs2/txtQ50.PNG');
 
--- INSERT TABLE tbQUESTIONS PROVA 2022 1 SEMESTRE
+-- INSERT TABLE tbQUESTIONS PROVA 2022 2 SEMESTRE
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
         141,
@@ -2147,10 +2147,10 @@ CREATE TABLE tbImagensPerfil (
         'C) 980.',
         'D) 860.',
         'E) 630.',
-        'D',
+        'D) 860.',
         'Matemática',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2161,10 +2161,10 @@ CREATE TABLE tbImagensPerfil (
         'C) o desemprego conjuntural diminui em tempos de crise econômica e aumenta quando a economia mostra sinais de vitalidade.',
         'D) o desemprego conjuntural será zerado quando todas as máquinas e robôs forem destruídos pelos trabalhadores.',
         'E) o desemprego conjuntural e o desemprego estrutural são sinônimos, pois definem o mesmo tipo de desemprego.',
-        'B',
+        'B) o desemprego estrutural está ligado à adoção de novas máquinas e robôs nas empresas que os adotam para substituir o trabalho humano.',
         'Matemática',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2175,10 +2175,10 @@ CREATE TABLE tbImagensPerfil (
         'C) utilização de sementes previamente selecionadas e no emprego de fertilizantes, a fim de expandir as plantações de soja e de outras lavouras.',
         'D) utilização de inimigos naturais específicos, como predadores, a fim de combater os organismos causadores de danos às plantações.',
         'E) introdução de insetos parasitas na plantação, a fim de impedir que os seres causadores da praga cheguem à fase reprodutiva.',
-        'D',
+        'D) utilização de inimigos naturais específicos, como predadores, a fim de combater os organismos causadores de danos às plantações.',
         'Ciências',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2189,10 +2189,10 @@ CREATE TABLE tbImagensPerfil (
         'C) 30,0.',
         'D) 450,0.',
         'E) 4 500,0.',
-        'B',
+        'B) 4,5.',
         'Matemática',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2203,10 +2203,10 @@ CREATE TABLE tbImagensPerfil (
         'C) aprenderam a reconhecer e a cultivar vegetais comestíveis e ervas curativas e, consequentemente, desenvolveram a agricultura.',
         'D) desconheciam formas de exploração e utilização de recursos naturais, como vegetais comestíveis e ervas curativas.',
         'E) reuniram um conjunto de saberes e técnicas de trabalho e desenvolveram um modo de vida em sociedade.',
-        'E',
+        'E) reuniram um conjunto de saberes e técnicas de trabalho e desenvolveram um modo de vida em sociedade.',
         'Ciências',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2217,10 +2217,10 @@ CREATE TABLE tbImagensPerfil (
         'C) as vantagens da utilização do transporte público, como representado no verso 12.',
         'D) a busca ininterrupta pela felicidade por meio do consumo constante, como representado no verso 22. ',
         'E) o potencial de transformação social das classes desfavorecidas, como representado no verso 24',
-        'E',
+        'E) o potencial de transformação social das classes desfavorecidas, como representado no verso 24',
         'Português',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2231,10 +2231,10 @@ CREATE TABLE tbImagensPerfil (
         'C) pra, dim, horizonte, esperança.',
         'D) dim, chance, paz, latinha.',
         'E) sol, cruza, mamãe, amordaçado.',
-        'B',
+        'B) cê, tô, pra, busão.',
         'Português',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2245,10 +2245,10 @@ CREATE TABLE tbImagensPerfil (
         'C) encontra-se inquieto diante de suas condições sociais, revendo o passado para não errar no futuro, mas ignorando o presente.',
         'D) permanece, durante o seu trabalho, concentrado na realização de suas tarefas para evitar relembrar suas experiências passadas.',
         'E) recorre à coleta de materiais recicláveis como metáfora para a imprudência de vivenciar apenas o presente, sem se preocupar com o futuro.',
-        'B',
+        'B) está, apesar das condições sociais, paciente e procura se manter centrado no presente vivenciando cada dia isoladamente.',
         'Português',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2259,10 +2259,10 @@ CREATE TABLE tbImagensPerfil (
         'C) amanhecer e a uma nova oportunidade para sermos melhores.',
         'D) anoitecer e ao arrependimento do dia que se foi.',
         'E) anoitecer e à paralização dos sonhos.',
-        'C',
+        'C) amanhecer e a uma nova oportunidade para sermos melhores.',
         'Português',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2273,10 +2273,10 @@ CREATE TABLE tbImagensPerfil (
         'C) z > x > y.',
         'D) x > z > y.',
         'E) y > z > x.',
-        'E',
+        'E) y > z > x.',
         'Matemática',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2287,10 +2287,10 @@ CREATE TABLE tbImagensPerfil (
         'C) A e D.',
         'D) B e C.',
         'E) B e D.',
-        'A',
+        'A) A e B.',
         'Ciências',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2301,10 +2301,10 @@ CREATE TABLE tbImagensPerfil (
         'C) a produção artesanal de mercadorias, realizada em espaços domésticos; e a utilização de mão de obra escravizada, proveniente da África.',
         'D) a linha de montagem automatizada, com a utilização de esteiras rolantes; e a especialização produtiva do trabalhador, que realizava parte das etapas da produção.',
         'E) a localização das fábricas, que privilegiava a criação de empregos nos países pobres; e o investimento na formação do trabalhador, que deveria conhecer todas as etapas do processo produtivo.',
-        'D',
+        'D) a linha de montagem automatizada, com a utilização de esteiras rolantes; e a especialização produtiva do trabalhador, que realizava parte das etapas da produção.',
         'História',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2315,10 +2315,10 @@ CREATE TABLE tbImagensPerfil (
         'C) novas tecnologias surgiram e foram incorporadas ao processo produtivo nos campos, fazendo aumentar a produção de alimentos, em função do desenvolvimento tecnológico proporcionado pela Revolução Industrial.',
         'D) as pessoas se dirigiram em grande quantidade, com o avanço da Revolução Industrial, para as zonas rurais atrás de emprego, causando um esvaziamento das cidades e aumentando a produção de gêneros alimentícios nos campos.',
         'E) os proprietários das fábricas, durante a Revolução Industrial, preocupados com a qualidade de vida de seus trabalhadores e de suas famílias, criaram um projeto de distribuição de cestas básicas para as famílias de trabalhadores sindicalizados, com o intuito de fidelizar a mão de obra.',
-        'C',
+        'C) novas tecnologias surgiram e foram incorporadas ao processo produtivo nos campos, fazendo aumentar a produção de alimentos, em função do desenvolvimento tecnológico proporcionado pela Revolução Industrial.',
         'História',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2329,10 +2329,10 @@ CREATE TABLE tbImagensPerfil (
         'C) “porém”, no terceiro parágrafo, expressa ideia de consequência, pois a geração de renda leva à redução de desigualdade social, e equivale a “entretanto”',
         'D) “e”, no terceiro parágrafo, apesar de ser normalmente utilizado para expressar sentido de adição, no texto é empregado como oposição, equivalendo a “mas”.',
         'E) “uma vez que”, no quarto parágrafo, corresponde a “porque”, pois explica a eficácia da atuação do empreendedor social diante de problemas muito complexos.',
-        'A',
+        'A) “para”, no segundo parágrafo, expressa ideia de finalidade, evidenciando o objetivo de um empreendedor tradicional, e tem sentido equivalente a “a fim de”.',
         'Português',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2343,10 +2343,10 @@ CREATE TABLE tbImagensPerfil (
         'C) o empreendedorismo social pode ser voltado tanto à melhoria de uma comunidade quanto à obtenção de retorno financeiro.',
         'D) os empreendedores sociais privilegiam investimentos em ações nas bolsas de valores, que possibilitam compartilhar eventuais prejuízos.',
         'E) o conceito de serviço social é similar ao do empreendedorismo social, pois ambos são ações individuais voltadas à formação de agremiações políticas.',
-        'C',
+        'C) o empreendedorismo social pode ser voltado tanto à melhoria de uma comunidade quanto à obtenção de retorno financeiro.',
         'Matemática',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2357,10 +2357,10 @@ CREATE TABLE tbImagensPerfil (
         'C) III apenas.',
         'D) I e II apenas.',
         'E) II e III apenas.',
-        'D',
+        'D) I e II apenas.',
         'Matemática',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2371,10 +2371,10 @@ CREATE TABLE tbImagensPerfil (
         'C) macromoléculas com propriedades variadas e não podem ser moldados.',
         'D) estruturas que estão sendo substituídas por outros materiais como o vidro.',
         'E) grandes moléculas que darão origem ao petróleo.',
-        'B',
+        'B) compostos obtidos por reações que usam matéria-prima proveniente do petróleo.',
         'Ciências',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2385,10 +2385,10 @@ CREATE TABLE tbImagensPerfil (
         'C) PE.',
         'D) PET.',
         'E) PVC.',
-        'E',
+        'E) PVC.',
         'Ciências',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2399,10 +2399,10 @@ CREATE TABLE tbImagensPerfil (
         'C) PS e PVC.',
         'D) PET, PS e PVC.',
         'E) PE, PS e PET.',
-        'B',
+        'B) PP e PE.',
         'Ciências',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2413,10 +2413,10 @@ CREATE TABLE tbImagensPerfil (
         'C) o petróleo tem origem nos plásticos que passaram pelo processo de reciclagem.',
         'D) os plásticos não se deformam, mesmo quando expostos às altas temperaturas.',
         'E) o petróleo é a fonte de diversos tipos de matérias-primas e de combustíveis.',
-        'E',
+        'E) o petróleo é a fonte de diversos tipos de matérias-primas e de combustíveis.',
         'Ciências',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2427,10 +2427,10 @@ CREATE TABLE tbImagensPerfil (
         'C) mistura revestida de ferro e carbono.',
         'D) substância composta revestida de ferro.',
         'E) substância simples revestida de estanho.',
-        'A',
+        'A) mistura revestida de estanho.',
         'Ciências',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2441,10 +2441,10 @@ CREATE TABLE tbImagensPerfil (
         'C) provocou o aumento da atividade industrial e do emprego nos países africanos, que não foram abalados pela crise provocada pelo mercado de ações nos Estados Unidos.',
         'D) demonstrou a força da economia brasileira, que investiu na modernização das lavouras, aumentando a produção e, consequentemente, a exportação do café.',
         'E) confirmou a independência dos mercados financeiros, uma vez que foi contornada sem a necessidade de intervenção dos governos na economia.',
-        'B',
+        'B) causou impactos duradouros na economia mundial, abalou os mercados financeiros ao redor do mundo e provocou a falência de inúmeras empresas e o desemprego.',
         'História',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2455,10 +2455,10 @@ CREATE TABLE tbImagensPerfil (
         'C) a pandemia pode ser definida como a concentração de casos de uma mesma doença em um determinado local sem provocar o alastramento em outras regiões.',
         'D) as vacinas possuem os anticorpos obtidos a partir dos agentes causadores da doença e são eficazes no tratamento dos pacientes contaminados.',
         'E) a vacina específica para Covid–19 demorou muito tempo para ser produzida, pois a bactéria causadora da doença era totalmente desconhecida.',
-        'B',
+        'B) as vacinas, que são aprovadas pelas agências reguladoras, podem ser produzidas e aplicadas na população a fim de atuarem na prevenção das doenças através de anticorpos específicos produzidos pelo organismo humano.',
         'Ciências',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2469,10 +2469,10 @@ CREATE TABLE tbImagensPerfil (
         'C) na Idade Média crianças e adolescentes podiam escolher entre ser militares, camponeses ou artesãos; no Brasil do século XXI, os estudantes têm opções de carreira limitadas pela BNCC.',
         'D) crianças e adolescentes, no Brasil do século XXI, assim como na Idade Média, não são reconhecidos e, por isso, devem se comportar de acordo com os desejos e objetivos dos adultos.',
         'E) na Idade Média os pais se preocupavam com o futuro de seus filhos, uma vez que era preciso ser artesão ou camponês para pertencer à aristocracia feudal.',
-        'A',
+        'A) na Idade Média crianças e adolescentes, ao chegarem à vida adulta, desempenhariam as atividades reservadas ao seu grupo social; no Brasil do século XXI, os estudantes têm liberdade para fazer escolhas de acordo com seus desejos e objetivos.',
         'História',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2483,10 +2483,10 @@ CREATE TABLE tbImagensPerfil (
         'C) Uma alimentação adequada apresenta grande consumo de frutas e outros vegetais, bem como a alta ingestão de gorduras saturadas, sal e carboidratos.',
         'D) O rótulo do alimento que contém a classificação Zero Lactose informa que esse alimento não tem valor calórico e é indicado para pacientes diabéticos.',
         'E) Os alimentos como arroz, macarrão e batatas devem ser retirados da dieta, pois não fornecem nenhuma vantagem ao organismo.',
-        'B',
+        'B) A celulose presente nas fibras de alimentos como grãos, verduras, legumes e frutas não é digerida pelo organismo humano, não fornece calorias, mas estimula o trânsito intestinal.',
         'Ciências',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2497,10 +2497,10 @@ CREATE TABLE tbImagensPerfil (
         'C) aumenta, endotérmica, libera',
         'D) aumenta, endotérmica, absorve',
         'E) aumenta, exotérmica, libera',
-        'E',
+        'E) aumenta, exotérmica, libera',
         'Ciências',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2511,10 +2511,10 @@ CREATE TABLE tbImagensPerfil (
         'C) prevenida com o tratamento da água e do esgoto; a higienização dos alimentos e das mãos; e a evitação de locais com água parada.',
         'D) evitada pela substituição de casas de pau a pique por casas de alvenaria, pois os insetos transmissores se reproduzem nas paredes das casas de barro.',
         'E) causada por um tipo de vírus transmitido pela picada de mosquitos contaminados e, entre seus principais sintomas, destacam-se a febre, as dores no corpo e as manchas vermelhas.',
-        'E',
+        'E) causada por um tipo de vírus transmitido pela picada de mosquitos contaminados e, entre seus principais sintomas, destacam-se a febre, as dores no corpo e as manchas vermelhas.',
         'Ciências',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2525,10 +2525,10 @@ CREATE TABLE tbImagensPerfil (
         'C) filtração e cloração.',
         'D) floculação e filtração.',
         'E) decantação e cloração.',
-        'B',
+        'B) decantação e filtração.',
         'Ciências',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2539,24 +2539,24 @@ CREATE TABLE tbImagensPerfil (
         '(C) dificuldade no transporte de oxigênio no sangue.',
         '(D) hipersensibilidade do sistema imunológico a determinadas substâncias.',
         '(E) uma doença causada pela produção insuficiente ou má absorção de insulina.',
-        'C',
+        '(C) dificuldade no transporte de oxigênio no sangue.',
         'Ciências',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
         170,
         'Assinale a alternativa que apresenta as expressões algébricas da área e do perímetro do painel decorativo de espelhos.',
-        'Área: 3xy Perímetro: 3x + y',
-        'Área: 3 + xy Perímetro: 3x y',
-        'Área: 6x + 2y Perímetro: 6x + 2y',
-        'Área: 3x y Perímetro: 6x + y 2',
-        'Área: 3x y Perímetro: 3x + y',
-        'D',
+        '(A) Área: 3xy Perímetro: 3x + y',
+        '(B) Área: 3 + xy Perímetro: 3x y',
+        '(C) Área: 6x + 2y Perímetro: 6x + 2y',
+        '(D) Área: 3x y Perímetro: 6x + y 2',
+        '(E) Área: 3x y Perímetro: 3x + y',
+        '(D) Área: 3x y Perímetro: 6x + y 2',
         'Matemática',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2567,10 +2567,10 @@ CREATE TABLE tbImagensPerfil (
         '(C) 75.',
         '(D) 50.',
         '(E) 25.',
-        'C',
+        '(C) 75.',
         'Matemática',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2581,10 +2581,10 @@ CREATE TABLE tbImagensPerfil (
         '(C) Permitir os processos de assoreamento, a erosão e a sedimentação nos rios, a fim de dificultar o transbordamento dos cursos de água.',
         '(D) Diminuir a eficiência dos sistemas de drenagem, que visam conter ou escoar o curso das enxurradas por meio de bocas-de-lobo, piscinões ou dutos.',
         '(E) Construir e preservar áreas verdes uma vez que a vegetação facilita o processo de infiltração da água da chuva no solo.',
-        'E',
+        '(E) Construir e preservar áreas verdes uma vez que a vegetação facilita o processo de infiltração da água da chuva no solo.',
         'Geografia',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2595,10 +2595,10 @@ CREATE TABLE tbImagensPerfil (
         '(C) é uma prática adotada por empresas que pretendem reduzir os custos sobre sua folha de pagamento e deriva da expressão “pessoa jurídica”.',
         '(D) transfere o pagamento de encargos previdenciários e trabalhistas para os governos municipais, de acordo com a Consolidação das Leis do Trabalho.',
         '(E) exige que os trabalhadores de entrega por aplicativos criem empresas cooperativadas para facilitar o registro em carteira dessa categoria pelas empresas contratantes.',
-        'C',
+        '(C) é uma prática adotada por empresas que pretendem reduzir os custos sobre sua folha de pagamento e deriva da expressão “pessoa jurídica”.',
         'Português',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2609,10 +2609,10 @@ CREATE TABLE tbImagensPerfil (
         '(C)',
         '(D)',
         '(E)',
-        'E',
+        '(E)',
         'Ciências',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2623,10 +2623,10 @@ CREATE TABLE tbImagensPerfil (
         '(C) a ação das bandeiras contribuiu para a ampliação dos limites territoriais do Brasil para além daqueles definidos, em 1494, pelo Tratado de Tordesilhas.',
         '(D) o processo de colonização do Brasil se iniciou na região de Olinda e Recife, de onde partiram as principais rotas dos bandeirantes.',
         '(E) as fronteiras atuais do Brasil foram definidas no final do século XVIII, quando as expedições bandeirantes terminaram.',
-        'C',
+        '(C) a ação das bandeiras contribuiu para a ampliação dos limites territoriais do Brasil para além daqueles definidos, em 1494, pelo Tratado de Tordesilhas.',
         'História',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2637,10 +2637,10 @@ CREATE TABLE tbImagensPerfil (
         '(C) 27,0.',
         '(D) 135,0.',
         '(E) 270,0.',
-        'D',
+        '(D) 135,0.',
         'Ciências',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2651,10 +2651,10 @@ CREATE TABLE tbImagensPerfil (
         '(C) a razão é a única responsável por guiar as ações de se libertar do passado e por errar no percurso da vida.',
         '(D) a emoção norteia as decisões futuras e a razão apenas analisa os erros do passado.',
         '(E) a razão e a emoção devem avançar juntas, libertando-se dos erros do passado e do medo de errar.',
-        'E',
+        '(E) a razão e a emoção devem avançar juntas, libertando-se dos erros do passado e do medo de errar.',
         'Português',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2665,10 +2665,10 @@ CREATE TABLE tbImagensPerfil (
         '(C) é incentivado pelo Estado para que as crianças ajudem nas despesas de casa.',
         '(D) foi eliminado do Brasil, mas está em crescimento nos outros países do mundo.',
         '(E) é ilegal e dificulta a vida escolar e o desenvolvimento saudável da criança.',
-        'E',
+        '(E) é ilegal e dificulta a vida escolar e o desenvolvimento saudável da criança.',
         'História',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2679,10 +2679,10 @@ CREATE TABLE tbImagensPerfil (
         '(C) “O medo é, dos sentimentos humanos, o mais dissolvente, porque nos leva a fazer muita coisa que não queremos fazer, e deixar de fazer muita coisa que queríamos e necessitávamos fazer”. (Josué de Castro)',
         '(D) “O medo é a extrema ignorância em momento muito agudo”. (João Guimarães Rosa)',
         '(E) “Os homens se dividem em duas espécies: os que têm medo de viajar de avião e os que fingem que não têm”. (Fernando Sabino)',
-        'A',
+        '(A) “Aprendi que a coragem não é a ausência do medo, mas o triunfo sobre ele”. (Nelson Mandela)',
         'Português',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2693,10 +2693,10 @@ CREATE TABLE tbImagensPerfil (
         '(C) interage com as moléculas de água por meio da extremidade conhecida como cauda.',
         '(D) remove as moléculas de água presentes na nossa pele, mantendo sobre ela as de gordura.',
         '(E) está relacionada à capacidade de interação da sua estrutura tanto com água quanto com gordura.',
-        'E',
+        '(E) está relacionada à capacidade de interação da sua estrutura tanto com água quanto com gordura.',
         'Ciências',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2707,10 +2707,10 @@ CREATE TABLE tbImagensPerfil (
         '(C) o sabão rompe a camada de gordura protetora do vírus, liberando seu material genético, que será levado pela água.',
         '(D) a parte da estrutura do sabão que interage com a água é denominada hidrofóbica.',
         '(E) a extremidade do sabão que quebra a membrana lipídica do vírus é denominada hidrofílica.',
-        'C',
+        '(C) o sabão rompe a camada de gordura protetora do vírus, liberando seu material genético, que será levado pela água.',
         'Ciências',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2721,10 +2721,10 @@ CREATE TABLE tbImagensPerfil (
         '(C) avidamente, a respeito das, porventura, honestidade e qualidade',
         '(D) rispidamente, durante, às vezes, incapacidade e aparência',
         '(E) seriamente, acerca das, possivelmente, índole e habilidade',
-        'E',
+        '(E) seriamente, acerca das, possivelmente, índole e habilidade',
         'Português',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2735,10 +2735,10 @@ CREATE TABLE tbImagensPerfil (
         '(C) exige a intervenção de profissionais da educação para, por meio de coerção, impor opções adequadas socialmente aos jovens.',
         '(D) dispensa o acompanhamento das tendências de mercado de trabalho para, assim, elaborarem-se as disciplinas ofertadas aos estudantes.',
         '(E) pressupõe o auxílio da escola aos estudantes no processo de construção do autoconhecimento e de planejamento para alcançar seus objetivos.',
-        'E',
+        '(E) pressupõe o auxílio da escola aos estudantes no processo de construção do autoconhecimento e de planejamento para alcançar seus objetivos.',
         'Português',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2749,10 +2749,10 @@ CREATE TABLE tbImagensPerfil (
         '(C)',
         '(D)',
         '(E)',
-        'A',
+        '(A)',
         'Matemática',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2763,10 +2763,10 @@ CREATE TABLE tbImagensPerfil (
         '(C) a onda de rebeliões de escravizados que se iniciou nas fazendas de café na Amazônia e no Rio Grande do Sul.',
         '(D) a revolução do Haiti, que derrubou o governo colonial português e estabeleceu a primeira monarquia das Américas.',
         '(E) a formação de quilombos, comunidades estabelecidas por escravos fugidos em diferentes partes do Brasil.',
-        'E',
+        '(E) a formação de quilombos, comunidades estabelecidas por escravos fugidos em diferentes partes do Brasil.',
         'História',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2777,10 +2777,10 @@ CREATE TABLE tbImagensPerfil (
         '(C) provocaram a diminuição da população da colônia, que caiu pela metade no início do século XIX, em razão da instabilidade provocada pela chegada de grande número de imigrantes.',
         '(D) incentivaram a industrialização acelerada do Sudeste, especialmente de São Paulo, e a formação de uma classe operária influenciada por ideias trazidas por italianos e alemães.',
         '(E) promoveram uma modernização urbana que atraiu profissionais qualificados da Europa, mas não alteraram as estruturas escravistas da sociedade brasileira do século XIX.',
-        'E',
+        '(E) promoveram uma modernização urbana que atraiu profissionais qualificados da Europa, mas não alteraram as estruturas escravistas da sociedade brasileira do século XIX.',
         'História',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2791,10 +2791,10 @@ CREATE TABLE tbImagensPerfil (
         '(C) a entrada de imigrantes é proibida no bairro do Bom Retiro, o que caracteriza a situação de trabalho análogo ao escravo desses imigrantes.',
         '(D) os trabalhadores resgatados apresentavam carteira assinada e cumpriam uma jornada de trabalho legal, de acordo com a legislação trabalhista brasileira.',
         '(E) um dos elementos que caracterizam o trabalho análogo ao escravo são as condições degradantes de trabalho, constatadas pela Operação Andrápodon.',
-        'E',
+        '(E) um dos elementos que caracterizam o trabalho análogo ao escravo são as condições degradantes de trabalho, constatadas pela Operação Andrápodon.',
         'Português',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2805,24 +2805,24 @@ CREATE TABLE tbImagensPerfil (
         '(C) tiveram os direitos trabalhistas equiparados aos dos trabalhadores urbanos em 1988.',
         '(D) foram reconhecidos como trabalhadores, a partir da Constituição de 1988.',
         '(E) têm a obrigação de participar do FGTS e da Previdência Privada.',
-        'C',
+        '(C) tiveram os direitos trabalhistas equiparados aos dos trabalhadores urbanos em 1988.',
         'Português',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
         189,
         'De acordo com a fábula,',
-        'De acordo com a fábula,',
-        '(A) o imperador esperava que os garotos percebessem a troca das sementes e as substituíssem para demonstrarem que eram astutos.','(C) o conselho do pai encorajou Ping a ser honesto e a apresentar seu resultado, mesmo 
-        que negativo.',
+        '(A) o imperador esperava que os garotos percebessem a troca das sementes e as substituíssem para demonstrarem que eram astutos.',
+        '(B) qualquer outro garoto merecia ser o imperador, pois suas plantas floresceram enquanto o vaso de Ping estava vazio.',
+        '(C) o conselho do pai encorajou Ping a ser honesto e a apresentar seu resultado, mesmo que negativo.',
         '(D) devemos nos omitir, quando nossa ação não represente uma vitória, para sermos bem-sucedidos.',
         '(E) as sementes dos demais garotos brotaram mesmo queimadas e seus vasos tinham lindas flores.',
-        'C',
+        '(C) o conselho do pai encorajou Ping a ser honesto e a apresentar seu resultado, mesmo que negativo.',
         'Português',
         2022,
-        1
+        2
     );
     INSERT INTO tbQuestions (cod_question, text_question, option_a, option_b, option_c, option_d, option_e, correct_option, materia, exam_year, semestre) 
     VALUES (
@@ -2833,13 +2833,13 @@ CREATE TABLE tbImagensPerfil (
         '(C) dizer a verdade independentemente das consequências.',
         '(D) esconder os fatos verdadeiros ao visar aos próprios interesses.',
         '(E) agir com rapidez e inteligência para ficar com o troco recebido a mais após uma compra.',
-        'C',
+        '(C) dizer a verdade independentemente das consequências.',
         'Português',
         2022,
-        1
+        2
     );
 
--- INSERT TABLE tbIMAGENS PROVA 2022 1 SEMESTRE
+-- INSERT TABLE tbIMAGENS PROVA 2022 2 SEMESTRE
     INSERT INTO tbImagens (cod_question, image_data)
         VALUES
             (141, 'imgs/txtQ1.PNG'),

@@ -41,7 +41,7 @@
                     <span class="menu"><a href="../2019/prova1.php">2019 1° Semestre</span></a>
                     <span class="menu"><a href="../2019/prova2.php">2019 2° Semestre</span></a> 
                     <span class="menu"><a href="prova1.php">2020 1° Semestre</span></a>
-                    <span class="menu"><a href="../2022/prova2.php">2022 1° Semestre</span></a>
+                    <span class="menu"><a href="../2022/prova2.php">2022 2° Semestre</span></a>
                     <span class="menu"><a href="../2023/prova1.php">2023 1° Semestre</span></a>
                     <span class="menu"><a href="../2023/prova2.php">2023 2° Semestre</span></a>
                     <span class="menu"><a href="../2024/prova1.php">2024 1° Semestre</span></a>

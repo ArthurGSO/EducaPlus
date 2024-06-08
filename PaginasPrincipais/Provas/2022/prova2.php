@@ -8,7 +8,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulado do Vestibulinho ETEC 2022 - 1° Semestre</title>
+    <title>Simulado do Vestibulinho ETEC 2022 - 2° Semestre</title>
     <link rel="stylesheet" href="../prova.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
    
@@ -41,10 +41,10 @@
                     <span class="menu"><a href="../2019/prova1.php">2019 1° Semestre</span></a>
                     <span class="menu"><a href="../2019/prova2.php">2019 2° Semestre</span></a> 
                     <span class="menu"><a href="../2020/prova1.php">2020 1° Semestre</span></a>
-                    <span class="menu"><a href="prova2.php">2022 1° Semestre</span></a>
+                    <span class="menu"><a href="../2022/prova2.php">2022 2° Semestre</span></a>
                     <span class="menu"><a href="../2023/prova1.php">2023 1° Semestre</span></a>
                     <span class="menu"><a href="../2023/prova2.php">2023 2° Semestre</span></a>
-                    <span class="menu"><a href="../2024/prova1.php">2024 1° Semestre</span></a>
+                    <span class="menu"><a href="prova1.php">2024 2° Semestre</span></a>
                 </div>
             </div>
 
@@ -109,23 +109,18 @@
 <button id="dark-mode-toggle">DarkMode</button>
 <button id="openPopup" class="opnen"> 
     <div class="menu menu-logout">
-                <i class="bx bx-log-out"></i>
-                <span>      Sair   </span></button>
-
-                <div id="popup" class="popup"> 
-                <div class="popup-content">
+        <i class="bx bx-log-out"></i>
+        <span>      Sair   </span></button>
+        <div id="popup" class="popup"> 
+            <div class="popup-content">
                 <span class="fecha" id="closePopup"><i class='bx bx-x'></i></span>
-    <p>Confirmar saída?</p>
-    <a href="../../../source/includes/logout.php"> <button type="submit" class="btnlogout">Sim</button></a>
-    <a href=""> <button class="bai" type="submit">Não</button></a>
+                <a href="../../../source/includes/logout.php"> <button type="submit" class="btnlogout">Sim</button></a>
+                <a href=""> <button class="bai" type="submit">Não</button></a>
             </div>
         </div>
-
-
-        </div>
-        </div>
-        </div>
-
+    </div>
+</div>
+</div>
     </aside>
 
 <body>
@@ -133,7 +128,6 @@
     if(!$conexao) {
         die("Falha na conexão com o banco de dados: " . mysqli_connect_error());
     }
-
     // Seleciona as questões do banco de dados
     $start_question = 141; // Começa da primeira questão
     $end_question = 190; // Exibe até a quinta questão
@@ -141,8 +135,8 @@
     $result = $conexao->query($sql);
 
     // Inicializa o contador de questões
+    $questoes = [];
     $contador_questao = 1;
-
     echo "<div id='timer'>
     <h1 id='watch'>00:00:00</h1>
     <button class='start-btn' onclick='start()'>Começar</button>
@@ -153,14 +147,13 @@
     // Verifica se há questões
     if ($result->num_rows > 0) {
         echo "<form method='post' action='../../SubPags/calcular_pontuacao.php'>"; // Corrigindo o caminho do action
-        // Exibe a imagem de apresentação
-      
         // Exibe as questões com o formulário para seleção de respostas
         while ($row = $result->fetch_assoc()) {
             echo "<div class='container'>";
             echo "<h2 class='questao'>Questão $contador_questao:</h2>"; // Exibe o número da questão
             // Recupera e exibe as imagens associadas à pergunta
             $cod_question = $row['cod_question'];
+            $questoes[$cod_question] = $contador_questao; // Mapeia o ID da questão para o número da questão
             $sql_imagens = "SELECT image_data FROM tbImagens WHERE cod_question = $cod_question";
             $result_imagens = $conexao->query($sql_imagens);
             while ($row_imagem = $result_imagens->fetch_assoc()) {
@@ -168,18 +161,21 @@
             }
             echo "<p class='questao'>" . $row['text_question'] . "</p>";
             echo "<ul>";
-            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='A'>" . $row['option_a'] . "</label></li>";
-            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='B'>" . $row['option_b'] . "</label></li>";
-            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='C'>" . $row['option_c'] . "</label></li>";
-            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='D'>" . $row['option_d'] . "</label></li>";
-            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='E'>" . $row['option_e'] . "</label></li>";
+            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='" . htmlspecialchars($row['option_a']) . "'>" . $row['option_a'] . "</label></li>";
+            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='" . htmlspecialchars($row['option_b']) . "'>" . $row['option_b'] . "</label></li>";
+            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='" . htmlspecialchars($row['option_c']) . "'>" . $row['option_c'] . "</label></li>";
+            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='" . htmlspecialchars($row['option_d']) . "'>" . $row['option_d'] . "</label></li>";
+            echo "<li class='opcao'><label><input type='radio' name='q" . $row['cod_question'] . "' value='" . htmlspecialchars($row['option_e']) . "'>" . $row['option_e'] . "</label></li>";
             echo "</ul>";
             echo "</div>";
-            
             
             // Incrementa o contador de questões
             $contador_questao++;
         }
+        // Passa o array $questoes para a próxima página via campos ocultos
+        foreach ($questoes as $cod_question => $num_questao) {
+            echo "<input type='hidden' name='questoes[$cod_question]' value='$num_questao'>";
+        }      
         echo "<input type='hidden' name='ano_prova' value='2022'>";
         echo "<input type='hidden' name='semestre_prova' value='2'>";
         echo "<input type='submit' value='Enviar Respostas'>";
@@ -190,6 +186,7 @@
 
     mysqli_close($conexao);
 ?>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
         $('.hamburger-menu').click(function() {
@@ -213,7 +210,6 @@
   document.getElementById('closePopup').addEventListener('click', function() {
     document.getElementById('popup').style.display = 'none';
   });
-
   var sec=0
 var min=0
 var hr=0
@@ -262,7 +258,7 @@ function watch(){
     document.getElementById('watch').innerText=twoDigits(hr)+':'+twoDigits(min)+':'+twoDigits(sec)
 }
     </script>
- <script src="../../java.js"></script>
+<script src="../../java.js"></script>
     
 </body>
 </html>
