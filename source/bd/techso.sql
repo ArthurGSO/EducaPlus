@@ -140,7 +140,7 @@ CREATE TABLE tbImagensPerfil (
         'C) Os dois-pontos, utilizados nos versos 4 e 9, introduzem uma justificativa para os fatos apresentados.', 
         'D) O vocábulo “que”, nos versos 7 e 8, retoma “mundo” e “vida” respectivamente.', 
         'E) Os pronomes “seu” (v. 17) e “deles” (v. 21) antecipam uma informação posteriormente apresentada no texto.', 
-        'C) Os dois-pontos, utilizados nos versos 4 e 9, introduzem uma justificativa para os fatos apresentados.',
+        'B) Os pronomes “seus” (v. 24) e “eles” (v. 25) se referem à mesma ideia, mencionada anteriormente no texto.',
         'Português',
         2024,
         1
@@ -154,7 +154,7 @@ CREATE TABLE tbImagensPerfil (
         'C) Paronomásia no excerto “tanta insânia e tanta insônia”, verso 12, pois se aproximam termos com sons semelhantes e sentidos diferentes.', 
         'D) Paradoxo em “nos últimos e trágicos decênios”, verso 19, pois o conceito de “trágico” anula a ideia de novidade, expressa pelo termo “últimos”.', 
         'E) Personificação na passagem “eles não pensam”, verso 25, pois se atribui a capacidade de pensar a seres inanimados.', 
-        'B) Antítese entre “beleza” e “valor”, verso 6, pois são termos de sentido oposto.',
+        'C) Paronomásia no excerto “tanta insânia e tanta insônia”, verso 12, pois se aproximam termos com sons semelhantes e sentidos diferentes.',
         'Português',
         2024,
         1
@@ -308,7 +308,7 @@ CREATE TABLE tbImagensPerfil (
         'C) Mais setentrional do território brasileiro, a nascente do Rio Ailã.',
         'D) Mais oriental do território brasileiro, a Ponta do Seixas.',
         'E) Mais meridional do território brasileiro, o Arroio Chuí.',
-        'b',
+        'B) Mais ocidental do território brasileiro, a nascente do Rio Moa.',
         'Geografia',
         2024,
         1
@@ -322,7 +322,7 @@ CREATE TABLE tbImagensPerfil (
         'C) A exploração da caça e da pesca realizada pelos Yanomami é fruto do contato com o saber trazido pelos brancos colonizadores.',
         'D) A forma de divulgação da cultura dos povos originários para o restante da sociedade deve restringir-se à oralidade.',
         'E) O equilíbrio na relação entre natureza e homem é base e garantia da manutenção da cultura Yanomami.',
-        'e',
+        'E) O equilíbrio na relação entre natureza e homem é base e garantia da manutenção da cultura Yanomami.',
         'História',
         2024,
         1
@@ -336,7 +336,7 @@ CREATE TABLE tbImagensPerfil (
         'C) E reconheço que, caso fôssemos viver em suas cidades, seríamos infelizes; eles acabariam, pois, com a floresta e não deixariam lugar onde pudéssemos viver distante deles.',
         'D) Ainda que fôssemos viver nas cidades dos brancos, não seremos felizes, pois eles acabaram com a floresta e não deixariam lugar onde poderíamos viver distante deles.',
         'E) Afirmo até que, ao irmos viver nas cidades, seremos infelizes, posto que eles acabam com a floresta e não deixam lugar onde pudemos viver distante deles.',
-        'c',
+        'C) E reconheço que, caso fôssemos viver em suas cidades, seríamos infelizes; eles acabariam, pois, com a floresta e não deixariam lugar onde pudéssemos viver distante deles.',
         'Português',
         2024,
         1
@@ -350,7 +350,7 @@ CREATE TABLE tbImagensPerfil (
         'C) “Pensar coisas da floresta”.',
         'D) “Fixar os olhos em peles de papel”.',
         'E) “Desenhar na língua dos brancos”.',
-        'd',
+        'D) “Fixar os olhos em peles de papel”.',
         'Português',
         2024,
         1
@@ -364,7 +364,7 @@ CREATE TABLE tbImagensPerfil (
         'C) O fato de ter sido alfabetizado tardiamente afetou a compreensão de Chico Mendes, que não soube se posicionar sobre as questões sociais e ambientais de seu entorno.',
         'D) As vivências e práticas na floresta proporcionaram a Chico Mendes uma série de saberes os quais o levaram a formular uma teoria ambiental, que, mais tarde, foi comprovada por outras pessoas.',
         'E) Chico Mendes passou toda a sua vida isolado na floresta, sem estabelecer contatos com outras partes do Brasil e do mundo e, por isso, não foi bem sucedido em sua luta.',
-        'd',
+        'D) As vivências e práticas na floresta proporcionaram a Chico Mendes uma série de saberes os quais o levaram a formular uma teoria ambiental, que, mais tarde, foi comprovada por outras pessoas.',
         'Português',
         2024,
         1
@@ -378,7 +378,7 @@ CREATE TABLE tbImagensPerfil (
         'C) O desmatamento teria ocasionado a diminuição das superfícies aquáticas e o aparecimento de várias espécies de caramujos, hospedeiros das larvas dos insetos transmissores dessa doença.',
         'D) Os insetos transmissores, conhecidos popularmente como barbeiros, e outras várias espécies diferentes, após o desmatamento, teriam ficado altamente eficientes para a transmissão dessa doença.',
         'E) As condições ambientais nas regiões desmatadas da floresta, tais como temperaturas muito baixas e baixos índices pluviométricos, junto com a ausência dos insetos transmissores, teriam aumentado a incidência dessa doença.',
-        'b',
+        'B) O aumento da migração humana para fazendas, assentamentos e garimpos nas áreas desmatadas, junto com a adaptação dos insetos transmissores aos novos habitats, contribuiria para o aumento da transmissão dos parasitas causadores dessa doença.',
         'Geografia',
         2024,
         1
@@ -392,7 +392,7 @@ CREATE TABLE tbImagensPerfil (
         'C) N = 3D + 1',
         'D) N = D + 2.',
         'E) N = 2D + 1.',
-        'a',
+        'A) N = 2D + 3.',
         'Matemática',
         2024,
         1
@@ -406,7 +406,7 @@ CREATE TABLE tbImagensPerfil (
         'C) Incoerente, uma vez que a usina de Belo Monte alaga uma região maior e tem potencial energético menor do que a usina de Balbina.',
         'D) Coerente, visto que a usina de Balbina alaga uma área maior e tem potencial energético menor do que a usina de Belo Monte.',
         'E) Incoerente, na medida em que o potencial energético de ambas as usinas é similar.',
-        'd',
+        'D) Coerente, visto que a usina de Balbina alaga uma área maior e tem potencial energético menor do que a usina de Belo Monte.',
         'Português',
         2024,
         1
@@ -420,7 +420,7 @@ CREATE TABLE tbImagensPerfil (
         'C) Em consequência do aquecimento global, que impacta a flora e a fauna amazônicas.',
         'D) Pela ação de madeireiros que atuavam no município de Presidente Figueiredo.',
         'E) Em consequência da inundação do reservatório da usina hidrelétrica de Balbina.',
-        'e',
+        'E) Em consequência da inundação do reservatório da usina hidrelétrica de Balbina.',
         'Português',
         2024,
         1
@@ -434,7 +434,7 @@ CREATE TABLE tbImagensPerfil (
         'C) 0,40.',
         'D) 2,50.',
         'E) 3,13.',
-        'b',
+        'B) 0,32.',
         'Ciências',
         2024,
         1
@@ -448,7 +448,7 @@ CREATE TABLE tbImagensPerfil (
         'C) igual a 4 000 km².',
         'D) menor que 2 000 km².',
         'E) menor que 3 000 km².',
-        'e',
+        'E) menor que 3 000 km².',
         'Matemática',
         2024,
         1
@@ -462,7 +462,7 @@ CREATE TABLE tbImagensPerfil (
         'C) 7 023',
         'D) 3 555',                     
         'E) 2 283',
-        'b',
+        'B) 8 061',
         'Matemática',
         2024,
         1
@@ -476,7 +476,7 @@ CREATE TABLE tbImagensPerfil (
         'C) do efeito estufa, os quais amenizam a temperatura global.',
         'D) do efeito estufa, os quais destroem a camada de ozônio.',
         'E) do efeito estufa, os quais potencializam o aquecimento global.',
-        'e',
+        'E) do efeito estufa, os quais potencializam o aquecimento global.',
         'Ciências',
         2024,
         1
@@ -490,7 +490,7 @@ CREATE TABLE tbImagensPerfil (
         'C) libera átomos de hidrogênio e oxigênio no ambiente, consequentemente o resfriando.',
         'D) consome oxigênio do ambiente, consequentemente o resfriando.',
         'E) absorve calor do ambiente, e consequentemente o resfria.',
-        'e',
+        'E) absorve calor do ambiente, e consequentemente o resfria.',
         'Geografia',
         2024,
         1
@@ -504,7 +504,7 @@ CREATE TABLE tbImagensPerfil (
         'C) são um dos responsáveis pelas chuvas em alguns estados brasileiros e em alguns países fronteiriços ao Brasil.',
         'D) derivam de árvores da Mata Tropical Atlântica, encravadas no alto da Cordilheira dos Andes e no Chaco paraguaio.',
         'E) nascem no oceano Atlântico e percorrem todo o litoral ocidental brasileiro até atingir as áreas situadas no centro-sul do Brasil.',
-        'c',
+        'C) são um dos responsáveis pelas chuvas em alguns estados brasileiros e em alguns países fronteiriços ao Brasil.',
         'Geografia',
         2024,
         1
@@ -518,7 +518,7 @@ CREATE TABLE tbImagensPerfil (
         'C) Aumentar o consumo de itens descartáveis, como guardanapos, papéis, pratos e canudos, evitando a reciclagem de produtos usados.',
         'D) Aumentar o consumo de carne bovina, pois, na criação extensiva de gado, as florestas são derrubadas para dar espaço ao pasto.',
         'E) Plantar árvores nativas, com autorização de órgãos responsáveis, para ajudar no reflorestamento de áreas urbanas e rurais.',
-        'e',
+        'E) Plantar árvores nativas, com autorização de órgãos responsáveis, para ajudar no reflorestamento de áreas urbanas e rurais.',
         'Ciências',
         2024,
         1
@@ -532,7 +532,7 @@ CREATE TABLE tbImagensPerfil (
         'C) AMPARA: protege animais que foram abandonados e foram vítimas de maus-tratos.',
         'D) MÃE CANGURU: ajuda mães solo em situação de vulnerabilidade social.',
         'E) MORAR PRIMEIRO: dá moradia social para a população de rua.',
-        'b',
+        'B) CONSERV: remunera produtores locais que preservam vinte mil hectares de floresta e de cerrado.',
         'Sociologia',
         2024,
         1
@@ -546,7 +546,7 @@ CREATE TABLE tbImagensPerfil (
         'C) minimizar a devastação da Floresta Amazônica, aliando o aumento de renda à redução de danos ambientais.',
         'D) colaborar com a ampliação das malhas rodoviária e ferroviária da Amazônia para facilitar o escoamento de produtos da floresta.',
         'E) apoiar o grande proprietário para que este possa ter facilidades na regularização fundiária e agregar terras indígenas ao seu patrimônio.',
-        'c',
+        'C) minimizar a devastação da Floresta Amazônica, aliando o aumento de renda à redução de danos ambientais.',
         'Geografia',
         2024,
         1
@@ -560,7 +560,7 @@ CREATE TABLE tbImagensPerfil (
         'C) enfraqueceu o controle e a fiscalização das fronteiras, impondo dificuldades ao Exército no monitoramento eficiente da área.',
         'D) promoveu o desenvolvimento da pecuária e o surgimento de um cinturão verde que combinava segurança jurídica, controle ambiental e inovações tecnológicas.',
         'E) combinou as necessidades portuguesas de conter a presença estrangeira na colônia e de suprir parte da demanda europeia por especiarias, já que o comércio com o Oriente estava em declínio.',
-        'e',
+        'E) combinou as necessidades portuguesas de conter a presença estrangeira na colônia e de suprir parte da demanda europeia por especiarias, já que o comércio com o Oriente estava em declínio.',
         'História',
         2024,
         1
@@ -574,7 +574,7 @@ CREATE TABLE tbImagensPerfil (
         'C) as moléculas estudadas apresentam uma estrutura igual em qualquer planta estudada.',
         'D) alguns químicos procuram isolar e determinar a estrutura das moléculas; e outros procuram produzi-las em laboratório.',
         'E) os biólogos participam do isolamento, da determinação das estruturas moleculares e da análise das atividades biológicas dessas estruturas.',
-        'd',
+        'D) alguns químicos procuram isolar e determinar a estrutura das moléculas; e outros procuram produzi-las em laboratório.',
         'Ciências',
         2024,
         1
@@ -588,7 +588,7 @@ CREATE TABLE tbImagensPerfil (
         'C) a política de fortalecimento da indústria nacional, implementada por Getúlio Vargas, permitiu a instalação das primeiras empresas produtoras de bicicletas em território nacional e incentivou a demanda pela borracha produzida na Amazônia.',
         'D) o ápice do Ciclo da Borracha na Amazônia coincidiu com a introdução de capitais estrangeiros no Brasil, no governo de Juscelino Kubitschek, para estimular o setor de transporte, principalmente para a instalação da indústria automobilística na região metropolitana de São Paulo.',
         'E) a alta demanda de látex da Amazônia, no período chamado de Ciclo da Borracha, deve-se à dinâmica da indústria nacional de pneus que, além de produzir para o mercado interno, também exportava seus produtos para Estados Unidos, França, Argentina e México.',
-        'a',
+        'A) a insuficiência de mão de obra na Amazônia coincidiu com uma seca severa no Nordeste brasileiro, entre 1877 e 1879, e produziu uma grande migração de agricultores pobres do sertão em direção à Amazônia, atraídos pela dinâmica econômica do Ciclo da Borracha.',
         'História',
         2024,
         1
@@ -602,7 +602,7 @@ CREATE TABLE tbImagensPerfil (
         'C) mutualismo.',
         'D) parasitismo.',
         'E) competição.',
-        'c',
+        'C) mutualismo.',
         'Ciências',
         2024,
         1
@@ -616,7 +616,7 @@ CREATE TABLE tbImagensPerfil (
         'C) 400π÷3.',
         'D) 500π÷3.',
         'E) 800π÷3.',
-        'b',
+        'B) 200π÷3.',
         'Matemática',
         2024,
         1
@@ -630,7 +630,7 @@ CREATE TABLE tbImagensPerfil (
         'C) amêndoas ricas em proteínas, em carboidratos e em outras substâncias que ajudam a manter uma dieta saudável e a fortalecer a imunidade do organismo.',
         'D) sementes com substâncias tóxicas responsáveis por causar inúmeros problemas à saúde humana, como depressão, fadiga e estresse.',
         'E) sementes conhecidas como ouriços, que caem das árvores e servem de alimento para as cutias, as quais comem sua casca nutritiva.',
-        'c',
+        'C) amêndoas ricas em proteínas, em carboidratos e em outras substâncias que ajudam a manter uma dieta saudável e a fortalecer a imunidade do organismo.',
         'Ciências',
         2024,
         1
@@ -644,7 +644,7 @@ CREATE TABLE tbImagensPerfil (
         'C) 10.',
         'D) 9.',
         'E) 3.',
-        'a',
+        'A) 30.',
         'Ciências',
         2024,
         1
@@ -658,7 +658,7 @@ CREATE TABLE tbImagensPerfil (
         'C) CaC2.',
         'D) CaCO3',
         'E) NaC2.',
-        'd',
+        'D) CaCO3',
         'Ciências',
         2024,
         1
@@ -672,7 +672,7 @@ CREATE TABLE tbImagensPerfil (
         'C) não fóssil, portanto de fonte não renovável.',
         'D) animal, portanto de fonte renovável.',
         'E) vegetal, portanto de fonte renovável.',
-        'b',
+        'B) fóssil, portanto de fonte não renovável.',
         'Ciências',
         2024,
         1
@@ -686,7 +686,7 @@ CREATE TABLE tbImagensPerfil (
         'C) imaginar cenários otimistas e sonhar com a realização de seus projetos por outros indivíduos.',
         'D) elaborar planos de ação, considerando os possíveis obstáculos à concretização de objetivos.',
         'E) confiar nos instintos e aceitar, indiscriminadamente, qualquer opinião dada por indivíduos da mesma área de atuação.',
-        'd',
+        'D) elaborar planos de ação, considerando os possíveis obstáculos à concretização de objetivos.',
         'Português',
         2024,
         1
@@ -700,7 +700,7 @@ CREATE TABLE tbImagensPerfil (
         'C) Algumas serpentes, como a cascavel e a jararaca, não são animais peçonhentos, pois produzem ou modificam algum veneno e não possuem estruturas inoculadoras.',
         'D) As rãs da família Dendrobatidae são venenosas, porque produzem potentes toxinas que são inoculadas nos predadores por meio de ferrões ao serem pressionadas.',
         'E) As aranhas e os escorpiões são animais peçonhentos, porque, quando pressionados ou atacados, eliminam, passivamente por contato, substâncias tóxicas sobre suas presas.',
-        'b',
+        'B) Os animais venenosos, como o peixe baiacu, são incapazes de injetar toxina, mas podem causar o envenenamento ao serem ingeridos por seus predadores.',
         'Ciências',
         2024,
         1
@@ -714,7 +714,7 @@ CREATE TABLE tbImagensPerfil (
         'C) pela tentativa de separar o Brasil de Portugal, instalar o regime monárquico e abolir a escravidão, em consonância com as ideias renascentistas.',
         'D) pela exigência da realização de eleições diretas ao cargo de presidente da República, suspensas durante o período da ditadura civil-militar.',
         'E) pelas demandas trabalhistas como melhores salários, jornada de trabalho de oito horas, direito a férias e fim do trabalho infantil, entre outras.',
-        'b',
+        'B) pela combinação entre as reivindicações populares por melhores condições de sobrevivência e o desejo de ascensão política de grupos locais de médio e alto poder econômico.',
         'História',
         2024,
         1
@@ -728,7 +728,7 @@ CREATE TABLE tbImagensPerfil (
         'C) está intrinsecamente relacionada à vivência e à cultura dos povos que a estruturam.',
         'D) não tem relação com o cotidiano vivenciado pelos povos que a desenvolvem.',
         'E) é realizada sem fundamentos teóricos ou observações da realidade.',
-        'c',
+        'C) está intrinsecamente relacionada à vivência e à cultura dos povos que a estruturam.',
         'Sociologia',
         2024,
         1
@@ -742,7 +742,7 @@ CREATE TABLE tbImagensPerfil (
         'C) Rodovia Transamazônica, planejada nos anos da ditadura civil-militar com o objetivo de integrar a região Norte ao restante do país.',
         'D) Estrada Velha de Santos, usada por carros de boi para o transporte de mercadorias entre o porto de Santos e a cidade de São Paulo.',
         'E) Rodovia BR–116, a maior estrada totalmente pavimentada do Brasil, que percorre 10 estados e se encerra no Rio Grande do Sul, já na fronteira com o Uruguai.',
-        'c',
+        'C) Rodovia Transamazônica, planejada nos anos da ditadura civil-militar com o objetivo de integrar a região Norte ao restante do país.',
         'Geografia',
         2024,
         1
@@ -756,7 +756,7 @@ CREATE TABLE tbImagensPerfil (
         'C) os povos originários usam permanentemente a violência como ferramenta para modificar a organização sociopolítica imposta pelos não indígenas.',
         'D) a luta armada pela defesa dos direitos dos povos originários da Amazônia é garantida pela Carta de Direitos Humanos.',
         'E) os braços abertos da personagem representam o acolhimento da cultura do colonizador.',
-        'a',
+        'A) o conhecimento da Carta Magna, promulgada em 1988, é fundamental na luta pelos direitos de povos originários.',
         'História',
         2024,
         1
