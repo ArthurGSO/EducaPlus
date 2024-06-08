@@ -14,6 +14,7 @@ $r_usuario = [];
 $ano_prova = $_POST['ano_prova'] ?? null;
 $semestre_prova = $_POST['semestre_prova'] ?? null;
 $user_id = $_SESSION['id'] ?? null; 
+$questoes = $_POST['questoes'] ?? null; 
 
 // Verifica se o formulário foi submetido via método POST e se foram fornecidos o ano e semestre da prova
 if ($_SERVER["REQUEST_METHOD"] == "POST" && $ano_prova !== null && $semestre_prova !== null && $user_id !== null) {
@@ -43,13 +44,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $ano_prova !== null && $semestre_pro
             $questao_id = 'q' . $row['cod_question'];
             
             if (isset($r_usuario[$questao_id])) {
-                if (strtolower($r_usuario[$questao_id]) === strtolower($row['correct_option'])) {
+                if ($r_usuario[$questao_id] == $row['correct_option']) {
                     $pontuacao++;
                     $acertos++;
                     $questoes_corretas[$row['cod_question']] = $row['correct_option'];
                 } else {
                     $erros++;
                     $questoes_erradas[$row['cod_question']] = [
+                        'numero_questao' => $questoes[$row['cod_question']],
                         'texto_questao' => $row['text_question'],
                         'resposta_errada' => $r_usuario[$questao_id],
                         'resposta_correta' => $row['correct_option']
@@ -83,8 +85,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $ano_prova !== null && $semestre_pro
 
         echo "<br><br>";
         echo "Respostas incorretas e suas respectivas respostas corretas:<br>"; // 0
+
         foreach ($questoes_erradas as $questao_id => $respostas) {
-            echo "- Questão incorreta: {$respostas['texto_questao']} - Resposta selecionada: {$respostas['resposta_errada']}<br>";
+            echo "- Questão {$respostas['numero_questao']}: {$respostas['texto_questao']} - Resposta selecionada: {$respostas['resposta_errada']}<br>";
             echo "  Resposta correta: {$respostas['resposta_correta']}<br>";
         }
 
