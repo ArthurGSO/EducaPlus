@@ -24,7 +24,7 @@ CREATE TABLE tbQuestions (
 	option_c varchar(255),
 	option_d varchar(255),
 	option_e varchar(255),
-	correct_option char(1),
+	correct_option varchar(255),
     materia varchar(30),
 	exam_year int,
 	semestre char(1) check(semestre in("1","2"))
@@ -70,7 +70,7 @@ CREATE TABLE tbImagensPerfil (
         'C) O estado do Maranhão, por pertencer à Região Norte, faz parte da Amazônia Legal.', 
         'D) A bacia hidrográfica do Amazonas engloba todos os rios da América do Sul.', 
         'E) O Bioma Amazônia se estende da Venezuela até o sul da Argentina.', 
-        'b',
+        'B) Os estados da Região Norte do Brasil estão totalmente inseridos na Amazônia Legal.',
         'Geografia',
         2024,
         1
@@ -84,7 +84,7 @@ CREATE TABLE tbImagensPerfil (
         'C) Engloba a maior parte do Bioma Amazônia.', 
         'D) Inclui todas as reservas indígenas existentes no Brasil.', 
         'E) Avança sobre o polígono das secas, no Nordeste brasileiro.', 
-        'c',
+        'C) Engloba a maior parte do Bioma Amazônia.',
         'Geografia',
         2024,
         1
@@ -98,7 +98,7 @@ CREATE TABLE tbImagensPerfil (
         'C) Restinga, campos limpos e mata dos cocais.', 
         'D) Pantanal, cerrado e floresta de araucária.', 
         'E) Caatinga, campos sujos e manguezais.', 
-        'b',
+        'B) Mata de igapó, mata de várzea e mata de terra firme.',
         'Geografia',
         2024,
         1
@@ -112,7 +112,7 @@ CREATE TABLE tbImagensPerfil (
         'C) Plantas herbáceas e arbustivas que compõem os campos; árvores de médio porte, geralmente com troncos grossos e retorcidos, folhas de superfície reduzida e raízes profundas.', 
         'D) Árvores de médio e grande porte, com folhas largas e perenes; vários tipos de flores e frutos; além de diversos tipos de arbustos, trepadeiras, cipós e planta epífitas.', 
         'E) Gramíneas; plantas herbáceas; leguminosas; algumas árvores de pequeno porte; além da presença de matas ciliares e algumas árvores decíduas.', 
-        'd',
+        'D) Árvores de médio e grande porte, com folhas largas e perenes; vários tipos de flores e frutos; além de diversos tipos de arbustos, trepadeiras, cipós e planta epífitas.',
         'Geografia',
         2024,
         1
@@ -126,7 +126,7 @@ CREATE TABLE tbImagensPerfil (
         'C) Os povos originários aliaram-se recentemente aos guardiões da floresta, quando houve um recrudescimento trágico do desmatamento.', 
         'D) A Amazônia é alvo de exploração pelo caráter único de suas riquezas, ação facilitada pela ausência de medidas efetivas de proteção.', 
         'E) Os ataques à Floresta Amazônica, além de esporádicos, acarretam consequências reversíveis e restritas à fauna local.', 
-        'd',
+        'D) A Amazônia é alvo de exploração pelo caráter único de suas riquezas, ação facilitada pela ausência de medidas efetivas de proteção.',
         'Geografia',
         2024,
         1
@@ -140,7 +140,7 @@ CREATE TABLE tbImagensPerfil (
         'C) Os dois-pontos, utilizados nos versos 4 e 9, introduzem uma justificativa para os fatos apresentados.', 
         'D) O vocábulo “que”, nos versos 7 e 8, retoma “mundo” e “vida” respectivamente.', 
         'E) Os pronomes “seu” (v. 17) e “deles” (v. 21) antecipam uma informação posteriormente apresentada no texto.', 
-        'c',
+        'C) Os dois-pontos, utilizados nos versos 4 e 9, introduzem uma justificativa para os fatos apresentados.',
         'Português',
         2024,
         1
@@ -154,7 +154,7 @@ CREATE TABLE tbImagensPerfil (
         'C) Paronomásia no excerto “tanta insânia e tanta insônia”, verso 12, pois se aproximam termos com sons semelhantes e sentidos diferentes.', 
         'D) Paradoxo em “nos últimos e trágicos decênios”, verso 19, pois o conceito de “trágico” anula a ideia de novidade, expressa pelo termo “últimos”.', 
         'E) Personificação na passagem “eles não pensam”, verso 25, pois se atribui a capacidade de pensar a seres inanimados.', 
-        'b',
+        'B) Antítese entre “beleza” e “valor”, verso 6, pois são termos de sentido oposto.',
         'Português',
         2024,
         1
@@ -168,7 +168,7 @@ CREATE TABLE tbImagensPerfil (
         'C) Dependem de oxigênio, que é usado na oxidação de moléculas orgânicas, como a glicose, a fim de obter energia.',
         'D) Apresentam fecundação externa, com desenvolvimento indireto por meio de fase larval, seguida de metamorfose.',
         'E) Possuem bexiga natatória, que é um órgão responsável pela manutenção do equilíbrio hidrostático.',
-        'c',
+        'C) Dependem de oxigênio, que é usado na oxidação de moléculas orgânicas, como a glicose, a fim de obter energia.',
         'Geografia',
         2024,
         1
@@ -182,7 +182,7 @@ CREATE TABLE tbImagensPerfil (
         'C) O Brasil pode comprar créditos de carbono para custear a Floresta Amazônica.',
         'D) Países que emitem gases do efeito estufa em excesso podem adquirir créditos de carbono como forma de compensação.',
         'E) Cada tonelada de gases do efeito estufa não emitida, como dióxido de carbono e metano, equivale a 1 crédito de carbono.',
-        'd',
+        'D) Países que emitem gases do efeito estufa em excesso podem adquirir créditos de carbono como forma de compensação.',
         'Geografia',
         2024,
         1
@@ -196,7 +196,7 @@ CREATE TABLE tbImagensPerfil (
         'C) 1,0 × 10¹²',
         'D) 1,0 × 10¹¹',
         'E) 1,0 × 10¹⁰',
-        'd',
+        'D) 1,0 × 10¹¹',
         'Ciências',
         2024,
         1
@@ -210,7 +210,7 @@ CREATE TABLE tbImagensPerfil (
         'C) 670 milhões.',
         'D) 12 060 bilhões.',
         'E) 12 060 milhões.',
-        'e',
+        'E) 12 060 milhões.',
         'Geografia',
         2024,
         1
@@ -224,7 +224,7 @@ CREATE TABLE tbImagensPerfil (
         'C) A integração da Amazônia ao território da colônia portuguesa está relacionada à presença de missões jesuíticas e de expedições para escravização de indígenas.',
         'D) As expedições de apresamento se estabeleceram na Amazônia Espanhola, e, de lá, partiram para o leste a fim de escravizar os indígenas que viviam na colônia portuguesa.',
         'E) A presença de missões jesuíticas portuguesas na Amazônia indica que essa região pertencia a Portugal, de acordo com os tratados internacionais vigentes no período colonial.',
-        'c',
+        'C) A integração da Amazônia ao território da colônia portuguesa está relacionada à presença de missões jesuíticas e de expedições para escravização de indígenas.',
         'Geografia',
         2024,
         1
@@ -238,7 +238,7 @@ CREATE TABLE tbImagensPerfil (
         'C) 26.',
         'D) 28.',
         'E) 32.',
-        'b',
+        'B) 20.',
         'História',
         2024,
         1
@@ -252,7 +252,7 @@ CREATE TABLE tbImagensPerfil (
         'C) Discutir as mudanças no núcleo familiar devido à dedicação exclusiva dos responsáveis a atividades profissionais, prejudicando a comunicação com as gerações mais jovens.',
         'D) Valorizar as identidades construídas ao longo do tempo, ao perceber que muitas pessoas passaram pelo mundo, deixando ensinamentos e experiências.',
         'E) Visualizar as mudanças laborais, uma vez que está cada vez mais fácil conseguir um trabalho formal na área de caça, pesca e apreensão de animais em áreas protegidas.',
-        'd',
+        'D) Valorizar as identidades construídas ao longo do tempo, ao perceber que muitas pessoas passaram pelo mundo, deixando ensinamentos e experiências.',
         'Português',
         2024,
         1
@@ -266,7 +266,7 @@ CREATE TABLE tbImagensPerfil (
         'C) Materiais.',
         'D) Orais.',
         'E) Arqueológicas.',
-        'd',
+        'D) Orais.',
         'Ciências',
         2024,
         1
@@ -280,7 +280,7 @@ CREATE TABLE tbImagensPerfil (
         'C) Reflexão dos raios de luz, provenientes da Lua, pela superfície do lago.',
         'D) Absorção dos raios de luz, provenientes da Lua, pela superfície do lago.',
         'E) Projeção holográfica dos raios de luz, provenientes da Lua, na superfície do lago.',
-        'c',
+        'C) Reflexão dos raios de luz, provenientes da Lua, pela superfície do lago.',
         'Ciências',
         2024,
         1
@@ -294,7 +294,7 @@ CREATE TABLE tbImagensPerfil (
         'C) Toucas de natação por competidores olímpicos.',
         'D) Coletes salva-vidas infláveis por pessoas que não sabem nadar.',
         'E) Roupas de neoprene por surfistas durante as competições no mar.',
-        'd',
+        'D) Coletes salva-vidas infláveis por pessoas que não sabem nadar.',
         'Ciências',
         2024,
         1

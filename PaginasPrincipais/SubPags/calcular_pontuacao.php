@@ -1,3 +1,7 @@
+    
+                                        <!-- \\\\\\ ESTÁ EM DESENVOLVIMENTO ////// -->
+
+
 <?php
 require('../../source/includes/connect.php');
 
@@ -31,6 +35,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $ano_prova !== null && $semestre_pro
         $acertos = 0;
         $erros = 0;
         $nao_respondidas = 0;
+        $questoes_erradas = [];
+        $questoes_corretas = [];
 
         // Calcula a pontuação do usuário e contabiliza as respostas corretas, incorretas e não respondidas
         while ($row = mysqli_fetch_assoc($result)) {
@@ -40,8 +46,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $ano_prova !== null && $semestre_pro
                 if (strtolower($r_usuario[$questao_id]) === strtolower($row['correct_option'])) {
                     $pontuacao++;
                     $acertos++;
+                    $questoes_corretas[$row['cod_question']] = $row['correct_option'];
                 } else {
                     $erros++;
+                    $questoes_erradas[$row['cod_question']] = [
+                        'texto_questao' => $row['text_question'],
+                        'resposta_errada' => $r_usuario[$questao_id],
+                        'resposta_correta' => $row['correct_option']
+                    ];
                 }
             } else {
                 $nao_respondidas++;
@@ -68,6 +80,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $ano_prova !== null && $semestre_pro
         echo "Número de questões corretas: $acertos<br>";
         echo "Número de questões erradas: $erros<br>";
         echo "Número de questões não respondidas: $nao_respondidas";
+
+        echo "<br><br>";
+        echo "Respostas incorretas e suas respectivas respostas corretas:<br>"; // 0
+        foreach ($questoes_erradas as $questao_id => $respostas) {
+            echo "- Questão incorreta: {$respostas['texto_questao']} - Resposta selecionada: {$respostas['resposta_errada']}<br>";
+            echo "  Resposta correta: {$respostas['resposta_correta']}<br>";
+        }
+
     } else {
         echo "Nenhuma pergunta encontrada para o ano $ano_prova e semestre $semestre_prova.";
     }
